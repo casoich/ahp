@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en" ng-app="Dashboard">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Title</title>
+
+  <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css"/>
+
+  <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.css"/>
+
+  <link rel="stylesheet" href="css/dashboard/dashboard.css"/>
+
+  <!-- SCRIPTS -->
+  <script src="lib/angular/angular.js"></script>
+  <script src="lib/angular-cookies/angular-cookies.js"></script>
+  <script src="lib/angular-bootstrap/ui-bootstrap.js"></script>
+  <script src="lib/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+  <script src="lib/angular-ui-router/angular-ui-router.js"></script>
+
+  <script src="js/dashboard.js"></script>
+  <!-- SCRIPTS -->
+
+</head>
+<body ng-controller="MasterCtrl">
+        <!-- Header Bar -->
+        <div class="row header">
+          <div class="col-xs-12">
+
+            <div class="meta">
+              <div class="page">
+                Header
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- End Header Bar -->
+        
+           <div ng-include="sidenav"></div>
+     
+  <div id="page-wrapper" ng-class="{'active': toggle}" ng-cloak>
+           <!--<div ng-include="navbarpath"></div>-->
+
+    <div id="content-wrapper">
+       <div class="page-content">
+
+        <!-- Main Content -->
+        <div class="row">
+            <section data-ui-view></section>
+        </div>
+      </div><!-- End Page Content -->
+      <div class="footer navbar-fixed-bottom">
+  <div ng-include="socialbar"></div>
+      </div>
+    </div><!-- End Content Wrapper -->
+  </div><!-- End Page Wrapper -->
+</body>
+</html>
