@@ -14,6 +14,7 @@
 
   <!-- SCRIPTS -->
   <script src="lib/angular/angular.js"></script>
+  <script src="lib/jquery/dist/jquery.min.js"></script>
   <script src="lib/angular-cookies/angular-cookies.js"></script>
   <script src="lib/angular-bootstrap/ui-bootstrap.js"></script>
   <script src="lib/angular-bootstrap/ui-bootstrap-tpls.js"></script>
@@ -28,21 +29,17 @@
         <div class="row header">
           <div class="col-xs-12">
 
-            <div class="meta">
-              <div class="page">
                 Header
-              </div>
-            </div>
           </div>
         </div>
         <!-- End Header Bar -->
         
-           <div ng-include="sidenav"></div>
-     
+               <div ng-include="sidenav" class="navmenu navmenu-default navmenu-fixed-left offcanvas-sm"></div>
+ 
   <div id="page-wrapper" ng-class="{'active': toggle}" ng-cloak>
            <!--<div ng-include="navbarpath"></div>-->
 
-    <div id="content-wrapper">
+    <div id="content-wrapper" class="container">
        <div class="page-content">
 
         <!-- Main Content -->
@@ -51,7 +48,8 @@
         </div>
       </div><!-- End Page Content -->
       <div class="footer navbar-fixed-bottom">
-  <div ng-include="socialbar"></div>
+  <div ng-include="socialbar" class="pull-right"></div>
+  
       </div>
     </div><!-- End Content Wrapper -->
   </div><!-- End Page Wrapper -->
