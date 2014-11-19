@@ -142,6 +142,7 @@ body {
   margin-left: 0;
   width: 100%;
   height: auto;
+  margin-top: 60px;
 }
 @media only screen and (min-width: 561px) {
   #page-wrapper.active {
@@ -159,34 +160,37 @@ body {
 /**
  * Header
  */
-.row.header {
+.header {
   height: 60px;
   background: #bdb76b;
+  position: absolute;
+  width: 100%;
+  left: 0px;
   margin-bottom: 15px;
 }
-.row.header > div:last-child {
+.header > div:last-child {
   padding-right: 0;
 }
-.row.header .meta .page {
+.header .meta .page {
   font-size: 17px;
   padding-top: 11px;
 }
-.row.header .meta .breadcrumb-links {
+.header .meta .breadcrumb-links {
   font-size: 10px;
 }
-.row.header .meta div {
+.header .meta div {
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-.row.header .login a {
+.header .login a {
   padding: 18px;
   display: block;
 }
-.row.header .user {
+.header .user {
   min-width: 130px;
 }
-.row.header .user > .item {
+.header .user > .item {
   width: 65px;
   height: 60px;
   float: right;
@@ -194,37 +198,37 @@ body {
   text-align: center;
   vertical-align: middle;
 }
-.row.header .user > .item a {
+.header .user > .item a {
   color: #919191;
   display: block;
 }
-.row.header .user > .item i {
+.header .user > .item i {
   font-size: 20px;
   line-height: 55px;
 }
-.row.header .user > .item img {
+.header .user > .item img {
   width: 40px;
   height: 40px;
   margin-top: 10px;
   border-radius: 2px;
 }
-.row.header .user > .item ul.dropdown-menu {
+.header .user > .item ul.dropdown-menu {
   background-color: blue;
   border-radius: 2px;
   -webkit-box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
   box-shadow: 0 6px 12px rgba(0, 0, 0, 0.05);
 }
-.row.header .user > .item ul.dropdown-menu .dropdown-header {
+.header .user > .item ul.dropdown-menu .dropdown-header {
   text-align: center;
 }
-.row.header .user > .item ul.dropdown-menu li.link {
+.header .user > .item ul.dropdown-menu li.link {
   text-align: left;
 }
-.row.header .user > .item ul.dropdown-menu li.link a {
+.header .user > .item ul.dropdown-menu li.link a {
   padding-left: 7px;
   padding-right: 7px;
 }
-.row.header .user > .item ul.dropdown-menu:before {
+.header .user > .item ul.dropdown-menu:before {
   position: absolute;
   top: -7px;
   right: 23px;
@@ -235,7 +239,7 @@ body {
   border-bottom-color: rgba(0, 0, 0, 0.2);
   content: '';
 }
-.row.header .user > .item ul.dropdown-menu:after {
+.header .user > .item ul.dropdown-menu:after {
   position: absolute;
   top: -6px;
   right: 24px;
@@ -266,8 +270,8 @@ ul.sidebar .sidebar-list a:hover,
 .navmenu {
   height: 100%;
   padding-right: 0;
-  padding-top: 60px;
-  background: #4b0900;
+  margin-top: 60px;
+  background: #550b00;
 }
 /**
  * Widgets
