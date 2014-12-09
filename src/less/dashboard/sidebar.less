@@ -16,9 +16,51 @@ ul.sidebar .sidebar-list a:hover,
     /* Sidebar header and footer color */
     background: @sidebarHeaderColor;
 }
+.navmenu-fixed-left,
+.navmenu-fixed-right,
+.navbar-offcanvas {
+  position: absolute!important;
+}
+
 .navmenu {
-  height: 100%;
   padding-right: 0;
-  margin-top: @headerheight;
+  border-radius: 0 20px 20px 0!important;
+        border-width: 1px;
+      border-color: @greenaccent;
+
+  margin-top: @headerheight+20px;
+  margin-bottom:50px;
   background: @sidebarBaseColor;
+  left: 10 - @sidebarwidth;
+}
+.navmenu .opened {left:0px;}
+
+.navbar-toggle {
+@media (min-width: 768px) {
+  
+    display:block;
+  
+}
+@media (min-width:993px) {
+    display:none;
+}
+    position:fixed;
+    left:0;
+    width:20px;
+      border-radius: 0 10px 10px 0;
+      border-top-width: 1px;
+      border-left-width: 0px;
+      border-color: @greenaccent;
+    top:@headerheight - 10px;
+    z-index:2000;
+    color:#222;
+    background-color:@sidebarBaseColor;
+}
+.navbar-toggle .icon-bar {
+    left:-8px;
+    position:relative;
+    margin-left:0;
+    width:15px;
+    border-color: @greenaccent;
+    background-color: @greenaccent;
 }

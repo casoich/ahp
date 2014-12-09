@@ -1,90 +1,104 @@
 <!doctype html>
 <html lang="en" ng-app="Dashboard">
-<head>
-	<meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<title>Title</title>
+        <title>Title</title>
 
-  <!-- build:less lib/bootstrap/css/bootstrap.css -->
-  <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
-  <!-- endbuild -->
+        <!-- build:less lib/bootstrap/css/bootstrap.css -->
+        <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
+        <!-- endbuild -->
 
-  <!-- build:css lib/font-awesome/css/font-awesome.css -->
-  <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.css">
-  <!-- endbuild -->
+        <!-- build:css lib/font-awesome/css/font-awesome.css -->
+        <link rel="stylesheet" type="text/css" href="bower_components/font-awesome/css/font-awesome.css">
+        <!-- endbuild -->
 
-  <!-- build:less css/dashboard/dashboard.css -->
-  <link rel="stylesheet" type="text/css" href="less/dashboard/variables.less">
-  <link rel="stylesheet" type="text/css" href="less/dashboard/mixins.less">
-  <link rel="stylesheet" type="text/css" href="less/dashboard/main.less">
-  <link rel="stylesheet" type="text/css" href="less/dashboard/loading.less">
-  <link rel="stylesheet" type="text/css" href="less/dashboard/content.less">
-  <link rel="stylesheet" type="text/css" href="less/dashboard/header.less">
-  <link rel="stylesheet" type="text/css" href="less/dashboard/sidebar.less">
-  <link rel="stylesheet" type="text/css" href="less/dashboard/widgets.less">
-  <link rel="stylesheet" type="text/css" href="less/dashboard/hamburg.less">
-  <link rel="stylesheet" type="text/css" href="less/dashboard/jasny-bootstrap.less">
-  <!-- endbuild -->
-
-  <!-- SCRIPTS -->
-  <!-- build:js lib/angular/angular.js -->
-  <script type="text/javascript" src="bower_components/angular/angular.js"></script>
-  <!-- endbuild -->
-  <!-- build:js lib/jquery/dist/jquery.min.js -->
-  <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
-  <!-- endbuild -->
-  <!-- build:js lib/angular-cookies/angular-cookies.js -->
-  <script type="text/javascript" src="bower_components/angular-cookies/angular-cookies.js"></script>
-  <!-- endbuild -->
-  <!-- build:js lib/angular-bootstrap/ui-bootstrap.js -->
-  <script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
-  <!-- endbuild -->
-  <!-- build:js lib/angular-bootstrap/ui-bootstrap-tpls.js -->
-  <script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
-  <!-- endbuild -->
-  <!-- build:js lib/angular-ui-router/angular-ui-router.js -->
-  <script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
-  <!-- endbuild -->
-
-  <!-- build:js js/dashboard.js -->
-  <script type="text/javascript" src="js/dashboard/module.js"></script>
-  <script type="text/javascript" src="js/dashboard/routes.js"></script>
-  <script type="text/javascript" src="js/dashboard/jasny-bootstrap.min.js"></script>
-  <script type="text/javascript" src="js/dashboard/controllers/alerts-ctrl.js"></script>
-  <script type="text/javascript" src="js/dashboard/controllers/master-ctrl.js"></script>
-  <script type="text/javascript" src="js/dashboard/directives/loading.js"></script>
-  <!-- endbuild -->
-  <!-- SCRIPTS -->
-
-</head>
-<body ng-controller="MasterCtrl">
-        <!-- Header Bar -->
-        <div class="header">
-          <div class="">
-                Header
-          </div>
-        </div>
-        <!-- End Header Bar -->
+        <!-- build:less css/dashboard/dashboard.css -->
+        <link rel="stylesheet" type="text/css" href="less/dashboard/variables.less">
+        <link rel="stylesheet" type="text/css" href="less/dashboard/mixins.less">
+        <link rel="stylesheet" type="text/css" href="less/dashboard/main.less">
+        <link rel="stylesheet" type="text/css" href="less/dashboard/loading.less">
+        <link rel="stylesheet" type="text/css" href="less/dashboard/content.less">
+        <link rel="stylesheet" type="text/css" href="less/dashboard/header.less">
+        <link rel="stylesheet" type="text/css" href="less/dashboard/sidebar.less">
+        <link rel="stylesheet" type="text/css" href="less/dashboard/widgets.less">
+        <link rel="stylesheet" type="text/css" href="less/dashboard/hamburg.less">
+        <link rel="stylesheet" type="text/css" href="less/dashboard/jasny-bootstrap.less">
+        <!-- endbuild -->
         
-               <div ng-include="sidenav" class="navmenu navmenu-default navmenu-fixed-left offcanvas-sm"></div>
- 
-  <div id="page-wrapper" ng-class="{'active': toggle}" ng-cloak>
-           <!--<div ng-include="navbarpath"></div>-->
+<link href='http://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps|Elsie+Swash+Caps|Cherry+Swash:400,700|Milonga' rel='stylesheet' type='text/css'>        <!-- SCRIPTS -->
+        <!-- build:js lib/angular/angular.js -->
+        <script type="text/javascript" src="bower_components/angular/angular.js"></script>
+        <!-- endbuild -->
+        <!-- build:js lib/angular-route/angular-route.js -->
+        <script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+        <!-- endbuild -->
+        <!-- build:js lib/jquery/dist/jquery.min.js -->
+        <script type="text/javascript" src="bower_components/jquery/dist/jquery.min.js"></script>
+        <!-- endbuild -->
+        <!-- build:js lib/angular-cookies/angular-cookies.js -->
+        <script type="text/javascript" src="bower_components/angular-cookies/angular-cookies.js"></script>
+        <!-- endbuild -->
+        <!-- build:js lib/angular-bootstrap/ui-bootstrap.js -->
+        <script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap.js"></script>
+        <!-- endbuild -->
+        <!-- build:js lib/angular-bootstrap/ui-bootstrap-tpls.js -->
+        <script type="text/javascript" src="bower_components/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+        <!-- endbuild -->
+        <!-- build:js lib/angular-ui-router/angular-ui-router.js -->
+        <script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+        <!-- endbuild -->
 
-    <div id="content-wrapper" class="container">
-       <div class="page-content">
+        <!-- build:js js/dashboard.js -->
+        <script type="text/javascript" src="js/dashboard/module.js"></script>
+        <script type="text/javascript" src="js/dashboard/routes.js"></script>
+        <script type="text/javascript" src="js/dashboard/jasny-bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/dashboard/controllers/alerts-ctrl.js"></script>
+        <script type="text/javascript" src="js/dashboard/controllers/master-ctrl.js"></script>
+        <script type="text/javascript" src="js/dashboard/directives/loading.js"></script>
+        <!-- endbuild -->
+        <!-- SCRIPTS -->
 
-        <!-- Main Content -->
-        <div class="row">
-            <section data-ui-view></section>
+    </head>
+    <body ng-controller="MasterCtrl">
+        <!-- Header Bar -->
+        <div ng-include="headerpane"></div>
+        <!-- End Header Bar -->
+
+        <div ng-include="sidenav" class="navmenu navmenu-fixed-left  offcanvas-sm" id="mainnavbar">
+            
         </div>
-      </div><!-- End Page Content -->
-      <div class="footer navbar-fixed-bottom">
-  <div ng-include="socialbar" class="pull-right"></div>
-  
-      </div>
-    </div><!-- End Content Wrapper -->
-  </div><!-- End Page Wrapper -->
-</body>
+  <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target="#mainnavbar" data-canvas="#page-wrapper">
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+    <span class="icon-bar"></span>
+  </button>
+
+        <div id="page-wrapper" ng-class="{'active': toggle}" ng-cloak>
+            <!--<div ng-include="navbarpath"></div>-->
+            <div class="body-watermark"></div>
+            <div id="content-wrapper" class="container ">
+                
+                <div class="page-content">
+
+                    <!-- Main Content -->
+                    <div class="row">
+                        <section ng-view></section>
+                    </div>
+
+                </div><!-- End Page Content -->
+<!--                <div style="overflow-x: hidden;">
+                      <div class="bottomback0"></div>
+                    <div class="bottomback1"></div>
+                </div>
+              -->
+                <div class="footer navbar-fixed-bottom">
+                    <div class="footerblurb">Home of the <b>Orchard Performing Arts Company, Inc.</b></div>
+                    <div ng-include="socialbar" class="pull-right"></div>
+
+                </div>
+            </div><!-- End Content Wrapper -->
+        </div><!-- End Page Wrapper -->
+    </body>
 </html>
