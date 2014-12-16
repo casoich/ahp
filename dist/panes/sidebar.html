@@ -1,15 +1,11 @@
 <div class="sidebar">
+
     <ul class="nav navmenu-nav">
-        <li class="active"><a href="./">Slide in</a></li>
-        <li><a href="../navmenu-push/">Push</a></li>
-        <li><a href="../navmenu-reveal/">Reveal</a></li>
-        <li><a href="../navbar-offcanvas/">Off canvas navbar</a></li>
-    </ul>
-    <ul class="nav navmenu-nav">
+<!--        <li><a href="#">Link</a></li>
         <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-        <li><a href="#">Link</a></li>
-        <li class="dropdown">
+        <li><a href="#">Link</a></li>-->
+        <li ng-repeat="navItem in navItems" ng-include="'tree-renderer.html'">Who?</li>
+<!--        <li class="dropdown">
             <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
             <ul class="dropdown-menu navmenu-nav">
                 <li><a href="#">Action</a></li>
@@ -20,7 +16,16 @@
                 <li><a href="#">Separated link</a></li>
                 <li><a href="#">One more separated link</a></li>
             </ul>
-        </li>
+        </li>-->
     </ul>
 </div>
 
+<script type="text/ng-template" id="tree-renderer.html">
+ 
+ <a href="#{{navItem.path}}" ng-hide="navItem.children">{{navItem.text}}</a>
+ <a href="#{{navItem.path}}" ng-show="navItem.children" >{{navItem.text}} <b class="caret"></b></a>
+ <div class="submenu open" >
+ <ul class="dropdown-menu navmenu-nav">
+   <li ng-repeat="navItem in navItem.children" ng-include="'tree-renderer.html'"></li>
+ </ul>
+</script>
