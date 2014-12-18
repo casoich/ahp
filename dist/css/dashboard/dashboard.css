@@ -2,6 +2,7 @@
 /* #2f5927 GREEN */
 /* #30426a BLUE (default)*/
 /* Sidebar background color */
+/*@greentitle:rgb(0, 95, 50);*/
 /* Sidebar header and footer color */
 /* Sidebar title text colour */
 /*#627cb7*/
@@ -42,6 +43,21 @@ body {
   background-size: contain;
   background-position: bottom right;
   opacity: .2;
+  z-index: -100;
+}
+.pane-title {
+  /*font-family: 'Elsie Swash Caps', cursive;*/
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.25em;
+  font-weight: normal;
+  overflow: hidden;
+  padding-bottom: .5em;
+  color: #bdb76b;
+}
+@media (max-width: 450px) {
+  .pane-title {
+    font-size: 1.5em;
+  }
 }
 .row {
   margin-left: 0 !important;
@@ -106,6 +122,16 @@ body {
   height: 40px;
   /*background-color: #f5f5f5;*/
 }
+.mainblurb {
+  font-family: 'Homemade Apple', cursive;
+  font-size: 1.75em;
+  color: #bdb76b;
+}
+@media (max-width: 600px) {
+  .mainblurb {
+    display: none;
+  }
+}
 .footerblurb {
   color: #bdb76b;
   position: absolute;
@@ -122,6 +148,35 @@ body {
     font-size: 0.85em;
     font-family: "montserrat", sans-serif;
   }
+}
+/* Panel styles
+-------------------------------------------------- */
+.panel {
+  margin-bottom: 20px;
+  background-color: #dcd9b2;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.25);
+  padding-bottom: 20px;
+}
+.panel .panel-heading {
+  color: #00008b;
+  background-color: #bdb76b;
+  font-size: 1.5em;
+  font-weight: bold;
+  font-style: italic;
+  border-radius: 4px;
+  border-color: #dcd9b2;
+  border-bottom-width: 0px;
+}
+.panel .panel-dateblock {
+  padding: 0.5em;
+  font-size: 0.7em;
+  font-weight: normal;
+  font-style: normal;
+  border-radius: 8px;
+  color: #550b00;
+  background-color: #dcd9b2;
 }
 .loading {
   width: 40px;
@@ -308,17 +363,41 @@ body {
 }
 .title {
   padding-left: 80px;
-  font-family: 'Elsie Swash Caps', cursive;
+  /*font-family: 'Elsie Swash Caps', cursive;*/
   font-family: 'Milonga', cursive;
   font-size: 2.5em;
   font-weight: normal;
   overflow: hidden;
-  color: #005f32;
+  color: #00008b;
   text-shadow: 0px 0px 3px #BDB76B, 0px 0px 13px #BDB76B, 0px 0px 13px #BDB76B, 0px 0px 13px #BDB76B, 0px 0px 13px #BDB76B;
 }
 @media (max-width: 450px) {
   .title {
     font-size: 1.5em;
+  }
+}
+.addressblock {
+  background-color: rgba(189, 183, 107, 0.75);
+  color: #550b00;
+  border-radius: 0px 0px 0px 8px;
+  padding: 8px;
+  box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.25);
+  z-index: 2000;
+  font-size: 0.9em;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+}
+.addressblock .phone {
+  font-weight: bold;
+  font-size: 1.2em;
+}
+.addressblock a {
+  color: #333;
+}
+@media (max-width: 800px) {
+  .addressblock {
+    display: none;
   }
 }
 @-webkit-keyframes animateR {
@@ -464,6 +543,38 @@ body {
   -moz-animation: animateL 130s linear infinite;
   -o-animation: animateL 130s linear infinite;
   animation: animateL 130s linear infinite;
+}
+.bannerback-music0 {
+  pointer-events: none;
+  overflow: hidden;
+  position: absolute;
+  width: 200%  ;
+  height: 50%;
+  top: 0;
+  left: 0;
+  opacity: .2;
+  background: url(../../img/music-staff-back.svg);
+  background-repeat: repeat-x;
+  -webkit-animation: animateL 120s linear infinite;
+  -moz-animation: animateL 120s linear infinite;
+  -o-animation: animateL 120s linear infinite;
+  animation: animateL 120s linear infinite;
+}
+.bannerback-music1 {
+  pointer-events: none;
+  position: absolute;
+  overflow: hidden;
+  width: 200%  ;
+  height: 50%;
+  top: 0;
+  left: 0;
+  opacity: .2;
+  background: url(../../img/music-staff-notes.svg);
+  background-repeat: repeat-x;
+  -webkit-animation: animateL 60s linear infinite;
+  -moz-animation: animateL 60s linear infinite;
+  -o-animation: animateL 60s linear infinite;
+  animation: animateL 60s linear infinite;
 }
 /**
  * Sidebar
@@ -1268,6 +1379,52 @@ ul.sidebar .sidebar-list a:hover,
 .btn-youtube:active,
 .btn-youtube.active {
   background-color: #3e0309 \9;
+}
+.readmore {
+  overflow: hidden;
+  position: absolute;
+  bottom: 0px;
+  right: 15px;
+}
+.readmore li {
+  float: right;
+  margin: 0 2em 0 0;
+}
+.readmore a {
+  padding: .7em 1em .7em 2em;
+  float: left;
+  text-decoration: none;
+  color: #00008b;
+  background: #bdb76b;
+  position: relative;
+  z-index: 1;
+  border-radius: .4em 0 0 .4em;
+}
+.readmore a:hover {
+  background: #86813c;
+}
+.readmore a::after {
+  background: #bdb76b;
+  content: "";
+  height: 2.5em;
+  margin-top: -1.25em;
+  position: absolute;
+  right: -1em;
+  top: 50%;
+  width: 2.5em;
+  z-index: -1;
+  transform: rotate(45deg);
+  border-radius: .4em;
+}
+.readmore a:hover::after {
+  background: #86813c;
+}
+.readmore .current:hover {
+  font-weight: bold;
+  background: none;
+}
+.readmore .current::after {
+  content: normal;
 }
 /* Hamburg Menu */
 @media only screen and (max-width: 560px) {

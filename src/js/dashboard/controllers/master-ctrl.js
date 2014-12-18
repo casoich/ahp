@@ -1,18 +1,17 @@
 /**
  * Master Controller
  */
-    var yearstring = "2015";
+var yearstring = "2015";
 
 var navItems = [
         {text:"Home",path:"/",pane:"/panes/home.html"},
         {text:yearstring+" Mainstage Season",path:"/mainstage",pane:"/panes/mainstage.html", children:[
-            {text:"play1",path:"/mainstage/play1",pane:"/panes/play1.html"},
-            {text:"play2",path:"/mainstage/play2",pane:"/panes/play2.html"},
-            {text:"play3",path:"/mainstage/play3",pane:"/panes/play3.html"},
+            {text:"The World Goes 'Round",path:"/mainstage/play1",pane:"/panes/play1.html",blurb:"/panes/playblurb1.html"},
+            {text:"Butterflies Are Free",path:"/mainstage/play2",pane:"/panes/play2.html"},
+            {text:"Chasing Manet",path:"/mainstage/play3",pane:"/panes/play3.html"},
             {text:"play4",path:"/mainstage/play4",pane:"/panes/play4.html"},
             {text:"play5",path:"/mainstage/play5",pane:"/panes/play5.html"},
-            {text:"play6",path:"/mainstage/play6",pane:"/panes/play6.html"},
-            {text:"play7",path:"/mainstage/play7",pane:"/panes/play7.html"}
+            {text:"play6",path:"/mainstage/play6",pane:"/panes/play6.html"}
 
         ]},
         {text:yearstring+" Children's Season",path:"/jact",pane:"/panes/jact.html", children:[
@@ -21,7 +20,11 @@ var navItems = [
             {text:"JACTplay3",path:"/jact/play3",pane:"/panes/JACTplay3.html"}
 
         ]},
-        {text:"Ticket Information",path:"/tickets",pane:"/panes/tickets.html"}
+        {text:"Ticket Information",path:"/tickets",pane:"/panes/tickets.html"},
+        {text:yearstring+" Auditions",path:"/auditions",pane:"/panes/auditions.html", children:[
+            {text:yearstring+" Mainstage",path:"/auditions/mainstage",pane:"/panes/mainstageAuditions.html"},
+            {text:yearstring+" JACT",path:"/auditions/JACT",pane:"/panes/JACTAuditions.html"}
+        ]},
     ];
 var $routeProviderReference;
 var appController=angular.module('Dashboard',['ngRoute']);
@@ -76,8 +79,17 @@ function MasterCtrl($scope, $http) {
             path:"/panes/announcement.html"
         },
     ];
+    $scope.play1blurb="/panes/playblurb1.html";
+    $scope.play2blurb="/panes/playblurb2.html";
+    $scope.play3blurb="/panes/playblurb3.html";
+    $scope.play4blurb="/panes/playblurb4.html";
+    $scope.play5blurb="/panes/playblurb5.html";
+    $scope.play6blurb="/panes/playblurb6.html";
+    $scope.play7blurb="/panes/playblurb7.html";
     $scope.mainblurbpane="/panes/mainblurb.html";
+    $scope.mainblurbpane="/panes/auditionsblurb.html";
     $scope.headerpane="/panes/header.html";
+    $scope.addressblock="/panes/addressblock.html";
     $scope.announcementpane="/panes/announcement.html";
     $scope.socialbar="/panes/social-bar.html";
     $scope.sidenav="/panes/sidebar.html";

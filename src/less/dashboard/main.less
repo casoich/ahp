@@ -39,7 +39,21 @@ body {
     background-size:contain;
     background-position:bottom right;
     opacity:.2;
+    z-index: -100;
 }
+.pane-title {
+    /*font-family: 'Elsie Swash Caps', cursive;*/
+    font-family: 'Montserrat', sans-serif;
+    font-size:2.25em;
+    font-weight:normal;
+    overflow: hidden;
+    padding-bottom:.5em;
+    color:@greenaccent;
+    @media (max-width: 450px) {
+        font-size:1.5em;
+    }
+}
+
 .row {
     margin-left: 0 !important;
     margin-right: 0 !important;
@@ -104,6 +118,15 @@ body {
   height: 40px;
   /*background-color: #f5f5f5;*/
 }
+.mainblurb {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 1.75em;
+    color:@greenaccent;
+        @media (max-width: 600px) {
+        display:none;
+    }
+
+}
 .footerblurb {
     color:@greenaccent;
     position:absolute;
@@ -117,5 +140,36 @@ body {
     @media (max-width: 550px) {
         font-size: 0.85em;
         font-family:"montserrat",sans-serif;
+    }
+}
+
+/* Panel styles
+-------------------------------------------------- */
+.panel {
+    margin-bottom: 20px;
+    background-color: @panelbackground;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    box-shadow: 8px 8px 5px rgba(0, 0, 0, 0.25);
+    padding-bottom: 20px;
+    .panel-heading {
+        color:@greentitle;
+        background-color: @greenaccent;
+        font-size: 1.5em;
+        font-weight: bold;
+        font-style: italic;
+        border-radius: 4px;
+        border-color:@panelbackground;
+        border-bottom-width: 0px;
+    }
+    .panel-dateblock{
+        padding:0.5em;
+        font-size:0.7em;
+        font-weight:normal;
+        font-style: normal;
+        border-radius: 8px;
+        color:@sidebarBaseColor;
+        background-color:@panelbackground;
+        
     }
 }
