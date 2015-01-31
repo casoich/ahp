@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Title</title>
+        <title>Apple Hill Playhouse</title>
 
         <!-- build:less lib/bootstrap/css/bootstrap.css -->
         <link rel="stylesheet" type="text/css" href="bower_components/bootstrap/dist/css/bootstrap.css">
@@ -23,6 +23,7 @@
         <link rel="stylesheet" type="text/css" href="less/dashboard/header.less">
         <link rel="stylesheet" type="text/css" href="less/dashboard/sidebar.less">
         <link rel="stylesheet" type="text/css" href="less/dashboard/widgets.less">
+        <link rel="stylesheet" type="text/css" href="less/dashboard/showpage.less">
         <link rel="stylesheet" type="text/css" href="less/dashboard/hamburg.less">
         <link rel="stylesheet" type="text/css" href="less/dashboard/jasny-bootstrap.less">
         <!-- endbuild -->
@@ -50,17 +51,28 @@
         <!-- build:js lib/angular-ui-router/angular-ui-router.js -->
         <script type="text/javascript" src="bower_components/angular-ui-router/release/angular-ui-router.js"></script>
         <!-- endbuild -->
+        <!-- build:js lib/angular-sanitize/angular-sanitize.js -->
+        <script src="/bower_components/angular-sanitize/angular-sanitize.js"></script>
+        <!-- endbuild -->
 
         <!-- build:js js/dashboard.js -->
         <script type="text/javascript" src="js/dashboard/module.js"></script>
         <script type="text/javascript" src="js/dashboard/routes.js"></script>
         <script type="text/javascript" src="js/dashboard/jasny-bootstrap.min.js"></script>
         <script type="text/javascript" src="js/dashboard/controllers/alerts-ctrl.js"></script>
+        <script type="text/javascript" src="js/dashboard/controllers/play1controller.js"></script>
+        <script type="text/javascript" src="js/dashboard/controllers/play2controller.js"></script>
+        <script type="text/javascript" src="js/dashboard/controllers/play3controller.js"></script>
+        <script type="text/javascript" src="js/dashboard/controllers/play4controller.js"></script>
+        <script type="text/javascript" src="js/dashboard/controllers/play5controller.js"></script>
+        <script type="text/javascript" src="js/dashboard/controllers/play6controller.js"></script>
+        <script type="text/javascript" src="js/dashboard/controllers/play7controller.js"></script>
+        <script type="text/javascript" src="js/dashboard/controllers/season-page-info.js"></script>
         <script type="text/javascript" src="js/dashboard/controllers/master-ctrl.js"></script>
         <script type="text/javascript" src="js/dashboard/directives/loading.js"></script>
         <!-- endbuild -->
         <!-- SCRIPTS -->
-
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     </head>
     <body ng-controller="MasterCtrl">
         <!-- Header Bar -->
@@ -94,12 +106,11 @@
                     <div class="bottomback1"></div>
                 </div>
               -->
-                <div class="footer navbar-fixed-bottom">
-                    <div class="footerblurb">Home of the <b>Orchard Performing Arts Company, Inc.</b></div>
-                    <div ng-include="socialbar" class="pull-right"></div>
-
-                </div>
             </div><!-- End Content Wrapper -->
         </div><!-- End Page Wrapper -->
+                        <div class="footer navbar-fixed-bottom">
+                    <div ng-include="socialbar" class="pull-right"></div>
+                </div>
+
     </body>
 </html>

@@ -12,6 +12,8 @@ var paths = {
   styles: 'src/less/**/*.{less,css}',
   index: 'src/index.html',
   panes: 'src/panes/*',
+  bios: 'src/bios/*',
+  favicon:'src/favicon.ico',
   bower_fonts: 'src/bower_components/**/*.{ttf,woff,eof,svg}',
   bower_components: 'src/bower_components/**/*.*',
 };
@@ -29,16 +31,26 @@ gulp.task('usemin', function() {
 /**
  * Copy assets
  */
-gulp.task('copy-assets', ['copy-images','copy-panes', 'copy-fonts', 'copy-bower_fonts']);
+gulp.task('copy-assets', ['copy-images','copy-favicon','copy-panes', 'copy-bios', 'copy-fonts', 'copy-bower_fonts']);
 
 gulp.task('copy-images', function(){
   return gulp.src(paths.images)
     .pipe(gulp.dest('dist/img'));
 });
 
+gulp.task('copy-favicon', function(){
+  return gulp.src(paths.favicon)
+    .pipe(gulp.dest('dist'));
+});
+
 gulp.task('copy-panes', function(){
   return gulp.src(paths.panes)
     .pipe(gulp.dest('dist/panes'));
+});
+
+gulp.task('copy-bios', function(){
+  return gulp.src(paths.bios)
+    .pipe(gulp.dest('dist/bios'));
 });
 
 gulp.task('copy-fonts', function(){
@@ -58,6 +70,7 @@ gulp.task('watch', function () {
   gulp.watch([paths.styles, paths.index, paths.js], ['usemin']);
   gulp.watch([paths.images], ['copy-images']);
   gulp.watch([paths.panes], ['copy-panes']);
+  gulp.watch([paths.bios], ['copy-bios']);
   gulp.watch([paths.fonts], ['copy-fonts']);
   gulp.watch([paths.bower_fonts], ['copy-bower_fonts']);
 });

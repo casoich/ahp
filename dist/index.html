@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Title</title>
+        <title>Apple Hill Playhouse</title>
 
         <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css"/>
 
@@ -21,10 +21,11 @@
         <script src="lib/angular-bootstrap/ui-bootstrap.js"></script>
         <script src="lib/angular-bootstrap/ui-bootstrap-tpls.js"></script>
         <script src="lib/angular-ui-router/angular-ui-router.js"></script>
+        <script src="lib/angular-sanitize/angular-sanitize.js"></script>
 
         <script src="js/dashboard.js"></script>
         <!-- SCRIPTS -->
-
+        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     </head>
     <body ng-controller="MasterCtrl">
         <!-- Header Bar -->
@@ -58,12 +59,11 @@
                     <div class="bottomback1"></div>
                 </div>
               -->
-                <div class="footer navbar-fixed-bottom">
-                    <div class="footerblurb">Home of the <b>Orchard Performing Arts Company, Inc.</b></div>
-                    <div ng-include="socialbar" class="pull-right"></div>
-
-                </div>
             </div><!-- End Content Wrapper -->
         </div><!-- End Page Wrapper -->
+                        <div class="footer navbar-fixed-bottom">
+                    <div ng-include="socialbar" class="pull-right"></div>
+                </div>
+
     </body>
 </html>

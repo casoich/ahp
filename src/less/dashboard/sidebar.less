@@ -5,7 +5,7 @@
     background: @sidebarBaseColor;
     
 }
-@media (min-width: 992px) {
+@media (min-width: @sidebarbreakpoint) {
   body {
     padding-left: @sidebarwidth;
   }
@@ -48,25 +48,30 @@ ul.sidebar .sidebar-list a:hover,
     font-size: 0.9em;
     margin-left:1em!important;
 }
-.navmenu-nav 
+
 .navbar-toggle {
-@media (min-width: 768px) {
+    /*reset bootstrap breakpoint*/
+   @media (min-width: 768px)
+ {
+display:initial;
+} 
+@media (min-width: @sidebarbreakpoint) {
   
     display:block;
   
 }
-@media (min-width:993px) {
+@media (min-width:@sidebarbreakpoint) {
     display:none;
 }
-    position:fixed;
-    left:0;
+    position:fixed!important;
+    left:0px;
     width:20px;
       border-radius: 0 10px 10px 0;
       border-top-width: 1px;
       border-left-width: 0px;
       border-color: @greenaccent;
     top:@headerheight - 10px;
-    z-index:2000;
+    z-index:5000;
     color:#222;
     background-color:@sidebarBaseColor;
 }

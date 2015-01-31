@@ -1,16 +1,57 @@
-<!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
-<html>
-    <head>
-        <title>TODO supply a title</title>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    </head>
-    <body>
-        <div>TODO write content</div>
-    </body>
-</html>
+<div ng-include src="playinfo.stylesheet"></div>
+
+<div class="col-xs-12 col-lg-8 col-lg-offset-2">
+    <div class="panel panel-primary">
+        <div class="panel-heading ">
+            <div ng-show="playinfo.isMusical">
+                <div class='bannerback-music0'></div>
+                <div class='bannerback-music1'></div>
+            </div>
+            <div class="showtitle">{{playinfo.title}}</div>
+            <div class="row">
+                <div class='panel-dateblock col-xs-12 col-md-6'>
+                    <i class="fa fa-calendar fa-4x backstamp" ></i>
+                    <div ng-bind-html="playinfo.date"></div>
+                </div>
+                <div class='writtenby col-xs-12 col-md-6'>Written by: {{playinfo.writtenby}}</div><br/>
+                <div class='directedby col-xs-12 col-md-6' ng-show='playinfo.directedby'>Directed by {{playinfo.directedby}}</div>
+            </div>
+
+        </div>
+        <div class="panel-body">
+
+            <!--<div class=" drop-shadow lifted newsflash">-->
+                <!--            <div id="boxdiv" style="width:100%; height:100%;position:absolute;">&nbsp;</div>-->
+                <h1>{{playinfo.headline}}</h1>
+                    <img id="captionimg"  class="captionimageblock" src="{{playinfo.insetpic}}" />
+                <p>
+                <p><h3>{{playinfo.subhead}}</h3></p>
+                <div ng-include src="playinfo.infoblurb"></div>
+
+
+                <div class="cast-accordion" id="accordion">
+                    <h4>The Cast: </h4>
+                    <accordion close-others="false">
+                        <accordion-group ng-repeat="person in playinfo.castlist">
+                            <accordion-heading>
+                                {{person.name}} &Tilde; <i>{{person.role}}</i>
+                            </accordion-heading>
+                                <div class="" >
+                                    <img src="{{person.photopath}}" alt="" class="blurbimg"/>
+                                </div>
+                                <div  class="">
+                                    <div class="">
+                                        <div ng-include src="person.biopath"></div>
+                                    </div>
+                                </div>
+
+                        </accordion-group>
+                    </accordion>
+                </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/ng-template" id="cast-renderer.html">
+
+</script>

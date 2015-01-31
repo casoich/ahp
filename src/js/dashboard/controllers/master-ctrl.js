@@ -1,43 +1,25 @@
 /**
  * Master Controller
  */
-var yearstring = "2015";
-
-var navItems = [
-        {text:"Home",path:"/",pane:"/panes/home.html"},
-        {text:yearstring+" Mainstage Season",path:"/mainstage",pane:"/panes/mainstage.html", children:[
-            {text:"The World Goes 'Round",path:"/mainstage/play1",pane:"/panes/play1.html",blurb:"/panes/playblurb1.html"},
-            {text:"Butterflies Are Free",path:"/mainstage/play2",pane:"/panes/play2.html"},
-            {text:"Chasing Manet",path:"/mainstage/play3",pane:"/panes/play3.html"},
-            {text:"play4",path:"/mainstage/play4",pane:"/panes/play4.html"},
-            {text:"play5",path:"/mainstage/play5",pane:"/panes/play5.html"},
-            {text:"play6",path:"/mainstage/play6",pane:"/panes/play6.html"}
-
-        ]},
-        {text:yearstring+" Children's Season",path:"/jact",pane:"/panes/jact.html", children:[
-            {text:"JACTplay1",path:"/jact/play1",pane:"/panes/JACTplay1.html"},
-            {text:"JACTplay2",path:"/jact/play2",pane:"/panes/JACTplay2.html"},
-            {text:"JACTplay3",path:"/jact/play3",pane:"/panes/JACTplay3.html"}
-
-        ]},
-        {text:"Ticket Information",path:"/tickets",pane:"/panes/tickets.html"},
-        {text:yearstring+" Auditions",path:"/auditions",pane:"/panes/auditions.html", children:[
-            {text:yearstring+" Mainstage",path:"/auditions/mainstage",pane:"/panes/mainstageAuditions.html"},
-            {text:yearstring+" JACT",path:"/auditions/JACT",pane:"/panes/JACTAuditions.html"}
-        ]},
-    ];
 var $routeProviderReference;
-var appController=angular.module('Dashboard',['ngRoute']);
+var appController=angular.module('Dashboard',['ngRoute','ngSanitize','ui.bootstrap']);
+appController.filter('unsafe', function($sce) { return $sce.trustAsHtml; });
 function mapRoutes (theseNavItems) {
     var j = 0, currentRoute;
 
     for ( ; j < theseNavItems.length; j++ ) {
 
             currentRoute = theseNavItems[j];
-console.log(currentRoute.path,currentRoute.pane,currentRoute.children);
+            //console.log(currentRoute.path,currentRoute.pane,currentRoute.children);
             $routeProviderReference.when(currentRoute.path, {
                     templateUrl: currentRoute.pane
             });
+            if (currentRoute.controller){
+                $routeProviderReference.when(currentRoute.path, {
+                    templateUrl: currentRoute.pane,
+                    controller: currentRoute.controller
+                });
+            }
             if (currentRoute.children) {
                 mapRoutes(currentRoute.children);
             }
@@ -87,7 +69,8 @@ function MasterCtrl($scope, $http) {
     $scope.play6blurb="/panes/playblurb6.html";
     $scope.play7blurb="/panes/playblurb7.html";
     $scope.mainblurbpane="/panes/mainblurb.html";
-    $scope.mainblurbpane="/panes/auditionsblurb.html";
+    $scope.auditionsblurb="/panes/auditionsblurb.html";
+    $scope.aboutahp="/panes/aboutahp.html";
     $scope.headerpane="/panes/header.html";
     $scope.addressblock="/panes/addressblock.html";
     $scope.announcementpane="/panes/announcement.html";
@@ -112,3 +95,4 @@ function MasterCtrl($scope, $http) {
 
     window.onresize = function() { $scope.$apply(); };
 }
+console.log("end master-ctrl.js");

@@ -48,46 +48,264 @@ function AlertsCtrl($scope) {
         $scope.alerts.splice(index, 1);
     };
 }
+var play1controller= function($scope) {
+    
+    $scope.playinfo={
+        title:"The World Goes 'Round",
+        isMusical:true,
+        date:"May 29,30,31; June 5, 6, 7 at 7:30pm<br/>June 1 &amp; 8 at 2:00 pm",
+        writtenby : "John Kander and Fred Ebb",
+        directedby : "someone",
+        headline:"Music! Humor! Romance! All that jazz!",
+        subhead:"The first show at Apple Hill is set somewhere, featuring people.",
+        stylesheet:"/panes/styleinsert-default.html",
+        backpic:"",
+        insetpic:"img/WorldGoesRoundMedium.jpg",
+        infoblurb:"/panes/play1infoblurb.html",
+        castlist:[
+            {
+                name:"Thom Person", role:"Director",
+                photopath:"./bios/thom-mclaughlan-thumb.jpg",
+                biopath:"./bios/thom-mclaughlan.html"
+            },
+            {
+                name:"Someother Person", role:"star",
+                photopath:"./bios/thom-mclaughlan-thumb.jpg",
+                biopath:"./bios/thom-mclaughlan.html"
+            }
+
+        ]
+    }  ;     
+};
+
+var play2controller= function($scope) {
+    
+    $scope.playinfo={
+        title:"Butterflies Are Free",
+        isMusical:false,
+        date:"",
+        writtenby : "",
+        directedby : "",
+        headline:"",
+        subhead:"The first show at Apple Hill is set somewhere, featuring people.",
+        stylesheet:"/panes/styleinsert-default.html",
+        backpic:"",
+        insetpic:"",
+        infoblurb:"/panes/play2infoblurb.html",
+        castlist:[
+//            {
+//                name:"Thom Person", role:"Director",
+//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
+//                biopath:"./bios/thom-mclaughlan.html"
+//            },
+//            {
+//                name:"Someother Person", role:"star",
+//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
+//                biopath:"./bios/thom-mclaughlan.html"
+//            }
+
+        ]
+    }  ;     
+};
+
+var play3controller= function($scope) {
+    
+    $scope.playinfo={
+        title:"Funny Money",
+        isMusical:false,
+        date:"",
+        writtenby : "",
+        directedby : "",
+        headline:"",
+        subhead:"The second show at Apple Hill is set somewhere, featuring people.",
+        stylesheet:"/panes/styleinsert-default.html",
+        backpic:"",
+        insetpic:"",
+        infoblurb:"/panes/play3infoblurb.html",
+        castlist:[
+//            {
+//                name:"Thom Person", role:"Director",
+//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
+//                biopath:"./bios/thom-mclaughlan.html"
+//            },
+//            {
+//                name:"Someother Person", role:"star",
+//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
+//                biopath:"./bios/thom-mclaughlan.html"
+//            }
+
+        ]
+    }  ;     
+}
+
+var play4controller= function($scope) {
+    
+    $scope.playinfo={
+        title:"It Could Be Any One Of Us",
+        isMusical:false,
+        date:"",
+        writtenby : "",
+        directedby : "",
+        headline:"",
+        subhead:"The fourth show at Apple Hill is set somewhere, featuring people.",
+        stylesheet:"/panes/styleinsert-default.html",
+        backpic:"",
+        insetpic:"",
+        infoblurb:"/panes/play4infoblurb.html",
+        castlist:[
+//            {
+//                name:"Thom Person", role:"Director",
+//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
+//                biopath:"./bios/thom-mclaughlan.html"
+//            },
+//            {
+//                name:"Someother Person", role:"star",
+//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
+//                biopath:"./bios/thom-mclaughlan.html"
+//            }
+
+        ]
+    }  ;     
+}
+
+var play5controller= function($scope) {
+    
+    $scope.playinfo={
+        title:"Be My Baby",
+        isMusical:false,
+        date:"",
+        writtenby : "",
+        directedby : "",
+        headline:"",
+        subhead:"The fifth show at Apple Hill is set somewhere, featuring people.",
+        stylesheet:"/panes/styleinsert-default.html",
+        backpic:"",
+        insetpic:"",
+        infoblurb:"/panes/play5infoblurb.html",
+        castlist:[
+//            {
+//                name:"Thom Person", role:"Director",
+//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
+//                biopath:"./bios/thom-mclaughlan.html"
+//            },
+//            {
+//                name:"Someother Person", role:"star",
+//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
+//                biopath:"./bios/thom-mclaughlan.html"
+//            }
+
+        ]
+    }  ;     
+}
+
+var play6controller= function($scope) {
+    
+    $scope.playinfo={
+        title:"Fox on the Fairway",
+        isMusical:false,
+        date:"",
+        writtenby : "",
+        directedby : "",
+        headline:"",
+        subhead:"The sixth show at Apple Hill is set somewhere, featuring people.",
+        stylesheet:"/panes/styleinsert-default.html",
+        backpic:"",
+        insetpic:"",
+        infoblurb:"/panes/play6infoblurb.html",
+        castlist:[
+//            {
+//                name:"Thom Person", role:"Director",
+//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
+//                biopath:"./bios/thom-mclaughlan.html"
+//            },
+//            {
+//                name:"Someother Person", role:"star",
+//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
+//                biopath:"./bios/thom-mclaughlan.html"
+//            }
+
+        ]
+    }  ;     
+}
+
+var play7controller= function($scope) {
+    
+    $scope.playinfo={
+        title:"tba",
+        isMusical:false,
+        date:"",
+        writtenby : "",
+        directedby : "",
+        headline:"",
+        subhead:"The first show at Apple Hill is set somewhere, featuring people.",
+        stylesheet:"/panes/styleinsert-default.html",
+        backpic:"",
+        insetpic:"",
+        infoblurb:"/panes/play2infoblurb.html",
+        castlist:[
+//            {
+//                name:"Thom Person", role:"Director",
+//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
+//                biopath:"./bios/thom-mclaughlan.html"
+//            },
+//            {
+//                name:"Someother Person", role:"star",
+//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
+//                biopath:"./bios/thom-mclaughlan.html"
+//            }
+
+        ]
+    }  ;     
+}
+
+var yearstring = "2015";
+var navItems = [
+        {menuitem:true, menuitem:true, text:"Home",path:"/",pane:"/panes/home.html"},
+        {menuitem:true, collapsible:false, text:yearstring+" Mainstage Season",path:"/mainstage",pane:"/panes/mainstage.html", children:[
+            {menuitem:true, text:"Butterflies Are Free",       path:"/mainstage/butterflies",  pane:"/panes/play-template.html",blurb:"/panes/playblurb2.html",controller:play2controller},
+            {menuitem:true, text:"Funny Money",                path:"/mainstage/funnymoney",   pane:"/panes/play-template.html",blurb:"/panes/playblurb3.html",controller:play3controller},
+            {menuitem:true, text:"The World Goes 'Round",      path:"/mainstage/world",        pane:"/panes/play-template.html",blurb:"/panes/playblurb1.html",controller:play1controller},
+            {menuitem:true, text:"It Could Be Any One Of Us",  path:"/mainstage/couldbe",      pane:"/panes/play-template.html",blurb:"/panes/playblurb4.html",controller:play4controller},
+            {menuitem:true, text:"Be My Baby",                 path:"/mainstage/bemybaby",     pane:"/panes/play-template.html",blurb:"/panes/playblurb5.html",controller:play5controller},
+            {menuitem:true, text:"Fox on the Fairway",       path:"/mainstage/foxonthefairway",pane:"/panes/play-template.html",blurb:"/panes/playblurb6.html",controller:play6controller},
+            {menuitem:true, text:"TBA",                        path:"/",pane:"/panes/home.html"}
+
+        ]},
+        {menuitem:true, collapsible:false, text:yearstring+" Children's Season",path:"/jact",pane:"/panes/jact.html", children:[
+            {menuitem:true, text:"Don't Count Your Chickens",  path:"/jact/chickens",          pane:"/panes/JACTplay1.html"},
+            {menuitem:true, text:"Snow White",                 path:"/jact/snowwhite",         pane:"/panes/JACTplay2.html"},
+            {menuitem:true, text:"Emperor's New Clothes",      path:"/jact/emperors",          pane:"/panes/JACTplay3.html"}
+
+        ]},
+        {menuitem:true, text:"Ticket Information",path:"/tickets",pane:"/panes/tickets.html"},
+        {menuitem:true, collapsible:true, text:yearstring+" Auditions",path:"/auditions",pane:"/panes/auditions.html", children:[
+            {menuitem:true, text:yearstring+" Mainstage",path:"/auditions/mainstage",pane:"/panes/mainstageAuditions.html"},
+            {menuitem:true, text:yearstring+" JACT",path:"/auditions/JACT",pane:"/panes/JACTAuditions.html"}
+        ]},
+    ];
+
 /**
  * Master Controller
  */
-var yearstring = "2015";
-
-var navItems = [
-        {text:"Home",path:"/",pane:"/panes/home.html"},
-        {text:yearstring+" Mainstage Season",path:"/mainstage",pane:"/panes/mainstage.html", children:[
-            {text:"The World Goes 'Round",path:"/mainstage/play1",pane:"/panes/play1.html",blurb:"/panes/playblurb1.html"},
-            {text:"Butterflies Are Free",path:"/mainstage/play2",pane:"/panes/play2.html"},
-            {text:"Chasing Manet",path:"/mainstage/play3",pane:"/panes/play3.html"},
-            {text:"play4",path:"/mainstage/play4",pane:"/panes/play4.html"},
-            {text:"play5",path:"/mainstage/play5",pane:"/panes/play5.html"},
-            {text:"play6",path:"/mainstage/play6",pane:"/panes/play6.html"}
-
-        ]},
-        {text:yearstring+" Children's Season",path:"/jact",pane:"/panes/jact.html", children:[
-            {text:"JACTplay1",path:"/jact/play1",pane:"/panes/JACTplay1.html"},
-            {text:"JACTplay2",path:"/jact/play2",pane:"/panes/JACTplay2.html"},
-            {text:"JACTplay3",path:"/jact/play3",pane:"/panes/JACTplay3.html"}
-
-        ]},
-        {text:"Ticket Information",path:"/tickets",pane:"/panes/tickets.html"},
-        {text:yearstring+" Auditions",path:"/auditions",pane:"/panes/auditions.html", children:[
-            {text:yearstring+" Mainstage",path:"/auditions/mainstage",pane:"/panes/mainstageAuditions.html"},
-            {text:yearstring+" JACT",path:"/auditions/JACT",pane:"/panes/JACTAuditions.html"}
-        ]},
-    ];
 var $routeProviderReference;
-var appController=angular.module('Dashboard',['ngRoute']);
+var appController=angular.module('Dashboard',['ngRoute','ngSanitize','ui.bootstrap']);
+appController.filter('unsafe', function($sce) { return $sce.trustAsHtml; });
 function mapRoutes (theseNavItems) {
     var j = 0, currentRoute;
 
     for ( ; j < theseNavItems.length; j++ ) {
 
             currentRoute = theseNavItems[j];
-console.log(currentRoute.path,currentRoute.pane,currentRoute.children);
+            //console.log(currentRoute.path,currentRoute.pane,currentRoute.children);
             $routeProviderReference.when(currentRoute.path, {
                     templateUrl: currentRoute.pane
             });
+            if (currentRoute.controller){
+                $routeProviderReference.when(currentRoute.path, {
+                    templateUrl: currentRoute.pane,
+                    controller: currentRoute.controller
+                });
+            }
             if (currentRoute.children) {
                 mapRoutes(currentRoute.children);
             }
@@ -137,7 +355,8 @@ function MasterCtrl($scope, $http) {
     $scope.play6blurb="/panes/playblurb6.html";
     $scope.play7blurb="/panes/playblurb7.html";
     $scope.mainblurbpane="/panes/mainblurb.html";
-    $scope.mainblurbpane="/panes/auditionsblurb.html";
+    $scope.auditionsblurb="/panes/auditionsblurb.html";
+    $scope.aboutahp="/panes/aboutahp.html";
     $scope.headerpane="/panes/header.html";
     $scope.addressblock="/panes/addressblock.html";
     $scope.announcementpane="/panes/announcement.html";
@@ -162,7 +381,7 @@ function MasterCtrl($scope, $http) {
 
     window.onresize = function() { $scope.$apply(); };
 }
-
+console.log("end master-ctrl.js");
 /**
  * Loading Directive
  * @see http://tobiasahlin.com/spinkit/

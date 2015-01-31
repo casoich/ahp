@@ -1,19 +1,16 @@
- /* #592727 RED */
- /* #2f5927 GREEN */
- /* #30426a BLUE (default)*/
-
 /* Sidebar background color */
 @background: #810;
 @greenaccent: rgb(189, 183, 107);
-/*@greentitle:rgb(0, 95, 50);*/
+/*original @greentitle:rgb(0, 95, 50);*/
 @greentitle:darkblue;
 @headerheight:60px;
- @sidebarBaseColor: darken(@background,10%);
- /* Sidebar header and footer color */
- @sidebarHeaderColor: darken(@sidebarBaseColor, 2%);
- /* Sidebar title text colour */
- @sidebarTitleColor:  lighten(@sidebarBaseColor, 30%); /*#627cb7*/
-@sidebarwidth:225px;
+@sidebarbreakpoint:825px;
+@sidebarBaseColor: darken(@background,10%);
+/* Sidebar header and footer color */
+@sidebarHeaderColor: darken(@sidebarBaseColor, 2%);
+/* Sidebar title text colour */
+@sidebarTitleColor:  lighten(@sidebarBaseColor, 30%); /*#627cb7*/
+@sidebarwidth:210px;
 
 @panelbackground:lighten(@greenaccent,20%);
 @greenaccenthover:darken(@greenaccent,20%);
