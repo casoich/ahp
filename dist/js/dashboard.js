@@ -51,29 +51,29 @@ function AlertsCtrl($scope) {
 var play1controller= function($scope) {
     
     $scope.playinfo={
-        title:"The World Goes 'Round",
+        title:"The World Goes 'Round - Musical",
         isMusical:true,
-        date:"May 29,30,31; June 5, 6, 7 at 7:30pm<br/>June 1 &amp; 8 at 2:00 pm",
-        writtenby : "John Kander and Fred Ebb",
-        directedby : "someone",
+        date:"7:30 Thur & Fri July 9, 10, 16, 17<br/>5:00 & 8:30 Sat July 11, 18<br/>2:00 Sun July 12",
+        writtenby : "Music- John Kander<br/>Lyrics – Fred Ebb<br/>Conceived by Susan Stroman, David Thompson, Scott Ellis",
+        directedby : "",
         headline:"Music! Humor! Romance! All that jazz!",
-        subhead:"The first show at Apple Hill is set somewhere, featuring people.",
+        subhead:"",
         stylesheet:"/panes/styleinsert-default.html",
         backpic:"",
         insetpic:"img/WorldGoesRoundMedium.jpg",
         infoblurb:"/panes/play1infoblurb.html",
         castlist:[
-            {
-                name:"Thom Person", role:"Director",
-                photopath:"./bios/thom-mclaughlan-thumb.jpg",
-                biopath:"./bios/thom-mclaughlan.html"
-            },
-            {
-                name:"Someother Person", role:"star",
-                photopath:"./bios/thom-mclaughlan-thumb.jpg",
-                biopath:"./bios/thom-mclaughlan.html"
-            }
-
+//            {
+//                name:"Thom Person", role:"Director",
+//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
+//                biopath:"./bios/thom-mclaughlan.html"
+//            },
+//            {
+//                name:"Someother Person", role:"star",
+//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
+//                biopath:"./bios/thom-mclaughlan.html"
+//            }
+//
         ]
     }  ;     
 };
@@ -83,14 +83,14 @@ var play2controller= function($scope) {
     $scope.playinfo={
         title:"Butterflies Are Free",
         isMusical:false,
-        date:"",
-        writtenby : "",
-        directedby : "",
+        date:"7:30 Thur & Fri May 28, 29, June 4, 5 <br/> 5:00 and 8:30 Sat, May 30, June 6 <br/> 2:00  Sun May 31",
+        writtenby : "Written by Leonard Gershe",
+        directedby : "Directed by Karin Maresh",
         headline:"",
-        subhead:"The first show at Apple Hill is set somewhere, featuring people.",
+        subhead:"",
         stylesheet:"/panes/styleinsert-default.html",
-        backpic:"",
-        insetpic:"",
+        backpic:"/img/Butterflies.png",
+        insetpic:"/img/butterfliesarefree.jpg",
         infoblurb:"/panes/play2infoblurb.html",
         castlist:[
 //            {
@@ -113,14 +113,14 @@ var play3controller= function($scope) {
     $scope.playinfo={
         title:"Funny Money",
         isMusical:false,
-        date:"",
-        writtenby : "",
-        directedby : "",
+        date:"7:30  Thur & Fri June 18, 19; 25, 26<br/>5:00 Sat June 20, 27<br/>2:00 June 21",
+        writtenby : "Written by Ray Cooney",
+        directedby : "Directed by Matthew Mylnarski",
         headline:"",
-        subhead:"The second show at Apple Hill is set somewhere, featuring people.",
+        subhead:"",
         stylesheet:"/panes/styleinsert-default.html",
         backpic:"",
-        insetpic:"",
+        insetpic:"/img/funnymoney.png",
         infoblurb:"/panes/play3infoblurb.html",
         castlist:[
 //            {
@@ -143,14 +143,14 @@ var play4controller= function($scope) {
     $scope.playinfo={
         title:"It Could Be Any One Of Us",
         isMusical:false,
-        date:"",
-        writtenby : "",
-        directedby : "",
+        date:"7:30 Thur & Fri July 30, 31, Aug 6, 7<br/>5:00 & 8:30 Sat Aug 1, 8<br/>2:00 Sun Aug 2",
+        writtenby : "Written by Alan Ayckbourn",
+        directedby : "Directed by Wayne Brinda",
         headline:"",
-        subhead:"The fourth show at Apple Hill is set somewhere, featuring people.",
+        subhead:"",
         stylesheet:"/panes/styleinsert-default.html",
         backpic:"",
-        insetpic:"",
+        insetpic:"/img/couldbe.jpg",
         infoblurb:"/panes/play4infoblurb.html",
         castlist:[
 //            {
@@ -173,14 +173,14 @@ var play5controller= function($scope) {
     $scope.playinfo={
         title:"Be My Baby",
         isMusical:false,
-        date:"",
-        writtenby : "",
-        directedby : "",
+        date:"7:30 Thur & Fri  Aug 20, 21, 27, 28<br/>5:00 & 8:30 Sat Aug 22, 29<br/>2:00 Sun Aug 23",
+        writtenby : "Written by Ken Ludwig",
+        directedby : "Directed by Thom McLaughlin",
         headline:"",
-        subhead:"The fifth show at Apple Hill is set somewhere, featuring people.",
+        subhead:"",
         stylesheet:"/panes/styleinsert-default.html",
         backpic:"",
-        insetpic:"",
+        insetpic:"/img/Be-My-Baby.jpg",
         infoblurb:"/panes/play5infoblurb.html",
         castlist:[
 //            {
@@ -203,14 +203,14 @@ var play6controller= function($scope) {
     $scope.playinfo={
         title:"Fox on the Fairway",
         isMusical:false,
-        date:"",
-        writtenby : "",
-        directedby : "",
+        date:"7:30 Thur & Fri Sept 10, 11, 17, 18<br/>5:00 & 8:30 Sat Sept 12, 19<br/>2:00 Sept 13",
+        writtenby : "Written by Ken Ludwig",
+        directedby : "Directed by Ron Ferrara",
         headline:"",
-        subhead:"The sixth show at Apple Hill is set somewhere, featuring people.",
+        subhead:"",
         stylesheet:"/panes/styleinsert-default.html",
         backpic:"",
-        insetpic:"",
+        insetpic:"/img/foxonthefairway.jpg",
         infoblurb:"/panes/play6infoblurb.html",
         castlist:[
 //            {
@@ -231,20 +231,25 @@ var play6controller= function($scope) {
 var play7controller= function($scope) {
     
     $scope.playinfo={
-        title:"tba",
+        title:"The Outgoing Tide",
         isMusical:false,
-        date:"",
-        writtenby : "",
+        date:"7:30 Thur & Fri Oct 1, 2, 8, 9<br/>5:00 & 8:30 Sat Oct 3, 10<br/>2:00 Sun Oct 4",
+        writtenby : "Written by Bruce Graham",
         directedby : "",
         headline:"",
-        subhead:"The first show at Apple Hill is set somewhere, featuring people.",
-        stylesheet:"/panes/styleinsert-default.html",
-        backpic:"",
-        insetpic:"",
-        infoblurb:"/panes/play2infoblurb.html",
+        subhead:"",
+        stylesheet:"/panes/styleinsert-outgoing.html",
+        backpic:"/img/Canoe-Sunset.jpg",
+        insetpic:"/img/blank.gif",
+        infoblurb:"/panes/play7infoblurb.html",
         castlist:[
 //            {
 //                name:"Thom Person", role:"Director",
+//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
+//                biopath:"./bios/thom-mclaughlan.html"
+//            },
+//            {
+//                name:"Someother Person", role:"star",
 //                photopath:"./bios/thom-mclaughlan-thumb.jpg",
 //                biopath:"./bios/thom-mclaughlan.html"
 //            },
@@ -258,30 +263,134 @@ var play7controller= function($scope) {
     }  ;     
 }
 
+var JACT1controller= function($scope) {
+    
+    $scope.playinfo={
+        title:"Invisible Dragon",
+        isMusical:false,
+        date:"",
+        writtenby : "",
+        directedby : "",
+        headline:"",
+        subhead:"",
+        stylesheet:"/panes/styleinsert-default.html",
+        backpic:"",
+        insetpic:"img/blank.gif",
+        infoblurb:"/panes/JACT1infoblurb.html",
+        castlist:[
+//            {
+//                name:"Thom Person", role:"Director",
+//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
+//                biopath:"./bios/thom-mclaughlan.html"
+//            },
+//            {
+//                name:"Someother Person", role:"star",
+//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
+//                biopath:"./bios/thom-mclaughlan.html"
+//            }
+//
+        ]
+    }  ;     
+};
+
+var JACT2controller= function($scope) {
+    
+    $scope.playinfo={
+        title:"Snow White",
+        isMusical:false,
+        date:"",
+        writtenby : "",
+        directedby : "",
+        headline:"",
+        subhead:"",
+        stylesheet:"/panes/styleinsert-default.html",
+        backpic:"",
+        insetpic:"img/blank.gif",
+        infoblurb:"/panes/JACT2infoblurb.html",
+        castlist:[
+//            {
+//                name:"Thom Person", role:"Director",
+//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
+//                biopath:"./bios/thom-mclaughlan.html"
+//            },
+//            {
+//                name:"Someother Person", role:"star",
+//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
+//                biopath:"./bios/thom-mclaughlan.html"
+//            }
+//
+        ]
+    }  ;     
+};
+
+var JACT3controller= function($scope) {
+    
+    $scope.playinfo={
+        title:"Emperor's New Clothes",
+        isMusical:false,
+        date:"",
+        writtenby : "",
+        directedby : "",
+        headline:"",
+        subhead:"",
+        stylesheet:"/panes/styleinsert-default.html",
+        backpic:"",
+        insetpic:"img/blank.gif",
+        infoblurb:"",
+        castlist:[
+//            {
+//                name:"Thom Person", role:"Director",
+//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
+//                biopath:"./bios/thom-mclaughlan.html"
+//            },
+//            {
+//                name:"Someother Person", role:"star",
+//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
+//                biopath:"./bios/thom-mclaughlan.html"
+//            }
+//
+        ]
+    }  ;     
+};
+
 var yearstring = "2015";
 var navItems = [
-        {menuitem:true, menuitem:true, text:"Home",path:"/",pane:"/panes/home.html"},
-        {menuitem:true, collapsible:false, text:yearstring+" Mainstage Season",path:"/mainstage",pane:"/panes/mainstage.html", children:[
+        {menuitem:true,  text:"Home",path:"/",pane:"/panes/home.html"},
+        {menuitem:true, collapsed:false, text:yearstring+" Mainstage Season",path:"/mainstage",pane:"/panes/mainstage.html", children:[
             {menuitem:true, text:"Butterflies Are Free",       path:"/mainstage/butterflies",  pane:"/panes/play-template.html",blurb:"/panes/playblurb2.html",controller:play2controller},
             {menuitem:true, text:"Funny Money",                path:"/mainstage/funnymoney",   pane:"/panes/play-template.html",blurb:"/panes/playblurb3.html",controller:play3controller},
-            {menuitem:true, text:"The World Goes 'Round",      path:"/mainstage/world",        pane:"/panes/play-template.html",blurb:"/panes/playblurb1.html",controller:play1controller},
+            {menuitem:true, text:"The World Goes 'Round",      isMusical:true, path:"/mainstage/world",        pane:"/panes/musical-template.html",blurb:"/panes/playblurb1.html",controller:play1controller},
             {menuitem:true, text:"It Could Be Any One Of Us",  path:"/mainstage/couldbe",      pane:"/panes/play-template.html",blurb:"/panes/playblurb4.html",controller:play4controller},
             {menuitem:true, text:"Be My Baby",                 path:"/mainstage/bemybaby",     pane:"/panes/play-template.html",blurb:"/panes/playblurb5.html",controller:play5controller},
             {menuitem:true, text:"Fox on the Fairway",       path:"/mainstage/foxonthefairway",pane:"/panes/play-template.html",blurb:"/panes/playblurb6.html",controller:play6controller},
-            {menuitem:true, text:"TBA",                        path:"/",pane:"/panes/home.html"}
+            {menuitem:true, text:"The Outgoing Tide",          path:"/mainstage/outgoingtide", pane:"/panes/play-template.html",blurb:"/panes/playblurb7.html",controller:play7controller}
 
         ]},
-        {menuitem:true, collapsible:false, text:yearstring+" Children's Season",path:"/jact",pane:"/panes/jact.html", children:[
-            {menuitem:true, text:"Don't Count Your Chickens",  path:"/jact/chickens",          pane:"/panes/JACTplay1.html"},
-            {menuitem:true, text:"Snow White",                 path:"/jact/snowwhite",         pane:"/panes/JACTplay2.html"},
-            {menuitem:true, text:"Emperor's New Clothes",      path:"/jact/emperors",          pane:"/panes/JACTplay3.html"}
+        {menuitem:true, collapsed:false, text:yearstring+" Children's Season",path:"/jact",pane:"/panes/jact.html", children:[
+            {menuitem:true, text:"Invisible Dragon",  path:"/jact/dragon",          pane:"/panes/play-template.html",blurb:"/panes/JACTblurb1.html",controller:JACT1controller},
+            {menuitem:true, text:"Snow White",                 path:"/jact/snowwhite",         pane:"/panes/play-template.html",blurb:"/panes/JACTblurb2.html",controller:JACT2controller},
+            {menuitem:true, text:"Emperor's New Clothes",      path:"/jact/emperors",          pane:"/panes/play-template.html",blurb:"/panes/JACTblurb3.html",controller:JACT3controller}
 
         ]},
         {menuitem:true, text:"Ticket Information",path:"/tickets",pane:"/panes/tickets.html"},
-        {menuitem:true, collapsible:true, text:yearstring+" Auditions",path:"/auditions",pane:"/panes/auditions.html", children:[
+        {menuitem:true, collapsed:true, text:yearstring+" Auditions",path:"/auditions",pane:"/panes/auditions.html", children:[
             {menuitem:true, text:yearstring+" Mainstage",path:"/auditions/mainstage",pane:"/panes/mainstageAuditions.html"},
             {menuitem:true, text:yearstring+" JACT",path:"/auditions/JACT",pane:"/panes/JACTAuditions.html"}
         ]},
+        {menuitem:true, collapsed:true, text:"Dinner Theatre",path:"/lamplighter",pane:"/panes/dinnertheatre.html", children:[
+            {menuitem:true, text:"Pricing",path:"/lamplighter/pricing",pane:"/panes/lamplighter.html"},
+            {menuitem:true, text:"Lunch Menu",path:"/lamplighter/lunch",pane:"/panes/lamplighterlunch.html"},
+            {menuitem:true, text:"Dinner Menu",path:"/lamplighter/dinner",pane:"/panes/lamplighterdinner.html"}
+        ] },
+        {menuitem:true, collapsed:true, text:"Education",path:"/education",pane:"/panes/education.html", children:[
+            {menuitem:true, text:"Theater Classes",path:"/education/classes",pane:"/panes/classes.html"},
+            {menuitem:true, text:"Apprenticeships",path:"/education/apprentice",pane:"/panes/apprentice.html"},
+            {menuitem:true, text:"Scholarships",path:"/education/scholarships",pane:"/panes/scholarships.html"},
+        ] },
+        {menuitem:true, collapsed:true, text:"Employment",path:"/employment",pane:"/panes/employment.html", children:[
+            {menuitem:true, text:"Volunteer Opportunities",path:"/employment/volunteer",pane:"/panes/volunteer.html"},
+        ] },
+        {menuitem:true, collapsed:true, text:"About Us",path:"/about",pane:"/panes/about.html"},
     ];
 
 /**

@@ -10,9 +10,11 @@
 
 <script type="text/ng-template" id="tree-renderer.html">
  
- <a href="#{{navItem.path}}" ng-hide="navItem.children">{{navItem.text}}</a>
- <a href="#{{navItem.path}}" ng-show="navItem.children" >{{navItem.text}} <b class="caret"></b></a>
- <div class="submenu open" >
+ <a href="#{{navItem.path}}" ng-hide="navItem.children" class="">{{navItem.text}}</a>
+ <a href="#{{navItem.path}}" ng-show="navItem.children" 
+                             ng-init="isCollapsed=navItem.collapsed" 
+                             ng-click="isCollapsed = !isCollapsed" >{{navItem.text}}<span ng-show="navItem.isMusical"><i class="fa fa-music"></i></span> <i ng-class="isCollapsed?'fa fa-chevron-right':'fa fa-chevron-down'"></i></a>
+ <div class="submenu open"  collapse="isCollapsed" >
  <ul class="dropdown-menu navmenu-nav">
    <li ng-repeat="navItem in navItem.children" ng-include="'tree-renderer.html'"></li>
  </ul>

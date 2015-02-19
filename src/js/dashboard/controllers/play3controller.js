@@ -3,14 +3,14 @@ var play3controller= function($scope) {
     $scope.playinfo={
         title:"Funny Money",
         isMusical:false,
-        date:"",
-        writtenby : "",
-        directedby : "",
+        date:"7:30  Thur & Fri June 18, 19; 25, 26<br/>5:00 Sat June 20, 27<br/>2:00 June 21",
+        writtenby : "Written by Ray Cooney",
+        directedby : "Directed by Matthew Mylnarski",
         headline:"",
-        subhead:"The second show at Apple Hill is set somewhere, featuring people.",
+        subhead:"",
         stylesheet:"/panes/styleinsert-default.html",
         backpic:"",
-        insetpic:"",
+        insetpic:"/img/funnymoney.png",
         infoblurb:"/panes/play3infoblurb.html",
         castlist:[
 //            {

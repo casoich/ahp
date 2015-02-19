@@ -1,0 +1,54 @@
+<div ng-include="playinfo.stylesheet"></div>
+
+<div class="col-xs-12 col-lg-8 col-lg-offset-2">
+    <div class="panel panel-primary" ng-class="{'musical-panel': playinfo.isMusical}" >
+        <div class="panel-heading ">
+            <div class="showtitle">{{playinfo.title}}</div>
+            <div class="row">
+                <div class='panel-dateblock col-xs-12 col-md-6'>
+                    <i class="fa fa-calendar fa-4x backstamp" ></i>
+                    <div ng-bind-html="playinfo.date"></div>
+                </div>
+                <div class='writtenby col-xs-12 col-md-6' ng-show='playinfo.writtenby' ng-bind-html="playinfo.writtenby"></div><br/>
+                <div class='directedby col-xs-12 col-md-6' ng-show='playinfo.directedby' ng-bind-html="playinfo.directedby"></div>
+                    
+                </div>
+            </div>
+
+        <div class="panel-body">
+
+            <!--<div class=" drop-shadow lifted newsflash">-->
+                <!--            <div id="boxdiv" style="width:100%; height:100%;position:absolute;">&nbsp;</div>-->
+                <h1>{{playinfo.headline}}</h1>
+                    <img id="captionimg"  class="captionimageblock" src="{{playinfo.insetpic}}" />
+                <p>
+                <p><h3>{{playinfo.subhead}}</h3></p>
+                <div ng-include src="playinfo.infoblurb"></div>
+
+
+                <div ng-show="playinfo.castlist.length>0" class="cast-accordion" id="accordion">
+                    <h4>The Cast: </h4>
+                    <accordion close-others="false">
+                        <accordion-group ng-repeat="person in playinfo.castlist">
+                            <accordion-heading>
+                                {{person.name}} &Tilde; <i>{{person.role}}</i>
+                            </accordion-heading>
+                                <div class="" >
+                                    <img src="{{person.photopath}}" alt="" class="blurbimg"/>
+                                </div>
+                                <div  class="">
+                                    <div class="">
+                                        <div ng-include src="person.biopath"></div>
+                                    </div>
+                                </div>
+
+                        </accordion-group>
+                    </accordion>
+                </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/ng-template" id="cast-renderer.html">
+
+</script>

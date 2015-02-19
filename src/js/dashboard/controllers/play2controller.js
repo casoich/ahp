@@ -3,14 +3,14 @@ var play2controller= function($scope) {
     $scope.playinfo={
         title:"Butterflies Are Free",
         isMusical:false,
-        date:"",
-        writtenby : "",
-        directedby : "",
+        date:"7:30 Thur & Fri May 28, 29, June 4, 5 <br/> 5:00 and 8:30 Sat, May 30, June 6 <br/> 2:00  Sun May 31",
+        writtenby : "Written by Leonard Gershe",
+        directedby : "Directed by Karin Maresh",
         headline:"",
-        subhead:"The first show at Apple Hill is set somewhere, featuring people.",
+        subhead:"",
         stylesheet:"/panes/styleinsert-default.html",
-        backpic:"",
-        insetpic:"",
+        backpic:"/img/Butterflies.png",
+        insetpic:"/img/butterfliesarefree.jpg",
         infoblurb:"/panes/play2infoblurb.html",
         castlist:[
 //            {

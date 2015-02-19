@@ -1,23 +1,20 @@
-<div ng-include src="playinfo.stylesheet"></div>
+<div ng-include="playinfo.stylesheet"></div>
 
 <div class="col-xs-12 col-lg-8 col-lg-offset-2">
     <div class="panel panel-primary">
         <div class="panel-heading ">
-            <div ng-show="playinfo.isMusical">
-                <div class='bannerback-music0'></div>
-                <div class='bannerback-music1'></div>
-            </div>
             <div class="showtitle">{{playinfo.title}}</div>
             <div class="row">
                 <div class='panel-dateblock col-xs-12 col-md-6'>
                     <i class="fa fa-calendar fa-4x backstamp" ></i>
                     <div ng-bind-html="playinfo.date"></div>
                 </div>
-                <div class='writtenby col-xs-12 col-md-6' ng-show='playinfo.writtenby'>Written by: {{playinfo.writtenby}}</div><br/>
-                <div class='directedby col-xs-12 col-md-6' ng-show='playinfo.directedby'>Directed by: {{playinfo.directedby}}</div>
+                <div class='writtenby col-xs-12 col-md-6' ng-show='playinfo.writtenby' ng-bind-html="playinfo.writtenby"></div><br/>
+                <div class='directedby col-xs-12 col-md-6' ng-show='playinfo.directedby' ng-bind-html="playinfo.directedby"></div>
+                    
+                </div>
             </div>
 
-        </div>
         <div class="panel-body">
 
             <!--<div class=" drop-shadow lifted newsflash">-->

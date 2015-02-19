@@ -188,6 +188,39 @@ body {
   font-weight: normal;
   color: #333;
 }
+.panel-heading.musical-panel {
+  background-color: rgba(0, 0, 0, 0);
+  color: #fff;
+}
+.panel.musical-panel {
+  background-color: rgba(0, 0, 0, 0);
+  background-image: url('../../img/music-panel-background.png');
+  background-size: 102% auto;
+  background-position: -2px -2px;
+}
+.panel.musical-panel .panel-heading {
+  background-color: rgba(251, 246, 220, 0);
+}
+.panel.musical-panel .panel-heading .showtitle,
+.panel.musical-panel .panel-heading .writtenby,
+.panel.musical-panel .panel-heading .directedby {
+  color: #fff;
+}
+.panel.musical-panel .panel-heading .writtenby,
+.panel.musical-panel .panel-heading .directedby {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 8px;
+}
+.panel.musical-panel .panel-dateblock {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+.panel.musical-panel .panel-body {
+  background-color: rgba(251, 246, 220, 0.4);
+}
+.panel-as-background {
+  background-color: #ecead5;
+}
 .loading {
   width: 40px;
   height: 40px;
@@ -249,7 +282,7 @@ body {
   }
 }
 #page-wrapper.active #sidebar-wrapper {
-  left: 210px;
+  left: 220px;
 }
 /**
  * Header
@@ -535,7 +568,7 @@ body {
 }
 @media (min-width: 825px) {
   body {
-    padding-left: 210px;
+    padding-left: 220px;
   }
 }
 ul.sidebar .sidebar-main a,
@@ -559,7 +592,7 @@ ul.sidebar .sidebar-list a:hover,
   margin-top: 80px;
   margin-bottom: 50px;
   background: #550b00;
-  left: -200px;
+  left: -210px;
 }
 .navmenu .opened {
   left: 0px;
@@ -1439,11 +1472,11 @@ and open the template in the editor.
 }
 .captionimageblock {
   width: 200px;
+  height: 200px;
   display: block;
   background-size: 100% auto;
   background-repeat: no-repeat;
   margin: 0 16px 20px 0;
-  height: 200px;
   float: left;
 }
 @media (max-width: 600px) {
@@ -1650,7 +1683,7 @@ and open the template in the editor.
 }
 .navmenu,
 .navbar-offcanvas {
-  width: 210px;
+  width: 220px;
   height: auto;
   border-style: solid;
   border-width: 1px;

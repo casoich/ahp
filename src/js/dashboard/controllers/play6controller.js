@@ -3,14 +3,14 @@ var play6controller= function($scope) {
     $scope.playinfo={
         title:"Fox on the Fairway",
         isMusical:false,
-        date:"",
-        writtenby : "",
-        directedby : "",
+        date:"7:30 Thur & Fri Sept 10, 11, 17, 18<br/>5:00 & 8:30 Sat Sept 12, 19<br/>2:00 Sept 13",
+        writtenby : "Written by Ken Ludwig",
+        directedby : "Directed by Ron Ferrara",
         headline:"",
-        subhead:"The sixth show at Apple Hill is set somewhere, featuring people.",
+        subhead:"",
         stylesheet:"/panes/styleinsert-default.html",
         backpic:"",
-        insetpic:"",
+        insetpic:"/img/foxonthefairway.jpg",
         infoblurb:"/panes/play6infoblurb.html",
         castlist:[
 //            {
