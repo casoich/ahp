@@ -168,6 +168,7 @@ body {
         border-radius: 4px;
         border-color:@panelbackground;
         border-bottom-width: 0px;
+        cursor:pointer;
     }
     .panel-dateblock{
         padding:0.5em;
@@ -186,6 +187,33 @@ body {
         color:#333;
     }
 }
+
+
+
+.panel.gala-panel {
+    background-color:#002c9b;
+    background-image:url('../../img/gala-back.jpg');
+    background-size:cover;
+    color:white;
+    .panel-heading {
+        background-color:transparent;
+        color:white;
+    }
+    .panel-title{
+        color:white;
+        font-size:1.5em;
+        font-style:normal;
+        font-family:"Milonga";
+    }
+    .panel-dateblock {
+        background-color:rgba(0,0,0,.65);
+        font-size:1.15em;
+        color:#fff;
+    }
+}
+
+
+
 .panel-heading.musical-panel {
     background-color:rgba(0,0,0,0);
     color:#fff;
@@ -217,4 +245,13 @@ body {
 }
 .panel-as-background {
     background-color: lighten(@panelbackground,10%);
+}
+.JACTicon {
+    background-image: url('../../img/johnny-appleseed-trans.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    display:inline-block;
+    vertical-align: middle;
+    width:32px;
+    height:32px;
 }

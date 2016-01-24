@@ -1,16 +1,16 @@
 var JACT1controller= function($scope) {
     
     $scope.playinfo={
-        title:"Invisible Dragon",
+        title:"The Invisible Dragon",
         isMusical:false,
-        date:"",
-        writtenby : "",
-        directedby : "",
+        date:"June 16, 18, 20; <br/>23, 25, 26, at 11:00am",
+        writtenby : "Written by Patricia Clapp",
+        directedby : "Directed by Clare Ratway",
         headline:"",
         subhead:"",
         stylesheet:"/panes/styleinsert-default.html",
         backpic:"",
-        insetpic:"img/blank.gif",
+        insetpic:"img/Dragon.png",
         infoblurb:"/panes/JACT1infoblurb.html",
         castlist:[
 //            {

@@ -13,17 +13,57 @@ var play1controller= function($scope) {
         insetpic:"img/WorldGoesRoundMedium.jpg",
         infoblurb:"/panes/play1infoblurb.html",
         castlist:[
-//            {
-//                name:"Thom Person", role:"Director",
-//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
-//                biopath:"./bios/thom-mclaughlan.html"
-//            },
-//            {
-//                name:"Someother Person", role:"star",
-//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
-//                biopath:"./bios/thom-mclaughlan.html"
-//            }
-//
+            {
+                name:"Denise Pullen", role:"Director",
+                photopath:"./bios/denise-pullen.jpg",
+                biopath:"./bios/denise-pullen.html"
+            },
+            {
+                name:"Michael Rozell", role:"Musical Director",
+                photopath:"./bios/michael-rozell.jpg",
+                biopath:"./bios/michael-rozell.html"
+            },
+            {
+                name:"Nicole Makos", role:"Stage Manager",
+                photopath:"./bios/nikki-makos.jpg",
+                biopath:"./bios/nikki-makos.html"
+            },
+            {
+                name:"Johnny Gallagher", role:"",
+                photopath:"./bios/johnny-gallagher.jpg",
+                biopath:"./bios/johnny-gallagher.html"
+            },
+            {
+                name:"Keri Lucey", role:"",
+                photopath:"./bios/keri-lucey.jpg",
+                biopath:"./bios/keri-lucey.html"
+            },
+            {
+                name:"Lauren McCurdy", role:"",
+                photopath:"./bios/lauren-mccurdy.jpg",
+                biopath:"./bios/lauren-mccurdy.html"
+            },
+            {
+                name:"Patrick J. McMahon", role:"",
+                photopath:"./bios/pj-mcmahon.jpg",
+                biopath:"./bios/pj-mcmahon.html"
+            },
+            {
+                name:"Jamie Pasquinelli", role:"",
+                photopath:"./bios/jamie-pasquinelli.jpg",
+                biopath:"./bios/jamie-pasquinelli.html"
+            },
+            {
+                name:"Surya Ravindran", role:"",
+                photopath:"./bios/surya-ravindran.jpg",
+                biopath:"./bios/surya-ravindran.html"
+            },
+            {
+                name:"Kelsey Riker", role:"",
+                photopath:"./bios/kelsey-riker.jpg",
+                biopath:"./bios/kelsey-riker.html"
+            },
+
         ]
     }  ;     
 };

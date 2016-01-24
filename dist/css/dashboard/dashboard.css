@@ -172,6 +172,7 @@ body {
   border-radius: 4px;
   border-color: #dcd9b2;
   border-bottom-width: 0px;
+  cursor: pointer;
 }
 .panel .panel-dateblock {
   padding: 0.5em;
@@ -187,6 +188,27 @@ body {
   font-size: .8em;
   font-weight: normal;
   color: #333;
+}
+.panel.gala-panel {
+  background-color: #002c9b;
+  background-image: url('../../img/gala-back.jpg');
+  background-size: cover;
+  color: white;
+}
+.panel.gala-panel .panel-heading {
+  background-color: transparent;
+  color: white;
+}
+.panel.gala-panel .panel-title {
+  color: white;
+  font-size: 1.5em;
+  font-style: normal;
+  font-family: "Milonga";
+}
+.panel.gala-panel .panel-dateblock {
+  background-color: rgba(0, 0, 0, 0.65);
+  font-size: 1.15em;
+  color: #fff;
 }
 .panel-heading.musical-panel {
   background-color: rgba(0, 0, 0, 0);
@@ -220,6 +242,15 @@ body {
 }
 .panel-as-background {
   background-color: #ecead5;
+}
+.JACTicon {
+  background-image: url('../../img/johnny-appleseed-trans.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: inline-block;
+  vertical-align: middle;
+  width: 32px;
+  height: 32px;
 }
 .loading {
   width: 40px;
@@ -1495,6 +1526,7 @@ and open the template in the editor.
   width: 200px;
   height: 200px;
   float: left;
+  margin: 6px;
 }
 .blurbimg .collapsed {
   width: 39px;
@@ -1502,6 +1534,7 @@ and open the template in the editor.
 }
 .cast-accordion .accordion-toggle {
   display: block;
+  text-decoration: none;
 }
 .cast-accordion .accordion-heading {
   cursor: pointer ;
@@ -1513,8 +1546,24 @@ and open the template in the editor.
   padding: 0.0em 0px;
   padding-bottom: 0px;
 }
+.cast-accordion .panel .accordion-toggle {
+  cursor: pointer;
+  text-decoration: none;
+}
+.cast-accordion .panel .accordion-toggle :hover {
+  text-decoration: none;
+}
+.cast-accordion .panel .accordion-toggle a {
+  text-decoration: none;
+}
+.cast-accordion .panel .accordion-toggle a :hover {
+  text-decoration: none;
+}
+.cast-accordion .panel .panel-castheader {
+  border-radius: 30px;
+}
 .cast-accordion .panel-title {
-  padding: .25em;
+  /*padding:.25em;*/
 }
 /* Hamburg Menu */
 @media only screen and (max-width: 560px) {

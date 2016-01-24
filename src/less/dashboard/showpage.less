@@ -61,6 +61,7 @@ and open the template in the editor.
     width:200px;
     height:200px;
     float:left;
+    margin:6px;
     .collapsed {
         width:39px;
         height:39px;
@@ -69,6 +70,7 @@ and open the template in the editor.
 .cast-accordion {
     .accordion-toggle { 
         display: block;
+        text-decoration:none;
     }
     .accordion-heading {
         cursor: pointer ;
@@ -81,11 +83,32 @@ and open the template in the editor.
     box-shadow: none;
         padding:0.0em 0px;
         padding-bottom: 0px;
+   .accordion-toggle {
+    cursor:pointer;
+    text-decoration: none;
+            :hover {
+            text-decoration:none;
+        }
+
+    a {
+        text-decoration:none;
+        :hover {
+            text-decoration:none;
+        }
+    }
+    
+    
+}
+    .panel-castheader {
+        border-radius: 30px;
+        
+    }
+
 
     }
     .panel-title {
 
-        padding:.25em;
+        /*padding:.25em;*/
 }
 
 }

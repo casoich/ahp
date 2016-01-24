@@ -13,16 +13,36 @@ var play2controller= function($scope) {
         insetpic:"/img/butterfliesarefree.jpg",
         infoblurb:"/panes/play2infoblurb.html",
         castlist:[
-//            {
-//                name:"Thom Person", role:"Director",
-//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
-//                biopath:"./bios/thom-mclaughlan.html"
-//            },
-//            {
-//                name:"Someother Person", role:"star",
-//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
-//                biopath:"./bios/thom-mclaughlan.html"
-//            }
+            {
+                name:"Karin Maresh", role:"Director",
+                photopath:"./bios/karin-maresh.jpg",
+                biopath:"./bios/karin-maresh.html"
+            },
+            {
+                name:"D.J. Stevenson", role:"Stage Manager",
+                photopath:"./bios/missing-female.jpg",
+                biopath:"./bios/deborah-stephenson.html"
+            },
+            {
+                name:"Matt Henderson", role:"Don Baker",
+                photopath:"./bios/matt-henderson.jpg",
+                biopath:"./bios/matt-henderson.html"
+            },
+            {
+                name:"Klase Danko", role:"Jill Tanner",
+                photopath:"./bios/klase-danko.jpg",
+                biopath:"./bios/klase-danko.html"
+            },
+            {
+                name:"Terri Bowser", role:"Mrs. Baker",
+                photopath:"./bios/terri-bowser.jpg",
+                biopath:"./bios/terri-bowser.html"
+            },
+            {
+                name:"Craig Soich", role:"Ralph Austin",
+                photopath:"./bios/craig-soich.jpg",
+                biopath:"./bios/craig-soich.html"
+            },
 
         ]
     }  ;     

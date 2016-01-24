@@ -68,6 +68,10 @@ function MasterCtrl($scope, $http) {
     $scope.play5blurb="/panes/playblurb5.html";
     $scope.play6blurb="/panes/playblurb6.html";
     $scope.play7blurb="/panes/playblurb7.html";
+    $scope.JACT1blurb="/panes/JACTblurb1.html";
+    $scope.JACT2blurb="/panes/JACTblurb2.html";
+    $scope.JACT3blurb="/panes/JACTblurb3.html";
+
     $scope.mainblurbpane="/panes/mainblurb.html";
     $scope.auditionsblurb="/panes/auditionsblurb.html";
     $scope.aboutahp="/panes/aboutahp.html";

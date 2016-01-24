@@ -63,17 +63,57 @@ var play1controller= function($scope) {
         insetpic:"img/WorldGoesRoundMedium.jpg",
         infoblurb:"/panes/play1infoblurb.html",
         castlist:[
-//            {
-//                name:"Thom Person", role:"Director",
-//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
-//                biopath:"./bios/thom-mclaughlan.html"
-//            },
-//            {
-//                name:"Someother Person", role:"star",
-//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
-//                biopath:"./bios/thom-mclaughlan.html"
-//            }
-//
+            {
+                name:"Denise Pullen", role:"Director",
+                photopath:"./bios/denise-pullen.jpg",
+                biopath:"./bios/denise-pullen.html"
+            },
+            {
+                name:"Michael Rozell", role:"Musical Director",
+                photopath:"./bios/michael-rozell.jpg",
+                biopath:"./bios/michael-rozell.html"
+            },
+            {
+                name:"Nicole Makos", role:"Stage Manager",
+                photopath:"./bios/nikki-makos.jpg",
+                biopath:"./bios/nikki-makos.html"
+            },
+            {
+                name:"Johnny Gallagher", role:"",
+                photopath:"./bios/johnny-gallagher.jpg",
+                biopath:"./bios/johnny-gallagher.html"
+            },
+            {
+                name:"Keri Lucey", role:"",
+                photopath:"./bios/keri-lucey.jpg",
+                biopath:"./bios/keri-lucey.html"
+            },
+            {
+                name:"Lauren McCurdy", role:"",
+                photopath:"./bios/lauren-mccurdy.jpg",
+                biopath:"./bios/lauren-mccurdy.html"
+            },
+            {
+                name:"Patrick J. McMahon", role:"",
+                photopath:"./bios/pj-mcmahon.jpg",
+                biopath:"./bios/pj-mcmahon.html"
+            },
+            {
+                name:"Jamie Pasquinelli", role:"",
+                photopath:"./bios/jamie-pasquinelli.jpg",
+                biopath:"./bios/jamie-pasquinelli.html"
+            },
+            {
+                name:"Surya Ravindran", role:"",
+                photopath:"./bios/surya-ravindran.jpg",
+                biopath:"./bios/surya-ravindran.html"
+            },
+            {
+                name:"Kelsey Riker", role:"",
+                photopath:"./bios/kelsey-riker.jpg",
+                biopath:"./bios/kelsey-riker.html"
+            },
+
         ]
     }  ;     
 };
@@ -93,16 +133,36 @@ var play2controller= function($scope) {
         insetpic:"/img/butterfliesarefree.jpg",
         infoblurb:"/panes/play2infoblurb.html",
         castlist:[
-//            {
-//                name:"Thom Person", role:"Director",
-//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
-//                biopath:"./bios/thom-mclaughlan.html"
-//            },
-//            {
-//                name:"Someother Person", role:"star",
-//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
-//                biopath:"./bios/thom-mclaughlan.html"
-//            }
+            {
+                name:"Karin Maresh", role:"Director",
+                photopath:"./bios/karin-maresh.jpg",
+                biopath:"./bios/karin-maresh.html"
+            },
+            {
+                name:"D.J. Stevenson", role:"Stage Manager",
+                photopath:"./bios/missing-female.jpg",
+                biopath:"./bios/deborah-stephenson.html"
+            },
+            {
+                name:"Matt Henderson", role:"Don Baker",
+                photopath:"./bios/matt-henderson.jpg",
+                biopath:"./bios/matt-henderson.html"
+            },
+            {
+                name:"Klase Danko", role:"Jill Tanner",
+                photopath:"./bios/klase-danko.jpg",
+                biopath:"./bios/klase-danko.html"
+            },
+            {
+                name:"Terri Bowser", role:"Mrs. Baker",
+                photopath:"./bios/terri-bowser.jpg",
+                biopath:"./bios/terri-bowser.html"
+            },
+            {
+                name:"Craig Soich", role:"Ralph Austin",
+                photopath:"./bios/craig-soich.jpg",
+                biopath:"./bios/craig-soich.html"
+            },
 
         ]
     }  ;     
@@ -113,7 +173,7 @@ var play3controller= function($scope) {
     $scope.playinfo={
         title:"Funny Money",
         isMusical:false,
-        date:"7:30  Thur & Fri June 18, 19; 25, 26<br/>5:00 Sat June 20, 27<br/>2:00 June 21",
+        date:"7:30  Thur & Fri June 18, 19; 25, 26<br/>5:00 and 8:30 Sat June 20, 27<br/>2:00 June 21",
         writtenby : "Written by Ray Cooney",
         directedby : "Directed by Matthew Mylnarski",
         headline:"",
@@ -123,16 +183,51 @@ var play3controller= function($scope) {
         insetpic:"/img/funnymoney.png",
         infoblurb:"/panes/play3infoblurb.html",
         castlist:[
-//            {
-//                name:"Thom Person", role:"Director",
-//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
-//                biopath:"./bios/thom-mclaughlan.html"
-//            },
-//            {
-//                name:"Someother Person", role:"star",
-//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
-//                biopath:"./bios/thom-mclaughlan.html"
-//            }
+            {
+                name:"Matthew R. Mlynarski", role:"Director",
+                photopath:"./bios/matt-mlynarski.jpg",
+                biopath:"./bios/matt-mlynarski.html"
+            },
+            {
+                name:"Susan Szymanowski Shirey", role:"Stage Manager",
+                photopath:"./bios/sue-shirey.jpg",
+                biopath:"./bios/sue-shirey.html"
+            },
+            {
+                name:"Mike Crosby", role:"Henry Perkins",
+                photopath:"./bios/mike-crosby.jpg",
+                biopath:"./bios/mike-crosby.html"
+            },
+            {
+                name:"Briana Downs", role:"Jean Perkins",
+                photopath:"./bios/briana-downs.jpg",
+                biopath:"./bios/briana-downs.html"
+            },
+            {
+                name:"T.J. Swigart", role:"Vic Johnson",
+                photopath:"./bios/tj-swigart.jpg",
+                biopath:"./bios/tj-swigart.html"
+            },
+            {
+                name:"Rachel Nicely", role:"Betty Johnson",
+                photopath:"./bios/rachel-nicely.jpg",
+                biopath:"./bios/rachel-nicely.html"
+            },
+            {
+                name:"Alex Novickoff", role:"Bill",
+                photopath:"./bios/alex-novickoff.jpg",
+                biopath:"./bios/alex-novickoff.html"
+            },
+            {
+                name:"Stephen Toth", role:"Davenport",
+                photopath:"./bios/stephen-toth.jpg",
+                biopath:"./bios/stephen-toth.html"
+            },
+            {
+                name:"Frankie Shoup", role:"Slater",
+                photopath:"./bios/frankie-shoup.jpg",
+                biopath:"./bios/frankie-shoup.html"
+            }
 
         ]
     }  ;     
@@ -143,7 +238,7 @@ var play4controller= function($scope) {
     $scope.playinfo={
         title:"It Could Be Any One Of Us",
         isMusical:false,
-        date:"7:30 Thur & Fri July 30, 31, Aug 6, 7<br/>5:00 & 8:30 Sat Aug 1, 8<br/>2:00 Sun Aug 2",
+        date:"7:30 Thur & Fri July 30, 31, Aug 6, 7<br/>7:30 Sat Aug 1, 8<br/>2:00 Sun Aug 2",
         writtenby : "Written by Alan Ayckbourn",
         directedby : "Directed by Wayne Brinda",
         headline:"",
@@ -153,16 +248,46 @@ var play4controller= function($scope) {
         insetpic:"/img/couldbe.jpg",
         infoblurb:"/panes/play4infoblurb.html",
         castlist:[
-//            {
-//                name:"Thom Person", role:"Director",
-//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
-//                biopath:"./bios/thom-mclaughlan.html"
-//            },
-//            {
-//                name:"Someother Person", role:"star",
-//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
-//                biopath:"./bios/thom-mclaughlan.html"
-//            }
+            {
+                name:"Wayne Brinda", role:"Director",
+                photopath:"./bios/wayne-brinda.jpg",
+                biopath:"./bios/wayne-brinda.html"
+            },
+            {
+                name:"Katelynn Reist", role:"Stage Manager",
+                photopath:"./bios/katelynn-reist.jpg",
+                biopath:"./bios/katelynn-reist.html"
+            },
+            {
+                name:"Rick Dutrow", role:"Mortimer Chalke",
+                photopath:"./bios/rick-dutrow-2.jpg",
+                biopath:"./bios/rick-dutrow.html"
+            },
+            {
+                name:"Terri Bowser", role:"Jocelyn Polegate",
+                photopath:"./bios/terri-bowser.jpg",
+                biopath:"./bios/terri-bowser-icbaoou.html"
+            },
+            {
+                name:"Matt Henderson", role:"Brinton Chalke",
+                photopath:"./bios/matt-henderson.jpg",
+                biopath:"./bios/matt-henderson-icbaoou.html"
+            },
+            {
+                name:"Angie Lavelle", role:"Amy Polegate",
+                photopath:"./bios/angie-lavelle.jpg",
+                biopath:"./bios/angie-lavelle.html"
+            },
+            {
+                name:"Craig Soich", role:"Norris Honeywell",
+                photopath:"./bios/craig-soich.jpg",
+                biopath:"./bios/craig-soich-icbaoou.html"
+            },
+            {
+                name:"Pamela Lee", role:"Wendy Windwood",
+                photopath:"./bios/pamela-lee.jpg",
+                biopath:"./bios/pamela-lee.html"
+            }
 
         ]
     }  ;     
@@ -173,7 +298,7 @@ var play5controller= function($scope) {
     $scope.playinfo={
         title:"Be My Baby",
         isMusical:false,
-        date:"7:30 Thur & Fri  Aug 20, 21, 27, 28<br/>5:00 & 8:30 Sat Aug 22, 29<br/>2:00 Sun Aug 23",
+        date:"7:30 Thur & Fri  Aug 20, 21, 27, 28<br/>7:30 Sat Aug 22, 29<br/>2:00 Sun Aug 23",
         writtenby : "Written by Ken Ludwig",
         directedby : "Directed by Thom McLaughlin",
         headline:"",
@@ -183,16 +308,48 @@ var play5controller= function($scope) {
         insetpic:"/img/Be-My-Baby.jpg",
         infoblurb:"/panes/play5infoblurb.html",
         castlist:[
-//            {
-//                name:"Thom Person", role:"Director",
-//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
-//                biopath:"./bios/thom-mclaughlan.html"
-//            },
-//            {
-//                name:"Someother Person", role:"star",
-//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
-//                biopath:"./bios/thom-mclaughlan.html"
-//            }
+            {
+                name:"Thom McLaughlin", role:"Director",
+                photopath:"./bios/thom-mclaughlin.jpg",
+                biopath:"./bios/thom-mclaughlin-bmb.html"
+            },
+            {
+                name:"Mike Marra", role:"Stage Manager",
+                photopath:"./bios/mike-marra.jpg",
+                biopath:"./bios/mike-marra.html"
+            },
+            {
+                name:"Madison Nick", role:"Gloria Nance",
+                photopath:"./bios/maddie-nick.jpg",
+//                photopath:"./bios/missing-female.jpg",
+                biopath:"./bios/maddie-nick.html"
+            },
+            {
+                name:"Shirley Ratner", role:"Maud Kinch",
+                photopath:"./bios/shirley-ratner.jpg",
+                biopath:"./bios/shirley-ratner.html"
+            },
+            {
+                name:"D Palyo", role:"Christy McCall",
+                photopath:"./bios/d-palyo.jpg",
+//                photopath:"./bios/missing-male.jpg",
+                biopath:"./bios/d-palyo.html"
+            },
+            {
+                name:"Dennis \"Chip\" Kerr", role:"John Campbell",
+                photopath:"./bios/dennis-kerr.jpg",
+                biopath:"./bios/dennis-kerr.html"
+            },
+            {
+                name:"Matt Mlynarski", role:"Male Ensemble",
+                photopath:"./bios/matt-mlynarski.jpg",
+                biopath:"./bios/matt-mlynarski-bmb.html"
+            },
+            {
+                name:"Karin Maresh", role:"Female Ensemble",
+                photopath:"./bios/karin-maresh.jpg",
+                biopath:"./bios/karin-maresh-bmb.html"
+            },
 
         ]
     }  ;     
@@ -203,7 +360,7 @@ var play6controller= function($scope) {
     $scope.playinfo={
         title:"Fox on the Fairway",
         isMusical:false,
-        date:"7:30 Thur & Fri Sept 10, 11, 17, 18<br/>5:00 & 8:30 Sat Sept 12, 19<br/>2:00 Sept 13",
+        date:"7:30 Thur & Fri Sept 10, 11, 17, 18<br/>7:30 Sat Sept 12, 19<br/>2:00 Sept 13",
         writtenby : "Written by Ken Ludwig",
         directedby : "Directed by Ron Ferrara",
         headline:"",
@@ -213,16 +370,46 @@ var play6controller= function($scope) {
         insetpic:"/img/foxonthefairway.jpg",
         infoblurb:"/panes/play6infoblurb.html",
         castlist:[
-//            {
-//                name:"Thom Person", role:"Director",
-//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
-//                biopath:"./bios/thom-mclaughlan.html"
-//            },
-//            {
-//                name:"Someother Person", role:"star",
-//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
-//                biopath:"./bios/thom-mclaughlan.html"
-//            }
+            {
+                name:"Ron Ferrara", role:"Director",
+                photopath:"./bios/ron-ferrara.jpg",
+                biopath:"./bios/ron-ferrara.html"
+            },
+            {
+                name:"Susan Szymanowski Shirey", role:"Stage Manager",
+                photopath:"./bios/sue-shirey.jpg",
+                biopath:"./bios/sue-shirey-fotf.html"
+            },
+            {
+                name:"Mike Crosby", role:"Justin",
+                photopath:"./bios/mike-crosby.jpg",
+                biopath:"./bios/mike-crosby-fotf.html"
+            },
+            {
+                name:"Klase Danko", role:"Louise",
+                photopath:"./bios/klase-danko.jpg",
+                biopath:"./bios/klase-danko-fotf.html"
+            },
+            {
+                name:"Rick Dutrow", role:"Bingham",
+                photopath:"./bios/rick-dutrow-fotf.jpg",
+                biopath:"./bios/rick-dutrow-fotf.html"
+            },
+            {
+                name:"Pam Farneth", role:"Pamela",
+                photopath:"./bios/pam-farneth.jpg",
+                biopath:"./bios/pam-farneth.html"
+            },
+            {
+                name:"Dave Hoffman", role:"Dickie",
+                photopath:"./bios/dave-hoffman.jpg",
+                biopath:"./bios/dave-hoffman.html"
+            },
+            {
+                name:"Kristin Lenz", role:"Muriel",
+                photopath:"./bios/kristin-lenz.jpg",
+                biopath:"./bios/kristin-lenz.html"
+            }
 
         ]
     }  ;     
@@ -233,31 +420,41 @@ var play7controller= function($scope) {
     $scope.playinfo={
         title:"The Outgoing Tide",
         isMusical:false,
-        date:"7:30 Thur & Fri Oct 1, 2, 8, 9<br/>5:00 & 8:30 Sat Oct 3, 10<br/>2:00 Sun Oct 4",
+        date:"7:30 Thur & Fri Oct 1, 2, 8, 9<br/>7:30 Sat Oct 3, 10<br/>2:00 Sun Oct 4",
         writtenby : "Written by Bruce Graham",
         directedby : "",
         headline:"",
         subhead:"",
         stylesheet:"/panes/styleinsert-outgoing.html",
-        backpic:"/img/Canoe-Sunset.jpg",
+        backpic:"/img/OutgoingTide1.jpg",
         insetpic:"/img/blank.gif",
         infoblurb:"/panes/play7infoblurb.html",
         castlist:[
-//            {
-//                name:"Thom Person", role:"Director",
-//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
-//                biopath:"./bios/thom-mclaughlan.html"
-//            },
-//            {
-//                name:"Someother Person", role:"star",
-//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
-//                biopath:"./bios/thom-mclaughlan.html"
-//            },
-//            {
-//                name:"Someother Person", role:"star",
-//                photopath:"./bios/thom-mclaughlan-thumb.jpg",
-//                biopath:"./bios/thom-mclaughlan.html"
-//            }
+            {
+                name:"Thom McLaughlin", role:"Director",
+                photopath:"./bios/thom-mclaughlin.jpg",
+                biopath:"./bios/thom-mclaughlin-tot.html"
+            },
+            {
+                name:"Stephanie Swift-Antill", role:"Stage Manager",
+                photopath:"./bios/stephanie-swift-antill.jpg",
+                biopath:"./bios/stephanie-swift-antill.html"
+            },
+            {
+                name:"Dennis \"Chip\" Kerr", role:"Gunner",
+                photopath:"./bios/dennis-kerr.jpg",
+                biopath:"./bios/dennis-kerr-tot.html"
+            },
+            {
+                name:"Pat Beyer", role:"Peg",
+                photopath:"./bios/pat-beyer-tot.jpg",
+                biopath:"./bios/pat-beyer-tot.html"
+            },
+            {
+                name:"Rick Dutrow", role:"Jack",
+                photopath:"./bios/rick-dutrow-2.jpg",
+                biopath:"./bios/rick-dutrow-tot.html"
+            }
 
         ]
     }  ;     
@@ -266,16 +463,16 @@ var play7controller= function($scope) {
 var JACT1controller= function($scope) {
     
     $scope.playinfo={
-        title:"Invisible Dragon",
+        title:"The Invisible Dragon",
         isMusical:false,
-        date:"",
-        writtenby : "",
-        directedby : "",
+        date:"June 16, 18, 20; <br/>23, 25, 26, at 11:00am",
+        writtenby : "Written by Patricia Clapp",
+        directedby : "Directed by Clare Ratway",
         headline:"",
         subhead:"",
         stylesheet:"/panes/styleinsert-default.html",
         backpic:"",
-        insetpic:"img/blank.gif",
+        insetpic:"img/Dragon.png",
         infoblurb:"/panes/JACT1infoblurb.html",
         castlist:[
 //            {
@@ -296,16 +493,16 @@ var JACT1controller= function($scope) {
 var JACT2controller= function($scope) {
     
     $scope.playinfo={
-        title:"Snow White",
-        isMusical:false,
-        date:"",
-        writtenby : "",
-        directedby : "",
+        title:"Snow White and the Seven Dwarfs",
+        isMusical:true,
+        date:"July 7, 9, 11; <br/>14, 16, 17, at 11:00am",
+        writtenby : "Written by Tim Kelly<br/>Music and Lyrics by Bill Francoeur",
+        directedby : "Directed by Joette Salandro",
         headline:"",
         subhead:"",
         stylesheet:"/panes/styleinsert-default.html",
         backpic:"",
-        insetpic:"img/blank.gif",
+        insetpic:"img/Dwarfs.png",
         infoblurb:"/panes/JACT2infoblurb.html",
         castlist:[
 //            {
@@ -326,17 +523,17 @@ var JACT2controller= function($scope) {
 var JACT3controller= function($scope) {
     
     $scope.playinfo={
-        title:"Emperor's New Clothes",
+        title:"The Emperor's New Clothes",
         isMusical:false,
-        date:"",
-        writtenby : "",
-        directedby : "",
+        date:"July 28, 30, August 1;<br/> 4, 6, 7, at 11:00am",
+        writtenby : "Written by Sharon A Cole",
+        directedby : "Directed by Clare Ratway",
         headline:"",
         subhead:"",
         stylesheet:"/panes/styleinsert-default.html",
         backpic:"",
-        insetpic:"img/blank.gif",
-        infoblurb:"",
+        insetpic:"img/Emperor.png",
+        infoblurb:"/panes/JACT3infoblurb.html",
         castlist:[
 //            {
 //                name:"Thom Person", role:"Director",
@@ -463,6 +660,10 @@ function MasterCtrl($scope, $http) {
     $scope.play5blurb="/panes/playblurb5.html";
     $scope.play6blurb="/panes/playblurb6.html";
     $scope.play7blurb="/panes/playblurb7.html";
+    $scope.JACT1blurb="/panes/JACTblurb1.html";
+    $scope.JACT2blurb="/panes/JACTblurb2.html";
+    $scope.JACT3blurb="/panes/JACTblurb3.html";
+
     $scope.mainblurbpane="/panes/mainblurb.html";
     $scope.auditionsblurb="/panes/auditionsblurb.html";
     $scope.aboutahp="/panes/aboutahp.html";
