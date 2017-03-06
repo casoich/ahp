@@ -1,0 +1,16 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">
+        {{thisBlurb.title}}
+        <div class='panel-dateblock' ng-bind-html="thisBlurb.date | unsafe">...</div>
+    </div>
+    <div class="panel-body">
+        <div class="body">
+            <div ng-include="thisBlurb.infoblurb">Blurb here...</div>
+        </div>
+    </div>
+    <ul class="readmore">
+        <li>
+            <a href="javascript:" ng-href="{{thisBlurb.path}}" class="">More info...</a>
+        </li>
+    </ul>
+</div>

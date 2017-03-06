@@ -1,0 +1,30 @@
+<div class="col-xs-12">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            
+            <h3 class="panel-title"><span class="panel-title" ng-show="showBetween('2016-08-08','2016-08-17')">Up next: </span>The Cemetery Club</h3>
+            <h4 class="pull-right" ng-show="showBetween('2016-08-08','2016-08-28')">
+7:30 Aug 18, 19, 20; 25, 26, 27<br/>
+2:00 Aug 21                 
+                    </h4>
+        </div>
+        <div class="panel-body" ng-show="showBetween('2016-08-08','2016-08-28')">
+            <div class="row">
+                <div class="col-xs-12 col-sm-3">
+                    <img src="../img/cemeteryclub.jpg" alt="" style="width:100%; height:100%;"/>
+                </div>
+                <div class="col-xs-12 col-sm-9">
+                    <div class="bg-success lead" ng-show="showBetween('2016-08-08','2016-08-17')">Coming Soon!</div>
+                    <div class="bg-success lead" ng-show="showBetween('2016-08-18','2016-08-28')">Now Showing!</div>
+                    <div class='' ng-include="'./panes/2016/cemeteryclubblurb.html'">
+                    </div>
+                </div>
+            </div>
+        </div>
+            <ul class="readmore">
+        <li>
+            <a href="#" ng-href="#/2016/mainstage/cemeteryclub" class="">More info...</a>
+        </li>
+    </ul>
+    </div>
+</div>

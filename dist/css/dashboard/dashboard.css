@@ -635,6 +635,9 @@ ul.sidebar .sidebar-list a:hover,
 .navmenu-nav a:focus {
   background-color: #881100 !important;
 }
+.dropdown-menu > li > a {
+  white-space: initial;
+}
 .dropdown-menu {
   background-color: #550b00;
   font-style: italic;

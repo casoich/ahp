@@ -2,8 +2,8 @@
 <html lang="en" ng-app="Dashboard">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
+        <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <title>Apple Hill Playhouse</title>
 
         <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css"/>
@@ -22,12 +22,12 @@
         <script src="lib/angular-bootstrap/ui-bootstrap-tpls.js"></script>
         <script src="lib/angular-ui-router/angular-ui-router.js"></script>
         <script src="lib/angular-sanitize/angular-sanitize.js"></script>
-
+        <script src="lib/moment/min/moment.min.js"></script>
         <script src="js/dashboard.js"></script>
         <!-- SCRIPTS -->
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     </head>
-    <body ng-controller="MasterCtrl">
+    <body ng-controller="MasterCtrl as vm">
         <!-- Header Bar -->
         <div ng-include="headerpane"></div>
         <!-- End Header Bar -->
@@ -44,12 +44,12 @@
         <div id="page-wrapper" ng-class="{'active': toggle}" ng-cloak>
             <!--<div ng-include="navbarpath"></div>-->
             <div class="body-watermark"></div>
-            <div id="content-wrapper" class="container ">
+            <div id="content-wrapper" class=" " >
                 
                 <div class="page-content">
 
                     <!-- Main Content -->
-                    <div class="row">
+                    <div class="">
                         <section ng-view></section>
                     </div>
 

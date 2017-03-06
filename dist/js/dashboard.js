@@ -550,24 +550,571 @@ var JACT3controller= function($scope) {
     }  ;     
 };
 
-var yearstring = "2015";
+var foreigner2016Controller= function($scope) {
+    console.log("got controller:",this);
+    $scope.playinfo={
+        title:"The Foreigner",
+        path:"#/2016/mainstage/foreigner",
+        isMusical:false,
+        date:"7:30  May 26, 27, 28, June 2, 3, 4 <br/>2:00  Sun May 29",
+        writtenby : "Written by Larry Shue",
+        directedby : "Directed by F.J. Hartland",
+        headline:"",
+        subhead:"",
+        stylesheet:"/panes/styleinsert-default.html",
+//        backpic:"/img/Butterflies.png",
+        insetpic:"/img/foreigner.jpg",
+        infoblurb:"/panes/2016/foreignerblurb.html",
+        castlist:[
+//            {
+//                name:"Karin Maresh", role:"Director",
+//                photopath:"./bios/karin-maresh.jpg",
+//                biopath:"./bios/karin-maresh.html"
+//            },
+//            {
+//                name:"D.J. Stevenson", role:"Stage Manager",
+//                photopath:"./bios/missing-female.jpg",
+//                biopath:"./bios/deborah-stephenson.html"
+//            },
+//            {
+//                name:"Matt Henderson", role:"Don Baker",
+//                photopath:"./bios/matt-henderson.jpg",
+//                biopath:"./bios/matt-henderson.html"
+//            },
+//            {
+//                name:"Klase Danko", role:"Jill Tanner",
+//                photopath:"./bios/klase-danko.jpg",
+//                biopath:"./bios/klase-danko.html"
+//            },
+//            {
+//                name:"Terri Bowser", role:"Mrs. Baker",
+//                photopath:"./bios/terri-bowser.jpg",
+//                biopath:"./bios/terri-bowser.html"
+//            },
+//            {
+//                name:"Craig Soich", role:"Ralph Austin",
+//                photopath:"./bios/craig-soich.jpg",
+//                biopath:"./bios/craig-soich.html"
+//            }
+
+        ]
+    }  ;     
+};
+
+var sinsex2016Controller= function($scope) {
+    console.log("got controller:",this);
+    $scope.playinfo={
+        title:"Sin, Sex, and the C.I.A.",
+                path:"#/2016/mainstage/sinsex",
+
+        isMusical:false,
+        date:"7:30 June 16, 17, 18; 23, 24, 25   <br/>2:00  Sun June 19",
+        writtenby : "Written by Michael & Susan Parker   ",
+        directedby : "Directed by Ron Ferrara",
+        headline:"",
+        subhead:"",
+        stylesheet:"/panes/styleinsert-default.html",
+//        backpic:"/img/Butterflies.png",
+        insetpic:"/img/sinsex.jpg",
+        infoblurb:"/panes/2016/sinsexblurb.html",
+        castlist:[
+            {
+                name:"Ron Ferrara", role:"Director",
+                photopath:"./bios/ron-ferrara.jpg",
+                biopath:"./bios/ron-ferrara-sscia.html"
+            },
+            {
+                name:"Susan Szymanowski Shirey", role:"Stage Manager",
+                photopath:"./bios/sue-shirey.jpg",
+                biopath:"./bios/sue-shirey-sscia.html"
+            },
+            {
+                name:"Terri Bowser", role:"Margaret Johnson",
+                photopath:"./bios/terri-bowser.jpg",
+                biopath:"./bios/terri-bowser-sscia.html"
+            },
+            {
+                name:"Mike Crosby", role:"Luke James",
+                photopath:"./bios/mike-crosby.jpg",
+                biopath:"./bios/mike-crosby-sscia.html"
+            },
+            {
+                name:"Rick Dutrow", role:"Daniel Warren",
+                photopath:"./bios/rick-dutrow.jpg",
+                biopath:"./bios/rick-dutrow-sscia.html"
+            },
+            {
+                name:"Andrew Nesky", role:"Rev. Samuel Abernathy",
+                photopath:"./bios/andy-nesky.jpg",
+                biopath:"./bios/andy-nesky-sscia.html"
+            },
+            {
+                name:"Rachel Nicely", role:"Heather Ann Faraday",
+                photopath:"./bios/rachel-nicely.jpg",
+                biopath:"./bios/rachel-nicely-sscia.html"
+            },
+            {
+                name:"Stephan Ie Swift", role:"Ranger Don",
+                photopath:"./bios/stephanie-swift-antill.jpg",
+                biopath:"./bios/stephanie-swift-sscia.html"
+            },
+            {
+                name:"Angela Trovato", role:"Millicent",
+                photopath:"./bios/angela-trovato.jpg",
+                biopath:"./bios/angela-trovato-sscia.html"
+            }
+
+        ]
+    }  ;     
+};
+
+var cemeteryclub2016Controller= function($scope) {
+    console.log("got controller:",this);
+    $scope.playinfo={
+        title:"The Cemetery Club",
+                path:"#/2016/mainstage/cemeteryclub",
+
+        isMusical:false,
+        date:"7:30  Aug 18, 19, 20; 25, 26, 27<br/>2:00 Aug 21",
+        writtenby : "Written by Ivan Menchell",
+        directedby : "Directed by Matt Mlynarski",
+        headline:"",
+        subhead:"",
+        stylesheet:"/panes/styleinsert-default.html",
+//        backpic:"/img/Butterflies.png",
+        insetpic:"/img/cemeteryclub.jpg",
+        infoblurb:"/panes/2016/cemeteryclubblurb.html",
+        castlist:[
+//            {
+//                name:"Wayne Brinda", role:"Director",
+//                photopath:"./bios/wayne-brinda.jpg",
+//                biopath:"./bios/wayne-brinda.html"
+//            },
+//            {
+//                name:"D.J. Stevenson", role:"Stage Manager",
+//                photopath:"./bios/missing-female.jpg",
+//                biopath:"./bios/deborah-stephenson.html"
+//            },
+//            {
+//                name:"Shirley Ratner", role:"Fonsia Dorsey",
+//                photopath:"./bios/shirley-ratner.jpg",
+//                biopath:"./bios/shirley-ratner.html"
+//            },
+//            {
+//                name:"Dennis \"Chip\" Kerr", role:"Weller Martin",
+//                photopath:"./bios/dennis-kerr.jpg",
+//                biopath:"./bios/dennis-kerr.html"
+//            }
+        ]
+    }  ;     
+};
+
+var gingame2016Controller= function($scope) {
+    console.log("got controller:",this);
+    $scope.playinfo={
+        title:"The Gin Game",
+                path:"#/2016/mainstage/gingame",
+
+        isMusical:false,
+        date:"7:30  July 7, 8, 9; 14, 15, 16<br/>2:00  Sun July 10",
+        writtenby : "Written by D.L. Coburn",
+        directedby : "Directed by Wayne Brinda",
+        headline:"",
+        subhead:"",
+        stylesheet:"/panes/styleinsert-default.html",
+//        backpic:"/img/Butterflies.png",
+        insetpic:"/img/gingame.jpg",
+        infoblurb:"/panes/2016/gingameblurb.html",
+        castlist:[
+            {
+                name:"Wayne Brinda", role:"Director",
+                photopath:"./bios/wayne-brinda.jpg",
+                biopath:"./bios/wayne-brinda.html"
+            },
+//            {
+//                name:"D.J. Stevenson", role:"Stage Manager",
+//                photopath:"./bios/missing-female.jpg",
+//                biopath:"./bios/deborah-stephenson.html"
+//            },
+            {
+                name:"Shirley Ratner", role:"Fonsia Dorsey",
+                photopath:"./bios/shirley-ratner.jpg",
+                biopath:"./bios/shirley-ratner.html"
+            },
+            {
+                name:"Dennis \"Chip\" Kerr", role:"Weller Martin",
+                photopath:"./bios/dennis-kerr.jpg",
+                biopath:"./bios/dennis-kerr.html"
+            }
+        ]
+    }  ;     
+};
+
+var spitfire2016Controller= function($scope) {
+    console.log("got controller:",this);
+    $scope.playinfo={
+        title:"The Spitfire Grill",
+                path:"#/2016/mainstage/spitfire",
+
+        isMusical:true,
+        date:"7:30 July 28, 29, 30; Aug 4, 5, 6<br/>2:00  Sun July 31 2:00",
+        writtenby : "Music &amp; Book by James Valcq<br/>Lyrics and Book by Fred Alley<br/>Based on the film by Lee David Zlotoff",
+        directedby : "Directed by Thom McLaughlin and Aaron Gray",
+        headline:"",
+        subhead:"",
+        stylesheet:"/panes/styleinsert-default.html",
+//        backpic:"/img/Butterflies.png",
+        insetpic:"/img/spitfire.jpg",
+        infoblurb:"/panes/2016/spitfireblurb.html",
+        castlist:[
+//            {
+//                name:"Wayne Brinda", role:"Director",
+//                photopath:"./bios/wayne-brinda.jpg",
+//                biopath:"./bios/wayne-brinda.html"
+//            },
+//            {
+//                name:"D.J. Stevenson", role:"Stage Manager",
+//                photopath:"./bios/missing-female.jpg",
+//                biopath:"./bios/deborah-stephenson.html"
+//            },
+//            {
+//                name:"Shirley Ratner", role:"Fonsia Dorsey",
+//                photopath:"./bios/shirley-ratner.jpg",
+//                biopath:"./bios/shirley-ratner.html"
+//            },
+//            {
+//                name:"Dennis \"Chip\" Kerr", role:"Weller Martin",
+//                photopath:"./bios/dennis-kerr.jpg",
+//                biopath:"./bios/dennis-kerr.html"
+//            }
+        ]
+    }  ;     
+};
+
+var fatalmurder2016Controller= function($scope) {
+    console.log("got controller:",this);
+    $scope.playinfo={
+        title:"Death By Fatal Murder",
+                path:"#/2016/mainstage/fatalmurder",
+
+        isMusical:false,
+        date:"7:30  Sept 8, 9, 10; 15, 16, 17<br/>2:00 Sept 11",
+        writtenby : "Written by Peter Gordon",
+        directedby : "Directed by Rick Dutrow",
+        headline:"",
+        subhead:"",
+        stylesheet:"/panes/styleinsert-default.html",
+//        backpic:"/img/Butterflies.png",
+        insetpic:"/img/fatalmurder.jpg",
+        infoblurb:"/panes/2016/fatalmurderblurb.html",
+        castlist:[
+//            {
+//                name:"Wayne Brinda", role:"Director",
+//                photopath:"./bios/wayne-brinda.jpg",
+//                biopath:"./bios/wayne-brinda.html"
+//            },
+//            {
+//                name:"D.J. Stevenson", role:"Stage Manager",
+//                photopath:"./bios/missing-female.jpg",
+//                biopath:"./bios/deborah-stephenson.html"
+//            },
+//            {
+//                name:"Shirley Ratner", role:"Fonsia Dorsey",
+//                photopath:"./bios/shirley-ratner.jpg",
+//                biopath:"./bios/shirley-ratner.html"
+//            },
+//            {
+//                name:"Dennis \"Chip\" Kerr", role:"Weller Martin",
+//                photopath:"./bios/dennis-kerr.jpg",
+//                biopath:"./bios/dennis-kerr.html"
+//            }
+        ]
+    }  ;     
+};
+
+var violetsharp2016Controller= function($scope) {
+    console.log("got controller:",this);
+    $scope.playinfo={
+        title:"Violet Sharp",
+                path:"#/2016/mainstage/violetsharp",
+
+        isMusical:false,
+        date:"7:30  Sept 29, 30, Oct 1; 6, 7, 8  <br/>2:00 Oct 2",
+        writtenby : "Written by William Cameron",
+        directedby : "Directed by Karin Maresh",
+        headline:"",
+        subhead:"",
+        stylesheet:"/panes/styleinsert-default.html",
+//        backpic:"/img/Butterflies.png",
+        insetpic:"/img/violetsharp.jpg",
+        infoblurb:"/panes/2016/violetsharpblurb.html",
+        castlist:[
+//            {
+//                name:"Wayne Brinda", role:"Director",
+//                photopath:"./bios/wayne-brinda.jpg",
+//                biopath:"./bios/wayne-brinda.html"
+//            },
+//            {
+//                name:"D.J. Stevenson", role:"Stage Manager",
+//                photopath:"./bios/missing-female.jpg",
+//                biopath:"./bios/deborah-stephenson.html"
+//            },
+//            {
+//                name:"Shirley Ratner", role:"Fonsia Dorsey",
+//                photopath:"./bios/shirley-ratner.jpg",
+//                biopath:"./bios/shirley-ratner.html"
+//            },
+//            {
+//                name:"Dennis \"Chip\" Kerr", role:"Weller Martin",
+//                photopath:"./bios/dennis-kerr.jpg",
+//                biopath:"./bios/dennis-kerr.html"
+//            }
+        ]
+    }  ;     
+};
+
+var jact2016OhjackController= function($scope) {
+    console.log("got controller:",this);
+    $scope.playinfo={
+        title:"Oh, Jack!",
+        path:"#/2016/jact/ohjack",
+
+        isMusical:true,
+        date:"June 14, 16, 18, 21, 23, 24",
+        writtenby : "Book and music by Richard Kinter",
+        directedby : "Directed by: Tobi Sasso (Music Director: Joette Salandro)",
+        headline:"",
+        subhead:"",
+        stylesheet:"/panes/styleinsert-default.html",
+//        backpic:"/img/Butterflies.png",
+        insetpic:"/img/ohjack.jpg",
+        infoblurb:"/panes/2016/jact2016ohjack.html",
+        castlist:[
+//            {
+//                name:"Wayne Brinda", role:"Director",
+//                photopath:"./bios/wayne-brinda.jpg",
+//                biopath:"./bios/wayne-brinda.html"
+//            },
+//            {
+//                name:"D.J. Stevenson", role:"Stage Manager",
+//                photopath:"./bios/missing-female.jpg",
+//                biopath:"./bios/deborah-stephenson.html"
+//            },
+//            {
+//                name:"Shirley Ratner", role:"Fonsia Dorsey",
+//                photopath:"./bios/shirley-ratner.jpg",
+//                biopath:"./bios/shirley-ratner.html"
+//            },
+//            {
+//                name:"Dennis \"Chip\" Kerr", role:"Weller Martin",
+//                photopath:"./bios/dennis-kerr.jpg",
+//                biopath:"./bios/dennis-kerr.html"
+//            }
+        ]
+    }  ;     
+};
+var jact2016EnchantedController= function($scope) {
+    console.log("got controller:",this);
+    $scope.playinfo={
+        title:"The Enchanted Sleeping Beauty",
+        path:"#/2016/jact/enchanted",
+        isMusical:true,
+        date:"July 5, 7, 9; 12, 14, 15",
+        writtenby : "by Vera Morris and Bill Francoeur",
+        directedby : "Directed by: Joette Salandro",
+        headline:"",
+        subhead:"",
+        stylesheet:"/panes/styleinsert-default.html",
+//        backpic:"/img/Butterflies.png",
+        insetpic:"/img/enchanted_sleeping_beauty.jpg",
+        infoblurb:"/panes/2016/jact2016enchanted.html",
+        castlist:[
+//            {
+//                name:"Wayne Brinda", role:"Director",
+//                photopath:"./bios/wayne-brinda.jpg",
+//                biopath:"./bios/wayne-brinda.html"
+//            },
+//            {
+//                name:"D.J. Stevenson", role:"Stage Manager",
+//                photopath:"./bios/missing-female.jpg",
+//                biopath:"./bios/deborah-stephenson.html"
+//            },
+//            {
+//                name:"Shirley Ratner", role:"Fonsia Dorsey",
+//                photopath:"./bios/shirley-ratner.jpg",
+//                biopath:"./bios/shirley-ratner.html"
+//            },
+//            {
+//                name:"Dennis \"Chip\" Kerr", role:"Weller Martin",
+//                photopath:"./bios/dennis-kerr.jpg",
+//                biopath:"./bios/dennis-kerr.html"
+//            }
+        ]
+    }  ;     
+};
+var jact2016Looking_Glass_LandController= function($scope) {
+    console.log("got controller:",this);
+    $scope.playinfo={
+        title:"Looking Glass Land",
+        path:"#/2016/jact/lookingglass",
+        isMusical:false,
+        date:"July 26, 28, 30; AUGUST 2, 4, 5",
+        writtenby : "by James DeVita",
+        directedby : "Directed by: Becky Shirey",
+        headline:"",
+        subhead:"",
+        stylesheet:"/panes/styleinsert-default.html",
+//        backpic:"/img/Butterflies.png",
+        insetpic:"/img/looking_glass.jpg",
+        infoblurb:"/panes/2016/jact2016looking_glass_land.html",
+        castlist:[
+//            {
+//                name:"Wayne Brinda", role:"Director",
+//                photopath:"./bios/wayne-brinda.jpg",
+//                biopath:"./bios/wayne-brinda.html"
+//            },
+//            {
+//                name:"D.J. Stevenson", role:"Stage Manager",
+//                photopath:"./bios/missing-female.jpg",
+//                biopath:"./bios/deborah-stephenson.html"
+//            },
+//            {
+//                name:"Shirley Ratner", role:"Fonsia Dorsey",
+//                photopath:"./bios/shirley-ratner.jpg",
+//                biopath:"./bios/shirley-ratner.html"
+//            },
+//            {
+//                name:"Dennis \"Chip\" Kerr", role:"Weller Martin",
+//                photopath:"./bios/dennis-kerr.jpg",
+//                biopath:"./bios/dennis-kerr.html"
+//            }
+        ]
+    }  ;     
+};
+var sinatra2016Controller= function($scope) {
+    console.log("got controller:",this);
+    $scope.playinfo={
+        title:"Sinatra: A Centennial Celebration",
+                path:"#/2016/ss/sinatra",
+
+        isMusical:true,
+        date:"Friday, April 29 at 8:00 PM",
+        writtenby : "",
+        directedby : "",
+        headline:"",
+        subhead:"OPAC presents a very special FUNDRAISING event",
+        stylesheet:"/panes/styleinsert-ss.html",
+//        backpic:"/img/Butterflies.png",
+        insetpic:"/img/sinatra.png",
+        infoblurb:"/panes/2016/sinatrablurb.html",
+        castlist:[
+//            {
+//                name:"Wayne Brinda", role:"Director",
+//                photopath:"./bios/wayne-brinda.jpg",
+//                biopath:"./bios/wayne-brinda.html"
+//            },
+//            {
+//                name:"D.J. Stevenson", role:"Stage Manager",
+//                photopath:"./bios/missing-female.jpg",
+//                biopath:"./bios/deborah-stephenson.html"
+//            },
+//            {
+//                name:"Shirley Ratner", role:"Fonsia Dorsey",
+//                photopath:"./bios/shirley-ratner.jpg",
+//                biopath:"./bios/shirley-ratner.html"
+//            },
+//            {
+//                name:"Dennis \"Chip\" Kerr", role:"Weller Martin",
+//                photopath:"./bios/dennis-kerr.jpg",
+//                biopath:"./bios/dennis-kerr.html"
+//            }
+        ]
+    }  ;     
+};
+
+var carrie2016Controller= function($scope) {
+    console.log("got controller:",this);
+    $scope.playinfo={
+        title:"Carrie: The Musical",
+                path:"#/2016/ss/carrie",
+
+        isMusical:true,
+        date:"8:00 October 20, 21, 22; 27, 28, 29",
+        writtenby : "Book by Lawrence D. Cohen<br/>Lyrics by Dean Pitchford<br/>Music by Michael Gore",
+        directedby : "",
+        headline:"",
+        subhead:"",
+        stylesheet:"/panes/styleinsert-ss-carrie.html",
+//        backpic:"/img/Butterflies.png",
+        insetpic:"/img/Carrie_Logo.png",
+        infoblurb:"/panes/2016/carrieblurb.html",
+        castlist:[
+//            {
+//                name:"Wayne Brinda", role:"Director",
+//                photopath:"./bios/wayne-brinda.jpg",
+//                biopath:"./bios/wayne-brinda.html"
+//            },
+//            {
+//                name:"D.J. Stevenson", role:"Stage Manager",
+//                photopath:"./bios/missing-female.jpg",
+//                biopath:"./bios/deborah-stephenson.html"
+//            },
+//            {
+//                name:"Shirley Ratner", role:"Fonsia Dorsey",
+//                photopath:"./bios/shirley-ratner.jpg",
+//                biopath:"./bios/shirley-ratner.html"
+//            },
+//            {
+//                name:"Dennis \"Chip\" Kerr", role:"Weller Martin",
+//                photopath:"./bios/dennis-kerr.jpg",
+//                biopath:"./bios/dennis-kerr.html"
+//            }
+        ]
+    }  ;     
+};
+
+var patsycline2017Controller= function($scope) {
+    $scope.playinfo = $scope.fetchFromObject($scope.content,'showinfo.2017.patsycline2017') ;     
+};
+var mixedemotions2017Controller= function($scope) {
+    $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2017.mixedemotions2017');     
+};
+var seussical2017Controller= function($scope) {
+    $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2017.seussical2017');     
+};
+var rumors2017Controller= function($scope) {
+    $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2017.rumors2017');     
+};
+var dixie2017Controller= function($scope) {
+    $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2017.dixie2017');     
+};
+var boeing2017Controller= function($scope) {
+    $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2017.boeing2017');     
+};
+var winnie2017Controller= function($scope) {
+    $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2017.winnie2017');     
+};
+var cinderella2017Controller= function($scope) {
+    $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2017.cinderella2017');     
+};
+
+var yearstring = "2017";
 var navItems = [
         {menuitem:true,  text:"Home",path:"/",pane:"/panes/home.html"},
-        {menuitem:true, collapsed:false, text:yearstring+" Mainstage Season",path:"/mainstage",pane:"/panes/mainstage.html", children:[
-            {menuitem:true, text:"Butterflies Are Free",       path:"/mainstage/butterflies",  pane:"/panes/play-template.html",blurb:"/panes/playblurb2.html",controller:play2controller},
-            {menuitem:true, text:"Funny Money",                path:"/mainstage/funnymoney",   pane:"/panes/play-template.html",blurb:"/panes/playblurb3.html",controller:play3controller},
-            {menuitem:true, text:"The World Goes 'Round",      isMusical:true, path:"/mainstage/world",        pane:"/panes/musical-template.html",blurb:"/panes/playblurb1.html",controller:play1controller},
-            {menuitem:true, text:"It Could Be Any One Of Us",  path:"/mainstage/couldbe",      pane:"/panes/play-template.html",blurb:"/panes/playblurb4.html",controller:play4controller},
-            {menuitem:true, text:"Be My Baby",                 path:"/mainstage/bemybaby",     pane:"/panes/play-template.html",blurb:"/panes/playblurb5.html",controller:play5controller},
-            {menuitem:true, text:"Fox on the Fairway",       path:"/mainstage/foxonthefairway",pane:"/panes/play-template.html",blurb:"/panes/playblurb6.html",controller:play6controller},
-            {menuitem:true, text:"The Outgoing Tide",          path:"/mainstage/outgoingtide", pane:"/panes/play-template.html",blurb:"/panes/playblurb7.html",controller:play7controller}
+        {menuitem:true, collapsed:false, text:yearstring+" Mainstage Season",path:"/mainstage",pane:"/panes/home.html", children:[
+        {menuitem:true, text:"Always - Patsy Cline",          path:"/2017/mainstage/patsycline", pane:"/panes/play-template.html",blurb:"/panes/2017/patsycline.html",controller:patsycline2017Controller},
+        {menuitem:true, text:"Mixed Emotions",          path:"/2017/mainstage/mixedemotions", pane:"/panes/play-template.html",blurb:"/panes/2017/mixedemotions.html",controller:mixedemotions2017Controller},
+        {menuitem:true, text:"Seussical - The Musical",          path:"/2017/mainstage/seussical", pane:"/panes/play-template.html",blurb:"/panes/2017/seussical.html",controller:seussical2017Controller},
+        {menuitem:true, text:"Rumors",          path:"/2017/mainstage/rumors", pane:"/panes/play-template.html",blurb:"/panes/2017/rumors.html",controller:rumors2017Controller},
+        {menuitem:true, text:"The Dixie Swim Club",          path:"/2017/mainstage/dixie", pane:"/panes/play-template.html",blurb:"/panes/2017/dixie.html",controller:dixie2017Controller},
+        {menuitem:true, text:"Boeing Boeing",          path:"/2017/mainstage/boeing", pane:"/panes/play-template.html",blurb:"/panes/2017/boeing.html",controller:boeing2017Controller}
 
         ]},
+        {menuitem:false, collapsed:false, text:yearstring+" Special Events",path:"/special",pane:"/panes/home.html", children:[
+        ]},
         {menuitem:true, collapsed:false, text:yearstring+" Children's Season",path:"/jact",pane:"/panes/jact.html", children:[
-            {menuitem:true, text:"Invisible Dragon",  path:"/jact/dragon",          pane:"/panes/play-template.html",blurb:"/panes/JACTblurb1.html",controller:JACT1controller},
-            {menuitem:true, text:"Snow White",                 path:"/jact/snowwhite",         pane:"/panes/play-template.html",blurb:"/panes/JACTblurb2.html",controller:JACT2controller},
-            {menuitem:true, text:"Emperor's New Clothes",      path:"/jact/emperors",          pane:"/panes/play-template.html",blurb:"/panes/JACTblurb3.html",controller:JACT3controller}
-
+            {menuitem:true, text:"Winnie the Pooh Birthday Tail",          path:"/2017/JACT/winnie", pane:"/panes/play-template.html",blurb:"/panes/2017/winnie.html",controller:winnie2017Controller},
+            {menuitem:true, text:"Cinderella",          path:"/2017/JACT/cinderella", pane:"/panes/play-template.html",blurb:"/panes/2017/cinderella.html",controller:cinderella2017Controller}
         ]},
         {menuitem:true, text:"Ticket Information",path:"/tickets",pane:"/panes/tickets.html"},
         {menuitem:true, collapsed:true, text:yearstring+" Auditions",path:"/auditions",pane:"/panes/auditions.html", children:[
@@ -588,109 +1135,237 @@ var navItems = [
             {menuitem:true, text:"Volunteer Opportunities",path:"/employment/volunteer",pane:"/panes/volunteer.html"},
         ] },
         {menuitem:true, collapsed:true, text:"About Us",path:"/about",pane:"/panes/about.html"},
+        {menuitem:false, text:"Butterflies Are Free",       path:"/mainstage/butterflies",  pane:"/panes/play-template.html",blurb:"/panes/playblurb2.html",controller:play2controller},
+        {menuitem:false, text:"Funny Money",                path:"/mainstage/funnymoney",   pane:"/panes/play-template.html",blurb:"/panes/playblurb3.html",controller:play3controller},
+        {menuitem:false, text:"The World Goes 'Round",      isMusical:true, path:"/mainstage/world",        pane:"/panes/musical-template.html",blurb:"/panes/playblurb1.html",controller:play1controller},
+        {menuitem:false, text:"It Could Be Any One Of Us",  path:"/mainstage/couldbe",      pane:"/panes/play-template.html",blurb:"/panes/playblurb4.html",controller:play4controller},
+        {menuitem:false, text:"Be My Baby",                 path:"/mainstage/bemybaby",     pane:"/panes/play-template.html",blurb:"/panes/playblurb5.html",controller:play5controller},
+        {menuitem:false, text:"Fox on the Fairway",         path:"/mainstage/foxonthefairway",pane:"/panes/play-template.html",blurb:"/panes/playblurb6.html",controller:play6controller},
+        {menuitem:false, text:"The Outgoing Tide",          path:"/mainstage/outgoingtide", pane:"/panes/play-template.html",blurb:"/panes/playblurb7.html",controller:play7controller},
+        {menuitem:false, text:"The Foreigner",       path:"/2016/mainstage/foreigner",  pane:"/panes/play-template.html",blurb:"/panes/2016/foreigner.html",controller:foreigner2016Controller},
+        {menuitem:false, text:"Sin, Sex, and the CIA",path:"/2016/mainstage/sinsex",   pane:"/panes/play-template.html",blurb:"/panes/2016/sinsex.html",controller:sinsex2016Controller},
+        {menuitem:false, text:"The Gin Game",        path:"/2016/mainstage/gingame",pane:"/panes/play-template.html",blurb:"/panes/2016/gingame.html",controller:gingame2016Controller},
+        {menuitem:false, text:"The Spitfire Grill",  path:"/2016/mainstage/spitfire",      pane:"/panes/musical-template.html",blurb:"/panes/2016/spitfire.html",controller:spitfire2016Controller},
+        {menuitem:false, text:"The Cemetery Club",   path:"/2016/mainstage/cemeteryclub",     pane:"/panes/play-template.html",blurb:"/panes/2016/cemeteryclub.html",controller:cemeteryclub2016Controller},
+        {menuitem:false, text:"Death By Fatal Murder",path:"/2016/mainstage/fatalmurder",pane:"/panes/play-template.html",blurb:"/panes/2016/fatalmurder.html",controller:fatalmurder2016Controller},
+        {menuitem:false, text:"Violet Sharp",          path:"/2016/mainstage/violetsharp", pane:"/panes/play-template.html",blurb:"/panes/2016/violetsharp.html",controller:violetsharp2016Controller},
+        {menuitem:false, text:"Sinatra: A Centennial Celebration",  path:"/2016/ss/sinatra",          pane:"/panes/play-template.html",blurb:"/panes/JACTblurb1.html",controller:sinatra2016Controller},
+        {menuitem:false, text:"Carrie: the Musical",      path:"/2016/ss/carrie",          pane:"/panes/play-template.html",blurb:"/panes/JACTblurb3.html",controller:carrie2016Controller},
+        {menuitem:false, text:"Oh, Jack!",  path:"/2016/jact/ohjack",          pane:"/panes/play-template.html",blurb:"/panes/JACTblurb1.html",controller:jact2016OhjackController},
+        {menuitem:false, text:"The Enchanted Sleeping Beauty",                 path:"/2016/jact/enchanted",         pane:"/panes/play-template.html",blurb:"/panes/JACTblurb2.html",controller:jact2016EnchantedController},
+        {menuitem:false, text:"Looking Glass Land",      path:"/2016/jact/lookingglass",          pane:"/panes/play-template.html",blurb:"/panes/JACTblurb3.html",controller:jact2016Looking_Glass_LandController}
+
+
+
     ];
 
 /**
  * Master Controller
  */
 var $routeProviderReference;
-var appController=angular.module('Dashboard',['ngRoute','ngSanitize','ui.bootstrap']);
-appController.filter('unsafe', function($sce) { return $sce.trustAsHtml; });
-function mapRoutes (theseNavItems) {
+var appController = angular.module('Dashboard', ['ngRoute', 'ngSanitize', 'ui.bootstrap'])
+    .config(['$controllerProvider', function ($controllerProvider) {
+        $controllerProvider.allowGlobals();
+    }])
+    ;
+appController
+    .filter('unsafe', function ($sce) {
+        // console.log("hit unsafe with ", $sce);
+        return $sce.trustAsHtml;
+    })
+    .filter('orderObjectBy', function () {
+        return function (items, field, reverse) {
+            var filtered = [];
+            angular.forEach(items, function (item) {
+                filtered.push(item);
+            });
+            filtered.sort(function (a, b) {
+                return (a[field] > b[field] ? 1 : -1);
+            });
+            if (reverse) filtered.reverse();
+            return filtered;
+        };
+    })
+    .filter('orderObjectDateBy', function () {
+        return function (items, field, reverse) {
+            var filtered = [];
+            angular.forEach(items, function (item) {
+                filtered.push(item);
+            });
+            filtered.sort(function (a, b) {
+                // console.log("sorting", a,field,a[field], b[field]);
+                return (moment(a[field], "YYYY-MM-DD") > moment(b[field], "YYYY-MM-DD") ? 1 : -1);
+            });
+            if (reverse) filtered.reverse();
+            return filtered;
+        };
+    })
+    .filter('filterObjectBy', function () {
+        return function (items, field, term, reverse) {
+            var filtered = [];
+            angular.forEach(items, function (item) {
+                if (item[field] == term) {
+                    filtered.push(item);
+                }
+            });
+            if (reverse) filtered.reverse();
+            return filtered;
+        };
+    })
+
+    ;
+function mapRoutes(theseNavItems) {
     var j = 0, currentRoute;
 
-    for ( ; j < theseNavItems.length; j++ ) {
+    for (j = 0; j < theseNavItems.length; j++) {
 
-            currentRoute = theseNavItems[j];
-            //console.log(currentRoute.path,currentRoute.pane,currentRoute.children);
+        currentRoute = theseNavItems[j];
+        //console.log(currentRoute.path,currentRoute.pane,currentRoute.children);
+        $routeProviderReference.when(currentRoute.path, {
+            templateUrl: currentRoute.pane
+        });
+        if (currentRoute.controller) {
             $routeProviderReference.when(currentRoute.path, {
-                    templateUrl: currentRoute.pane
+                templateUrl: currentRoute.pane,
+                controller: currentRoute.controller,
+                controllerName: currentRoute.controller.name
             });
-            if (currentRoute.controller){
-                $routeProviderReference.when(currentRoute.path, {
-                    templateUrl: currentRoute.pane,
-                    controller: currentRoute.controller
-                });
-            }
-            if (currentRoute.children) {
-                mapRoutes(currentRoute.children);
-            }
+        }
+        if (currentRoute.children) {
+            mapRoutes(currentRoute.children);
+        }
 
     }
 
 }
 appController
     .config(['$routeProvider',
-    function($routeProvider) {
-      $routeProviderReference = $routeProvider;
-    }])
-     .controller('MasterCtrl', ['$scope',  MasterCtrl])
-     .run(['$rootScope', '$route', function($rootScope, $http, $route) {
-             mapRoutes(navItems);
-		$routeProviderReference.otherwise({ redirectTo: "/" });
+        function ($routeProvider) {
+            $routeProviderReference = $routeProvider;
+        }])
+    .controller('MasterCtrl', ['$scope', '$http', MasterCtrl])
+    .run(['$rootScope', '$route', function ($rootScope, $http, $route) {
+        mapRoutes(navItems);
+        $routeProviderReference.otherwise({ redirectTo: "/" });
 
-//		$route.reload();
+        //		$route.reload();
 
-	
-}]);
+    }]);
 
 function MasterCtrl($scope, $http) {
-    /**
-     * Sidebar Toggle & Cookie Control
-     *
-     */
-//      $('[data-toggle=offcanvas]').click(function() {
-//    $('.row-offcanvas').toggleClass('active');
-//  });
 
+    $scope.controllerList = {};
+    $scope.content = {};
+    console.log($http);
+    $http.get('/panes/content.json')
+        .then(function (res) {
+            $scope.content = res.data;
+            console.log("loaded JSON:", $scope.content);
+        });
     var mobileView = 992;
-    $scope.navItems= navItems;
-    $scope.homepage=[
+    $scope.navItems = navItems;
+    $scope.homepage = [
         {
-            path:"/panes/home.html"
+            path: "/panes/home.html"
         },
         {
-            path:"/panes/announcement.html"
+            path: "/panes/announcement.html"
         },
     ];
-    $scope.play1blurb="/panes/playblurb1.html";
-    $scope.play2blurb="/panes/playblurb2.html";
-    $scope.play3blurb="/panes/playblurb3.html";
-    $scope.play4blurb="/panes/playblurb4.html";
-    $scope.play5blurb="/panes/playblurb5.html";
-    $scope.play6blurb="/panes/playblurb6.html";
-    $scope.play7blurb="/panes/playblurb7.html";
-    $scope.JACT1blurb="/panes/JACTblurb1.html";
-    $scope.JACT2blurb="/panes/JACTblurb2.html";
-    $scope.JACT3blurb="/panes/JACTblurb3.html";
+    function storeControllers(theseNavItems) {
+        var j = 0, currentRoute;
 
-    $scope.mainblurbpane="/panes/mainblurb.html";
-    $scope.auditionsblurb="/panes/auditionsblurb.html";
-    $scope.aboutahp="/panes/aboutahp.html";
-    $scope.headerpane="/panes/header.html";
-    $scope.addressblock="/panes/addressblock.html";
-    $scope.announcementpane="/panes/announcement.html";
-    $scope.socialbar="/panes/social-bar.html";
-    $scope.sidenav="/panes/sidebar.html";
-    $scope.getWidth = function() { return window.innerWidth; };
+        for (j = 0; j < theseNavItems.length; j++) {
 
-//   $scope.loadMenu = function() {
-//      $http.get('menu/all').success(function(items) {
-//         $scope.navitems = items;
-//      });
-//   };
-//
-//   $scope.loadMenu();
+            currentRoute = theseNavItems[j];
 
-    $scope.toggleSidebar = function() 
-    {
-        $scope.toggle = ! $scope.toggle;
+            if (currentRoute.controller) {
+                $scope.controllerList[currentRoute.controller.name] = currentRoute.controller;
+                appController.controller(currentRoute.controller.name, ['$scope', currentRoute.controller]);
+                //                                 console.log(appController);
+
+
+                //                    console.log(currentRoute.controller);
+            }
+            if (currentRoute.children) {
+                storeControllers(currentRoute.children);
+            }
+
+        }
+    }
+    storeControllers(navItems);
+    $scope.play1blurb = "/panes/playblurb1.html";
+    $scope.play2blurb = "/panes/playblurb2.html";
+    $scope.play3blurb = "/panes/playblurb3.html";
+    $scope.play4blurb = "/panes/playblurb4.html";
+    $scope.play5blurb = "/panes/playblurb5.html";
+    $scope.play6blurb = "/panes/playblurb6.html";
+    $scope.play7blurb = "/panes/playblurb7.html";
+    $scope.JACT1blurb = "/panes/JACTblurb1.html";
+    $scope.JACT2blurb = "/panes/JACTblurb2.html";
+    $scope.JACT3blurb = "/panes/JACTblurb3.html";
+
+    $scope.mainblurbpane = "/panes/mainblurb.html";
+    $scope.auditionsblurb = "/panes/auditionsblurb.html";
+    $scope.aboutahp = "/panes/aboutahp.html";
+    $scope.headerpane = "/panes/header.html";
+    $scope.addressblock = "/panes/addressblock.html";
+    $scope.announcementpane = "/panes/announcement.html";
+    $scope.socialbar = "/panes/social-bar.html";
+    $scope.sidenav = "/panes/sidebar.html";
+    $scope.getWidth = function () { return window.innerWidth; };
+
+
+    $scope.getTemplate = function (controllerName) {
+        //console.log("in getController:",controllerName, $scope.controllerList[controllerName]);
+        return $scope.controllerList[controllerName];
+
+    };
+    $scope.fetchFromObject = function (obj, prop) {
+        if (typeof obj === 'undefined') {
+            return false;
+        }
+        var _index = prop.indexOf('.')
+        if (_index > -1) {
+            return $scope.fetchFromObject(obj[prop.substring(0, _index)], prop.substr(_index + 1));
+        }
+        return obj[prop];
+    }
+    //var testingDate="2016-10-03 08:00:00am";
+    // Daterange filter
+    $scope.showBetween = function (startDate, endDate) {
+
+        //        console.log("got to showBetween:",startDate,endDate);
+        var itemDate = moment();
+        try {
+            if (testingDate) itemDate = moment(testingDate);
+        } catch (err) {
+            //just... nothing
+        }
+        var s = moment(startDate, "YYYY-MM-DD");
+        var e = moment(endDate, "YYYY-MM-DD");
+        // console.log((itemDate >= s && itemDate <= e),e,itemDate,e);
+        if (itemDate >= s && itemDate <= e) return true;
+        return false;
+
+    };
+    $scope.logit = function (athing) {
+        console.log(athing);
+        return athing;
+    };
+
+    $scope.toggleSidebar = function () {
+        $scope.toggle = !$scope.toggle;
 
         $cookieStore.put('toggle', $scope.toggle);
     };
 
-    window.onresize = function() { $scope.$apply(); };
+    window.onresize = function () { $scope.$apply(); };
+    //    console.log($scope);
 }
+////    console.log("$scope in master-ctrl",$scope);
+//    console.log("MasterCtrl in master-ctrl",MasterCtrl);
+//    console.log("navItems in master-ctrl",navItems);
 console.log("end master-ctrl.js");
 /**
  * Loading Directive

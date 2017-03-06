@@ -1,0 +1,13 @@
+<div class="col-xs-12 col-sm-10 col-sm-offset-1">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            <div class="col-xs-12 text-center">
+                <h2>Announcing the Apple Hill Playhouse JACT 2017 season!</h2>
+            </div>
+
+        </div>
+        <div class="panel-body">
+
+<div ng-repeat="thisBlurb in fetchFromObject(content,'showinfo.2017') | filterObjectBy:'showtype':'JACT' | orderObjectDateBy:'startdate'"
+    ng-include="'/panes/teaserpane.html'"></div>    </div>
+</div>

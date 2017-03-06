@@ -1,0 +1,31 @@
+<div class="col-xs-12 col-sm-6">
+    <div class="panel panel-primary">
+        <div class="panel-heading">
+            
+            <h3 class="panel-title">
+                <img src="../img/johnny-appleseed-trans.png" alt="" style="width:5%; height:5%;"/>
+                <span class="panel-title" ng-show="showBetween('2016-05-30','2016-06-14')">
+                    Our next JACT production, starting June 14, is </span>Oh Jack!
+            </h3>
+
+        </div>
+        <div class="panel-body" ng-show="showBetween('2016-06-05','2016-06-26')">
+            <div class="row">
+                <div class="col-xs-12 col-sm-2">
+                    <img src="../img/ohjack.jpg" alt="" style="width:100%; height:100%;"/>
+                </div>
+                <div class="col-xs-12 col-sm-10">
+                    <div class="bg-success lead" ng-show="showBetween('2016-05-20','2016-06-14')">Coming Soon!</div>
+                    <div class="bg-success lead" ng-show="showBetween('2016-06-14','2016-06-25')">Now Showing!</div>
+                    <div class='' ng-include="'./panes/2016/jact2016ohjack.html'">
+                    </div>
+                </div>
+            </div>
+        </div>
+            <ul class="readmore">
+        <li>
+            <a href="#" ng-href="#/2016/mainstage/sinsex" class="">More info...</a>
+        </li>
+    </ul>
+    </div>
+</div>

@@ -1,0 +1,16 @@
+<a href="javascript:" ng-href="{{thisBlurb.path}}" class="row">
+    <div class="col-xs-12 col-sm-4 col-md-3">
+        <img ng-src="../{{thisBlurb.insetpic}}" alt="" style="width:100%; height:100%;" />
+    </div>
+    <div class="col-xs-12 col-sm-8 col-md-9">
+        <h3>{{thisBlurb.title}}</h3>
+        <div ng-if="thisBlurb.writtenby" class='writtenby'>
+            <h5><span ng-bind-html="thisBlurb.writtenby | unsafe"></span></h5>
+        </div>
+        <div ng-if="thisBlurb.directedby" class='directedby'>
+            <h5><i>{{thisBlurb.directedby}}</i></h5>
+        </div>
+        <div class='writtenby' ng-bind-html="thisBlurb.date | unsafe">...</div>
+    </div>
+
+</a>

@@ -11,11 +11,11 @@ var paths = {
   images: 'src/img/**/*.*',
   styles: 'src/less/**/*.{less,css}',
   index: 'src/index.html',
-  panes: 'src/panes/*',
+  panes: 'src/panes/**',
   bios: 'src/bios/*',
   favicon:'src/favicon.ico',
   bower_fonts: 'src/bower_components/**/*.{ttf,woff,eof,svg}',
-  bower_components: 'src/bower_components/**/*.*',
+  bower_components: 'src/bower_components/**/*.*'
 };
 
 
@@ -23,7 +23,7 @@ gulp.task('usemin', function() {
   return gulp.src(paths.index)
     .pipe(usemin({
       less: ['concat', less()],
-      js: ['concat', wrap('(function(){ \n<%= contents %>\n})();')],
+      js: ['concat', wrap('(function(){ \n<%= contents %>\n})();')]
     }))
     .pipe(gulp.dest('dist/'));
 });
@@ -98,4 +98,4 @@ gulp.task('compile-less', function(){
 });
 
 gulp.task('build', ['usemin', 'copy-assets']);
-gulp.task('default', ['build', 'webserver', 'livereload', 'watch']);
+gulp.task('default', ['build', 'webserver',  'watch']);
