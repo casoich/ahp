@@ -34,7 +34,7 @@
                             <accordion-heading class=" panel-castheader">
                                 {{person.name}} <span ng-show="person.role">&Tilde;</span> <i>{{person.role}}</i>
                             </accordion-heading>
-                                <div class="" >
+                                <div ng-if="!!person.photopath" class="" >
                                     <img src="{{person.photopath}}" alt="" class="blurbimg"/>
                                 </div>
                                 <div  class="">

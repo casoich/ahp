@@ -17,7 +17,33 @@
                 "insetpic": "/img/patsycline.png",
                 "infoblurb": "/panes/2017/patsyclineblurb.html",
                 "blurbtext": "<p><i>Always-Patsy Cline</i> is based on the true story of Patsy Cline’s friendship with Houston housewife <b>Louise Seger</b> who first heard Cline on “The Arthur Godfrey Show” and became an immediate fan.  Four years later Seger attended a performance, arriving early and met Cline who was just arriving and traveling alone. The two women struck up a friendship that resulted in Cline’s spending the night at Seger’s house.  Although they never met again, Cline wrote many letters and made many phone calls to her friend until her untimely death in a plane crash.  The play focuses on the fateful evening when Seger hears of Cline’s death.  She supplies a narrative while Patsy floats in and out singing the tunes that made her famous:  “Crazy,” “Always,“ “Have You Ever Been Lonely?”, “It Wasn’t God who made Honkey Tonk Angels,” “Leavin’ On Your Mind,”  “Seven Lonely Days,” in all 27 songs. Combining humor, sadness and reality, the show is family friendly and packed with great music.</p>",
-                "castlist": []
+                "castlist": [
+                    {
+                        "name": "Rori Aiello",
+                        "role": "Director",
+                        "photopath": "./bios/rori-mull.jpg",
+                        "biopath": "./bios/rori-aiello-pc.html"
+                    },
+                    {
+                        "name": "Aaron Gray",
+                        "role": "Musical Director",
+                        "photopath": "./bios/aaron-gray.jpg",
+                        "biopath": "./bios/aaron-gray.html"
+                    },
+                    {
+                        "name": "Katie Aiello",
+                        "role": "Patsy Cline",
+                        "photopath": "./bios/katie-aiello.jpg",
+                        "biopath": "./bios/katie-aiello.html"
+                    }
+                    ,
+                    {
+                        "name": "Mallory Hayden Grantz",
+                        "role": "Louise Seger",
+                        "photopath": "./bios/mallory-grantz.jpg",
+                        "biopath": "./bios/mallory-grantz-pc.html"
+                    }
+                ]
             },
             "mixedemotions2017": {
                 "showtype": "mainstage",
@@ -32,7 +58,7 @@
                 "headline": "",
                 "subhead": "",
                 "stylesheet": "/panes/styleinsert-default.html",
-                "insetpic": "/img/mixedemotions.jpg",
+                "insetpic": "/img/mixedemotions.png",
                 "infoblurb": "/panes/2017/mixedemotionsblurb.html",
                 "castlist": []
             },
@@ -45,7 +71,7 @@
                 "startdate": "2017-07-06",
                 "enddate": "2017-07-22",
                 "writtenby": "Book: Lynn Ahrens, Stephen Flaherty<br/>Music: Stephen Flaherty<br/>Lyrics: Lynn Ahrens<br/>Co-conceived by Lynn Ahrens, Stephen Flaherty and Eric Idle<br/>Based on the Works of Dr. Seuss.",
-                "directedby": "",
+                "directedby": "Directed by Timothy Dougherty<br/>Musical Direction by Aaron Gray",
                 "headline": "",
                 "subhead": "",
                 "stylesheet": "/panes/styleinsert-seussical.html",
@@ -67,7 +93,7 @@
                 "headline": "",
                 "subhead": "",
                 "stylesheet": "/panes/styleinsert-default.html",
-                "insetpic": "/img/rumors.jpg",
+                "insetpic": "/img/rumors.png",
                 "infoblurb": "/panes/2017/rumorsblurb.html",
                 "castlist": []
             },
@@ -84,7 +110,7 @@
                 "headline": "",
                 "subhead": "",
                 "stylesheet": "/panes/styleinsert-default.html",
-                "insetpic": "/img/dixie.jpg",
+                "insetpic": "/img/dixie.png",
                 "infoblurb": "/panes/2017/dixieblurb.html",
                 "castlist": []
             },
@@ -114,7 +140,7 @@
                 "startdate": "2017-06-20",
                 "enddate": "2017-06-24",
                 "writtenby": "Written by A. A. Milne",
-                "directedby": "",
+                "directedby": "Directed by Tobitha Sasso<br/>Musical Direction by Aaron Gray",
                 "headline": "",
                 "subhead": "",
                 "stylesheet": "/panes/styleinsert-default.html",

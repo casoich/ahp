@@ -1,4 +1,5 @@
 <a href="javascript:" ng-href="{{thisBlurb.path}}" class="row">
+    <div style="width:100%; display:inline-block; border-radius:10px; box-shadow: 4px 4px 11px 0px rgba(0, 0, 0, 0.4); background-color:rgba(255,255,255, 0.6); background-size:cover; background-repeat: no-repeat; background-position: center center;" ng-style="{'background-image':'url(../{{thisBlurb.backpic}})'}">
     <div class="col-xs-12 col-sm-4 col-md-3">
         <img ng-src="../{{thisBlurb.insetpic}}" alt="" style="width:100%; height:100%;" />
     </div>
@@ -8,9 +9,9 @@
             <h5><span ng-bind-html="thisBlurb.writtenby | unsafe"></span></h5>
         </div>
         <div ng-if="thisBlurb.directedby" class='directedby'>
-            <h5><i>{{thisBlurb.directedby}}</i></h5>
+            <h5><i ng-bind-html="thisBlurb.directedby | unsafe"></i></h5>
         </div>
         <div class='writtenby' ng-bind-html="thisBlurb.date | unsafe">...</div>
     </div>
-
+</div>
 </a>

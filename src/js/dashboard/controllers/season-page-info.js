@@ -27,9 +27,10 @@ var navItems = [
             {menuitem:true, text:"Dinner Menu",path:"/lamplighter/dinner",pane:"/panes/lamplighterdinner.html"}
         ] },
         {menuitem:true, collapsed:true, text:"Education",path:"/education",pane:"/panes/education.html", children:[
-            {menuitem:true, text:"Theater Classes",path:"/education/classes",pane:"/panes/classes.html"},
-            {menuitem:true, text:"Apprenticeships",path:"/education/apprentice",pane:"/panes/apprentice.html"},
-            {menuitem:true, text:"Scholarships",path:"/education/scholarships",pane:"/panes/scholarships.html"},
+            {menuitem:true, text:"Theater Classes",path:"/education/kidscamp",pane:"/panes/kidscamp.html"},
+            {menuitem:false, text:"Apprenticeships",path:"/education/apprentice",pane:"/panes/apprentice.html"},
+            { menuitem: true, text: "Opportunities for kids", path: "/education/forkids", pane: "/panes/forkids.html" },
+            { menuitem: true, text: "Scholarships", path: "/education/scholarships", pane: "/panes/scholarships.html" }
         ] },
         {menuitem:true, collapsed:true, text:"Employment",path:"/employment",pane:"/panes/employment.html", children:[
             {menuitem:true, text:"Volunteer Opportunities",path:"/employment/volunteer",pane:"/panes/volunteer.html"},

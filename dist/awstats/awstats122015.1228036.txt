@@ -1,0 +1,1717 @@
+AWSTATS DATA FILE 6.7 (build 1.892)
+# If you remove this file, all statistics for date 201512 will be lost/reset.
+
+# Position (offset in bytes) in this file of beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1864                
+POS_TIME 2537                
+POS_VISITOR 25255               
+POS_DAY 55000               
+POS_DOMAIN 3506                
+POS_LOGIN 3742                
+POS_ROBOT 3897                
+POS_WORMS 4869                
+POS_EMAILSENDER 5000                
+POS_EMAILRECEIVER 5143                
+POS_SESSION 55957               
+POS_SIDER 56162               
+POS_FILETYPES 5278                
+POS_OS 5595                
+POS_BROWSER 5756                
+POS_SCREENSIZE 6487                
+POS_UNKNOWNREFERER 6561                
+POS_UNKNOWNREFERERBROWSER 8627                
+POS_ORIGIN 9373                
+POS_SEREFERRALS 9524                
+POS_PAGEREFS 9743                
+POS_SEARCHWORDS 11951               
+POS_KEYWORDS 12349               
+POS_MISC 2200                
+POS_ERRORS 12628               
+POS_CLUSTER 3598                
+POS_SIDER_404 12746               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160101000347 1 0 11588309585591
+FirstTime 20151201011520
+LastTime 20151231213129
+LastUpdate 20160102011602 1 0 0 0 0
+TotalVisits 854                 
+TotalUnique 705                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 730                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 14 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 470 872 37775573 163 177 3366798
+1 285 565 32533786 118 131 1793894
+2 145 249 16153912 90 94 99827
+3 169 270 19054265 307 340 4320166
+4 98 193 13870467 153 193 5581791
+5 125 344 35361261 79 89 1019520
+6 68 135 10904755 135 151 2188865
+7 314 590 33607000 174 175 171749
+8 322 665 47523675 151 157 390819
+9 365 705 39184245 135 147 946028
+10 594 1141 78298030 167 184 2281800
+11 658 1239 72321419 182 191 709205
+12 451 891 53392509 173 192 491926
+13 689 1310 80009101 215 235 2485070
+14 746 1438 85868731 125 143 2040351
+15 489 952 66243838 105 109 241223
+16 553 1064 58945145 130 133 213550
+17 501 935 53602102 104 128 1842235
+18 408 773 46526299 122 137 2080040
+19 494 957 56911044 158 181 1154841
+20 535 1028 63252215 123 126 127379
+21 674 1284 74655968 147 153 555892
+22 349 679 46264151 96 105 1101571
+23 308 634 39457615 98 117 2262254
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 9810 18913 1161717106
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 24
+\wbot[\/\-] 790 9323043 20151231204231 534
+googlebot 489 11705696 20151231191824 82
+java 213 517293 20151226115553 0
+mj12bot 190 261871 20151231172005 101
+spider 132 1042318 20151231225011 62
+baiduspider 130 9057039 20151231174021 0
+unknown 72 1800 20151231175036 72
+yandex 36 44235 20151231021532 21
+crawl 29 49838 20151231215314 12
+exabot 27 15120 20151231041845 22
+core 2 5828 20151227161027 0
+ia_archiver 6 14595 20151221034724 1
+y!j 3 2964 20151218030826 2
+mojeekbot 2 50 20151227171933 2
+seznambot 5 5903 20151217224635 3
+xenu\slink\ssleuth 1 0 20151208200414 0
+slurp 18 11906 20151231214702 10
+robot 11 26276 20151231201524 2
+custo 2 5828 20151203234705 0
+python 6 8817 20151223045225 3
+surveybot 12 17634 20151231180236 6
+archive\.org_bot 1 25 20151205174248 1
+msnbot\-media 7 20398 20151229121803 0
+nutch 9 11781 20151229074248 5
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 14
+css 1502 107183007 0 0
+eot 80 1647877 0 0
+png 1134 89806398 0 0
+org 2 5828 0 0
+ttf 43 4032444 0 0
+pdf 2 97726 0 0
+cn 2 1396 0 0
+woff 764 42964824 0 0
+html 7875 8566346 0 0
+jpg 1780 61987767 0 0
+js 4633 789810935 0 0
+svg 1041 55608945 0 0
+gif 54 2915 0 0
+com 1 698 0 0
+END_FILETYPES
+
+# OS ID - Hits
+BEGIN_OS 11
+winlong 154
+winxp 166
+unix 133
+winnt 7922
+win2000 3
+linuxubuntu 30
+linux 3042
+win16 1
+macosx 7045
+win2003 12
+Unknown 405
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 51
+firefox28.0 1
+msie6.0 40
+firefox5.0 1
+firefox20.0 6
+firefox3.6 1
+firefox44.0 38
+firefox10.0 3
+firefox18.0 6
+lynx 2
+curl 5
+firefox34.0 1
+msie11 1
+firefox24.0 1
+firefox31.0 125
+firefox3.5.0 1
+netscape4.76 3
+msie8.0 59
+firefox6.0.2 33
+firefox43.0 455
+firefox3.5.8 2
+msie7.0 60
+firefox23.0 1
+firefox41.0 9
+msie9.0 508
+Unknown 156
+netscape 2
+firefox17.0 5
+firefox40.0 2
+firefox42.0 1051
+opera 5
+firefox21.0 5
+firefox29.0 20
+firefox38.0 3
+firefox30.0 1
+msie5.5 4
+firefox3.0.3 1
+firefox33.0 14
+mozilla 3107
+firefox39.0 4
+netscape5.0 1
+firefox14.0.1 1
+firefox22.0 1
+msie10.0 291
+netscape4.0 22
+firefox6.0 3
+firefox3.6.3 2
+msie 11
+firefox21.0.0 1
+firefox36.0 31
+safari 12806
+firefox35.0 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 33
+Mozilla/5.0_(compatible;_MSIE_or_Firefox_mutant;_not_on_Windows_server;)_Daum_4.1 20151230071416
+Scrapy/1.0.3_(_http://scrapy.org) 20151230081003
+Mozilla/5.001_(windows;_U;_NT4.0;_en-US;_rv:1.0)_Gecko/25250101 20151231221834
+<a_href=\ 20151207075049
+Mozilla/5.0_(Android;_Tablet;_rv:36.0)_Gecko/36.0_Firefox/36.0 20151214210603
+Google_favicon 20151202140532
+Mozilla/5.0_(compatible;_MSIE_or_Firefox_mutant;_not_on_Windows_server;)_Daumoa_4.0 20151216182921
+Mozilla/4.0_(compatible;_Synapse) 20151218221444
+Agent 20151221203520
+Mozilla 20151230200302
+Lynx/2.8.5rel.1_libwww-FM/2.15FC_SSL-MM/1.4.1c_OpenSSL/0.9.7e-dev 20151217151417
+Typhoeus_-_https://github.com/typhoeus/typhoeus 20151217171127
+Lucid_Web_Marketing 20151207075438
+Mozilla/4.0 20151229102052
+Mozilla/5.0 20151201013319
+Mozilla/5.0_(compatible;_pmoz.info_ODP_link_checker;__http://pmoz.info/doc/botinfo.htm) 20151225080907
+curl/7.46.0 20151210072244
+Mozilla/5.0_(Android_4.4.2;_Mobile;_rv:42.0)_Gecko/42.0_Firefox/42.0 20151206002409
+Curl/PHP_5.5.9-1ubuntu4.14_(http://github.com/shuber/curl) 20151228140647
+Mozilla/5.0_(compatible;_ScoutJet;__http://www.scoutjet.com/) 20151229015421
+Ruby 20151213141630
+Mozilla/5.0_(compatible;_coccoc/1.0;__http://help.coccoc.com/) 20151222044429
+- 20151231041025
+NextGenSearchBot_1_(for_information_visit_http://www.zoominfo.com/About/misc/NextGenSearchBot.aspx) 20151227033824
+WhatWeb/0.4.8-dev 20151213141629
+Mozilla/5.0_(compatible;_MSIE_10.0;_Windows_Phone_8.0;_Trident/6.0;_IEMobile/10.0;_ARM;_Touch;_NOKIA;_Lumia_521) 20151217111339
+Pinterest/0.2_(http://www.pinterest.com/) 20151214030049
+Springshare_Link_Checker 20151225232202
+Mozilla/5.0_(Android_5.0;_Mobile;_rv:43.0)_Gecko/43.0_Firefox/43.0 20151227174642
+Visited_by_http://tools.geek-tools.org 20151231041025
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20151220144216
+Mozilla/5.0_(compatible;_Dow_Jones_Searchbot) 20151218160226
+Mozilla/4.0_(compatible;) 20151230023725
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 14
+Pinterest/0.2_(http://www.pinterest.com/) 20151214030049
+Springshare_Link_Checker 20151225232202
+Scrapy/1.0.3_(_http://scrapy.org) 20151230081003
+Ruby 20151213141630
+Visited_by_http://tools.geek-tools.org 20151231041025
+Typhoeus_-_https://github.com/typhoeus/typhoeus 20151217171127
+Lucid_Web_Marketing 20151207075438
+<a_href=\ 20151207075049
+Google_favicon 20151202140532
+- 20151231041025
+NextGenSearchBot_1_(for_information_visit_http://www.zoominfo.com/About/misc/NextGenSearchBot.aspx) 20151227033824
+WhatWeb/0.4.8-dev 20151213141629
+CATExplorador/1.0beta_(sistemes_at_domini_dot_cat;_http://domini.cat/catexplorador.html) 20151220144216
+Agent 20151221203520
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 591 699
+From1 29 29
+From2 276 299
+From3 166 180
+From4 8748 17706
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 7
+google 253 276
+search 3 3
+baidu 3 3
+aol 2 2
+yandex 2 2
+ask 2 2
+yahoo 11 11
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 45
+http://www.bing.com/search 22 22
+http://scripted.com/applehillplayhouse.org 18 18
+http://scripted.com/applehillplayhouse.net 17 17
+http://www.carnegielibrary.org/research/film/theater/childrens.html 11 11
+http://burger-imperia.com 11 11
+http://www.co.westmoreland.pa.us/Common/Modules/LeavingSite/Dialog.aspx 8 8
+https://www.bing.com 8 8
+https://www.bing.com/local/ 6 20
+http://www.swpenna.com/westmoreland-county-pa.htm 5 5
+http://porntube24.biz 4 4
+http://uptimechecker.com/applehillplayhouse.net 3 3
+http://hvd-store.com 1 1
+http://www.inwestmoreland.com/wclocalinfo/art.aspx 2 2
+http://www.doollee.com/theatres/usa-pennsylvania-pa.html 1 1
+https://www.groupon.com/biz/murrysville-pa/apple-hill-playhouse 1 1
+http://htmlmade.com/site/applehillplayhouse.org 1 1
+http://privatov-zapisi.ru/home/ 3 3
+http://platesauto.com 3 3
+http://hundejo.com 2 2
+http://demo.ehscloud.cn 1 1
+http://www.yellowpages.com/delmont-pa/mip/apple-hill-playhouse-8254576 1 1
+http://www.swpenna.com/things_to_do_in_pittsburgh.asp 3 3
+http://uptimebot.net/applehillplayhouse.net 1 1
+http://buttons-for-website.com 2 2
+http://back.exploretalent.com/staff_mining_resources.php 1 1
+https://www.searchlock.com 1 1
+http://www.pghcitypaper.com/pittsburgh/apple-hill-playhouse/Location 1 1
+http://www.24videos.tv 3 3
+http://pittsburgh.about.com/od/theater/ 2 2
+http://m.pghcitypaper.com/pittsburgh/apple-hill-playhouse/Location 1 1
+http://www.pghcitypaper.com/pittsburgh/the-fox-on-the-fairway/Event 1 1
+http://pizza-imperia.com 2 2
+http://www.co.westmoreland.pa.us/index.aspx 1 1
+http://appleherb.net 1 1
+http://www.pghintheround.com/orchard-performing-arts-company/ 1 1
+http://www.blazingsecurity.com 1 1
+http://www.webwiki.com/www.applehillplayhouse.net 1 1
+http://uptimechecker.com/applehillplayhouse.org 3 3
+http://uptimebot.net/applehillplayhouse.org 1 1
+http://m.facebook.com 1 1
+http://www.carnegielibrary.org/research/film/theater/companies.html 2 2
+https://duckduckgo.com 2 2
+http://thesouthhillsplayers.org/index.html 1 1
+http://news.ehscloud.cn 1 1
+http://womensterritory.ru 3 3
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 9
+apple+hill+playhouse 4
+betac 3
+applehillplayhouse.org 1
+apple+hill+playhouse+2016+season 1
+local+auditions+for+theater+in+irwin+pa 1
+playhouse+with+lunch+pennsylvania 1
+play+house+in+keshod 1
+applehillplayhouse.net 1
+apple+playhouse+delmont+pa 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 22
+playhouse 7
+apple 6
+hill 5
+betac 3
+pa 2
+in 2
+2016 1
+applehillplayhouse.org 1
+local 1
+lunch 1
+auditions 1
+theater 1
+applehillplayhouse.net 1
+house 1
+irwin 1
+for 1
+pennsylvania 1
+delmont 1
+play 1
+keshod 1
+with 1
+season 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+403 10 4838
+206 42 4428498
+404 1543 883200
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 382
+/lib/angular-route/Book/Moby 1 -
+/images/Season_Subscription_Order_Form.pdf 1 -
+/wordpress/ 2 -
+/elements/properties 1 -
+/admin.php 8 -
+/nonprofitstatus.html 7 -
+/index.rdf 2 -
+/binaryFn/unaryFn/assignment/filter 1 -
+/HTML/XML 1 -
+/images/Theatre_Camp_Registration_Form_2011.pdf 2 -
+/enables/disables 1 -
+/book.html 1 -
+/application/x-ecmascript 1 -
+/template/rating/rating.html 1 -
+/rss.xml 2 -
+/index.xml 2 -
+/0 1 -
+/assignment/filters 1 -
+/xmlrpc.php 4 -
+/data/atom 2 -
+/template/datepicker/datepicker.html 1 -
+/education/apprentice 1 -
+/2008auditioninformation.html 5 -
+/jact/emperors 1 -
+/2012mainstageseason.html 3 -
+/dinnertheater/lunchmenu.html 4 -
+/template/carousel/carousel.html 1 -
+/template/alert/alert.html 1 -
+/rainbow/portal/alias__Rainbow/lang__en-US/tabID__3344/DesktopDefault.aspx 4 -
+/heading 1 -
+/theaterclasses.html 11 -
+/tables.html 1 -
+/theatercamp.html 1 -
+/text/plain 1 -
+/images/Adult_Single_Ticket_Order_Form.pdf 1 -
+/2007childrensseason.html 12 -
+/images/Theatre_Camps_at_Apple_Hill_Playhouse_1_.pdf 5 -
+/text/ng-template 1 -
+/rainbow/_Rainbow/images/emperor-new-clothes-1.jpg 1 http://tucksoon.blogspot.tw/2004_08_01_archive.html
+/images/2014_Talent_Show_Application_Form.pdf 1 -
+/jactshowdescriptions.html 2 -
+/administrator/ 7 -
+/dinnertheater/pricing.html 10 -
+/2014childrensseason.html 24 -
+/components/com_joomleague/assets/classes/open-flash-chart/ofc_upload_image.php 1 -
+/engine/init.php 1 -
+/2008childrensseason.html 4 -
+/plus/img/wbg.gif 2 -
+/1/ 1 -
+/wp-content/plugins/revslider/temp/update_extract/samplc.php 1 -
+/data/rss 2 -
+/tables 1 -
+/wp-login.php 19 -
+/images/294_Leading_Las.jpg 2 -
+/administrator/components/com_rokdownloads/assets/uploadhandler.php 1 -
+/panes/tree-renderer.html 1 -
+/2013jactauditions.html 3 -
+/guide/compiler 1 -
+/education/classes 1 -
+/guide/scope 1 -
+/user/bob 2 -
+/Book/Moby 1 -
+/template/accordion/accordion-group.html 1 -
+/blogs/libraries/simplepie/README.txt 1 -
+/{{person.photopath}} 48 http://www.applehillplayhouse.org/
+/directions.html 6 -
+/jqLite/jQuery 1 -
+/mainstage/outgoingtide 1 -
+/scripts/'+src+' 1 -
+/components/com_creativecontactform/fileupload/index.php 1 -
+/panes/bios/craig-soich.jpg 2 -
+/includes/fckeditor/editor/ 4 -
+/%7B%7Bplayinfo.insetpic%7D%7D 126 http://www.applehillplayhouse.org/
+/2012adultseason.html 1 -
+/images/AUDITION_APPLICATION_2012_APPLE_HILL_PLAYHOUSE.pdf 1 -
+/jactauditions.html 14 -
+/plugins/editors/idoeditor/themes/advanced/php/image.php 1 -
+/php-ofc-library/ofc_upload_image.php 1 http://applehillplayhouse.org/php-ofc-library/ofc_upload_image.php
+/key/value 1 -
+/ticketinformation/mainstageseasontickets.html 2 -
+/M/d/yy 1 -
+/on/off 1 -
+/about 1 -
+/foo 1 -
+/index.php/feed/ 2 -
+/application/x-www-form-urlencoded 1 -
+/images/ADULTTHEATRETICKETORDERFORM.pdf 2 -
+/template/timepicker/timepicker.html 1 -
+/index 1 -
+/template/datepicker/year.html 1 -
+/custom/native 1 -
+/images/AUDITION_OPAC_APPLICATION_JACT_2011__1_.pdf 1 -
+/opacneeds.html 14 -
+/auditioninformation.html 22 -
+/images/Adult_Season_Order_Form_2011.pdf 1 -
+/ckfinder 1 -
+/promises/deferred 1 -
+/panes/bios/karin-maresh.jpg 2 -
+/%20 2 -
+/partials/home/contact/item.html, 1 -
+/panes//img/butterfliesarefree.jpg 2 -
+/chapter.html 1 -
+/mainstage/world 1 -
+/created/deleted 1 -
+/track 1 -
+/titles 1 -
+/pause/defer 1 -
+/ftp/http/www/mailto 1 -
+/guide/expression 1 -
+/POST/PUT 1 -
+/directive.html 1 -
+/images/Flex_Pass_Order_Form.pdf 2 -
+/wp-admin/ 7 -
+/rainbow/portal/alias__Rainbow/lang__en-US 1 -
+/blog/feed 2 -
+/home.html 9 -
+/ticketinformation/jactseasontickets.html 2 -
+/start/end 1 -
+/2013mainstageseason.html 5 -
+/template/typeahead/typeahead-match.html 1 -
+/tab/window 1 -
+/volunteeropportunities.html 3 -
+/template/modal/window.html 1 -
+/panes/bios/terri-bowser.jpg 2 -
+/jact/snowwhite 1 -
+/images/2012_Class_Flyer.pdf 6 -
+/news/libraries/simplepie/README.txt 1 -
+/09/03/2013 1 -
+/VARIABLE/FUNCTION 1 -
+/bitrix/admin/index.php 2 -
+/jquery.org/license 1 -
+/progress/notify 1 -
+/abc/ 1 -
+/apple-touch-icon-76x76.png 1 -
+/hello/ 1 -
+/template/progressbar/progressbar.html 1 -
+/images/AHP_2011_JACT_ticket_order_form.pdf 1 -
+/ping 1 -
+/response/responseType 1 -
+/template/carousel/slide.html 1 -
+/someUrl 1 -
+/images/FIELD_TRIP_FLYER.pdf 2 -
+/jact 1 -
+/images/385_pond2.JPG 2 http://www.vebidoo.com/chip+kerr
+/test/wp-admin/ 6 -
+/2012childrensseason.html 5 -
+/jactauditiondate.html 4 -
+/apprenticeships.html 13 -
+/js/))},c.prototype.reset=function(){this.clear(),this.$hidden.val(this.original.hiddenVal),this.$preview.html(this.original.preview),this.$element.find( 5 -
+/apple-touch-icon.png 13 -
+/template/datepicker/day.html 1 -
+/mainstage/butterflies 1 -
+/template/accordion/accordion.html 1 -
+/append/override 1 -
+/dash/colon/underscore-delimited 1 -
+/user/bob/details 1 -
+/jQuery/jqLite 1 -
+/images/2013_MAINSTAGE_ORDER_FORM.pdf 1 -
+/custom-track 1 -
+/blog/ 2 -
+/wp/ 2 -
+/text/xml 1 -
+/template/popover/popover.html 1 -
+/plugins/editor.zoho/agent/save_zoho.php 1 -
+/rainbow/portal/alias__Rainbow/lang__en-US/tabID__3356/DesktopDefault.aspx 3 -
+/js/tables.html 5 -
+/a/valid/url 1 -
+/new/isolated 1 -
+/administrator/components/com_maianmedia/utilities/charts/php-ofc-library/ofc_upload_image.php 1 -
+/2012mainstageseason/showdescriptions2012.html 12 -
+/mainstageauditions.html 15 -
+/lib/font-awesome/fonts/fontawesome-webfont.eot 82 http://www.applehillplayhouse.org/
+/d.type 1 -
+/apple-touch-icon-precomposed.png 10 -
+/images/King_Arthur_.pdf 5 -
+/ngdoc_assets/StateGoExamples.png 1 -
+/onEnter/onExit 1 -
+/2010adultseason.html 8 -
+/images/CAMPS_FLYER_2013.pdf 17 -
+/lex/parsed 1 -
+/images/2013_JACT_AUDITION_APPLICATION.pdf 3 -
+/contactus.html 14 -
+/fckeditor/editor/ 5 -
+/template/tabs/tabset.html 1 -
+/images/Adult_Order_Form.pdf 1 -
+/images/SCHOLARSHIP_APPLICATION_2011.pdf 3 -
+/jpe 1 -
+/template/datepicker/month.html 1 -
+/2009jactauditions.html 1 -
+/unset/empty 1 -
+/jactsingletickets.html 1 -
+/lib/angular-ui-router/js/angular.js 1 -
+/guide/di 1 -
+/images/AUDITION_APPLICATION_JACT_THEATRE_2012.pdf 8 -
+/images/MARIETTA_ADAMS_SCHOLARSHIP_APPLICATION.pdf 6 -
+/rainbow 25 -
+/kidsfieldtripshow.html 1 -
+/read/write 1 -
+/images/2010_Apprenticeship_Application.pdf 1 -
+/ticketinformation/jacttickets.html 4 -
+/Book/Gatsby 1 -
+/components/com_agileplmform/views/agileplmform/js/uploadify.php 1 -
+/auditions 1 -
+/lib/angular-route/Book/Gatsby 1 -
+/feeds/posts/default 2 -
+/list/3 1 -
+/wp-content/uploads/samplc.php 2 -
+/%7B%7Bperson.photopath%7D%7D 225 http://www.applehillplayhouse.org/
+/pushState/replaceState 1 -
+/js/),10)),f.html(e),g.addClass( 5 -
+/emission/broadcast 1 -
+/lamplighter/lunch 1 -
+/employment/volunteer 1 -
+/images/2013_JACT_ORDER_FORM_JACT_WEB.pdf 1 -
+/panes/%7B%7Bperson.photopath%7D%7D 2 -
+/left/entered 1 -
+/mainstage/bemybaby 1 -
+/dinnertheater/dinnermenu.html 4 -
+/request/response 1 -
+/mainstage 1 -
+/http/https/ftp/mailto 1 -
+/2011adultseason/nuts.html 1 -
+/js/fckeditor/editor/ 3 -
+/adminaccess/welcome.aspx 1 -
+/users/bilbobaggins 3 -
+/apple-touch-icon-76x76-precomposed.png 1 -
+/2007adultseason.html 1 -
+/template/progressbar/bar.html 1 -
+/mousenter/leave 1 -
+/rainbow/ 6 -
+/template/tooltip/tooltip-popup.html 1 -
+/sites/default/files/tmp/ 1 -
+/images/2012_Adult_Single_Ticket_Order_Form.pdf 4 -
+/array/hash 1 -
+/lowercase/uppercase 1 -
+/images/2011_AHP_JACT_ticket_order_form.pdf 1 -
+/application/json 1 -
+/and/or 1 -
+/hashchange/popstate 1 -
+/panes/bios/matt-henderson.jpg 2 -
+/wp/wp-admin/ 7 -
+/jact/dragon 1 -
+/mainstagesingletickets.html 5 -
+/education/scholarships 1 -
+/scholarships.html 23 -
+/sites/all/libraries/elfinder/elfinder.html 1 -
+/partials/ 1 -
+/blog/libraries/simplepie/README.txt 1 -
+/null/undefined 1 -
+/images/2012_JACT_Order_Form.pdf 5 -
+/2013mainstageauditions.html 5 -
+/2011childrensseason/jactshowdescriptions.html 2 -
+/2011childrensseason.html 19 -
+/panes/bios/klase-danko.jpg 2 -
+/components/com_creativecontactform/fileupload/files/samplc.php 1 -
+/wp-admin/admin-ajax.php 4 http://applehillplayhouse.org/wp-admin/admin-ajax.php
+/template/typeahead/typeahead-popup.html 1 -
+/index/key 1 -
+/{{playinfo.insetpic}} 48 http://www.applehillplayhouse.org/
+/js/) 5 -
+/components/com_joomsport/includes/imgres.php 1 -
+/mainstage/couldbe 1 -
+/template/datepicker/popup.html 1 -
+/2009auditioninformation.html 2 -
+/key/values 1 -
+/rss 4 -
+/template/progressbar/progress.html 1 -
+/images/AHP_JACT_ticket_order_form.pdf 2 -
+/samplc.php 1 -
+/images/Theatre_Camps_at_Apple_Hill_Playhouse.pdf 1 -
+/deferreds/promises 1 -
+/2014mainstageauditions.html 6 -
+/wp-content/plugins/wpallimport/samplc.php 1 -
+/administrator/index.php 3 -
+/showdescriptions.html 5 -
+/employment.html 13 -
+/wp-content/themes/ProjectTheme/lib/upload_main/upload.php 1 http://applehillplayhouse.org/wp-content/themes/ProjectTheme/lib/upload_main/upload.php
+/2008kidsfieldtrip.html 1 -
+/wordpress/wp-admin/ 6 -
+/images/JACTORDERFORM.pdf 1 -
+/template/tooltip/tooltip-html-unsafe-popup.html 1 -
+/images/450_nathaniel-lyons-thumb.jpg 1 -
+/administrator/components/com_extplorer/uploadhandler.php 1 -
+/2011adultseason/showdescriptions.html 1 -
+/2012childrensseason/jactshowdescriptions.html 2 -
+/colon/catch-all 1 -
+/modules/pm_advancedsearch4/js/uploadify/uploadify.php 1 -
+/user 2 -
+/about.asp 2 http://www.applehillplayhouse.org/about.asp
+/guide/directive 1 -
+/uploadify/uploadify.php 1 http://applehillplayhouse.org/uploadify/uploadify.php
+/IE10/IE11 1 -
+/admin/index.php 2 -
+/server/php/files/samplc.php 1 -
+/ticketinformation.html 12 -
+/browserconfig.xml 9 -
+/Book/Gatsby/ch/4 1 -
+/wp-content/ 1 -
+/search/query 1 -
+/template/pagination/pager.html 1 -
+/joomla/libraries/simplepie/README.txt 1 -
+/pollute/change 1 -
+/bind/unbind 1 -
+/mainstageauditiondate.html 4 -
+/feed 2 -
+/menu/all 1 -
+/guide/bootstrap 1 -
+/objects/arrays 1 -
+/lib/angular-route/Book/Scarlet 1 -
+/angularMocks/clearDataCache 1 -
+/http-hello.html 1 -
+/to/from 1 -
+/template/pagination/pagination.html 1 -
+/2014mainstageseason.html 11 -
+/images/sinbadflyer.pdf 7 -
+/apple-touch-icon-120x120.png 1 -
+/images/2010_Scholarship_Application.pdf 2 -
+/lamplighter/dinner 1 -
+/2008adultseason.html 12 -
+/images/Adult_Season_Order_Form.pdf 2 -
+/images/Master_class_Series_descriptions.pdf 1 -
+/tmp-upload-images/samplc.php 1 -
+/auditions/mainstage 1 -
+/blog/wp-admin/ 7 -
+/education 1 -
+/apple-touch-icon-120x120-precomposed.png 1 -
+/modules/mod_artuploader/upload.php 1 -
+/about/bob 1 -
+/text/html 1 -
+/Book/Moby/ch/1 1 -
+/details 1 -
+/dinnertheaterpackages.html 9 -
+/2009childrensseason.html 1 -
+/editor/fckeditor/editor/ 2 -
+/text/javascript 1 -
+/contact.asp 2 http://www.applehillplayhouse.org/contact.asp
+/previousseasons.html 1 -
+/mainstage/foxonthefairway 1 -
+/lamplighter/pricing 1 -
+/2010childrensseason.html 6 -
+/lamplighter 1 -
+/old/wp-admin/ 7 -
+/parent/child 1 -
+/auditions/JACT 1 -
+/media/uploadify/uploadify.php 1 -
+/images/2011_Apprenticeship_Application.pdf 1 -
+/2014jactauditions.html 5 -
+/2011adultseason.html 3 -
+/store/libraries/simplepie/README.txt 1 -
+/push/replaceState 1 -
+/template/tabs/tab.html 1 -
+/images/2014_AUDITION_APP_JACT.pdf 4 http://www.applehillplayhouse.org
+/enable/disable 1 -
+/sites/all/modules/civicrm/packages/OpenFlashChart/php-ofc-library/ofc_upload_image.php 1 -
+/some/path 2 -
+/employment 1 -
+/template/modal/backdrop.html 1 -
+/navbars/headers 1 -
+/blog/robots.txt 2 -
+/user/ 1 -
+/templateId.html 1 -
+/dinnertheater.html 10 -
+/server/php/ 1 http://applehillplayhouse.org/server/php/
+/js/),preview:this.$preview.html(),hiddenVal:this.$hidden.val()},this.listen()}} 5 -
+/tickets 1 -
+/value/object 1 -
+/Book/Scarlet 1 -
+/js/]()},b.prototype.calcClone=function(){this.$calcClone=this.$element.clone().html( 5 -
+/administrator/components/com_simplephotogallery/lib/uploadFile.php 1 -
+/users 1 -
+/panes/bios/missing-female.jpg 2 -
+/administrator/components/com_civicrm/civicrm/packages/OpenFlashChart/php-ofc-library/ofc_upload_image.php 1 -
+/components/com_pinboard/popup/popup.php 1 -
+/atom.xml 2 -
+/index.php 6 -
+/fleamarket.html 1 -
+/images/SCHOLARSHIP_APPLICATION_2011.pdf&sa=U&ei=oPRQU4KuCcuQyASho4DwAw&ved=0CBsQFjAA&usg=AFQjCNEGgdxp3xDZ7p69-fzh1AHhroJsgw 1 -
+/ticketinformation/mainstagetickets.html 9 -
+/partials/home/contact/list.html, 1 -
+/deferred/promise 1 -
+/files/ 1 -
+/apply/digest 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 730
+50.204.84.3 112 206 9627265 20151207074454
+128.147.28.77 111 203 9114073 20151217154443
+40.143.1.4 106 120 5476301 20151227033824
+71.60.138.75 92 172 6407186 20151230062926
+198.233.179.5 91 166 6251193 20151215145349
+24.101.240.40 88 153 4658782 20151216113700
+73.40.218.110 88 154 4465467 20151203173047
+70.193.249.243 87 153 4379818 20151218193417
+71.61.91.78 86 152 4379094 20151201212435
+162.51.197.40 82 151 5458975 20151201142338
+202.46.58.201 1 1 0 20151223003614
+67.165.108.35 13 27 2032140 20151211220457
+45.55.133.233 9 18 1547503 20151206155226
+104.197.255.242 1 13 1758251 20151221034242
+104.238.170.212 1 1 2914 20151205162421
+66.249.88.203 0 3 1105783 
+130.211.145.120 13 27 2032140 20151228105159
+204.79.180.207 0 1 121103 
+101.226.51.230 0 9 1537398 
+54.196.185.86 1 1 0 20151217171127
+171.13.14.35 1 1 2914 20151201215256
+217.69.133.169 6 6 17484 20151229133241
+67.43.98.18 13 27 2032140 20151209104539
+72.77.65.102 1 13 1758251 20151206200408
+73.187.142.97 15 30 2041734 20151210100339
+24.3.78.174 1 3 140876 20151226122405
+71.112.216.181 22 37 2227045 20151205140831
+208.80.194.123 2 2 2276 20151230021814
+212.7.220.194 1 1 2914 20151208235034
+71.206.252.171 14 28 2030097 20151214213730
+182.65.92.166 13 27 2032140 20151221053426
+108.17.99.59 19 36 3207801 20151227161542
+24.101.226.53 22 38 2402309 20151226115609
+123.30.175.240 1 1 2914 20151222044429
+54.234.71.159 14 26 2056084 20151226071617
+71.60.119.211 10 23 1823185 20151225200529
+204.79.180.169 0 1 60624 
+24.131.103.167 13 27 2032140 20151206133250
+107.77.76.34 1 1 2914 20151227152404
+162.209.84.156 1 1 817 20151218155328
+108.39.246.19 15 29 2036053 20151203123908
+203.133.169.215 1 1 2914 20151203091538
+73.214.152.170 23 38 2223784 20151210112440
+71.60.188.123 23 38 2312760 20151214214237
+98.17.20.107 53 100 3773910 20151202193452
+199.30.25.114 13 27 2192900 20151220064359
+65.55.210.141 13 27 2192900 20151228015415
+73.40.219.11 16 31 2131879 20151228231531
+107.77.76.65 14 28 2118990 20151206204145
+180.153.206.35 2 2 5828 20151217052001
+50.243.182.219 13 27 2028845 20151207095914
+205.141.128.84 13 27 2032140 20151223134731
+73.224.31.189 20 37 3210715 20151216052311
+104.197.232.35 14 28 2173704 20151227182417
+71.60.143.76 21 36 2308624 20151221223622
+50.153.169.36 1 9 1417851 20151221203429
+202.46.52.118 1 1 0 20151219100229
+38.100.21.65 1 4 220853 20151222055258
+24.101.241.162 14 28 2118990 20151209113844
+72.23.59.86 40 71 2792109 20151206002408
+202.46.56.117 1 1 2914 20151221225416
+101.226.33.206 1 10 1540312 20151206054305
+98.237.34.215 32 54 3740491 20151218152224
+70.199.2.80 1 7 1290904 20151229084408
+75.117.92.24 21 36 2224658 20151212141956
+70.198.195.26 31 53 2489151 20151220085107
+98.16.112.64 72 133 4219730 20151213110151
+101.226.89.120 1 12 2533077 20151212054441
+38.99.97.10 2 2 5828 20151229015421
+66.168.36.149 1 1 2914 20151218042511
+208.80.194.122 1 1 2914 20151230021814
+108.11.134.237 21 36 2308624 20151211132906
+45.55.133.229 9 18 1547503 20151218210025
+202.46.52.72 0 1 43005 
+50.243.168.9 13 27 2032140 20151229140734
+199.30.24.63 13 27 2192900 20151215180257
+68.82.216.53 10 11 239193 20151210053432
+73.214.71.19 13 27 2032140 20151222200218
+199.21.99.218 1 1 2914 20151203145233
+173.68.18.130 1 1 2914 20151201013319
+70.199.4.155 21 42 2208531 20151217083010
+202.46.48.91 1 1 0 20151230093242
+24.3.67.70 40 74 2809187 20151205104356
+70.199.0.62 26 44 3397925 20151223104921
+45.79.92.177 2 2 0 20151204165600
+98.21.174.30 24 39 2063038 20151203231915
+54.234.81.221 1 1 2914 20151226071300
+76.125.246.250 14 28 2118990 20151230171202
+64.134.180.57 1 1 2914 20151204223648
+58.60.106.174 22 22 64108 20151229102052
+112.64.235.251 1 1 2914 20151214054409
+46.165.230.5 1 1 2914 20151210100118
+24.239.118.226 13 27 2032140 20151226095118
+107.77.76.32 22 38 2345743 20151223134614
+24.154.78.238 13 27 2032140 20151215113547
+162.209.102.100 3 3 2201 20151218155339
+66.87.115.150 13 30 3137923 20151203200802
+75.88.138.245 20 35 2135600 20151229134805
+180.153.163.191 1 11 2490072 20151213051912
+75.117.93.79 13 27 2028845 20151222114525
+71.60.214.254 14 28 2035054 20151224120245
+202.46.55.120 0 1 25197 
+50.177.225.205 14 28 2118990 20151225145746
+66.194.145.20 13 27 2032140 20151230013211
+112.64.235.245 1 10 1540312 20151225052355
+46.118.226.141 3 3 8742 20151230141112
+136.243.48.84 1 1 2914 20151215013002
+24.239.241.133 13 27 2032140 20151214060506
+73.236.21.234 22 37 2222549 20151212203840
+24.3.76.98 14 28 2118990 20151201023543
+54.204.127.51 2 2 5828 20151211183420
+208.80.194.121 3 3 1973 20151230021814
+62.210.75.104 6 15 1544614 20151211165910
+123.30.175.242 1 1 2914 20151204104912
+96.89.60.13 26 54 4064280 20151217141049
+71.60.82.188 1 1 2914 20151208224656
+71.60.14.187 14 28 2118990 20151202230835
+208.80.194.124 2 2 1444 20151230021816
+72.23.56.247 14 28 2118990 20151206212145
+101.226.89.115 1 1 2914 20151221051836
+62.212.73.49 2 2 5828 20151231071236
+54.80.196.8 21 33 2047677 20151203131728
+98.219.171.203 26 54 2028845 20151215142751
+67.172.25.99 23 37 2145216 20151228145454
+112.65.193.16 1 1 2914 20151223052412
+173.75.147.179 13 27 2032140 20151204150157
+70.210.69.86 14 28 2118990 20151217145801
+88.198.22.8 1 1 2914 20151226095014
+74.214.55.128 14 28 2118990 20151231132530
+162.209.101.250 2 2 22292 20151218155328
+67.165.73.238 13 27 2032140 20151206133115
+107.181.174.84 1 1 2914 20151222065144
+123.30.175.241 1 1 2914 20151204104857
+78.158.11.226 2 2 5828 20151217151417
+199.30.25.142 13 27 2192900 20151204010118
+104.207.129.254 1 1 2914 20151230081003
+198.172.153.34 15 30 2041734 20151204124026
+136.243.48.85 1 1 2914 20151215040502
+71.236.112.38 28 56 4237980 20151227135456
+203.113.152.5 1 1 2914 20151224161145
+199.30.24.247 13 27 2192900 20151210021634
+178.79.185.25 1 1 2914 20151204133518
+202.46.51.182 0 1 141372 
+73.174.240.225 14 28 2118990 20151226223613
+212.7.220.130 1 1 2914 20151204080257
+24.144.233.42 1 14 2584738 20151205154340
+66.102.6.176 3 7 1175584 20151209012339
+104.197.129.22 1 13 1758251 20151203085340
+190.112.200.249 1 1 2914 20151212210342
+45.33.61.138 9 9 0 20151225153619
+14.140.120.78 13 27 2032140 20151217043350
+74.111.167.14 1 1 2914 20151215201134
+50.73.165.81 10 24 2038848 20151204101150
+151.138.28.21 14 28 2118990 20151211094330
+188.226.232.60 1 1 2914 20151220144216
+73.174.118.147 35 64 2539560 20151220102047
+101.226.33.203 1 1 2914 20151220054550
+208.43.251.178 1 1 2914 20151226130433
+73.174.188.76 14 28 2118990 20151213152344
+73.40.253.166 19 38 3427365 20151206222637
+208.103.116.222 22 48 2585457 20151228075904
+73.174.243.222 56 105 4246830 20151229133855
+72.23.224.232 1 3 160229 20151212161445
+72.95.200.19 31 61 2598339 20151213163907
+75.248.180.16 21 36 2224658 20151206224507
+104.197.237.229 13 27 2032140 20151228024934
+46.118.123.58 2 2 5828 20151213141630
+104.154.113.166 13 27 2032140 20151220010344
+45.32.129.1 2 2 5828 20151221171058
+73.236.254.199 13 27 2032140 20151228035828
+51.254.129.249 1 1 2914 20151213103359
+198.96.155.3 1 1 2914 20151203035024
+67.186.35.104 21 36 2308624 20151211071833
+176.94.102.221 3 3 8742 20151218094620
+108.233.242.96 12 26 2007444 20151205161100
+144.76.100.150 3 3 5828 20151231041025
+174.59.155.252 2 15 1815994 20151227165717
+45.55.229.167 10 19 1550417 20151209103254
+70.194.208.63 28 52 2613270 20151210182122
+107.77.106.29 14 28 2118990 20151223224820
+216.250.224.12 10 24 2035305 20151211112928
+107.77.76.91 14 28 2118990 20151231112402
+116.203.237.70 13 27 2032140 20151212015225
+70.198.204.87 14 28 2118990 20151205020342
+172.58.201.187 13 27 2032140 20151226174621
+98.219.238.156 14 28 2118990 20151216104018
+61.135.190.103 1 10 1540312 20151216161805
+74.98.52.94 26 54 4057690 20151217144542
+50.232.82.164 13 27 2032140 20151211103152
+69.12.78.112 3 3 2094 20151228161922
+45.33.104.237 3 3 0 20151221235112
+70.199.9.57 25 46 2223829 20151219140434
+73.174.95.51 13 27 2032140 20151229153659
+107.22.40.6 1 1 2914 20151206115051
+73.183.19.84 13 27 2032140 20151211215633
+70.198.194.25 16 31 2046264 20151227174642
+24.239.194.161 15 35 3355114 20151226163503
+70.199.6.176 14 28 2118990 20151204112059
+73.52.215.57 13 27 2028845 20151228135016
+166.137.252.64 21 44 2507602 20151230191703
+73.40.147.110 65 115 3694907 20151204071328
+208.80.194.30 14 14 11370 20151230021713
+69.58.178.58 1 1 2914 20151208040924
+74.208.173.138 1 1 2914 20151230051835
+202.46.53.204 1 1 2914 20151219015644
+212.47.238.193 1 1 2914 20151223164743
+128.177.161.175 19 36 3229102 20151213122244
+207.91.51.225 1 2 135032 20151206230702
+71.60.136.216 25 41 2302376 20151216111327
+71.236.74.118 23 39 2583010 20151230090008
+204.79.180.228 0 1 949760 
+73.236.86.106 18 33 2044124 20151206230150
+98.111.214.4 14 28 2118990 20151213154328
+24.162.254.80 32 63 2776648 20151209010837
+208.94.47.24 14 28 2030080 20151209145140
+71.60.172.210 53 97 4108269 20151222093639
+66.249.88.198 10 14 418294 20151228140648
+70.215.66.134 14 28 2118990 20151223174020
+161.38.221.233 36 79 2519349 20151229124806
+24.86.168.151 14 28 2118990 20151224190235
+71.61.90.188 15 29 2119621 20151223230532
+74.91.26.114 1 1 2914 20151228205234
+104.238.180.234 2 2 5828 20151214212717
+98.236.71.130 40 76 4555244 20151206152533
+66.87.148.117 24 48 3529148 20151223140721
+162.216.244.16 13 27 2032140 20151229103845
+71.60.125.138 54 100 4997103 20151216075643
+195.242.80.118 1 1 2914 20151231043016
+50.17.114.106 1 1 2914 20151209192408
+178.137.89.157 9 9 26226 20151230120240
+104.197.246.44 1 13 1758251 20151222212158
+104.197.213.164 1 13 1758251 20151229101620
+95.85.42.191 1 1 2914 20151210072244
+71.236.83.50 14 28 2118990 20151229005351
+205.153.248.2 21 36 2221363 20151228143649
+70.198.193.229 14 28 2118990 20151231180404
+75.117.148.194 16 31 2131879 20151218145300
+75.149.24.58 13 27 2032140 20151215154723
+98.21.169.114 13 27 2032140 20151218132148
+107.77.76.62 34 59 2862319 20151212132628
+98.207.67.119 37 71 2910134 20151223224735
+206.123.243.210 23 44 2209625 20151209145141
+98.111.251.204 78 144 4373794 20151206013944
+85.170.193.28 2 2 5828 20151205151000
+104.197.58.208 1 13 1758251 20151226131300
+62.75.234.235 2 2 5828 20151224092952
+193.201.227.163 1 1 2914 20151230200302
+209.0.146.172 1 4 220853 20151221010619
+71.126.46.217 13 27 2032140 20151219100419
+71.206.222.181 29 44 2229941 20151207201414
+146.148.39.158 1 13 1758251 20151231042432
+185.100.85.101 1 1 2914 20151223023601
+194.44.161.58 1 1 2914 20151205144538
+185.2.168.24 3 3 8742 20151218172219
+24.3.80.193 13 27 2032140 20151226201323
+76.4.231.188 16 31 2045660 20151211231251
+195.242.80.47 1 1 2914 20151229073017
+104.197.82.11 5 18 1794813 20151229044535
+67.163.254.136 13 27 2032140 20151203123606
+73.183.119.229 13 27 2032140 20151214163617
+173.252.75.113 1 1 2914 20151222123857
+149.202.47.181 1 1 2914 20151221202426
+72.95.246.76 41 78 2934756 20151212235652
+97.102.190.180 14 28 2118990 20151227123351
+8.36.40.254 1 1 2914 20151227225233
+66.249.88.208 4 11 594913 20151228140803
+66.102.6.180 4 7 351339 20151209012339
+52.48.69.17 1 1 2914 20151216042110
+172.100.228.246 13 28 2390156 20151229211816
+71.195.80.190 14 28 2118990 20151229180407
+174.60.63.165 16 30 2122629 20151208114350
+76.125.214.222 13 27 2032140 20151211205037
+104.154.70.20 13 27 2032140 20151219113319
+112.133.232.16 1 1 2914 20151204061658
+69.171.231.225 6 11 489197 20151213233138
+61.135.190.102 1 3 123205 20151216161233
+23.25.93.153 29 44 2229958 20151211101023
+185.35.11.95 1 1 2914 20151212030356
+104.197.135.199 1 13 1758251 20151209220211
+75.126.221.55 2 2 0 20151225232202
+66.249.93.137 2 2 2721 20151204133527
+45.79.107.83 10 10 0 20151225151452
+208.103.121.106 31 60 4876322 20151215135207
+174.132.16.36 2 2 0 20151213010806
+73.214.5.52 27 43 2333992 20151227201021
+199.30.24.3 13 27 2192900 20151213193237
+73.174.171.132 48 86 4719534 20151205125008
+208.90.57.196 3 3 8742 20151219231538
+136.243.48.82 1 1 2914 20151231201500
+164.126.234.170 1 1 2914 20151223062747
+107.77.92.78 13 27 2032140 20151202132756
+192.3.172.236 1 1 2914 20151205224853
+73.40.203.217 14 28 2118990 20151214224808
+24.239.229.220 4 9 400780 20151221183929
+72.95.249.224 1 13 1758251 20151218194049
+171.13.14.52 1 1 2914 20151220223711
+202.46.53.205 1 1 2914 20151217005557
+54.147.239.44 4 4 11656 20151222035709
+207.91.51.248 1 7 1212448 20151215122522
+73.236.98.134 15 30 2045029 20151205203450
+93.159.230.90 26 90 8613274 20151230155150
+38.100.21.67 1 4 220853 20151214034718
+208.40.165.105 14 28 2031232 20151211132547
+107.77.106.121 17 32 2047027 20151223111835
+88.198.140.4 1 1 2914 20151206091241
+72.95.179.54 45 86 4813195 20151216200808
+66.249.83.243 7 12 319064 20151218103947
+71.60.79.212 16 31 2045660 20151207143758
+202.46.49.197 1 1 2914 20151222170028
+104.128.209.1 78 144 4370499 20151206202111
+66.249.83.239 5 10 1338586 20151218103947
+70.199.1.44 13 27 2032140 20151201151618
+130.211.173.122 1 13 1758251 20151226182653
+204.79.180.39 0 1 5844 
+70.192.129.176 13 27 2032140 20151206145411
+199.30.24.159 13 27 2192900 20151201192725
+71.236.82.174 43 82 3035809 20151215210741
+96.235.1.244 14 28 2118990 20151219233452
+98.236.159.123 21 36 2221363 20151209151808
+54.236.1.3 1 1 2914 20151214030049
+141.189.251.16 13 36 2028845 20151203133042
+74.111.161.237 14 28 2118990 20151205074127
+101.226.89.117 1 10 1540312 20151226054842
+43.226.7.43 13 27 2032140 20151211014738
+23.250.26.27 1 1 2914 20151230145548
+85.93.89.74 1 1 2914 20151213100846
+73.183.27.138 2 2 5828 20151221155721
+108.32.70.42 14 28 2118990 20151212083758
+198.51.132.21 1 1 2914 20151215145602
+76.125.254.20 15 30 2045029 20151212200237
+180.153.206.36 1 11 2490072 20151222055049
+73.52.212.132 15 30 3071664 20151206225644
+178.162.216.42 1 1 2914 20151231075300
+217.172.40.54 1 1 2914 20151202115426
+184.53.33.108 18 32 2315946 20151217141959
+208.80.194.126 1 1 414 20151230021714
+73.174.67.119 14 28 2118990 20151206184720
+89.31.57.5 1 1 2914 20151219042710
+187.53.252.4 1 13 1758251 20151208133024
+198.58.116.228 1 1 2914 20151203161144
+208.94.40.234 13 27 2032140 20151218090111
+104.217.216.173 1 1 2914 20151227085313
+188.143.232.22 1 1 2914 20151208101946
+199.30.25.100 2 14 1756173 20151202083009
+71.60.140.193 17 32 2672869 20151211110737
+73.214.253.81 13 27 2032140 20151219111355
+98.20.29.89 1 9 1357936 20151223012658
+104.197.220.242 13 27 2032140 20151216035024
+96.49.9.83 13 27 2032140 20151217203211
+73.174.64.210 13 27 2032140 20151208173051
+174.59.220.186 18 35 3120951 20151223130454
+128.147.28.61 22 37 2225910 20151215113944
+65.33.214.105 14 28 2033392 20151224112732
+99.174.66.13 34 59 3253841 20151205141233
+173.71.188.31 32 62 2685189 20151202121447
+104.131.161.70 1 1 2914 20151203221904
+108.201.9.15 38 70 3305753 20151208134410
+121.166.148.228 1 1 2914 20151211172728
+199.30.24.18 13 17 571000 20151205162604
+66.249.83.235 9 14 567008 20151218103947
+69.171.231.224 1 4 244112 20151213233138
+24.3.66.196 13 27 2032140 20151211171836
+71.182.244.172 13 27 2028845 20151217212619
+157.55.2.185 13 27 2192900 20151230080635
+68.234.38.20 51 89 3134482 20151213053747
+202.46.55.172 1 1 0 20151226104751
+101.226.66.187 1 13 1946747 20151215051919
+8.18.218.141 31 59 4080462 20151228101235
+64.8.32.65 41 79 109022 20151229143553
+67.163.246.213 14 28 2032771 20151206134523
+45.55.134.6 9 18 1547503 20151227141259
+73.236.110.192 1 16 2865326 20151201105638
+66.249.83.97 1 1 2914 20151227200908
+70.199.2.29 51 95 3517301 20151212081246
+70.199.5.112 14 28 2118990 20151207115355
+65.55.210.93 13 27 2192900 20151212004020
+108.32.7.109 35 51 2257218 20151210102523
+202.46.57.161 0 1 949760 
+208.97.77.123 1 1 2914 20151218221444
+203.133.171.83 1 1 2914 20151230071416
+108.171.131.187 53 101 3656105 20151204130127
+24.3.165.72 21 36 2221363 20151211090308
+24.101.86.27 14 28 2118990 20151212155531
+142.4.213.25 1 1 2914 20151219080938
+108.219.34.172 15 29 2039348 20151221005055
+180.153.201.217 2 11 1543226 20151229052554
+24.131.97.35 11 25 2115586 20151224194652
+24.3.79.186 13 27 2028845 20151202095426
+166.78.134.156 3 3 1865 20151218155328
+176.31.24.29 2 2 5828 20151211200951
+23.106.192.20 1 1 2914 20151230125435
+122.176.155.66 1 1 2914 20151225174929
+173.75.128.247 14 28 2032771 20151215235525
+73.154.182.32 78 144 4373794 20151215204111
+100.6.7.245 13 27 2032140 20151210235748
+204.79.180.221 0 1 141372 
+202.46.54.139 1 1 0 20151229180603
+101.226.66.173 3 25 4253666 20151219051938
+173.75.56.155 15 29 2033863 20151206144652
+171.13.14.36 1 1 2914 20151201190354
+98.236.113.11 17 32 2217647 20151226170210
+67.163.194.205 13 27 2032140 20151219130230
+50.200.147.5 13 27 2032140 20151231093542
+161.150.176.3 18 34 2197357 20151214083846
+73.183.19.101 52 97 4165980 20151226000715
+173.252.102.112 1 1 2914 20151216194723
+166.137.252.75 2 2 95336 20151212205135
+202.46.50.19 1 1 2914 20151213093025
+104.197.232.176 13 27 2032140 20151229163836
+31.221.90.4 5 18 1794813 20151223091448
+98.21.172.130 21 42 2419793 20151231001422
+74.208.180.106 1 1 2914 20151212130841
+104.230.103.135 14 28 2032771 20151220153458
+104.197.17.126 1 13 1758251 20151225185142
+70.198.197.7 2 15 1893283 20151224100648
+50.163.243.18 71 129 5000548 20151212171903
+210.150.144.232 14 28 2118990 20151229184113
+107.77.76.20 38 69 2702369 20151231164214
+50.199.172.233 21 36 2219731 20151201140018
+202.46.54.187 0 1 24027 
+73.214.232.38 16 31 2045660 20151210043531
+195.154.251.131 1 1 2914 20151209005053
+165.225.34.81 22 37 2222615 20151229075142
+108.17.124.5 13 27 2032140 20151220211945
+66.249.93.141 3 11 1488699 20151204133528
+23.22.138.150 1 1 2914 20151217190456
+173.61.66.195 13 27 2032140 20151218164808
+75.88.140.31 20 35 2221774 20151213150332
+45.79.87.95 10 10 0 20151225001040
+203.113.152.10 2 2 5828 20151224161130
+50.203.170.250 75 145 6047902 20151209092023
+71.60.37.74 39 81 6096420 20151228103510
+162.209.8.106 2 2 84607 20151218155328
+71.60.250.176 46 79 3264237 20151228151425
+68.87.27.248 0 1 5844 
+73.154.144.8 30 48 2750575 20151225122342
+73.201.82.157 13 27 2028845 20151222141326
+67.163.254.15 17 32 2046956 20151207163623
+50.202.45.86 20 35 2221774 20151208151344
+54.91.16.247 4 4 0 20151226173823
+204.79.180.118 0 1 84300 
+129.22.113.94 47 77 4278245 20151218134732
+93.171.158.189 5 5 14570 20151220001042
+173.255.243.26 9 9 0 20151207052809
+108.32.64.85 14 28 2118990 20151228231352
+159.253.70.76 13 27 2032140 20151227191216
+67.165.89.235 42 74 3876464 20151224133255
+71.61.90.112 14 28 2118990 20151215211552
+204.84.117.7 14 28 2032771 20151210152357
+203.133.170.84 1 1 2914 20151213230311
+180.153.206.38 1 12 1600330 20151216054302
+101.226.66.179 1 10 1540312 20151201053432
+73.40.232.72 13 27 2032140 20151227040740
+96.235.7.25 14 28 2118990 20151206182757
+24.31.132.33 22 37 2222598 20151229173105
+204.79.180.150 0 1 131996 
+71.114.174.251 18 39 2291665 20151205200743
+74.98.34.44 49 89 3073518 20151210214200
+104.156.230.231 2 2 5828 20151227124902
+50.163.221.32 13 27 2028845 20151226222227
+71.236.75.59 33 68 3024355 20151215004747
+172.56.2.209 14 28 2053541 20151217111339
+107.77.76.113 1 11 1691219 20151231205247
+72.95.232.130 21 36 2308624 20151229211447
+157.55.81.9 13 27 2050627 20151214121545
+66.87.115.12 24 50 3441117 20151204191521
+199.30.24.162 13 26 2163041 20151221140217
+73.236.27.234 28 56 4237980 20151212114150
+166.137.252.33 27 44 2597826 20151208183000
+71.61.254.254 37 67 2607081 20151203111755
+206.210.91.125 2 15 1812699 20151211140825
+73.174.67.202 13 27 2032140 20151221143229
+66.249.93.133 9 15 627570 20151204133431
+131.253.25.191 13 21 1843134 20151206113332
+104.197.221.174 13 27 2032140 20151223070607
+24.239.79.97 15 40 3834236 20151230081843
+185.93.187.89 1 1 2914 20151227132952
+141.101.9.76 1 1 2914 20151219063635
+24.131.249.86 15 29 2119621 20151228060752
+104.197.90.21 1 13 1758251 20151228161620
+203.133.170.134 1 1 2914 20151216182921
+199.30.16.160 13 25 2113904 20151206172216
+101.226.51.226 1 10 1540312 20151231052359
+71.60.14.219 33 56 2499619 20151227211537
+95.254.97.121 1 1 2914 20151208053333
+198.23.5.73 28 52 3295637 20151204154345
+202.46.53.124 1 1 2914 20151225153500
+50.153.170.172 14 28 2118990 20151227120854
+104.156.231.254 1 1 2914 20151208013205
+202.46.57.186 1 1 0 20151231075840
+71.60.14.105 1 8 1432276 20151226212940
+24.3.64.95 17 32 2757332 20151216203945
+46.229.170.197 3 3 8742 20151218170222
+76.125.240.246 16 31 2131879 20151215121505
+66.249.83.95 1 1 2914 20151220141806
+51.255.202.66 1 1 2914 20151226192850
+173.252.102.113 1 1 2914 20151226203438
+104.131.43.223 1 1 2914 20151222221937
+71.182.244.91 66 116 6199700 20151214130442
+205.213.124.28 14 28 2033375 20151221143528
+202.46.52.100 0 1 949760 
+107.77.76.16 1 13 1758251 20151226152205
+50.163.233.78 21 36 2221363 20151213105204
+45.32.130.87 2 2 5828 20151225185534
+70.198.202.166 23 38 2312139 20151217164312
+45.55.230.123 1 1 2914 20151229060534
+24.131.110.175 14 28 2118990 20151229124147
+174.30.220.91 24 47 2377800 20151215220219
+202.46.57.29 1 1 2914 20151203085403
+141.8.143.131 2 2 5828 20151202134614
+71.126.32.22 28 55 2602062 20151218114510
+76.126.141.65 13 27 2032140 20151202163906
+66.87.115.57 46 93 4652533 20151207162639
+74.98.215.40 26 49 2511949 20151207221720
+104.197.225.54 1 13 1758251 20151212234846
+104.168.159.3 2 2 5828 20151231152651
+202.46.56.194 1 1 2914 20151207183400
+72.77.67.182 18 33 2759719 20151223082011
+123.125.71.89 1 1 2914 20151223043718
+73.183.73.114 13 27 2028845 20151216132040
+75.151.247.77 13 27 2032140 20151207164323
+107.161.126.226 1 1 2914 20151221185512
+23.25.82.38 13 27 2028845 20151214102625
+202.46.52.15 0 1 25197 
+167.114.172.7 1 1 2914 20151202130957
+204.79.180.61 0 1 25197 
+104.197.89.27 5 18 1794813 20151219235125
+168.235.205.107 14 28 2118990 20151202223836
+5.175.26.46 2 2 5828 20151214153758
+73.154.186.80 13 27 2028845 20151216161038
+54.221.38.234 21 33 2047677 20151223045225
+71.60.30.131 26 54 4057690 20151230121726
+50.199.178.97 13 27 2032140 20151226125634
+70.112.62.13 13 27 2032140 20151203104127
+101.226.102.97 1 10 1540312 20151228054837
+174.60.110.103 13 27 2032140 20151209092934
+204.79.180.40 1 1 2914 20151220072755
+85.225.58.137 1 1 0 20151208172044
+73.154.183.78 14 28 2118990 20151229083404
+197.88.82.7 7 7 14570 20151225214044
+76.116.234.40 14 28 2029476 20151207155321
+73.40.136.41 49 93 3672414 20151216214459
+72.77.79.104 14 28 2031232 20151222175135
+203.133.170.82 1 1 2914 20151226060342
+107.0.214.200 14 28 2032771 20151221171514
+108.171.130.172 21 36 2055243 20151229154814
+128.177.161.159 15 32 3225404 20151227143813
+203.133.168.148 2 2 5828 20151210044642
+72.77.83.59 14 28 2118990 20151223180255
+73.154.80.82 22 37 2222615 20151221200510
+192.122.250.248 78 148 6056071 20151224221003
+73.236.29.21 28 56 4237980 20151218173110
+208.80.194.125 1 1 672 20151230021818
+207.255.104.95 12 26 2030793 20151208104452
+104.197.190.147 1 13 1758251 20151223012006
+131.253.25.214 13 27 2192900 20151204190135
+130.211.191.245 1 13 1758251 20151212072916
+85.25.217.236 1 1 2914 20151202110238
+107.46.1.233 13 27 2028845 20151231013926
+69.171.231.227 1 1 40637 20151213233139
+207.91.59.244 15 29 2035779 20151207153038
+202.46.57.203 1 1 2914 20151220141517
+73.174.64.56 14 28 2118990 20151203082217
+67.165.41.46 16 31 2131879 20151207094359
+104.197.224.177 5 18 1794813 20151224121641
+73.183.114.59 19 40 2292900 20151205132744
+54.157.136.171 4 4 11656 20151205073722
+192.99.9.164 1 1 2914 20151230102728
+71.60.113.147 38 91 3274114 20151228235909
+45.32.128.51 2 2 5828 20151219153432
+61.135.190.105 1 3 1902434 20151222100930
+202.46.53.195 1 1 2914 20151201060246
+202.46.56.39 1 1 2914 20151213134251
+70.198.202.65 13 27 2032140 20151207082945
+71.199.109.78 14 28 2032771 20151207210604
+202.46.52.202 1 1 2914 20151215151931
+173.13.57.245 35 64 2225910 20151230110207
+24.3.136.145 14 28 2118990 20151220125029
+73.214.177.169 14 28 2118990 20151206183109
+24.3.71.32 17 32 2133205 20151206194559
+202.46.52.176 1 1 2914 20151226220553
+203.133.169.98 1 1 2914 20151224062802
+204.79.180.191 0 1 132118 
+73.214.191.55 14 28 2118990 20151228125412
+100.6.154.23 1 13 1758251 20151231092108
+71.60.45.124 38 75 4457860 20151223085540
+65.55.210.126 13 27 2192900 20151223190955
+104.197.190.180 1 13 1758251 20151210141921
+77.247.181.165 1 1 2914 20151218152236
+74.98.237.33 29 44 2315556 20151203173235
+24.239.216.131 15 29 2043816 20151208211428
+73.183.120.113 27 55 4151130 20151222214618
+107.77.76.55 14 28 2118990 20151226182907
+71.60.132.5 29 44 2315556 20151203223901
+108.39.235.59 14 28 2118990 20151210042232
+108.39.173.72 14 40 3787096 20151206174604
+67.163.163.18 16 31 2046281 20151228214851
+144.80.34.109 14 28 2031232 20151201103533
+54.161.210.70 0 3 217939 
+204.79.180.80 0 1 24027 
+73.183.61.95 19 42 2330271 20151218131359
+104.232.35.52 1 1 0 20151201115820
+73.214.121.6 22 43 2209162 20151217193014
+98.219.177.178 13 27 2032140 20151213083838
+71.60.188.251 16 31 2045492 20151216145055
+70.199.15.46 1 1 2914 20151214121515
+67.251.207.18 23 41 3132874 20151218135640
+98.236.119.229 14 29 3068750 20151227204224
+202.46.56.70 1 1 0 20151227220553
+50.153.170.138 22 37 2311508 20151215203944
+208.94.41.227 30 55 3522487 20151210092012
+24.29.238.183 14 38 2619290 20151219235517
+70.199.3.205 17 32 2757332 20151223103851
+73.174.167.38 35 60 3703728 20151228074226
+207.90.2.15 3 3 8742 20151222063832
+199.30.25.162 13 27 2192900 20151226015705
+104.197.216.154 1 13 1758251 20151220150536
+173.13.55.233 10 24 2038848 20151203145437
+98.16.113.37 13 27 2214699 20151204221642
+178.137.82.205 2 2 5828 20151230104747
+75.89.86.147 1 5 1170613 20151217224107
+202.46.49.76 1 1 2914 20151222075648
+199.30.25.177 13 27 2192900 20151229101432
+72.77.50.143 68 120 4554384 20151201164537
+74.109.192.62 5 18 1794813 20151231213129
+54.145.136.124 0 3 217939 
+61.135.190.104 0 2 126947 
+205.203.134.197 1 1 2914 20151218160226
+73.154.88.79 21 38 2862455 20151201162553
+123.30.175.239 1 1 2914 20151222044417
+31.184.238.200 1 1 2914 20151207195657
+182.72.79.190 13 27 2032140 20151216005917
+204.6.91.193 13 28 2160963 20151231104544
+62.149.1.74 1 1 2914 20151204011150
+184.170.123.59 14 28 2118990 20151205225516
+74.111.177.8 13 27 2032140 20151224110652
+24.3.79.34 13 27 2032140 20151228020627
+209.82.41.114 1 1 2914 20151229153941
+98.239.158.151 13 27 2032140 20151212193243
+108.52.229.10 13 27 2032140 20151206213834
+203.133.170.156 1 1 2914 20151225165409
+74.140.137.250 38 74 2856885 20151208190212
+75.146.73.110 81 150 5456588 20151222160151
+69.171.231.226 5 11 1258194 20151213233115
+169.230.248.163 1 13 1758251 20151216102922
+202.46.54.102 1 1 2914 20151220174154
+104.251.84.54 2 2 5828 20151231202442
+37.48.80.101 2 2 5828 20151221183808
+78.46.122.156 1 1 2914 20151226075306
+67.234.216.205 14 28 2033392 20151216230150
+71.112.87.24 49 95 2796745 20151225224412
+98.236.158.152 13 27 2032140 20151205194750
+73.174.216.23 32 51 3328869 20151228190527
+24.234.76.214 13 27 2032140 20151214182704
+72.23.212.105 27 55 4151130 20151222203942
+45.62.113.86 2 2 5828 20151223210521
+69.43.158.141 1 1 2914 20151220130100
+73.214.56.152 14 28 2118990 20151228152554
+202.46.50.138 1 1 0 20151226181821
+203.133.170.202 1 1 2914 20151228044221
+107.150.42.186 1 1 2914 20151222220144
+128.147.28.72 22 37 2223750 20151211141946
+202.46.48.12 1 1 2914 20151217002430
+54.145.106.28 1 1 2914 20151226064829
+73.40.206.46 20 35 2223311 20151209211224
+50.163.199.163 53 98 3645339 20151229000612
+189.73.81.236 1 9 600087 20151209223256
+24.101.10.47 29 51 2401049 20151222211105
+204.79.180.52 0 1 35991 
+199.30.25.99 6 6 6355 20151202083009
+52.20.151.197 1 1 2914 20151208083444
+46.118.118.215 1 1 2914 20151208092941
+104.197.130.108 1 13 1758251 20151225034402
+162.243.5.243 1 1 2914 20151228140647
+66.102.6.172 4 11 396761 20151209012339
+195.154.194.117 1 1 2914 20151223135932
+50.248.80.106 39 75 2858137 20151221121628
+115.230.126.48 1 1 2914 20151223171348
+166.78.9.12 3 3 2647 20151218155328
+71.60.118.147 22 37 2225910 20151218170504
+24.131.25.34 27 53 2679318 20151210011800
+45.32.129.200 2 2 5828 20151231083249
+74.208.113.178 3 3 8742 20151230234315
+108.3.90.153 2 3 137946 20151205100921
+173.13.34.253 13 27 2032140 20151216051459
+202.46.54.162 1 1 2914 20151207134638
+93.115.241.2 1 1 2914 20151217030716
+98.209.83.197 13 27 2032140 20151216205416
+70.199.0.186 14 28 2118990 20151221153254
+99.17.6.239 16 48 5734835 20151225031421
+96.46.53.142 1 1 2914 20151201064026
+112.64.235.252 1 10 1540312 20151207052109
+5.175.192.24 1 1 0 20151204133830
+204.79.180.180 0 1 43005 
+67.171.81.122 13 27 2032140 20151214210603
+71.61.90.137 16 30 2122629 20151201204945
+123.125.71.29 1 1 2914 20151231093634
+79.134.218.10 5 5 14570 20151207075049
+73.174.162.205 29 69 5513362 20151222081317
+130.211.102.243 2 2 5828 20151228124651
+73.40.186.4 13 27 2028845 20151231115057
+73.52.236.126 13 27 2032140 20151223080128
+71.112.208.35 13 27 2032140 20151219103639
+148.108.208.33 14 28 2030097 20151229141032
+203.133.170.210 1 1 2914 20151216065946
+71.61.204.198 23 41 3395898 20151223022312
+75.117.191.91 25 40 2149338 20151204182406
+24.144.167.50 13 27 2032140 20151208171525
+66.249.83.93 1 1 2914 20151212130609
+100.6.128.88 12 27 2128849 20151231171441
+50.243.177.244 14 28 2032771 20151211131538
+71.60.114.70 53 109 6183270 20151215142604
+96.30.6.132 1 1 2914 20151213173617
+70.199.0.68 17 32 2046895 20151231000204
+108.22.79.72 13 27 2032140 20151202140539
+66.249.88.78 1 1 2914 20151202140532
+24.3.67.24 13 27 2032140 20151227232732
+86.57.167.45 1 1 2914 20151217174802
+23.106.192.104 1 1 2914 20151227124352
+98.218.122.52 13 27 2028845 20151220211048
+65.78.117.21 2 2 0 20151225080907
+208.89.33.53 21 36 2221363 20151218155328
+98.239.198.179 72 130 9431981 20151228102827
+74.109.215.194 81 148 4473533 20151230001044
+178.217.187.39 1 1 2914 20151205031703
+123.30.175.244 1 1 2914 20151212190902
+180.153.163.190 1 10 1540312 20151227052429
+70.52.224.160 1 1 2914 20151207075438
+74.111.101.103 13 27 2032140 20151216211209
+123.30.175.246 1 1 2914 20151212193008
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20151201 387 723 36835388 25
+20151202 268 517 27740354 20
+20151203 383 695 38020894 24
+20151204 397 743 38695756 29
+20151205 284 548 34650034 27
+20151206 512 1000 62084071 36
+20151207 405 759 42672428 29
+20151208 205 389 24026297 23
+20151209 265 532 32518194 20
+20151210 340 639 38802252 25
+20151211 306 603 44760216 27
+20151212 418 806 46306334 32
+20151213 295 551 30636248 27
+20151214 303 571 38470396 25
+20151215 471 926 49293476 29
+20151216 380 753 48108529 31
+20151217 237 448 30129903 26
+20151218 409 733 40935218 37
+20151219 229 449 23915800 24
+20151220 165 324 21017967 24
+20151221 200 393 25676814 29
+20151222 384 754 43438381 29
+20151223 388 746 54276907 35
+20151224 151 308 22067955 17
+20151225 116 260 22094065 21
+20151226 231 491 37083786 32
+20151227 361 623 43559447 29
+20151228 383 770 53655851 32
+20151229 470 929 53206561 33
+20151230 263 486 24339076 30
+20151231 204 444 32698508 27
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 14
+0s-30s 682
+15mn-30mn 5
+2mn-5mn 27
+30s-2mn 123
+30mn-1h 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 123
+/ 893 2374910 803 383
+/panes/header.html 458 160293 22 0
+/panes/sidebar.html 456 439848 3 2
+/panes/social-bar.html 453 596721 3 2
+/panes/addressblock.html 447 346280 1 1
+/img/banner2.svg 436 17433273 1 62
+/panes/home.html 435 354783 3 5
+/img/banner1.svg 435 23411172 2 14
+/panes/mainblurb.html 428 70728 0 2
+/panes/aboutahp.html 426 201659 1 22
+/panes/tickets.html 31 73997 0 11
+/panes/JACT2infoblurb.html 57 30520 0 5
+/panes/styleinsert-outgoing.html 56 51095 1 1
+/panes/play-template.html 101 252000 0 1
+/panes/JACTAuditionForm.html 14 26082 0 5
+/fonts/montserrat-regular-webfont.ttf 21 918036 0 1
+/bios/thom-mclaughlan.html 1 379 0 0
+/bios/dennis-kerr.html 32 23776 0 1
+/panes/play1infoblurb.html 31 12555 0 0
+/bios/jamie-pasquinelli.html 31 22351 0 0
+http://demo.ehscloud.cn 1 698 1 1
+/bios/maddie-nick.html 32 29760 0 0
+/fonts/montserrat-regular-webfont.woff 342 8371944 1 31
+/panes/about.html 21 25935 0 9
+/panes/JACT3infoblurb.html 56 27280 0 19
+/panes/JACTblurb3.html 31 14570 0 0
+/panes/announcement.html 1 747 0 0
+/bios/matt-mlynarski.html 27 14634 0 0
+/bios/ron-ferrara.html 42 26445 0 0
+/panes/play4infoblurb.html 24 10143 0 0
+/panes/JACTAuditions.html 15 960 0 0
+/bios/rick-dutrow-fotf.html 42 64821 0 0
+/bios/dennis-kerr-tot.html 55 46926 0 1
+/bios/stephanie-swift-antill.html 56 26455 0 0
+/panes/JACTblurb1.html 31 14012 0 0
+/panes/playblurb6.html 52 42484 1 10
+/panes/lamplighterdinner.html 10 59560 0 4
+/bios/rick-dutrow.html 24 36777 0 0
+/bios/wayne-brinda.html 25 14376 1 0
+/bios/sue-shirey-fotf.html 41 26609 0 0
+/panes/scholarships.html 6 25038 0 1
+http://www.applehillplayhouse.org 2 5828 0 0
+/bios/shirley-ratner.html 32 31648 0 0
+/bios/karin-maresh-bmb.html 32 29664 0 2
+/panes/playblurb5.html 52 44044 0 6
+/img/2015_AUDITION_APP_JACT_SHOWS.pdf 2 97726 0 0
+/fonts/montserrat-regular-webfont.eot 80 1647877 2 1
+/panes/classes.html 15 4368 0 4
+/bios/terri-bowser-icbaoou.html 24 24528 0 0
+/bios/denise-pullen.html 31 27776 0 0
+/panes/playblurb2.html 51 48399 0 0
+/panes/employment.html 39 24609 0 17
+/panes/mainstageAuditions.html 7 1078 0 0
+/bios/johnny-gallagher.html 31 20522 0 0
+/bios/mike-crosby-fotf.html 42 27552 1 1
+/lib/font-awesome/fonts/fontawesome-webfont.ttf 22 3114408 0 1
+/panes/JACT1infoblurb.html 52 25296 0 1
+/bios/mike-crosby.html 27 37476 0 0
+/bios/tj-swigart.html 27 8667 0 0
+/panes/playblurb7.html 52 40768 0 13
+http://news.ehscloud.cn 1 698 1 1
+/panes/education.html 26 11575 0 7
+/bios/surya-ravindran.html 31 29729 0 1
+/bios/nikki-makos.html 31 15841 0 0
+/bios/matt-henderson.html 37 34299 0 0
+/bios/pam-farneth.html 42 32062 0 0
+/bios/briana-downs.html 28 26712 0 0
+/bios/frankie-shoup.html 27 4941 0 1
+/bios/kristin-lenz.html 42 23534 0 2
+/panes/styleinsert-default.html 96 19190 0 4
+/panes/playblurb3.html 52 46332 0 1
+/bios/sue-shirey.html 28 23548 0 0
+/panes/dinnertheatre.html 52 65104 1 13
+/bios/michael-rozell.html 31 59644 0 0
+/panes/play6infoblurb.html 42 16031 0 0
+/lib/font-awesome/fonts/fontawesome-webfont.woff 422 34592880 2 110
+/bios/keri-lucey.html 31 60698 0 0
+/bios/rick-dutrow-tot.html 55 59022 0 11
+/panes/auditionsblurb.html 1 1278 0 0
+/bios/matt-mlynarski-bmb.html 32 13984 0 0
+/bios/klase-danko-fotf.html 42 29904 0 2
+/panes/mainstage.html 52 37648 0 1
+/panes/jact.html 31 29171 0 0
+/panes/play5infoblurb.html 32 14080 0 0
+/bios/thom-mclaughlin-tot.html 56 22770 1 2
+/bios/karin-maresh.html 37 27195 0 1
+/bios/kelsey-riker.html 31 21979 0 6
+/bios/lauren-mccurdy.html 31 52483 0 0
+/panes/lamplighterlunch.html 4 29284 0 0
+/bios/pamela-lee.html 25 11544 1 2
+/panes/gift_cert.html 426 941640 0 4
+/panes/JACTAuditionsblurb.html 50 30050 0 15
+/panes/playblurb4.html 52 45292 0 2
+/bios/craig-soich.html 37 28379 0 5
+/bios/klase-danko.html 37 27121 0 0
+/bios/katelynn-reist.html 24 13317 0 0
+/bios/alex-novickoff.html 27 14364 0 0
+/bios/matt-henderson-icbaoou.html 25 20280 0 1
+/bios/pj-mcmahon.html 31 16802 0 0
+/bios/d-palyo.html 32 20704 0 0
+/bios/angie-lavelle.html 24 8832 0 0
+/panes/playblurb1.html 52 54548 0 4
+/bios/deborah-stephenson.html 37 27861 0 0
+/panes/play3infoblurb.html 28 11732 0 0
+/bios/mike-marra.html 32 23424 0 0
+/bios/dave-hoffman.html 42 29356 0 0
+/panes/mainstageAuditionForm.html 6 11064 0 3
+http://www.blazingsecurity.com 1 698 1 1
+/panes/JACTblurb2.html 31 20088 0 0
+/panes/lamplighter.html 11 114664 0 4
+/bios/stephen-toth.html 27 18333 0 0
+/bios/craig-soich-icbaoou.html 25 18792 0 1
+/bios/rachel-nicely.html 27 28161 0 0
+/panes/volunteer.html 4 4368 0 3
+/panes/musical-template.html 31 77872 0 0
+/bios/terri-bowser.html 37 39701 0 1
+/panes/play7infoblurb.html 56 22165 0 0
+/bios/thom-mclaughlin-bmb.html 32 15872 0 0
+/panes/auditions.html 55 34560 0 0
+/panes/apprentice.html 5 34405 0 0
+/panes/play2infoblurb.html 37 12395 0 0
+/bios/pat-beyer-tot.html 55 38718 0 1
+/fonts/montserrat-regular-webfont.svg 170 14764500 0 4
+END_SIDER
