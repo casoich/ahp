@@ -10,7 +10,7 @@
                 "startdate": "2017-05-11",
                 "enddate": "2017-05-21",
                 "writtenby": "Written by Ted Swindley",
-                "directedby": "Directed by Rori Aiello<br/>Musical Direction by Aaron Gray",
+                "directedby": "Directed by Rori Aiello–Mull<br/>Musical Direction by Aaron Gray",
                 "headline": "",
                 "subhead": "",
                 "stylesheet": "/panes/styleinsert-default.html",
@@ -19,7 +19,7 @@
                 "blurbtext": "<p><i>Always-Patsy Cline</i> is based on the true story of Patsy Cline’s friendship with Houston housewife <b>Louise Seger</b> who first heard Cline on “The Arthur Godfrey Show” and became an immediate fan.  Four years later Seger attended a performance, arriving early and met Cline who was just arriving and traveling alone. The two women struck up a friendship that resulted in Cline’s spending the night at Seger’s house.  Although they never met again, Cline wrote many letters and made many phone calls to her friend until her untimely death in a plane crash.  The play focuses on the fateful evening when Seger hears of Cline’s death.  She supplies a narrative while Patsy floats in and out singing the tunes that made her famous:  “Crazy,” “Always,“ “Have You Ever Been Lonely?”, “It Wasn’t God who made Honkey Tonk Angels,” “Leavin’ On Your Mind,”  “Seven Lonely Days,” in all 27 songs. Combining humor, sadness and reality, the show is family friendly and packed with great music.</p>",
                 "castlist": [
                     {
-                        "name": "Rori Aiello",
+                        "name": "Rori Aiello–Mull",
                         "role": "Director",
                         "photopath": "./bios/rori-mull.jpg",
                         "biopath": "./bios/rori-aiello-pc.html"
@@ -31,7 +31,7 @@
                         "biopath": "./bios/aaron-gray.html"
                     },
                     {
-                        "name": "Katie Aiello",
+                        "name": "Katie Aiello–McCusker",
                         "role": "Patsy Cline",
                         "photopath": "./bios/katie-aiello.jpg",
                         "biopath": "./bios/katie-aiello.html"
@@ -50,6 +50,7 @@
                 "title": "Mixed Emotions",
                 "path": "#/2017/mainstage/mixedemotions",
                 "isMusical": false,
+                "isChipKerrInThisShow":true,
                 "date": "7:30 June 8, 9, 10; 15, 16, 17<br/>2:00 June 11",
                 "startdate": "2017-06-08",
                 "enddate": "2017-06-17",

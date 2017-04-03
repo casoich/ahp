@@ -170,11 +170,12 @@ function MasterCtrl($scope, $http) {
         }
         return obj[prop];
     }
-    //var testingDate="2016-10-03 08:00:00am";
-    // Daterange filter
-    $scope.showBetween = function (startDate, endDate) {
 
-        //        console.log("got to showBetween:",startDate,endDate);
+
+
+    var testingDate="2017-05-23 08:00:00am";
+    // Daterange filters
+    $scope.showBetween = function (startDate, endDate) {
         var itemDate = moment();
         try {
             if (testingDate) itemDate = moment(testingDate);
@@ -183,11 +184,26 @@ function MasterCtrl($scope, $http) {
         }
         var s = moment(startDate, "YYYY-MM-DD");
         var e = moment(endDate, "YYYY-MM-DD");
-        // console.log((itemDate >= s && itemDate <= e),e,itemDate,e);
         if (itemDate >= s && itemDate <= e) return true;
         return false;
-
     };
+    $scope.isComingUp = function (startDate) {
+        var itemDate = moment();
+        try {
+            if (testingDate) itemDate = moment(testingDate);
+        } catch (err) {
+            //just... nothing
+        }
+        var s = moment(startDate, "YYYY-MM-DD");
+        var leadtime = moment(itemDate).add(7, 'days');
+        if (leadtime >= s && itemDate<s) return true;
+        return false;
+    }
+    $scope.nowShowing = function (startDate, endDate) {
+        //semantic alias method
+        var endtime = moment(endDate).add(1, 'days');
+        return $scope.showBetween(startDate, endtime);
+    }
     $scope.logit = function (athing) {
         console.log(athing);
         return athing;
@@ -205,4 +221,4 @@ function MasterCtrl($scope, $http) {
 ////    console.log("$scope in master-ctrl",$scope);
 //    console.log("MasterCtrl in master-ctrl",MasterCtrl);
 //    console.log("navItems in master-ctrl",navItems);
-console.log("end master-ctrl.js");
+// console.log("end master-ctrl.js");

@@ -1,26 +1,17 @@
 <div class="row">
     <div ng-include="mainblurbpane"></div>
-    <div ng-include="'/panes/auditionsblurb.html'"></div>
-    <!--<div ng-include="announcementpane"></div>-->
-    <!-- <div class="col-xs-12 col-md-6 " ng-controller="foreigner2016controller">
-     <div ng-include="'/panes/blurbpane.html'"></div>
- </div>-->
-    <!-- <div class="col-xs-12 col-md-6 ">
-     <div ng-include="JACT3blurb"></div>
- </div>-->
+    <!--<div ng-if="isComingUp('2017-04-15')" ng-include="'/panes/announcement.html'"></div>-->
+    <div ng-include="'/panes/auditionsblurb.html'" ng-show="showBetween('2017-01-01','2017-04-16')"></div>
 
-    <!-- <div class="col-xs-12 col-md-6 ">
-     <div ng-include="'/panes/galablurb.html'"></div>
- </div>-->
-    <div>
-        <!--<div ng-repeat="thisBlurb in [fetchFromObject(content,'showinfo.2017.mainstage.patsycline2017')]" ng-include="'/panes/blurbpane.html'"  ></div>-->
-        <div ng-include="'/panes/2017/seasonteaser2017.html'"></div>
-        <div ng-include="'/panes/2017/JACTseasonteaser2017.html'"></div>
-    </div>
+    <!--<div>-->
+        <div ng-include="'/panes/2017/seasonteaser2017.html'" ng-show="showBetween('2017-01-01','2017-05-04')"></div>
+        <div ng-include="'/panes/2017/JACTseasonteaser2017.html'" ng-show="showBetween('2017-01-01','2017-05-04')"></div>
+    <!--</div>-->
     <!--<div ng-include="'/panes/blurbpane_sinatra.html'" ng-show="showBetween('2016-01-01','2016-04-29')"></div>-->
-
-    <!--<div ng-include="'/panes/announcement.html'"></div>-->
-    <div ng-include="'/panes/kidscamp.html'" ng-show="showBetween('2016-01-01','2016-06-25')"></div>
+<div ng-repeat="thisBlurb in fetchFromObject(content,'showinfo.2017') | filterObjectBy:'showtype':'mainstage' | orderObjectDateBy:'startdate'"
+    ng-include="'/panes/showpane.html'">
+    </div>
+    <!--<div ng-include="'/panes/kidscamp.html'" ng-show="showBetween('2016-01-01','2016-06-25')"></div>-->
 
 
     <!--<div ng-include="'/panes/gift_cert.html'"></div>-->
