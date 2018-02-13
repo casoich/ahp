@@ -315,6 +315,9 @@ body {
 #page-wrapper.active #sidebar-wrapper {
   left: 220px;
 }
+a:link {
+  text-decoration: none;
+}
 /**
  * Header
  */

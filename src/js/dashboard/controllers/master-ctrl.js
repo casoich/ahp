@@ -95,6 +95,7 @@ function MasterCtrl($scope, $http) {
 
     $scope.controllerList = {};
     $scope.content = {};
+    var myvariable = "hi";
     console.log($http);
     $http.get('/panes/content.json')
         .then(function (res) {
@@ -102,6 +103,8 @@ function MasterCtrl($scope, $http) {
             console.log("loaded JSON:", $scope.content);
         });
     var mobileView = 992;
+    $scope.moment = window.moment;
+
     $scope.navItems = navItems;
     $scope.homepage = [
         {
@@ -170,10 +173,18 @@ function MasterCtrl($scope, $http) {
         }
         return obj[prop];
     }
+    $scope.findObjectInArray = function(thisarray, prop, match) {
+        if (!!thisarray) {
+            for (var i = 0; i < thisarray.length; i++) {
+                if (thisarray[i][prop] == match) {
+                    return thisarray[i];
+                }
+            }
+        }
+    }
 
 
-
-    var testingDate="2017-05-23 08:00:00am";
+      //var testingDate="2017-07-25 08:00:00am";
     // Daterange filters
     $scope.showBetween = function (startDate, endDate) {
         var itemDate = moment();
@@ -195,7 +206,7 @@ function MasterCtrl($scope, $http) {
             //just... nothing
         }
         var s = moment(startDate, "YYYY-MM-DD");
-        var leadtime = moment(itemDate).add(7, 'days');
+        var leadtime = moment(itemDate).add(21, 'days');
         if (leadtime >= s && itemDate<s) return true;
         return false;
     }
@@ -203,6 +214,42 @@ function MasterCtrl($scope, $http) {
         //semantic alias method
         var endtime = moment(endDate).add(1, 'days');
         return $scope.showBetween(startDate, endtime);
+    }
+    $scope.showOnThisDate = function (thisdate) {
+        var internaldate = moment(thisdate, "YYYY-MM-DD");
+        // console.log("got to showOnThisDate for date:", thisdate);
+        var yearstring = moment(thisdate).format('YYYY');
+        for (var thisshow in this.content.showinfo[yearstring]) {
+            var thisshowobj = this.content.showinfo[yearstring][thisshow];
+            // console.log(thisshowobj.startdate, "-", thisshowobj.enddate);
+            var s = moment(thisshowobj.startdate, "YYYY-MM-DD");
+            var e = moment(thisshowobj.enddate, "YYYY-MM-DD");
+            if (internaldate >= s && internaldate <= e) {
+                // console.log("returning:", thisshowobj);
+                return thisshowobj;
+            }
+        }
+        // console.log("failed to find",thisdate)
+        return {};
+    }
+    $scope.eventToday = function () {
+        var itemDate = moment();
+        try {
+            if (testingDate) itemDate = moment(testingDate);
+        } catch (err) {
+            //just... nothing
+        }
+        var yearstring = moment(itemDate).format('YYYY');
+        for (thisEvent in this.content.eventinfo[yearstring]) {
+            var thisEventObj=this.content.eventinfo[yearstring][thisEvent]
+            for (var thisEventDate in thisEventObj.dates) {
+                // console.log(moment(itemDate).format('YYYY-MM-DD') ,"vs.", thisEventObj.dates[thisEventDate].date);
+                if (moment(itemDate).format('YYYY-MM-DD') == thisEventObj.dates[thisEventDate].date) {
+                    // console.info("found a matching event:", thisEventObj);
+                    return thisEventObj;
+                }
+            }
+        }
     }
     $scope.logit = function (athing) {
         console.log(athing);

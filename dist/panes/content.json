@@ -31,14 +31,19 @@
                         "biopath": "./bios/aaron-gray.html"
                     },
                     {
+                        "name": "Halle Polechko",
+                        "role": "Stage Manager",
+                        "photopath": "",
+                        "biopath": "./bios/halle-polechko.html"
+                    },
+                    {
                         "name": "Katie Aiello–McCusker",
                         "role": "Patsy Cline",
                         "photopath": "./bios/katie-aiello.jpg",
                         "biopath": "./bios/katie-aiello.html"
-                    }
-                    ,
+                    },
                     {
-                        "name": "Mallory Hayden Grantz",
+                        "name": "Mallory Mousseau Grantz",
                         "role": "Louise Seger",
                         "photopath": "./bios/mallory-grantz.jpg",
                         "biopath": "./bios/mallory-grantz-pc.html"
@@ -50,7 +55,7 @@
                 "title": "Mixed Emotions",
                 "path": "#/2017/mainstage/mixedemotions",
                 "isMusical": false,
-                "isChipKerrInThisShow":true,
+                "isChipKerrInThisShow": true,
                 "date": "7:30 June 8, 9, 10; 15, 16, 17<br/>2:00 June 11",
                 "startdate": "2017-06-08",
                 "enddate": "2017-06-17",
@@ -61,7 +66,44 @@
                 "stylesheet": "/panes/styleinsert-default.html",
                 "insetpic": "/img/mixedemotions.png",
                 "infoblurb": "/panes/2017/mixedemotionsblurb.html",
-                "castlist": []
+                "castlist": [
+                    {
+                        "name": "Rick Dutrow",
+                        "role": "Director",
+                        "photopath": "./bios/rick-dutrow.jpg",
+                        "biopath": "./bios/rick-dutrow-me.html"
+                    },
+                    {
+                        "name": "Stephanie Swift",
+                        "role": "Stage Manager",
+                        "photopath": "./bios/stephanie-swift-antill.jpg",
+                        "biopath": "./bios/stephanie-swift-me.html"
+                    },
+                    {
+                        "name": "Dennis \"Chip\" Kerr",
+                        "role": "Herman",
+                        "photopath": "./bios/dennis-kerr.jpg",
+                        "biopath": "./bios/dennis-kerr-me.html"
+                    },
+                    {
+                        "name": "Shirley Ratner",
+                        "role": "Christine",
+                        "photopath": "./bios/shirley-ratner.jpg",
+                        "biopath": "./bios/shirley-ratner-me.html"
+                    },
+                    {
+                        "name": "Mike Crosby",
+                        "role": "Ralph",
+                        "photopath": "./bios/mike-crosby.jpg",
+                        "biopath": "./bios/mike-crosby-me.html"
+                    },
+                    {
+                        "name": "Mitchell Aiello",
+                        "role": "Chuck",
+                        "photopath": "./bios/mitchell-aiello.jpg",
+                        "biopath": "./bios/mitchell-aiello-me.html"
+                    }
+                ]
             },
             "seussical2017": {
                 "showtype": "mainstage",
@@ -72,7 +114,7 @@
                 "startdate": "2017-07-06",
                 "enddate": "2017-07-22",
                 "writtenby": "Book: Lynn Ahrens, Stephen Flaherty<br/>Music: Stephen Flaherty<br/>Lyrics: Lynn Ahrens<br/>Co-conceived by Lynn Ahrens, Stephen Flaherty and Eric Idle<br/>Based on the Works of Dr. Seuss.",
-                "directedby": "Directed by Timothy Dougherty<br/>Musical Direction by Aaron Gray",
+                "directedby": "Directed by Timothy Dougherty<br/>Musical Direction by Lisa Harrier",
                 "headline": "",
                 "subhead": "",
                 "stylesheet": "/panes/styleinsert-seussical.html",
@@ -96,7 +138,74 @@
                 "stylesheet": "/panes/styleinsert-default.html",
                 "insetpic": "/img/rumors.png",
                 "infoblurb": "/panes/2017/rumorsblurb.html",
-                "castlist": []
+                "castlist": [
+                    {
+                        "name": "Stephen Toth",
+                        "role": "Director",
+                        "photopath": "./bios/stephen-toth.jpg",
+                        "biopath": "./bios/stephen-toth-rumors.html"
+                    },
+                    {
+                        "name": "Ellen Kalik",
+                        "role": "Stage Manager (and Pudney)",
+                        "photopath": "./bios/ellen-kalik.jpg",
+                        "biopath": "./bios/ellen-kalik-rumors.html"
+                    },
+                    {
+                        "name": "Mike Crosby",
+                        "role": "Ken Gorman",
+                        "photopath": "./bios/mike-crosby.jpg",
+                        "biopath": "./bios/mike-crosby-rumors.html"
+                    },
+                    {
+                        "name": "Stacy DiPasquale",
+                        "role": "Cookie Cusack",
+                        "photopath": "./bios/stacy-dipasquale.jpg",
+                        "biopath": "./bios/stacy-dipasquale-rumors.html"
+                    },
+                    {
+                        "name": "Dan Krack",
+                        "role": "Lenny Ganz",
+                        "photopath": "./bios/dan-krack.jpg",
+                        "biopath": "./bios/dan-krack-rumors.html"
+                    },
+                    {
+                        "name": "Rachel Painter",
+                        "role": "Cassie Cooper",
+                        "photopath": "./bios/rachel-painter.jpg",
+                        "biopath": "./bios/rachel-painter-rumors.html"
+                    },
+                    {
+                        "name": "Laurie Racculia",
+                        "role": "Chris Gorman",
+                        "photopath": "./bios/laurie-racculia.jpg",
+                        "biopath": "./bios/laurie-racculia-rumors.html"
+                    },
+                    {
+                        "name": "Joe Schneider",
+                        "role": "Ernie Cusack",
+                        "photopath": "./bios/joe-schneider.jpg",
+                        "biopath": "./bios/joe-schneider-rumors.html"
+                    },
+                    {
+                        "name": "Frankie Shoup",
+                        "role": "Officer Welch",
+                        "photopath": "./bios/frankie-shoup.jpg",
+                        "biopath": "./bios/frankie-shoup-rumors.html"
+                    },
+                    {
+                        "name": "Craig Soich",
+                        "role": "Glenn Cooper",
+                        "photopath": "./bios/craig-soich.jpg",
+                        "biopath": "./bios/craig-soich-rumors.html"
+                    },
+                    {
+                        "name": "Alex Swartz",
+                        "role": "Claire Ganz",
+                        "photopath": "./bios/alex-swartz-2017.jpg",
+                        "biopath": "./bios/alexandra-swartz-rumors.html"
+                    }
+                ]
             },
             "dixie2017": {
                 "showtype": "mainstage",
@@ -158,14 +267,182 @@
                 "startdate": "2017-08-08",
                 "enddate": "2017-08-12",
                 "writtenby": "Written by Sally Netzel",
-                "directedby": "",
+                "directedby": "Directed by June Beighley",
                 "headline": "",
                 "subhead": "",
                 "stylesheet": "/panes/styleinsert-default.html",
                 "insetpic": "/img/cinderella.png",
+                "backpic": "/img/cinderella-bg.jpg",
                 "infoblurb": "/panes/2017/cinderellablurb.html",
                 "castlist": []
             }
         }
+    },
+    "eventinfo": {
+        "2017": [
+            {
+                "eventtype": "meatball",
+                "title": "Miss Meatball!",
+                "path": "#/2017/events/meatball",
+                "isMusical": false,
+                "startdate": "2017-06-08",
+                "dates": [
+                    {
+                        "date": "2017-06-08",
+                        "showtime": "7:30pm"
+                    },
+                    {
+                        "date": "2017-07-13",
+                        "showtime": "7:30pm"
+                    },
+                    {
+                        "date": "2017-08-11",
+                        "showtime": "7:30pm"
+                    },
+                    {
+                        "date": "2017-08-27",
+                        "showtime": "2:00pm"
+                    },
+                    {
+                        "date": "2017-09-14",
+                        "showtime": "7:30pm"
+                    }
+                ],
+                "headline": "Orchard Performing Arts Company at Apple Hill Playhouse introduces Miss Meatball Food Truck to the Theater!",
+                "subhead": "Come on over and have a ball before the show... or just come over and have a ball!",
+                "eventdaytag": "It's a Miss Meatball day!",
+                "stylesheet": "/panes/styleinsert-default.html",
+                "backpic": "",
+                "insetpic": "/img/MissMeatball.png",
+                "infoblurb": "/panes/2017/meatballblurb.html"
+            },
+            {
+                "eventtype": "event",
+                "title": "Second annual Karaoke Night!",
+                "path": "#/2017/events/karaoke",
+                "isMusical": true,
+                "startdate": "2017-07-01",
+                "enddate": "2017-07-01",
+                "date": "July 1, 6:00pm",
+                "dates": [
+                    {
+                        "date": "2017-07-01",
+                        "showtime": "6:00pm"
+                    }
+                ],
+                "headline": "Second Annual Karaoke Night!",
+                "subhead": "Back by popular demand!",
+                "eventdaytag": "Karaoke night tonight!!",
+                "stylesheet": "/panes/styleinsert-karaoke.html",
+                "panelclass": "karaoke",
+                "backpic": "/img/karaokebg.jpg",
+                "insetpic": "/img/VintageChromeMic.png",
+                "infoblurb": "/panes/2017/karaokeblurb.html"
+            },
+            {
+                "eventtype": "event",
+                "title": "Unsung Songs Cabaret",
+                "path": "#/2017/events/cabaret",
+                "isMusical": true,
+                "startdate": "2017-08-19",
+                "enddate": "2017-08-19",
+                "date": "August 19, 7:00pm",
+                "dates": [
+                    {
+                        "date": "2017-08-19",
+                        "showtime": "7:00pm"
+                    }
+                ],
+                "headline": "Unsung Songs Cabaret",
+                "subhead": "",
+                "eventdaytag": "Unsung Songs Cabaret tonight!!",
+                "stylesheet": "/panes/styleinsert-karaoke.html",
+                "panelclass": "karaoke",
+                "backpic": "/img/karaokebg.jpg",
+                "insetpic": "/img/VintageChromeMic.png",
+                "infoblurb": "/panes/2017/cabaretblurb.html"
+            },
+            {
+                "eventtype": "event",
+                "title": "Cinderella's Tea Party",
+                "path": "#/2017/events/cinderellatea",
+                "isMusical": false,
+                "startdate": "2017-08-12",
+                "enddate": "2017-08-12",
+                "date": "Saturday, August 12 (after the 11:00am show)",
+                "dates": [
+                    {
+                        "date": "2017-08-12",
+                        "showtime": "12:30pm"
+                    }
+                ],
+                "headline": "Cinderella's Tea Party",
+                "subhead": "After the 11am show on Saturday, August 12",
+                "eventdaytag": "Today is Cinderella's Tea Party!!",
+                "stylesheet": "/panes/styleinsert-cinderella.html",
+                "panelclass": "",
+                "backpic": "/img/cinderella-bg.jpg",
+                "insetpic": "/img/cinderella.png",
+                "infoblurb": "/panes/2017/cinderellateablurb.html"
+            },
+            {
+                "eventtype": "event",
+                "title": "Split Stage presents Side Show",
+                "path": "#/2017/events/sideshow",
+                "isMusical": true,
+                "startdate": "2017-10-06",
+                "enddate": "2017-10-15",
+                "date": "October 6 - 14",
+                "dates": [
+                    {
+                        "date": "2017-10-06",
+                        "showtime": "8:00pm"
+                    },
+                    {
+                        "date": "2017-10-07",
+                        "showtime": "8:00pm"
+                    },
+                    {
+                        "date": "2017-10-12",
+                        "showtime": "8:00pm"
+                    },
+                    {
+                        "date": "2017-10-13",
+                        "showtime": "8:00pm"
+                    },
+                    {
+                        "date": "2017-10-14",
+                        "showtime": "8:00pm"
+                    }
+                ],
+                "headline": "Side Show",
+                "subhead": "Split Stage presents",
+                "eventdaytag": "Show tonight!",
+                "stylesheet": "/panes/styleinsert-default.html",
+                "panelclass": "karaoke",
+                "backpic": "/img/SideShow_fade.png",
+                "insetpic": "/img/SideShow.png",
+                "infoblurb": "/panes/2017/sideshowblurb.html"
+            },
+            {
+                "eventtype": "event",
+                "title": "Apple Hill Playhouse Gift Certificates!",
+                "path": "#/",
+                "isMusical": false,
+                "startdate": "2017-10-01",
+                "enddate": "2018-03-01",
+                "date": "",
+                "dates": [
+                ],
+                "headline": "Apple Hill Gift Certificates",
+                "subhead": "",
+                "eventdaytag": "",
+                "stylesheet": "/panes/styleinsert-karaoke.html",
+                "panelclass": "karaoke",
+                "backpic": "/img/theatre_gift.jpg",
+                "insetpic": "/img/apple.png",
+                "infoblurb": "/panes/gift_cert.html"
+            }
+        ]
     }
 }

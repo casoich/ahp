@@ -1,0 +1,35 @@
+<div class="col-xs-12 col-sm-10 col-sm-offset-1">
+    <div class="panel panel-primary">
+        
+        <div class="panel-body">
+<h3 class="panel-title">Miss Meatball is coming to Apple Hill Playhouse!</h3>
+<br/>
+            <div class="row">
+                <div class="col-xs-12 col-sm-4 col-md-3">
+                    <img ng-src="../{{findObjectInArray(fetchFromObject(content,'eventinfo.2017'),'eventtype','meatball').insetpic}}" alt=""
+                        style="width:100%; height:100%;" />
+                </div>
+                <div class="col-xs-12 col-sm-8 col-md-9">
+                    <a ng-href="http://www.missmeatball.com/food-cart-menu.html" target="_blank">Miss Meatball</a> will be
+                    visiting Apple Hill Playhouse throughout the summer, offering delicious food before select shows.
+                </div>
+                <div class="row">
+                    <div class="col-xs-12">
+                        <table class="table table-striped table-condensed">
+                            <tr>
+                                <th>Date</th>
+                                <th>Show Time</th>
+                                <th>Show</th>
+                            </tr>
+                            <tr ng-repeat="thisdate in findObjectInArray(fetchFromObject(content,'eventinfo.2017'),'eventtype','meatball').dates|orderBy:'date'">
+                                <td>{{moment(thisdate.date).format('ddd[, ]MMM Do')}}</td>
+                                <td>{{thisdate.showtime}}</td>
+                                <td><a href="{{showOnThisDate(thisdate.date).path}}">{{showOnThisDate(thisdate.date)['title']}}</a></td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>

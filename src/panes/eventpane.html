@@ -1,0 +1,39 @@
+<div ng-if="isComingUp(thisBlurb.startdate)||nowShowing(thisBlurb.startdate,thisBlurb.enddate)" 
+class="row">
+    <div style="width:100%; display:inline-block; border-radius:10px; box-shadow: 4px 4px 11px 0px rgba(0, 0, 0, 0.4); background-color:#dcd9b2; background-size:cover; background-repeat: no-repeat; background-position: center center;"
+        ng-style="{'background-image':'url(../{{thisBlurb.backpic}})'}"
+        ng-class="thisBlurb.panelclass">
+<div ng-include="thisBlurb.stylesheet"></div>
+
+        <div class="col-xs-12 col-sm-4 col-md-3">
+            <img ng-src="../{{thisBlurb.insetpic}}" alt="" style="width:100%; height:100%;" />
+            <br/>
+            <a class="" href="{{eventToday().path}}" ng-if="eventToday()&&nowShowing(thisBlurb.startdate,thisBlurb.enddate)">
+                <span>
+                    <!-- <i class="fa fa-smile-o"></i> -->
+                    &nbsp;{{eventToday().eventdaytag}}
+                </span>
+            </a>
+        </div>
+        <a class="col-xs-12 col-sm-8 col-md-9" style="text-decoration:none; color:#222;" ng-href="{{thisBlurb.path}}">
+            <h3 style=""><span ng-if="isComingUp(thisBlurb.startdate)" class=" ">
+            Coming soon...&nbsp;
+            </span>{{thisBlurb.title}}</h3>
+
+            <div ng-if="nowShowing(thisBlurb.startdate,thisBlurb.enddate)" style="">
+                <div ng-if="thisBlurb.writtenby" class='writtenby'>
+                    <h5><span ng-bind-html="thisBlurb.writtenby | unsafe"></span></h5>
+                </div>
+                <div ng-if="thisBlurb.directedby" class='directedby'>
+                    <h5><i ng-bind-html="thisBlurb.directedby | unsafe"></i></h5>
+                </div>
+            </div>
+
+            <h4 style="" class='' ng-bind-html="thisBlurb.date | unsafe">...</h4>
+            <div >
+                <h4 ng-include="thisBlurb.infoblurb"></h4>
+            </div>
+
+        </a>
+    </div>
+</div>

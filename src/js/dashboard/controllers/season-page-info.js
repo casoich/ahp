@@ -10,7 +10,10 @@ var navItems = [
         {menuitem:true, text:"Boeing Boeing",          path:"/2017/mainstage/boeing", pane:"/panes/play-template.html",blurb:"/panes/2017/boeing.html",controller:boeing2017Controller}
 
         ]},
-        {menuitem:false, collapsed:false, text:yearstring+" Special Events",path:"/special",pane:"/panes/home.html", children:[
+        {
+            menuitem: false, collapsed: false, text: yearstring + " Special Events", path: "/special", pane: "/panes/home.html", children: [
+                { menuitem: true, text: "Miss Meatball", path: "/2017/events/meatball", pane: "/panes/2017/meatballblurb.html", blurb: "/panes/2017/meatballblurb.html" },
+
         ]},
         {menuitem:true, collapsed:false, text:yearstring+" Children's Season",path:"/jact",pane:"/panes/jact.html", children:[
             {menuitem:true, text:"Winnie the Pooh Birthday Tail",          path:"/2017/JACT/winnie", pane:"/panes/play-template.html",blurb:"/panes/2017/winnie.html",controller:winnie2017Controller},
@@ -26,7 +29,7 @@ var navItems = [
             {menuitem:true, text:"Lunch Menu",path:"/lamplighter/lunch",pane:"/panes/lamplighterlunch.html"},
             {menuitem:true, text:"Dinner Menu",path:"/lamplighter/dinner",pane:"/panes/lamplighterdinner.html"}
         ] },
-        {menuitem:true, collapsed:true, text:"Education",path:"/education",pane:"/panes/education.html", children:[
+        {menuitem:true, collapsed:false, text:"Education",path:"/education",pane:"/panes/education.html", children:[
             {menuitem:true, text:"Theater Classes",path:"/education/kidscamp",pane:"/panes/kidscamp.html"},
             {menuitem:false, text:"Apprenticeships",path:"/education/apprentice",pane:"/panes/apprentice.html"},
             { menuitem: true, text: "Opportunities for kids", path: "/education/forkids", pane: "/panes/forkids.html" },
@@ -35,8 +38,9 @@ var navItems = [
         {menuitem:true, collapsed:true, text:"Employment",path:"/employment",pane:"/panes/employment.html", children:[
             {menuitem:true, text:"Volunteer Opportunities",path:"/employment/volunteer",pane:"/panes/volunteer.html"},
         ] },
-        {menuitem:true, collapsed:true, text:"About Us",path:"/about",pane:"/panes/about.html"},
-        {menuitem:false, text:"Butterflies Are Free",       path:"/mainstage/butterflies",  pane:"/panes/play-template.html",blurb:"/panes/playblurb2.html",controller:play2controller},
+        { menuitem: true, collapsed: true, text: "Rehearsal Schedule", path: "/calendar", pane: "/panes/calendar.html" },
+        { menuitem: true, collapsed: true, text: "About Us", path: "/about", pane: "/panes/about.html" },
+        { menuitem: false, text: "Butterflies Are Free", path: "/mainstage/butterflies", pane: "/panes/play-template.html", blurb: "/panes/playblurb2.html", controller: play2controller },
         {menuitem:false, text:"Funny Money",                path:"/mainstage/funnymoney",   pane:"/panes/play-template.html",blurb:"/panes/playblurb3.html",controller:play3controller},
         {menuitem:false, text:"The World Goes 'Round",      isMusical:true, path:"/mainstage/world",        pane:"/panes/musical-template.html",blurb:"/panes/playblurb1.html",controller:play1controller},
         {menuitem:false, text:"It Could Be Any One Of Us",  path:"/mainstage/couldbe",      pane:"/panes/play-template.html",blurb:"/panes/playblurb4.html",controller:play4controller},
