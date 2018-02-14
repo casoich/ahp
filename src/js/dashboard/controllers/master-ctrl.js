@@ -124,10 +124,6 @@ function MasterCtrl($scope, $http) {
             if (currentRoute.controller) {
                 $scope.controllerList[currentRoute.controller.name] = currentRoute.controller;
                 appController.controller(currentRoute.controller.name, ['$scope', currentRoute.controller]);
-                //                                 console.log(appController);
-
-
-                //                    console.log(currentRoute.controller);
             }
             if (currentRoute.children) {
                 storeControllers(currentRoute.children);
