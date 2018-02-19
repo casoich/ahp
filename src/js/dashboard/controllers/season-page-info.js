@@ -2,7 +2,12 @@ var yearstring = "2018";
 var navItems = [
         {menuitem:true,  text:"Home",path:"/",pane:"/panes/home.html"},
         {menuitem:true, collapsed:false, text:yearstring+" Mainstage Season",path:"/mainstage",pane:"/panes/home.html", children:[
-            {menuitem:false, text:"Rumors",          path:"/2018/mainstage/rumors", pane:"/panes/play-template.html",blurb:"/panes/2018/rumors.html",controller:rumors2017Controller},
+            { menuitem: true, text: "Social Security", path: "/2018/mainstage/socialsecurity", pane: "/panes/play-template.html", blurb: "/panes/2018/socialsecurity.html", controller: socialsecurity2018Controller },
+            { menuitem: true, text: "Steel Magnolias", path: "/2018/mainstage/steelmagnolias", pane: "/panes/play-template.html", blurb: "/panes/2018/steelmagnolias.html", controller: steelmagnolias2018Controller },
+            { menuitem: true, text: "Altar Boyz", path: "/2018/mainstage/altarboyz", pane: "/panes/play-template.html", blurb: "/panes/2018/altarboyz.html", controller: altarboyz2018Controller },
+            { menuitem: true, text: "Mama Won't Fly", path: "/2018/mainstage/mamawontfly", pane: "/panes/play-template.html", blurb: "/panes/2018/mamawontfly.html", controller: mamawontfly2018Controller },
+            { menuitem: true, text: "Kitchen Witches", path: "/2018/mainstage/kitchenwitches", pane: "/panes/play-template.html", blurb: "/panes/2018/kitchenwitches.html", controller: kitchenwitches2018Controller },
+            { menuitem: true, text: "A Comedy of Tenors", path: "/2018/mainstage/comedyoftenors", pane: "/panes/play-template.html", blurb: "/panes/2018/comedyoftenors.html", controller: comedyoftenors2018Controller },
 
         ]},
         {
@@ -11,7 +16,9 @@ var navItems = [
 
         ]},
         {menuitem:true, collapsed:false, text:yearstring+" Children's Season",path:"/jact",pane:"/panes/jact.html", children:[
-            {menuitem:false, text:"Cinderella",          path:"/2017/JACT/cinderella", pane:"/panes/play-template.html",blurb:"/panes/2017/cinderella.html",controller:cinderella2017Controller}
+            { menuitem: true, text: "Sleeping Beauty", path: "/2018/JACT/sleepingbeauty", pane: "/panes/play-template.html", blurb: "/panes/2018/sleepingbeauty.html", controller: sleepingbeauty2018Controller },
+            { menuitem: true, text: "L'il Red", path: "/2018/JACT/lilred", pane: "/panes/play-template.html", blurb: "/panes/2018/lilred.html", controller: lilred2018Controller },
+            { menuitem: true, text: "Really Rosie", path: "/2018/JACT/reallyrosie", pane: "/panes/play-template.html", blurb: "/panes/2018/reallyrosie.html", controller: reallyrosie2018Controller }
         ]},
         {menuitem:true, text:"Ticket Information",path:"/tickets",pane:"/panes/tickets.html"},
         {menuitem:true, collapsed:true, text:yearstring+" Auditions",path:"/auditions",pane:"/panes/auditions.html", children:[
@@ -52,13 +59,13 @@ var navItems = [
         {menuitem:false, text:"Carrie: the Musical",        path:"/2016/ss/carrie",          pane:"/panes/play-template.html",blurb:"/panes/JACTblurb3.html",controller:carrie2016Controller},
         {menuitem:false, text:"Oh, Jack!",                  path:"/2016/jact/ohjack",          pane:"/panes/play-template.html",blurb:"/panes/JACTblurb1.html",controller:jact2016OhjackController},
         {menuitem:false, text:"The Enchanted Sleeping Beauty", path:"/2016/jact/enchanted",         pane:"/panes/play-template.html",blurb:"/panes/JACTblurb2.html",controller:jact2016EnchantedController},
-        {menuitem:false, text:"Looking Glass Land",         path:"/2016/jact/lookingglass",          pane:"/panes/play-template.html",blurb:"/panes/JACTblurb3.html",controller:jact2016Looking_Glass_LandController}
+        {menuitem:false, text:"Looking Glass Land",         path:"/2016/jact/lookingglass",          pane:"/panes/play-template.html",blurb:"/panes/JACTblurb3.html",controller:jact2016Looking_Glass_LandController},
         {menuitem:false, text:"Always - Patsy Cline",       path:"/2017/mainstage/patsycline", pane:"/panes/play-template.html",blurb:"/panes/2017/patsycline.html",controller:patsycline2017Controller},
         {menuitem:false, text:"Mixed Emotions",             path:"/2017/mainstage/mixedemotions", pane:"/panes/play-template.html",blurb:"/panes/2017/mixedemotions.html",controller:mixedemotions2017Controller},
         {menuitem:false, text:"Seussical - The Musical",    path:"/2017/mainstage/seussical", pane:"/panes/play-template.html",blurb:"/panes/2017/seussical.html",controller:seussical2017Controller},
         {menuitem:false, text:"Rumors",                     path:"/2017/mainstage/rumors", pane:"/panes/play-template.html",blurb:"/panes/2017/rumors.html",controller:rumors2017Controller},
         {menuitem:false, text:"The Dixie Swim Club",        path:"/2017/mainstage/dixie", pane:"/panes/play-template.html",blurb:"/panes/2017/dixie.html",controller:dixie2017Controller},
-        {menuitem:false, text:"Boeing Boeing",              path:"/2017/mainstage/boeing", pane:"/panes/play-template.html",blurb:"/panes/2017/boeing.html",controller:boeing2017Controller}
+        {menuitem:false, text:"Boeing Boeing",              path:"/2017/mainstage/boeing", pane:"/panes/play-template.html",blurb:"/panes/2017/boeing.html",controller:boeing2017Controller},
         {menuitem:false, text:"Winnie the Pooh Birthday Tail", path:"/2017/JACT/winnie", pane:"/panes/play-template.html",blurb:"/panes/2017/winnie.html",controller:winnie2017Controller},
         {menuitem:false, text:"Cinderella",                 path:"/2017/JACT/cinderella", pane:"/panes/play-template.html",blurb:"/panes/2017/cinderella.html",controller:cinderella2017Controller}
 

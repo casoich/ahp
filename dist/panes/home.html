@@ -1,19 +1,16 @@
 <div class="row">
     <div ng-include="mainblurbpane"></div>
+    <div ng-include="'/panes/seasonteaser.html'" ng-show="showBetween('2018-01-01','2018-05-04')"></div>
+    <div ng-include="'/panes/JACTseasonteaser.html'" ng-show="showBetween('2018-01-01','2018-05-04')"></div>
     <div ng-include="'/panes/auditionsblurb.html'" ng-show="showBetween('2017-01-01','2017-04-16')"></div>
-    <div ng-show="showBetween('2017-01-01','2017-05-13')">
-        <a ng-include="'/panes/JACTAuditionsblurb.html'"  ng-href="#/auditions/JACT"></a>
-        
-    </div>
-    <div ng-include="'/panes/2017/seasonteaser2017.html'" ng-show="showBetween('2017-01-01','2017-05-04')"></div>
-    <div ng-include="'/panes/2017/JACTseasonteaser2017.html'" ng-show="showBetween('2017-01-01','2017-05-04')"></div>
-    <div ng-repeat="thisBlurb in fetchFromObject(content,'showinfo.2017') | filterObjectBy:'showtype':'mainstage' | orderObjectDateBy:'startdate'"
+        <div ng-show="showBetween('2017-01-01','2017-05-13')"><a ng-include="'/panes/JACTAuditionsblurb.html'"  ng-href="#/auditions/JACT"></a></div>
+<div ng-repeat="thisBlurb in fetchFromObject(content,'showinfo.2018') | filterObjectBy:'showtype':'mainstage' | orderObjectDateBy:'startdate'"
         ng-include="'/panes/showpane.html'">
     </div>
-    <div ng-repeat="thisBlurb in fetchFromObject(content,'showinfo.2017') | filterObjectBy:'showtype':'JACT' | orderObjectDateBy:'startdate'"
+    <div ng-repeat="thisBlurb in fetchFromObject(content,'showinfo.2018') | filterObjectBy:'showtype':'JACT' | orderObjectDateBy:'startdate'"
     ng-include="'/panes/showpane.html'">
 </div>
-    <div ng-repeat="thisBlurb in fetchFromObject(content,'eventinfo.2017') | filterObjectBy:'eventtype':'event' | orderObjectDateBy:'startdate'"
+    <div ng-repeat="thisBlurb in fetchFromObject(content,'eventinfo.2018') | filterObjectBy:'eventtype':'event' | orderObjectDateBy:'startdate'"
     ng-include="'/panes/eventpane.html'">
 </div>
 

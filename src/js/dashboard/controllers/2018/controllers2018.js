@@ -1,24 +1,27 @@
-var xxx2018Controller= function($scope) {
-    $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2018.xxx') ;     
+var socialsecurity2018Controller= function($scope) {
+    $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2018.socialsecurity') ;     
 };
-var mixedemotions2018Controller= function($scope) {
-    $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2018.xxx');     
+var steelmagnolias2018Controller= function($scope) {
+    $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2018.steelmagnolias');     
 };
-var seussical2018Controller= function($scope) {
-    $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2018.xxx');     
+var altarboyz2018Controller= function($scope) {
+    $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2018.altarboyz');     
 };
-var rumors2018Controller= function($scope) {
-    $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2018.xxx');     
+var mamawontfly2018Controller= function($scope) {
+    $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2018.mamawontfly');     
 };
-var dixie2018Controller= function($scope) {
-    $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2018.xxx');     
+var kitchenwitches2018Controller= function($scope) {
+    $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2018.kitchenwitches');     
 };
-var boeing2018Controller= function($scope) {
-    $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2018.xxx');     
+var comedyoftenors2018Controller= function($scope) {
+    $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2018.comedyoftenors');     
 };
-var winnie2018Controller= function($scope) {
-    $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2018.xxx');     
+var sleepingbeauty2018Controller= function($scope) {
+    $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2018.sleepingbeauty');     
 };
-var cinderella2018Controller= function($scope) {
-    $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2018.xxx');     
+var lilred2018Controller = function ($scope) {
+    $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2018.lilred');
+};
+var reallyrosie2018Controller = function ($scope) {
+    $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2018.reallyrosie');
 };
