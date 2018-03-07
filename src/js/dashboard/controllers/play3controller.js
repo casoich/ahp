@@ -5,7 +5,7 @@ var play3controller= function($scope) {
         isMusical:false,
         date:"7:30  Thur & Fri June 18, 19; 25, 26<br/>5:00 and 8:30 Sat June 20, 27<br/>2:00 June 21",
         writtenby : "Written by Ray Cooney",
-        directedby : "Directed by Matthew Mylnarski",
+        directedby : "Directed by Matthew Mlynarski",
         headline:"",
         subhead:"",
         stylesheet:"/panes/styleinsert-default.html",
