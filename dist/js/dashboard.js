@@ -1104,9 +1104,12 @@ var socialsecurity2018Controller= function($scope) {
 var steelmagnolias2018Controller= function($scope) {
     $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2018.steelmagnolias');     
 };
-var altarboyz2018Controller= function($scope) {
-    $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2018.altarboyz');     
+var grease2018Controller = function ($scope) {
+    $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2018.grease');
 };
+// var sm2018Controller = function ($scope) {
+//     $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2018.sm');
+// };
 var mamawontfly2018Controller= function($scope) {
     $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2018.mamawontfly');     
 };
@@ -1132,7 +1135,7 @@ var navItems = [
         {menuitem:true, collapsed:false, text:yearstring+" Mainstage Season",path:"/mainstage",pane:"/panes/home.html", children:[
             { menuitem: true, text: "Social Security", path: "/2018/mainstage/socialsecurity", pane: "/panes/play-template.html", blurb: "/panes/2018/socialsecurity.html", controller: socialsecurity2018Controller },
             { menuitem: true, text: "Steel Magnolias", path: "/2018/mainstage/steelmagnolias", pane: "/panes/play-template.html", blurb: "/panes/2018/steelmagnolias.html", controller: steelmagnolias2018Controller },
-            { menuitem: true, text: "Altar Boyz", path: "/2018/mainstage/altarboyz", pane: "/panes/play-template.html", blurb: "/panes/2018/altarboyz.html", controller: altarboyz2018Controller },
+            { menuitem: true, text: "Grease", path: "/2018/mainstage/grease", pane: "/panes/play-template.html", blurb: "/panes/2018/grease.html", controller: grease2018Controller },
             { menuitem: true, text: "Mama Won't Fly", path: "/2018/mainstage/mamawontfly", pane: "/panes/play-template.html", blurb: "/panes/2018/mamawontfly.html", controller: mamawontfly2018Controller },
             { menuitem: true, text: "Kitchen Witches", path: "/2018/mainstage/kitchenwitches", pane: "/panes/play-template.html", blurb: "/panes/2018/kitchenwitches.html", controller: kitchenwitches2018Controller },
             { menuitem: true, text: "A Comedy of Tenors", path: "/2018/mainstage/comedyoftenors", pane: "/panes/play-template.html", blurb: "/panes/2018/comedyoftenors.html", controller: comedyoftenors2018Controller },
@@ -1160,7 +1163,7 @@ var navItems = [
         ] },
         {menuitem:true, collapsed:false, text:"Education",path:"/education",pane:"/panes/education.html", children:[
             {menuitem:true, text:"Theater Classes",path:"/education/kidscamp",pane:"/panes/kidscamp.html"},
-            {menuitem:false, text:"Apprenticeships",path:"/education/apprentice",pane:"/panes/apprentice.html"},
+            {menuitem:true, text:"Apprenticeships",path:"/education/apprentice",pane:"/panes/apprentice.html"},
             { menuitem: true, text: "Opportunities for kids", path: "/education/forkids", pane: "/panes/forkids.html" },
             { menuitem: true, text: "Scholarships", path: "/education/scholarships", pane: "/panes/scholarships.html" }
         ] },

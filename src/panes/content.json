@@ -287,7 +287,7 @@
                 "startdate": "2018-05-17",
                 "enddate": "2018-05-26",
                 "writtenby": "Written by Andrew Bergman",
-                "directedby": "",
+                "directedby": "Directed by Katya R. Shaffer",
                 "headline": "",
                 "subhead": "",
                 "stylesheet": "/panes/styleinsert-default.html",
@@ -314,21 +314,21 @@
                 "blurbtext": "<p>xxx</p>",
                 "castlist": []
             },
-            "altarboyz": {
+            "grease": {
                 "showtype": "mainstage",
-                "title": "Altar Boyz",
-                "path": "#/2018/mainstage/altarboyz",
+                "title": "Grease",
+                "path": "#/2018/mainstage/grease",
                 "isMusical": true,
                 "date": "7:30 July 12, 13, 14, 19, 20, 21 <br/>2PM July 15",
                 "startdate": "2018-07-12",
                 "enddate": "2018-07-22",
                 "writtenby": "Music and lyrics by Gary Adler and Michael Patrick Walker <br/> book by Kevin Del Aguila",
-                "directedby": "",
+                "directedby": "Mallory Mousseau Grantz",
                 "headline": "",
                 "subhead": "",
                 "stylesheet": "/panes/styleinsert-default.html",
-                "insetpic": "/img/altarboyz.jpg",
-                "infoblurb": "/panes/2018/altarboyzblurb.html",
+                "insetpic": "/img/grease-stage.png",
+                "infoblurb": "/panes/2018/greaseblurb.html",
                 "blurbtext": "<p>xxx</p>",
                 "castlist": []
             },
@@ -337,7 +337,7 @@
                 "title": "Mama Won't Fly",
                 "path": "#/2018/mainstage/mamawontfly",
                 "isMusical": false,
-                "date": "7:30 August 8, 9, 10, 15, 16, 17 <br/>2PM August 11",
+                "date": "7:30 August 9, 10, 11; 16, 17, 18 <br/>2PM August 12 ",
                 "startdate": "2018-08-09",
                 "enddate": "2018-08-18",
                 "writtenby": "Written by Jessie Jones, Nicholas Hope, Jamie Wooten",
@@ -359,7 +359,7 @@
                 "startdate": "2018-08-30",
                 "enddate": "2018-09-08",
                 "writtenby": "Written by Caroline Smith",
-                "directedby": "Directed by Matt Mlynarski",
+                "directedby": "Directed by Rick Dutrow",
                 "headline": "",
                 "subhead": "",
                 "stylesheet": "/panes/styleinsert-default.html",
@@ -606,6 +606,358 @@
                 "backpic": "/img/theatre_gift.jpg",
                 "insetpic": "/img/apple.png",
                 "infoblurb": "/panes/gift_cert.html"
+            }
+        ]
+    },
+    "auditioninfo":{
+        "mainstageshows":[
+            {
+                "title": "Social Security",
+                "summary": "",
+                "isMusical": false,
+                "characters": [
+                    {
+                        "name": "David Kahn",
+                        "type": "",
+                        "range": "",
+                        "desc": "An art gallery owner"
+                    },
+                    {
+                        "name": "Barbara Kahn",
+                        "type": "",
+                        "range": "",
+                        "desc": "David's wife, and art gallery owner"
+                    },
+                    {
+                        "name": "Trudy Kahn",
+                        "type": "",
+                        "range": "",
+                        "desc": "Barbara's housewife sister"
+                    },
+                    {
+                        "name": "Martin Heyman",
+                        "type": "",
+                        "range": "",
+                        "desc": "Trudy's husband"
+                    },
+                    {
+                        "name": "Sophie Greengrass",
+                        "type": "",
+                        "range": "",
+                        "desc": "Trudy and Barbara's mother"
+                    },
+                    {
+                        "name": "Maurice Koenig",
+                        "type": "",
+                        "range": "",
+                        "desc": "A nonagenarian artist"
+                    }
+                ]
+            },
+            {
+                "title": "Steel Magnolias",
+                "summary": "",
+                "isMusical": false,
+                "characters": [
+                    {
+                        "name": "Truvy  Jones",
+                        "type": "to  play  35 ‐45 ",
+                        "range": "",
+                        "desc": "Owns  the  beauty  shop.  Vivacious.  Dispenses  advice w ith  lots  of  hair spray. "
+                    },
+                    {
+                        "name": "Annelle  Dupup‐Desoto",
+                        "type": " to  play  18 ‐ 24",
+                        "range": "",
+                        "desc": "Newly  hired  assistant.  Moves  from  unsure  to  wild  to  religious."
+                    },
+                    {
+                        "name": "Clairee  Belcher",
+                        "type": " to  play  55  to  late  60’s ",
+                        "range": "",
+                        "desc": "Widow  of  former  mayor.  Grand  dame.   Elegant,  sophisticated,  a  true  beauty."
+                    },
+                    {
+                        "name": "Shelby  Eatenton‐Latcherie",
+                        "type": "to  play  19",
+                        "range": "",
+                        "desc": " Prettiest  girl  in  town.  Loves pink.  Strong  willed,  passionate."
+                    },
+                    {
+                        "name": "M'Lynn  Eatenton ",
+                        "type": " to  play  40  to  50’s",
+                        "range": "",
+                        "desc": "Shelby's  mother.  Always  knows  what’s  best,  strong,  stubborn,  the  heart  of  the  piece. "
+                    },
+                    {
+                        "name": "Ouiser  (pronounced  Weezer)  Boudreaux",
+                        "type": "to  play 55  to  late  60’s",
+                        "range": "",
+                        "desc": "Wealthy  curmudgeon.  Tough,  Eccentric  character. "
+                    }
+                ]
+            },
+            {
+                "title": "Summer Musical",
+                "summary": "This is a very popular 50's themed musical (Rights applied for and pending). We're also looking for diverse actors and singers for doo wop group.",
+                "isMusical": true,
+                "characters": [
+                    {
+                        "name": "Male One",
+                        "type": "Male, High School Teen",
+                        "range": "tenor, D4– B5",
+                        "desc": "The leader of the 'boys gang'; good-looking, strong and confident, with an air of easy-going charm"
+                    },
+                    {
+                        "name": "Female One",
+                        "type": "Female, High School Teen",
+                        "range": "Soprano, A3–F#5",
+                        "desc": "New girl in town; sweet, wholesome, naive, cute, and innocent"
+                    },
+                    {
+                        "name": "Female Two",
+                        "type": "Female, High School Teen",
+                        "range": "Alto A3– C5",
+                        "desc": "Leader of the 'girls gang'; tough, sarcastic and outspoken but vulnerable"
+                    },
+                    {
+                        "name": "Female Three",
+                        "type": "Female, High School Teen",
+                        "range": "Alto, A3–D5",
+                        "desc": "A dreamer; good-natured but not too smart, she is heavily made up, fussy about her appearance, particularly her hair. She can't wait to finish high school so she can be a beautician"
+                    },
+                    {
+                        "name": "Female Four",
+                        "type": "Female, High School Teen",
+                        "range": "Alto, C4–C5",
+                        "desc": "The 'beauty' of the 'girls gang'; pretty and looks older than the other girls, but betrays her real age when she opens her mouth. She tries to act sophisticated."
+                    },
+                    {
+                        "name": "Female Five",
+                        "type": "Female, High School Teen",
+                        "range": "Alto, A3-C5",
+                        "desc": "Funny, loud, compulsive eater and awkward member of the 'girls gang'. Loud and pushy with the girls, but shy with boys"
+                    },
+                    {
+                        "name": "Male Two",
+                        "type": "Male, High School Teen",
+                        "range": "Tenor, D4-A5",
+                        "desc": "The youngest of the guys; small, boyish and open, with a disarming smile and a heroworshipping attitude towards the other guys. He also plays the guitar."
+                    },
+                    {
+                        "name": "Male Three",
+                        "type": "Male, High School Teen",
+                        "range": "Tenor, C4–F5",
+                        "desc": "The second in command of the 'boys gang'; tough-looking, tattooed, surly and avoids any show of softness. He has an offbeat sense of humor. "
+                    },
+                    {
+                        "name": "Male Four",
+                        "type": "Male, High School Teen",
+                        "range": "Baritone, G3–A5",
+                        "desc": "A member of the 'boys gang'; funny Italian-American, he is a braggart and wheeler-dealer who thinks he's a real lady-killer"
+                    },
+                    {
+                        "name": "Male Five",
+                        "type": "Male, High School Teen",
+                        "range": "Tenor, D4-A5",
+                        "desc": "The anything-for-a-laugh stocky type of boy; a clown who enjoys winding people up, he is full of mischief and is always dreaming up half-baked schemes and ideas"
+                    },
+                    {
+                        "name": "Male Ensemble (DJ)",
+                        "type": "Male, High School Teen",
+                        "range": "Ensemble/Part Flexible",
+                        "desc": "A typical 'teen audience' disc jockey; slick, egotistical and fast-talking. He is also a veteran 'Greaser.'"
+                    },
+                    {
+                        "name": "Female Six",
+                        "type": "Female, High School Teen",
+                        "range": "Alto, C4–C5",
+                        "desc": "The best dancer at school; a loud mouth, she wins the dancing competition with Male One."
+                    },
+                    {
+                        "name": "Male Six",
+                        "type": "Male, High School Teen",
+                        "range": "Tenor, A3– E5",
+                        "desc": "The class valedictorian; physically awkward, with weak eyes and a highpitched voice. He's a typical 'apple-polisher' - both smug and pompous, but gullible. "
+                    },
+                    {
+                        "name": "Male Seven",
+                        "type": "Male, High School Teen",
+                        "range": "Tenor, G4E5",
+                        "desc": "All-American, rock-star student at School, whose real name is ???"
+                    },
+                    {
+                        "name": "Female Seven",
+                        "type": "Female, Age Flexible",
+                        "range": "Ensemble/Part Flexible",
+                        "desc": "A no-nonsense, serious, loud, English teacher"
+                    },
+                    {
+                        "name": "Female Eight (cheerleader)",
+                        "type": "Female, High School Teen",
+                        "range": "Range: Alto, D4A4",
+                        "desc": "A typical cheerleader; attractive, athletic, sure-of-herself, but can be given to bursts of disconcerting enthusiasm. She's a bit of a pain and unpopular with the 'girls gang', and can twirl a baton."
+                    },
+                    {
+                        "name": "Male Eight",
+                        "type": "Male, Age Flexible",
+                        "range": "Tenor, E4–F5",
+                        "desc": "suave and slick guardian angel, who encourages his girlfriend to stay in school. "
+                    },
+                    {
+                        "name": "THE 'girls gang'",
+                        "type": "Ensemble",
+                        "range": "SATB",
+                        "desc": "The club-jacketed, gum-chewing, hip-swinging girls' gang who hang around with the 'boys gang'."
+                    },
+                    {
+                        "name": "THE 'boys gang'",
+                        "type": "Ensemble",
+                        "range": "SATB",
+                        "desc": "A super-cool, DAhaired, hard-looking group of high school wheeler-dealers... or so they think."
+                    },
+                    {
+                        "name": "RADIO VOICE",
+                        "type": "Male, Age Flexible",
+                        "range": "Tenor, A3–C5",
+                        "desc": "A Radio Voice"
+                    }
+                ]
+            },
+            {
+                "title": "Mama Won't Fly",
+                "summary": "",
+                "isMusical": false,
+                "characters": [
+                    {
+                        "name": "Savannah Honeycutt",
+                        "type": "40s",
+                        "range": "",
+                        "desc": "feisty Southern business woman, owns an accessories business, thinks Mama messes in her life too much but needs her more than she realizes"
+                    },
+                    {
+                        "name": "Norleen Sprunt",
+                        "type": "70s",
+                        "range": "",
+                        "desc": "Mama, mother of Savannah, spirited, tenacious, a community theatre actress, wants to know everything going on in her children’s lives"
+                    },
+                    {
+                        "name": "Hayley Quinn",
+                        "type": "late 30s to 40s",
+                        "range": "",
+                        "desc": "loveable, high-energy, nervous, the bride-to-be, accident prone and trying hard to make a good impression on future in-laws"
+                    },
+                    {
+                        "name": "Woman 1 (Supporting)",
+                        "type": "Female, 25-50",
+                        "range": "",
+                        "desc": "to play various characters: Tanya is big-haired, flashy realtor, acts in local community theater; Aunt Rema Jean is fun-loving country matron at a backyard barbeque; Edweena is a church lady leading a protest march; Kiki is a Vegas bimbo, excited, she’s hooked an older man who’s got money."
+                    },
+                    {
+                        "name": "Woman 2 (Supporting)",
+                        "type": "Female, 35-80",
+                        "range": "",
+                        "desc": "to play various characters, Essie is a tour guide at a the Bra Museum, a hoot; Great Aunt Pawnee is the matriarch at the backyard barbeque, physical comedy but no lines; Fanny is a church lady leading a protest march; Sybil is well-dressed wife (for 2 more wks) who has catfight with Teeta about her husband marrying the bimbo, Kiki."
+                    },
+                    {
+                        "name": "Woman 3 (Supporting)",
+                        "type": "Female, 35-60",
+                        "range": "",
+                        "desc": "to play various characters: Aunt Ardale is a bible-totin’ golddigger at the backyard barbeque; Juliette is a hard-livin’, tough-as-nails tipsy woman in the only bar (aka the only business) in Nickle Bone—wide spot in the road; Teeta is tough, ex-showgirl in Vegas, licensed to marry couples, has catfight with Sybil and one with Kiki."
+                    },
+                    {
+                        "name": "Man 1 (Supporting)",
+                        "type": "Male, 35-55",
+                        "range": "",
+                        "desc": "plays Denton Crocker, Cousin Chicken, Mitch, Office Dugger, Ronald, and Kelvin."
+                    },
+                    {
+                        "name": "Man 2 (Supporting)",
+                        "type": "Male, 35-55",
+                        "range": "",
+                        "desc": "plays Uncle Ferd, Mickey, Red, and Spud."
+                    }
+                ]
+            },
+            {
+                "title": "Kitchen Witches",
+                "summary": "",
+                "isMusical": false,
+                "characters": [
+                    {
+                        "name": "DOLLY BIDDLE",
+                        "type": "50s",
+                        "range": "",
+                        "desc": "a little cherub of a woman, prone to overweight but always going at top speed. She indulges herself with anything life has to offer whenever possible – even if it’s not good for her!? – and her creative imagination knows no bounds. She is intensely proud of her son Stephen, loves to dispense advice along with recipes for cabbage rolls and borscht and hates Isobel Lomax with an intensity usually reserved for detonating nuclear devices."
+                    },
+                    {
+                        "name": "STEPHEN BIDDLE",
+                        "type": "30s",
+                        "range": "",
+                        "desc": "a nervous, prematurely balding but decent young man who actually enjoys producing low-budget cable TV shows, even when his Mom is the star. Bright and capable, if somewhat shy, but always reluctant to confront Dolly on her many shortcomings. He’s not a fighter - he’d rather be a lover, but nobody’s asked him yet."
+                    },
+                    {
+                        "name": "ISOBEL LOMAX",
+                        "type": "",
+                        "range": "",
+                        "desc": "Thinks Martha Stewart could learn something about homemaking from her. She trained at the Cordon Bleu and enjoyed a successful career, including her own show “Busy Izzy.” Isobel likes people to think she has a much classier background than reality supports; she would never go out without being properly accessorized. At heart, she is a bright funny and articulate woman who has come to terms with the choices she made early in life."
+                    },
+                    {
+                        "name": "ROB THE CAMERA GUY (or ROBERTA THE CAMERA CHICK)",
+                        "type": "Non-speaking role (except for one line!)",
+                        "range": "",
+                        "desc": "Rob is a young “Goth” inspired person; Stephen is a little afraid of him/her. He/she cleans up the sets, resets props, carries the portable camera around during the “live broadcasts” and despite his/her appearance, is generally extremely efficient and precise."
+                    }
+                ]
+            },
+            {
+                "title": "A Comedy of Tenors",
+                "summary": "",
+                "isMusical": false,
+                "characters": [
+                    {
+                        "name": "TATIANA RACON",
+                        "type": "40-50",
+                        "range": "",
+                        "desc": "Tito's former mistress"
+                    },
+                    {
+                        "name": "CARLO",
+                        "type": "20-30",
+                        "range": "",
+                        "desc": "(will sing opera)  Mimi's boyfriend"
+                    },
+                    {
+                        "name": "TITO",
+                        "type": "45-60",
+                        "range": "",
+                        "desc": "(will sing opera and play a double role) On stage 90% of the time"
+                    },
+                    {
+                        "name": "MARIA",
+                        "type": "45-55",
+                        "range": "",
+                        "desc": "Tito's feisty wife"
+                    },
+                    {
+                        "name": "MIMI",
+                        "type": "20-30",
+                        "range": "",
+                        "desc": "Tito's daughter"
+                    },
+                    {
+                        "name": "MAX",
+                        "type": "30-40",
+                        "range": "",
+                        "desc": "Saunders son in law (will sing opera)"
+                    },
+                    {
+                        "name": "SAUNDERS",
+                        "type": "50-65",
+                        "range": "",
+                        "desc": "Business Manager type"
+                    }
+                ]
             }
         ]
     }

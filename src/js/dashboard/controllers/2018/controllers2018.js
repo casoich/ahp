@@ -4,9 +4,12 @@ var socialsecurity2018Controller= function($scope) {
 var steelmagnolias2018Controller= function($scope) {
     $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2018.steelmagnolias');     
 };
-var altarboyz2018Controller= function($scope) {
-    $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2018.altarboyz');     
+var grease2018Controller = function ($scope) {
+    $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2018.grease');
 };
+// var sm2018Controller = function ($scope) {
+//     $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2018.sm');
+// };
 var mamawontfly2018Controller= function($scope) {
     $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2018.mamawontfly');     
 };

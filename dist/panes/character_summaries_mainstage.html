@@ -1,184 +1,52 @@
-<div class='col-xs-12'><h3 class="text-center">Character Summaries</h3></div>
-
-<div class="col-xs-12 col-md-6">
-    <div class="panel panel-primary">
-        <div class="panel-heading">
-            <h3 class="panel-title">Butterflies are Free - May 28-June 6</h3>
-        </div>
-        <div class="panel-body">
-            <table class="table table-striped table-condensed">
-                <tr>
-                    <td>Don Baker (M)</td><td> early-mid-20s, and should be able to sing</td>
-                </tr>
-                <tr>
-                    <td>Jill Tanner (F)</td><td> early-20s, a flighty hippie.</td>
-                </tr>
-                <tr>
-                    <td>Mrs. Baker (F)</td><td> 50s, Don’s mother, an attractive and well dressed woman</td>
-                </tr>
-                <tr>
-                    <td>Ralph Austin (M)</td><td> 30s or so, director, somewhat arrogant</td>
-                </tr>
-            </table>
-        </div>
-    </div>
+<div class='col-xs-12'>
+    <h3 class="text-center">Character Summaries</h3>
 </div>
 
-<div class="col-xs-12 col-md-6">
-    <div class="panel panel-primary">
-        <div class="panel-heading">
-            <h3 class="panel-title">Funny Money - June 18-June 27</h3>
-        </div>
-        <div class="panel-body">
-            <table class="table table-striped table-condensed">
-                <tr>
-                    <td>Henry Perkins (M)</td><td>an insignificant middle-aged middle-class accountant</td>
-                </tr>
-                <tr>
-                    <td>Jean Perkins (F)</td><td>his pretty wife</td>
-                </tr>
-                <tr>
-                    <td>Vic Johnson (M)</td><td>a friend of the Perkinses'</td>
-                </tr>
-                <tr>
-                    <td>Betty Johnson (F)</td><td>Vic's wife, also pretty</td>
-                </tr>
-                <tr>
-                    <td>Bill (M)</td><td>a London taxi driver</td>
-                </tr>
-                <tr>
-                    <td>Davenport (M)</td><td>a bent copper</td>
-                </tr>
-                <tr>
-                    <td>Slater (M)</td><td>a straight copper</td>
-                </tr>
-                <tr>
-                    <td>Mr. Big (M)</td><td>aka Mr Brerfcurse</td>
-                </tr>
-                <tr>
-                    <td>A passer-by</td><td></td>
-                </tr>
-            </table>
-        </div>
-    </div>
+<accordion close-others="false">
+<div ng-repeat="castinfo in fetchFromObject(content,'auditioninfo.mainstageshows') ">
+    <accordion-group class="col-xs-12 ">
+                <accordion-heading class="panel-castheader">{{castinfo.title}}</accordion-heading>
+                <h4 ng-if="castinfo.summary">{{castinfo.summary}}</h4>
+
+                <table class="table table-striped table-condensed">
+                    <tr>
+                        <td>Name</td>
+                        <td>Casting</td>
+                        <td ng-if="castinfo.isMusical">Range</td>
+                        <td>Description</td>
+                    </tr>
+                    
+                    <tr ng-repeat="role in castinfo.characters">
+                        <td>{{role.name}}</td>
+                        <td>{{role.type}}</td>
+                        <td ng-if="castinfo.isMusical">{{role.range}}</td>
+                        <td>{{role.desc}}</td>
+                    </tr>
+                </table>
+            </accordion-group>
+
 </div>
+</accordion>
 
-<div class="col-xs-12 col-md-6">
-    <div class="panel panel-primary">
-        <div class="panel-heading">
-            <h3 class="panel-title">The World Goes 'Round (musical) - July 9-July 18</h3>
-        </div>
-        <div class="panel-body">
-            <table class="table table-striped table-condensed">
-                <tr>
-                    <td>Man&nbsp;1</td><td>20-50 yrs old Range: A4 - G5</td><td> A bit of a ham</td>
-                </tr>
-                <tr>
-                    <td>Man&nbsp;2</td><td>20-50 yrs old Range: G3 - A5</td><td>Stern and demanding with a commanding voice.</td>
-                </tr>
-                <tr>
-                    <td>Woman&nbsp;1</td><td>20-50 yrs old Range: E3 - A5</td><td>Tough and strong. A bit of a lush and snob.</td>
-                </tr>
-                <tr>
-                    <td>Woman&nbsp;2</td><td>20-50 yrs old Range: F3 - G5</td><td>Independent. Zany. She is seductive.</td>
-                </tr>
-                <tr>
-                    <td>Woman&nbsp;3</td><td>20-50 yrs old Range: F3 - F5</td><td>Nostalgic. Adventurous. Hopeful.</td>
-                </tr>
-            </table>
-        </div>
-    </div>
-</div>
 
-<div class="col-xs-12 col-md-6">
-    <div class="panel panel-primary">
-        <div class="panel-heading">
-            <h3 class="panel-title">It Could Be Any One Of Us - July 30-Aug 8</h3>
-        </div>
-        <div class="panel-body">
-            <table class="table table-striped table-condensed">
-                <tr>
-                    <td>Mortimer Chalke (M)</td><td>a red-face, fiery frustrated musician composer in his mid-fifties. He plays the piano with great concentration and passion.</td>
-                </tr>
-                <tr>
-                    <td>Jocelyn Polegate (F)</td><td>A rather wispy writer, Mortimer's sister; late forties a well-meaning but flighty mystery writer who started to write 34 books but has never managed to actually finish a single one of them.</td>
-                </tr>
-                <tr>
-                    <td>Brinton Chalke (M)</td><td>A pale, lean, twitchy, staring-eyed, high-strung painter, Mortimer's brother; early forties, idiosyncratic with a blend of childlike passion, physical humor, middle aged gloom, emotion and quirkiness.</td>
-                </tr>
-                <tr>
-                    <td>Amy Polegate (F)</td><td>Jocelyn's sixteen year old, "kind of dumpy" daughter full of teenage boredom, resentment and attitude. </td>
-                </tr>
-                <tr>
-                    <td>Norris Honeywell (M)</td><td>A kind of sad, mournful looking insurance salesman  in his mid-forties who wants to be a private detective. He makes Inspector Clouseau look like Sherlock Holmes.</td>
-                </tr>
-                <tr>
-                    <td>Wendy Windwood (F)</td><td>A cozy, pleasant, rather shy "middle-aged mum" with a great smile and impeccable comic timing.</td>
-                </tr>
-            </table>
-            <div class="">Note that all roles require a British dialect.</div>
-        </div>
-    </div>
-</div>
 
-<div class="col-xs-12 col-md-6">
-    <div class="panel panel-primary">
-        <div class="panel-heading">
-            <h3 class="panel-title">Be My Baby - August 20-August 29</h3>
-        </div>
-        <div class="panel-body">
-            <table class="table table-striped table-condensed">
-                <tr>
-                    <td>Gloria Nance (F)</td><td>Early twenties, ingenue, naive, in-love</td>
-                </tr>
-                <tr>
-                    <td>Maud Kinch (F)</td><td>Mid fifties English woman, opinionated, quick wit, sharp tongue, nose in the air</td>
-                </tr>
-                <tr>
-                    <td>John Campbell (M)</td><td>Fifties, Scottish, cheap, crude, cheap, loud, opinionated</td>
-                </tr>
-                <tr>
-                    <td>Christy McCall (M)</td><td>Twenties, Scottish, wealthy, eager</td>
-                </tr>
-                <tr>
-                    <td>Male Ensemble</td><td>Twenties, plays a variety of roles</td>
-                </tr>
-                <tr>
-                    <td>Female Ensemble</td><td>Twenties, plays a variety of roles</td>
-                </tr>
-            </table>
-        </div>
-    </div>
-</div>
 
-<div class="col-xs-12 col-md-6">    
-    <div class="panel panel-primary">
-        <div class="panel-heading">
-            <h3 class="panel-title">Fox On The Fairway - Sept 10-Sept 19</h3>
-        </div>
-        <div class="panel-body">
-            <table class="table table-striped table-condensed">
-                <tr>
-                    <td>Justin (M)</td><td>superb golfer but hates bad news</td>
-                </tr>
-                <tr>
-                    <td>Louise (F)</td><td>Justin’s fiancée</td>
-                </tr>
-                <tr>
-                    <td>Bingham (M)</td><td>Country club manager</td>
-                </tr>
-                <tr>
-                    <td>Pamela (F)</td><td>country club booster (for Bingham) with a racy personal life</td>
-                </tr>
-                <tr>
-                    <td>Dickie (M)</td><td>Country club manager, in rivalry with Bingham and ex-husband to Pamela</td>
-                </tr>
-                <tr>
-                    <td>Muriel (F)</td><td>strong-willed wife of Bingham who owns an antique shop</td>
-                </tr>
-
-            </table>
-        </div>
-    </div>
-</div>
-
+<!-- 
+                    <accordion close-others="false">
+                        <accordion-group ng-repeat="person in playinfo.castlist">
+                            <accordion-heading class=" panel-castheader">
+                                {{person.name}}
+                                <span ng-show="person.role">&Tilde;</span>
+                                <i>{{person.role}}</i>
+                            </accordion-heading>
+                            <div ng-if="!!person.photopath" class="">
+                                <img src="{{person.photopath}}" alt="" class="blurbimg" />
+                            </div>
+                            <div class="">
+                                <div class="">
+                                    <div ng-include src="person.biopath"></div>
+                                </div>
+                            </div>
+                    
+                        </accordion-group>
+                    </accordion> -->
