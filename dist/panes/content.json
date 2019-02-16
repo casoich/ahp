@@ -322,10 +322,10 @@
                 "date": "7:30 July 12, 13, 14, 19, 20, 21 <br/>2PM July 15",
                 "startdate": "2018-07-12",
                 "enddate": "2018-07-22",
-                "writtenby": "Music and lyrics by Gary Adler and Michael Patrick Walker <br/> book by Kevin Del Aguila",
-                "directedby": "Mallory Mousseau Grantz",
+                "writtenby": "Book and music by Warren Casey and Jim Adler",
+                "directedby": "Directed by Mallory Mousseau Grantz<br/>Music direction by Cindy Baltzer<br/>Choreography by Rori Aiello Mull",
                 "headline": "",
-                "subhead": "",
+                "subhead": "All remaining shows are SOLD OUT!",
                 "stylesheet": "/panes/styleinsert-default.html",
                 "insetpic": "/img/grease-stage.png",
                 "infoblurb": "/panes/2018/greaseblurb.html",
@@ -341,7 +341,7 @@
                 "startdate": "2018-08-09",
                 "enddate": "2018-08-18",
                 "writtenby": "Written by Jessie Jones, Nicholas Hope, Jamie Wooten",
-                "directedby": "Directed by Jen James",
+                "directedby": "Directed by Chelsea Fredrickson",
                 "headline": "",
                 "subhead": "",
                 "stylesheet": "/panes/styleinsert-default.html",
@@ -427,8 +427,8 @@
                 "title": "Really Rosie",
                 "path": "#/2018/JACT/reallyrosie",
                 "isMusical": false,
-                "date": "October 12 - 21",
-                "startdate": "2018-10-12",
+                "date": "October 11, 12, 13, 18, 19, 20 at 7:00pm<br/>October 14 at 2:00pm",
+                "startdate": "2018-10-11",
                 "enddate": "2018-10-21",
                 "writtenby": "Book and Lyrics by Maurice Sendak<br/>Music by Carole King",
                 "directedby": "",
@@ -438,6 +438,7 @@
                 "insetpic": "/img/reallyrosie.gif",
                 "infoblurb": "/panes/2018/reallyrosieblurb.html",
                 "blurbtext": "<p>xxx</p>",
+                "ticketlink":"http://our.show/applehillplayhouse/1748",
                 "castlist": []
             }
         }
@@ -607,7 +608,51 @@
                 "insetpic": "/img/apple.png",
                 "infoblurb": "/panes/gift_cert.html"
             }
-        ]
+        ],
+                "2018": [
+                    {
+                        "eventtype": "event",
+                        "title": "Second Annual Apple Hill Gala",
+                        "path": "#/2018/events/cabaret",
+                        "isMusical": true,
+                        "startdate": "2018-07-28",
+                        "enddate": "2018-07-28",
+                        "date": "July 28",
+                        "dates": [
+                            {
+                                "date": "2018-07-28",
+                                "showtime": "7:00pm"
+                            }
+                        ],
+                        "headline": "Second Annual Apple Hill Gala",
+                        "subhead": "Featuring Apple Hill Alumni",
+                        "eventdaytag": "AHP Alumni Cabaret tonight!!",
+                        "stylesheet": "/panes/styleinsert-karaoke.html",
+                        "panelclass": "karaoke",
+                        "backpic": "/img/karaokebg.jpg",
+                        "insetpic": "/img/VintageChromeMic.png",
+                        "infoblurb": "/panes/2018/cabaretblurb.html"
+                    },
+
+                    {
+                        "eventtype": "event",
+                        "title": "Apple Hill Playhouse Gift Certificates!",
+                        "path": "#/",
+                        "isMusical": false,
+                        "startdate": "2018-10-01",
+                        "enddate": "2019-03-01",
+                        "date": "",
+                        "dates": [],
+                        "headline": "Apple Hill Gift Certificates",
+                        "subhead": "",
+                        "eventdaytag": "",
+                        "stylesheet": "/panes/styleinsert-karaoke.html",
+                        "panelclass": "karaoke",
+                        "backpic": "/img/theatre_gift.jpg",
+                        "insetpic": "/img/apple.png",
+                        "infoblurb": "/panes/gift_cert.html"
+                    }
+                ]
     },
     "auditioninfo":{
         "mainstageshows":[
