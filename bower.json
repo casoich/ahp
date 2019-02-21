@@ -1,13 +1,11 @@
 {
-  "name": "Responsive-Dashboard",
+  "name": "applehillplayhouse.com",
   "version": "0.0.2",
-  "homepage": "https://github.com/Ehesp/Responsive-Dashboard",
+  "homepage": "http://www.applehillplayhouse.org",
   "authors": [
-    "Elliot Hesp <elliot.hesp@gmail.com>",
-    "Ricardo Pascua Jr <rdpascua@outlook.com>",
-    "Leonel Samayoa <leonel.e.samayoa@gmail.com>"
+    "Craig Soich"
   ],
-  "description": "AngularJS + Bootstrap Responsive Dashboard",
+  "description": "ahp site",
   "main": "index.html",
   "license": "MIT",
   "ignore": [
@@ -15,7 +13,8 @@
     "node_modules",
     "bower_components",
     "test",
-    "tests"
+    "tests",
+    "src/bower_components"
   ],
   "dependencies": {
     "angular": "~1.2.21",
@@ -23,11 +22,16 @@
     "angular-bootstrap": "~0.11.0",
     "angular-ui-router": "^0.2.10",
     "bootstrap": "~3.2.0",
-    "moment":"~2.12.0",
+    "moment": "~2.12.0",
     "font-awesome": "~4.1.0"
   },
   "repository": {
     "type": "git",
     "url": "git://github.com/Ehesp/Responsive-Dashboard.git"
-  }
+  },
+  "keywords": [
+    "apple",
+    "hill",
+    "playhouse"
+  ]
 }

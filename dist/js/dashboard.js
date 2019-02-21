@@ -1210,7 +1210,7 @@ var navItems = [
 var $routeProviderReference;
 var appController = angular.module('Dashboard', ['ngRoute', 'ngSanitize', 'ui.bootstrap'])
     .config(['$controllerProvider', function ($controllerProvider) {
-        $controllerProvider.allowGlobals();
+        //$controllerProvider.allowGlobals();
     }])
     ;
 appController
