@@ -26,7 +26,10 @@
                 <p><h3>{{playinfo.subhead}}</h3></p>
                 <div ng-include src="playinfo.infoblurb"></div>
                 </div>
-
+            <div ng-if="playinfo.ticketlink" class="text-center">
+                <a ng-href="{{playinfo.ticketlink}}" target="_blank">
+                    <img src="/img/buytickets.png" style="width:159px;Height:135px;"></a>
+            </div>
                 <div ng-show="playinfo.castlist.length>0" class="cast-accordion" id="accordion">
                     <h4>The Cast: </h4>
                     <accordion close-others="false">

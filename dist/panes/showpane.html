@@ -16,7 +16,7 @@
             <h3><span ng-if="isComingUp(thisBlurb.startdate)" class=" ">
             Coming soon...&nbsp;
             </span>{{thisBlurb.title}}</h3>
-
+            <h4><i>{{thisBlurb.subhead}}</i></h4>
             <div ng-if="nowShowing(thisBlurb.startdate,thisBlurb.enddate)">
                 <div ng-if="thisBlurb.writtenby" class='writtenby'>
                     <h5><span ng-bind-html="thisBlurb.writtenby | unsafe"></span></h5>
@@ -27,10 +27,14 @@
             </div>
 
             <div class='writtenby' ng-bind-html="thisBlurb.date | unsafe">...</div>
-            <div ng-if="nowShowing(thisBlurb.startdate,thisBlurb.enddate)">
+            <!-- <div ng-if="nowShowing(thisBlurb.startdate,thisBlurb.enddate)"> -->
+            <div >
                 <div ng-include="thisBlurb.infoblurb"></div>
             </div>
-            
+            <div ng-if="thisBlurb.ticketlink" class="text-center">
+                <a ng-href="{{thisBlurb.ticketlink}}" target="_blank">
+                    <img src="/img/buytickets.png" style="width:159px;Height:135px;"></a>
+            </div>
         </a>
     </div>
 </div>

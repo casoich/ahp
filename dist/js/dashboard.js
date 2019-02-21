@@ -1386,7 +1386,7 @@ function MasterCtrl($scope, $http) {
     }
 
 
-      //var testingDate="2017-07-25 08:00:00am";
+     // var testingDate="2018-07-25 08:00:00am";
     // Daterange filters
     $scope.showBetween = function (startDate, endDate) {
         var itemDate = moment();
