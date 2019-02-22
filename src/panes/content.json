@@ -447,7 +447,7 @@
                 "title": "The Taffetas",
                 "path": "#/2019/mainstage/taffetas",
                 "isMusical": true,
-                "date": "7:30 May 16, 17, 18, 23, 24, 25 <br/>2PM May 20, 26",
+                "date": "7:30 May 16, 17, 18, 23, 24, 25 <br/>2PM May 19; 26",
                 "startdate": "2019-05-16",
                 "enddate": "2019-05-26",
                 "writtenby": "Concieved by Rick Lewis",
@@ -466,7 +466,7 @@
                 "title": "Moonlight and Magnolias",
                 "path": "#/2019/mainstage/moonlightandmagnolias",
                 "isMusical": false,
-                "date": "7:30 June 6, 7, 8, 13, 14, 15,  <br/>2PM June 9, 16",
+                "date": "7:30 June 6, 7, 8, 13, 14, 15,  <br/>2PM June 9; 16",
                 "startdate": "2019-06-06",
                 "enddate": "2018-06-16",
                 "writtenby": "Written by Ron Hutchinson",
@@ -480,131 +480,156 @@
                 "ticketlink":"",
                 "castlist": []
             },
-            "dontdress": {
+            "random": {
                 "showtype": "mainstage",
-                "title": "Don't Dress for Dinner",
-                "path": "#/2019/mainstage/dontdress",
+                "title": "Random Show",
+                "path": "#/2019/mainstage/random",
                 "isMusical": false,
-                "date": "7:30 July 4, 5, 6, 11, 12, 13 <br/>2PM July 7, 14",
+                "date": "7:30 July 4, 5, 6, 11, 12, 13 <br/>2PM July 7; 14",
                 "startdate": "2019-07-04",
                 "enddate": "2019-07-14",
-                "writtenby": "by Marc Camoletti<br/>adapted by Robin Hawdon",
+                "writtenby": "written by xxx",
                 "directedby": "Ron Ferrara",
                 "headline": "",
                 "subhead": "",
                 "stylesheet": "/panes/styleinsert-default.html",
                 "insetpic": "/img/dontdress.png",
                 "infoblurb": "",
-                "blurbtext": "<p>Bernard is planning a romantic weekend with his chic Parisian mistress in his charming converted French farmhouse, whilst his wife, Jacqueline, is away. He has arranged for a cordon bleu cook to prepare gourmet delights, and has invited his best friend, Robert, along too to provide the alibi. It's foolproof; what could possibly go wrong? Well.... suppose Robert turns up not realizing quite why he has been invited. Suppose Robert and Jacqueline are secret lovers, and consequently determined that Jacqueline will NOT leave for the weekend. Suppose the cook has to pretend to be the mistress and the mistress is unable to cook. Suppose everyone's alibi gets confused with everyone else's. An evening of hilarious confusion ensues as Bernard and Robert improvise at breakneck speed.</p>",
+                "blurbtext": "<p>xxx</p>",
                 "ticketlink":"",
                 "castlist": []
             },
-            "mamawontfly": {
+            "forum": {
                 "showtype": "mainstage",
-                "title": "Mama Won't Fly",
-                "path": "#/2018/mainstage/mamawontfly",
+                "title": "A Funny Thing Happened on the Way to the Forum",
+                "path": "#/2019/mainstage/forum",
+                "isMusical": true,
+                "date": "7:30 July 25, 26, 27; Aug 1, 2, 3 <br/>2PM July 28; Aug 4 ",
+                "startdate": "2019-07-25",
+                "enddate": "2019-08-04",
+                "writtenby": "Music and lyrics by Stephen Sondheim<br/>Book by Burt Shevelove and Larry Gelbart",
+                "directedby": "Directed by Larry Tempo",
+                "headline": "",
+                "subhead": "Sondheim's joyous, musical romp through Rome has desperate lovers, scheming neighbors and secrets behind every toga.",
+                "stylesheet": "/panes/styleinsert-default.html",
+                "insetpic": "/img/forum.png",
+                "infoblurb": "/panes/2019/forumblurb.html",
+                "blurbtext": "<p>Broadway's greatest farce is light, fast-paced, witty, irreverent and one of the funniest musicals ever written. <em>A Funny Thing Happened on the Way to the Forum</em> takes comedy back to its roots, combining situations from time-tested, 2000-year-old comedies of Roman playwright, Plautus, with the infectious energy of classic vaudeville.</p><p><em>A Funny Thing Happened on the Way to the Forum</em> is a nonstop laughfest in which Pseudolus, a crafty slave, struggles to win the hand of a beautiful, but slow-witted, courtesan named Philia for his young master, Hero, in exchange for freedom. The plot twists and turns with cases of mistaken identity, slamming doors and a showgirl or two.</p><p>This unforgettable, hysterical musical allows a terrific ensemble of comedic actors to shine – &#34;something for everyone, a comedy tonight!&#34;</p>",
+                "ticketlink":"",
+                "castlist": []
+            },
+            "savannahsipping": {
+                "showtype": "mainstage",
+                "title": "The Savannah Sipping Society",
+                "path": "#/2019/mainstage/savannahsipping",
                 "isMusical": false,
-                "date": "7:30 August 9, 10, 11; 16, 17, 18 <br/>2PM August 12 ",
-                "startdate": "2018-08-09",
-                "enddate": "2018-08-18",
+                "date": "7:30 August 15, 16, 17; 22, 23, 24 <br/>2PM August 18; 25",
+                "startdate": "2019-08-15",
+                "enddate": "2019-08-25",
                 "writtenby": "Written by Jessie Jones, Nicholas Hope, Jamie Wooten",
-                "directedby": "Directed by Jen James",
+                "directedby": "Directed by Chelsea Frederickson",
                 "headline": "",
                 "subhead": "",
                 "stylesheet": "/panes/styleinsert-default.html",
-                "insetpic": "/img/mamawontfly.jpg",
-                "infoblurb": "/panes/2018/mamawontflyblurb.html",
-                "blurbtext": "<p>xxx</p>",
+                "insetpic": "/img/savannahsipping.png",
+                "infoblurb": "/panes/2019/savannahsippingblurb.html",
+                "blurbtext": "<p>In this delightful, laugh-a-minute comedy, four unique Southern women, all needing to escape the sameness of their day-to-day routines, are drawn together by Fate—and an impromptu happy hour—and decide it’s high time to reclaim the enthusiasm for life they’ve lost through the years. Randa, a perfectionist and workaholic, is struggling to cope with a surprise career derailment that, unfortunately, reveals that she has no life and no idea how to get one. Dot, still reeling from her husband’s recent demise and the loss of their plans for an idyllic retirement, faces the unsettling prospect of starting a new life from scratch—and all alone. Earthy and boisterous Marlafaye, a good ol’ Texas gal, has blasted into Savannah in the wake of losing her tom-cattin’ husband to a twenty-three-year-old dental hygienist. The strength of her desire to establish a new life is equaled only by her desire to wreak a righteous revenge on her ex. Also new to town, Jinx, a spunky ball of fire, offers her services as a much-needed life coach for these women. However, blinded by her determination and efforts to get their lives on track, she over-looks the fact that she’s the one most in need of sage advice. Over the course of six months, filled with laughter, hilarious misadventures, and the occasional liquid refreshment, these middle-aged women successfully bond and find the confidence to jumpstart their new lives. Together, they discover lasting friendships and a renewed determination to live in the moment—and most importantly, realize it’s never too late to make new old friends. So raise your glass to these strong Southern women and their fierce embrace of life and say “Cheers!” to this joyful and surprisingly touching Jones, Hope, Wooten comedy!</p>",
+                "ticketlink":"",
                 "castlist": []
             },
-            "kitchenwitches": {
+            "mullingar": {
                 "showtype": "mainstage",
-                "title": "Kitchen Witches",
-                "path": "#/2018/mainstage/kitchenwitches",
+                "title": "Outside Mullingar",
+                "path": "#/2019/mainstage/mullingar",
                 "isMusical": false,
-                "date": "7:30 August 30, 31, September 1, 6, 7, 8 <br/>2PM September 2",
-                "startdate": "2018-08-30",
-                "enddate": "2018-09-08",
-                "writtenby": "Written by Caroline Smith",
-                "directedby": "Directed by Rick Dutrow",
+                "date": "7:30 September 5, 6, 7; 12, 13, 14 <br/>2PM September 8; 15",
+                "startdate": "2019-09-05",
+                "enddate": "2019-09-15",
+                "writtenby": "Written by John Patrick Shanley",
+                "directedby": "Directed by Katya R Shaffer",
                 "headline": "",
                 "subhead": "",
                 "stylesheet": "/panes/styleinsert-default.html",
-                "insetpic": "/img/kitchenwitches.jpg",
-                "infoblurb": "/panes/2018/kitchenwitchesblurb.html",
-                "blurbtext": "<p>xxx</p>",
+                "insetpic": "/img/mullingar.jpg",
+                "infoblurb": "/panes/2019/mullingarblurb.html",
+                "blurbtext": "<p>Anthony and Rosemary are two introverted misfits straddling 40. Anthony has spent his entire life on a cattle farm in rural Ireland, a state of affairs that—due to his painful shyness—suits him well. Rosemary lives right next door, determined to have him, watching the years slip away. With Anthony’s father threatening to disinherit him and a land feud simmering between their families, Rosemary has every reason to fear romantic catastrophe. But then, in this very Irish story with a surprising depth of poetic passion, these yearning, eccentric souls fight their way towards solid ground and some kind of happiness. Their journey is heartbreaking, funny as hell, and ultimately deeply moving. OUTSIDE MULLINGAR is a compassionate, delightful work about how it’s never too late to take a chance on love.</p>",
+                "ticketlink":"",
                 "castlist": []
             },
-            "comedyoftenors": {
+            "blithespirit": {
                 "showtype": "mainstage",
-                "title": "A Comedy of Tenors",
-                "path": "#/2018/mainstage/comedyoftenors",
+                "title": "Blithe Spirit",
+                "path": "#/2019/mainstage/blithespirit",
                 "isMusical": false,
-                "date": "7:30 September 20, 21, 22, 27, 28, 29 <br/>2PM September 23",
-                "startdate": "2018-09-20",
-                "enddate": "2018-09-29",
-                "writtenby": "Written by Ken Ludwig",
-                "directedby": "Directed by Ron Ferrara",
+                "date": "7:30 September 26, 27, 28; October 3, 4, 5 <br/>2PM September 29; October 6",
+                "startdate": "2019-09-26",
+                "enddate": "2019-10-06",
+                "writtenby": "Written by Noël Coward",
+                "directedby": "Directed by Matt Mlynarski",
                 "headline": "",
                 "subhead": "",
                 "stylesheet": "/panes/styleinsert-default.html",
-                "insetpic": "/img/comedyoftenors.jpg",
-                "infoblurb": "/panes/2018/comedyoftenorsblurb.html",
-                "blurbtext": "<p>xxx</p>",
+                "insetpic": "/img/blithespirit.jpg",
+                "infoblurb": "/panes/2019/blithespiritblurb.html",
+                "blurbtext": "<p>The smash comedy hit of the London and Broadway stages, this much-revived classic from the playwright of <em>Private Lives</em> offers up fussy, cantankerous novelist Charles Condomine, re-married but haunted (literally) by the ghost of his late first wife, the clever and insistent Elvira who is called up by a visiting “happy medium,” one Madame Arcati. As the (worldly and un-) personalities clash, Charles’ current wife, Ruth, is accidentally killed, “passes over,” joins Elvira, and the two “blithe spirits” haunt the hapless Charles into perpetuity.</p>",
+                "ticketlink":"",
                 "castlist": []
             },
-            "sleepingbeauty": {
+            "hyronomous": {
                 "showtype": "JACT",
-                "title": "Sleeping Beauty",
-                "path": "#/2018/JACT/sleepingbeauty",
+                "title": "Hyronomous A. Frog - The Frog Prince",
+                "path": "#/2019/JACT/hyronomous",
                 "isMusical": false,
-                "date": "June 19 - 23, 11:00am",
-                "startdate": "2018-06-19",
-                "enddate": "2018-06-23",
-                "writtenby": "Book and Lyrics by R. Eugene Jackson<br/>Music by Patsy Pollard",
+                "date": "June 18, 20, 21, 22; 25, 26, 27, 11:00am",
+                "startdate": "2019-06-18",
+                "enddate": "2019-06-27",
+                "writtenby": "Adapted by Edith Weiss",
+                "directedby": "Directed by Vincent D'Angelo",
+                "headline": "",
+                "subhead": "",
+                "stylesheet": "/panes/styleinsert-default.html",
+                "insetpic": "/img/hyronomous.png",
+                "infoblurb": "/panes/2019/hyronomousblurb.html",
+                "blurbtext": "<p>With rich humor for adults and children as well as delightful physical humor for even the youngest theatre goers, this play is a proven winner. Its premiere production ran for months, playing to literally thousands of children, young and old. Hyronomous, an inept and lonely frog prince, lives in a bog in the kingdom of Spamelot. Hyronomous is bored and unhappy as a frog. He’s larger than the other frogs and hates the taste of flies. One day, the good witch Gloria appears to tell him he was once a human prince and it was a spell that turned him into an amphibian. To break this croak-filled wizardry, Hyronomous must be kissed by a maiden. In a hysterical scene, he learns how to walk like a human and sets off for the castle of Spamelot. He sets his sights on the spoiled and petulant Princess Gladiola. Gladiola is engaged to the painfully pompous Sir Lancelot Pancelot and he, of course, despises the frog at first sight. As Gladiola and Lancelot plot ways to get rid of Hyronomous, our green hero tries desperately to act like a human being. His attempt to act like a person at the dinner table turns into a hilarious scene... infuriating the princess. Luckily, he finds a friend in Delphinium, the handmaiden, and Aunt Queen Bea, who try to save him from the slings and arrows of the outrageous Gladiola. Our beloved frog finally gets his kiss from the handmaiden Delphinium, bringing about an ending full of wit and charm.</p>",
+                "ticketlink":"",
+                "castlist": []
+            },
+            "rapunzel": {
+                "showtype": "JACT",
+                "title": "Let Your Hair Down, Rapunzel",
+                "path": "#/2019/JACT/rapunzel",
+                "isMusical": true,
+                "date": "July 9, 11, 12, 13; 16, 17, 19 11:00am",
+                "startdate": "2019-07-09",
+                "enddate": "2019-07-18",
+                "writtenby": "Book by Karen Boettcher-Tate<br/>Music and Lyrics by Scott Deturk",
                 "directedby": "",
                 "headline": "",
                 "subhead": "",
                 "stylesheet": "/panes/styleinsert-default.html",
-                "insetpic": "/img/sleepingbeauty.png",
-                "infoblurb": "/panes/2018/sleepingbeautyblurb.html",
-                "blurbtext": "<p>xxx</p>",
+                "insetpic": "/img/rapunzel.png",
+                "infoblurb": "/panes/2019/rapunzelblurb.html",
+                "blurbtext": "<p>’It’s time to let your hair down, have a little fun,’ chimes the company in the opening number of this fresh, vivacious musical adaptation of a popular tale. Rene Shwartzbuckle sings to her husband, Walt, about her zany obsession for a turnip-like vegetable called ’rapunzel.’ After spotting a delectable patch of the plant in Witch Izwitch’s garden, Rene sends Walt to ’borrow’ some. The irritated witch has her malicious henchmen, the Glumpwarts, terrorize Walt. In fear, he promises to give his firstborn child to the witch in exchange for his own freedom. Your audiences are then taken many years ahead to visit the beautiful Shwartzbuckle child... Rapunzel. (Now you know where the name comes from!) It’s our heroine’s 18th birthday, and Witch Izwitch follows through with her promise and places poor Rapunzel alone in a tower. From here, an exuberant, amusing rescue attempt begins! (As for the ’mane’ ingredient of the show, don’t worry! The famous ’hair climbing’ scene is a breeze to stage!) Can Prince Llewellyn persevere over the powers of evil? Will the fresh, hysterical characters (such as the sages Parsley, Rosemary and Thyme) be able to help? And can Rapunzel convince the witch that it’s okay to be unique? Filled with an abundant supply of delightful songs like ’Just Because You’re Different,’ ’I’m a Nut’ and, of course, ’Let Your Hair Down,’ this show is zestful entertainment!</p>",
+                "ticketlink":"",
                 "castlist": []
             },
-            "lilred": {
+            "charlottesweb": {
                 "showtype": "JACT",
-                "title": "L'il Red",
-                "path": "#/2018/JACT/lilred",
+                "title": "Charlotte's Web",
+                "path": "#/2019/JACT/charlottesweb",
                 "isMusical": false,
-                "date": "July 31 - August 4, 11:00am",
-                "startdate": "2018-07-31",
-                "enddate": "2018-08-04",
-                "writtenby": "Written by Richard Kinter",
+                "date": "July 30, August 1, 2, 3; 6, 7, 8 at 11:00am",
+                "startdate": "2019-07-30",
+                "enddate": "2019-08-10",
+                "writtenby": "Adapted by Joseph Robinette<br/>Based on the book by E.B. White",
                 "directedby": "",
                 "headline": "",
                 "subhead": "",
                 "stylesheet": "/panes/styleinsert-default.html",
-                "insetpic": "/img/lilred.png",
-                "infoblurb": "/panes/2018/lilredblurb.html",
-                "blurbtext": "<p>xxx</p>",
-                "castlist": []
-            },
-            "reallyrosie": {
-                "showtype": "JACT",
-                "title": "Really Rosie",
-                "path": "#/2018/JACT/reallyrosie",
-                "isMusical": false,
-                "date": "October 12 - 21",
-                "startdate": "2018-10-12",
-                "enddate": "2018-10-21",
-                "writtenby": "Book and Lyrics by Maurice Sendak<br/>Music by Carole King",
-                "directedby": "",
-                "headline": "",
-                "subhead": "",
-                "stylesheet": "/panes/styleinsert-default.html",
-                "insetpic": "/img/reallyrosie.gif",
-                "infoblurb": "/panes/2018/reallyrosieblurb.html",
-                "blurbtext": "<p>xxx</p>",
+                "insetpic": "/img/charlottesweb.jpg",
+                "infoblurb": "/panes/2019/charlotteswebblurb.html",
+                "blurbtext": "<p>The Children's Literature Association named this &#34;the best American children's book of the past two hundred years,&#34; and Joseph Robinette, working with the advice of E.B. White, has created a play that captures this work in a thrilling and utterly practical theatrical presentation. The costumes and unit set may be simple or as colorful and elaborate as you wish; it's the story and relationships that make the show. All the enchanting characters are here: Wilbur, the irresistible young pig who desperately wants to avoid the butcher; Fern, a girl who understands what animals say to each other; Templeton, the gluttonous rat who can occasionally be talked into a good deed; the Zuckerman family; the Arables; and, most of all, the extraordinary spider, Charlotte, who proves to be “a true friend and a good writer.” Determined to save Wilbur, Charlotte begins her campaign with the &#34;miracle&#34; of her web in which she writes, &#34;Some pig.&#34; It's the beginning of a victorious campaign which ultimately ends with the now-safe Wilbur doing what is most important to Charlotte. This is a beautiful, knowing play about friendship that will give your actors a great opportunity and your audience an evening of enchantment.&nbsp;</p>",
+                "ticketlink":"",
                 "castlist": []
             }
         }
@@ -779,353 +804,91 @@
     "auditioninfo":{
         "mainstageshows":[
             {
-                "title": "Social Security",
+                "title": "The Taffetas",
                 "summary": "",
-                "isMusical": false,
-                "characters": [
-                    {
-                        "name": "David Kahn",
-                        "type": "",
-                        "range": "",
-                        "desc": "An art gallery owner"
-                    },
-                    {
-                        "name": "Barbara Kahn",
-                        "type": "",
-                        "range": "",
-                        "desc": "David's wife, and art gallery owner"
-                    },
-                    {
-                        "name": "Trudy Kahn",
-                        "type": "",
-                        "range": "",
-                        "desc": "Barbara's housewife sister"
-                    },
-                    {
-                        "name": "Martin Heyman",
-                        "type": "",
-                        "range": "",
-                        "desc": "Trudy's husband"
-                    },
-                    {
-                        "name": "Sophie Greengrass",
-                        "type": "",
-                        "range": "",
-                        "desc": "Trudy and Barbara's mother"
-                    },
-                    {
-                        "name": "Maurice Koenig",
-                        "type": "",
-                        "range": "",
-                        "desc": "A nonagenarian artist"
-                    }
-                ]
-            },
-            {
-                "title": "Steel Magnolias",
-                "summary": "",
-                "isMusical": false,
-                "characters": [
-                    {
-                        "name": "Truvy  Jones",
-                        "type": "to  play  35 ‐45 ",
-                        "range": "",
-                        "desc": "Owns  the  beauty  shop.  Vivacious.  Dispenses  advice w ith  lots  of  hair spray. "
-                    },
-                    {
-                        "name": "Annelle  Dupup‐Desoto",
-                        "type": " to  play  18 ‐ 24",
-                        "range": "",
-                        "desc": "Newly  hired  assistant.  Moves  from  unsure  to  wild  to  religious."
-                    },
-                    {
-                        "name": "Clairee  Belcher",
-                        "type": " to  play  55  to  late  60’s ",
-                        "range": "",
-                        "desc": "Widow  of  former  mayor.  Grand  dame.   Elegant,  sophisticated,  a  true  beauty."
-                    },
-                    {
-                        "name": "Shelby  Eatenton‐Latcherie",
-                        "type": "to  play  19",
-                        "range": "",
-                        "desc": " Prettiest  girl  in  town.  Loves pink.  Strong  willed,  passionate."
-                    },
-                    {
-                        "name": "M'Lynn  Eatenton ",
-                        "type": " to  play  40  to  50’s",
-                        "range": "",
-                        "desc": "Shelby's  mother.  Always  knows  what’s  best,  strong,  stubborn,  the  heart  of  the  piece. "
-                    },
-                    {
-                        "name": "Ouiser  (pronounced  Weezer)  Boudreaux",
-                        "type": "to  play 55  to  late  60’s",
-                        "range": "",
-                        "desc": "Wealthy  curmudgeon.  Tough,  Eccentric  character. "
-                    }
-                ]
-            },
-            {
-                "title": "Summer Musical",
-                "summary": "This is a very popular 50's themed musical (Rights applied for and pending). We're also looking for diverse actors and singers for doo wop group.",
                 "isMusical": true,
                 "characters": [
                     {
-                        "name": "Male One",
-                        "type": "Male, High School Teen",
-                        "range": "tenor, D4– B5",
-                        "desc": "The leader of the 'boys gang'; good-looking, strong and confident, with an air of easy-going charm"
-                    },
-                    {
-                        "name": "Female One",
-                        "type": "Female, High School Teen",
-                        "range": "Soprano, A3–F#5",
-                        "desc": "New girl in town; sweet, wholesome, naive, cute, and innocent"
-                    },
-                    {
-                        "name": "Female Two",
-                        "type": "Female, High School Teen",
-                        "range": "Alto A3– C5",
-                        "desc": "Leader of the 'girls gang'; tough, sarcastic and outspoken but vulnerable"
-                    },
-                    {
-                        "name": "Female Three",
-                        "type": "Female, High School Teen",
-                        "range": "Alto, A3–D5",
-                        "desc": "A dreamer; good-natured but not too smart, she is heavily made up, fussy about her appearance, particularly her hair. She can't wait to finish high school so she can be a beautician"
-                    },
-                    {
-                        "name": "Female Four",
-                        "type": "Female, High School Teen",
-                        "range": "Alto, C4–C5",
-                        "desc": "The 'beauty' of the 'girls gang'; pretty and looks older than the other girls, but betrays her real age when she opens her mouth. She tries to act sophisticated."
-                    },
-                    {
-                        "name": "Female Five",
-                        "type": "Female, High School Teen",
-                        "range": "Alto, A3-C5",
-                        "desc": "Funny, loud, compulsive eater and awkward member of the 'girls gang'. Loud and pushy with the girls, but shy with boys"
-                    },
-                    {
-                        "name": "Male Two",
-                        "type": "Male, High School Teen",
-                        "range": "Tenor, D4-A5",
-                        "desc": "The youngest of the guys; small, boyish and open, with a disarming smile and a heroworshipping attitude towards the other guys. He also plays the guitar."
-                    },
-                    {
-                        "name": "Male Three",
-                        "type": "Male, High School Teen",
-                        "range": "Tenor, C4–F5",
-                        "desc": "The second in command of the 'boys gang'; tough-looking, tattooed, surly and avoids any show of softness. He has an offbeat sense of humor. "
-                    },
-                    {
-                        "name": "Male Four",
-                        "type": "Male, High School Teen",
-                        "range": "Baritone, G3–A5",
-                        "desc": "A member of the 'boys gang'; funny Italian-American, he is a braggart and wheeler-dealer who thinks he's a real lady-killer"
-                    },
-                    {
-                        "name": "Male Five",
-                        "type": "Male, High School Teen",
-                        "range": "Tenor, D4-A5",
-                        "desc": "The anything-for-a-laugh stocky type of boy; a clown who enjoys winding people up, he is full of mischief and is always dreaming up half-baked schemes and ideas"
-                    },
-                    {
-                        "name": "Male Ensemble (DJ)",
-                        "type": "Male, High School Teen",
-                        "range": "Ensemble/Part Flexible",
-                        "desc": "A typical 'teen audience' disc jockey; slick, egotistical and fast-talking. He is also a veteran 'Greaser.'"
-                    },
-                    {
-                        "name": "Female Six",
-                        "type": "Female, High School Teen",
-                        "range": "Alto, C4–C5",
-                        "desc": "The best dancer at school; a loud mouth, she wins the dancing competition with Male One."
-                    },
-                    {
-                        "name": "Male Six",
-                        "type": "Male, High School Teen",
-                        "range": "Tenor, A3– E5",
-                        "desc": "The class valedictorian; physically awkward, with weak eyes and a highpitched voice. He's a typical 'apple-polisher' - both smug and pompous, but gullible. "
-                    },
-                    {
-                        "name": "Male Seven",
-                        "type": "Male, High School Teen",
-                        "range": "Tenor, G4E5",
-                        "desc": "All-American, rock-star student at School, whose real name is ???"
-                    },
-                    {
-                        "name": "Female Seven",
-                        "type": "Female, Age Flexible",
-                        "range": "Ensemble/Part Flexible",
-                        "desc": "A no-nonsense, serious, loud, English teacher"
-                    },
-                    {
-                        "name": "Female Eight (cheerleader)",
-                        "type": "Female, High School Teen",
-                        "range": "Range: Alto, D4A4",
-                        "desc": "A typical cheerleader; attractive, athletic, sure-of-herself, but can be given to bursts of disconcerting enthusiasm. She's a bit of a pain and unpopular with the 'girls gang', and can twirl a baton."
-                    },
-                    {
-                        "name": "Male Eight",
-                        "type": "Male, Age Flexible",
-                        "range": "Tenor, E4–F5",
-                        "desc": "suave and slick guardian angel, who encourages his girlfriend to stay in school. "
-                    },
-                    {
-                        "name": "THE 'girls gang'",
-                        "type": "Ensemble",
-                        "range": "SATB",
-                        "desc": "The club-jacketed, gum-chewing, hip-swinging girls' gang who hang around with the 'boys gang'."
-                    },
-                    {
-                        "name": "THE 'boys gang'",
-                        "type": "Ensemble",
-                        "range": "SATB",
-                        "desc": "A super-cool, DAhaired, hard-looking group of high school wheeler-dealers... or so they think."
-                    },
-                    {
-                        "name": "RADIO VOICE",
-                        "type": "Male, Age Flexible",
-                        "range": "Tenor, A3–C5",
-                        "desc": "A Radio Voice"
-                    }
-                ]
-            },
-            {
-                "title": "Mama Won't Fly",
-                "summary": "",
-                "isMusical": false,
-                "characters": [
-                    {
-                        "name": "Savannah Honeycutt",
-                        "type": "40s",
-                        "range": "",
-                        "desc": "feisty Southern business woman, owns an accessories business, thinks Mama messes in her life too much but needs her more than she realizes"
-                    },
-                    {
-                        "name": "Norleen Sprunt",
-                        "type": "70s",
-                        "range": "",
-                        "desc": "Mama, mother of Savannah, spirited, tenacious, a community theatre actress, wants to know everything going on in her children’s lives"
-                    },
-                    {
-                        "name": "Hayley Quinn",
-                        "type": "late 30s to 40s",
-                        "range": "",
-                        "desc": "loveable, high-energy, nervous, the bride-to-be, accident prone and trying hard to make a good impression on future in-laws"
-                    },
-                    {
-                        "name": "Woman 1 (Supporting)",
-                        "type": "Female, 25-50",
-                        "range": "",
-                        "desc": "to play various characters: Tanya is big-haired, flashy realtor, acts in local community theater; Aunt Rema Jean is fun-loving country matron at a backyard barbeque; Edweena is a church lady leading a protest march; Kiki is a Vegas bimbo, excited, she’s hooked an older man who’s got money."
-                    },
-                    {
-                        "name": "Woman 2 (Supporting)",
-                        "type": "Female, 35-80",
-                        "range": "",
-                        "desc": "to play various characters, Essie is a tour guide at a the Bra Museum, a hoot; Great Aunt Pawnee is the matriarch at the backyard barbeque, physical comedy but no lines; Fanny is a church lady leading a protest march; Sybil is well-dressed wife (for 2 more wks) who has catfight with Teeta about her husband marrying the bimbo, Kiki."
-                    },
-                    {
-                        "name": "Woman 3 (Supporting)",
-                        "type": "Female, 35-60",
-                        "range": "",
-                        "desc": "to play various characters: Aunt Ardale is a bible-totin’ golddigger at the backyard barbeque; Juliette is a hard-livin’, tough-as-nails tipsy woman in the only bar (aka the only business) in Nickle Bone—wide spot in the road; Teeta is tough, ex-showgirl in Vegas, licensed to marry couples, has catfight with Sybil and one with Kiki."
-                    },
-                    {
-                        "name": "Man 1 (Supporting)",
-                        "type": "Male, 35-55",
-                        "range": "",
-                        "desc": "plays Denton Crocker, Cousin Chicken, Mitch, Office Dugger, Ronald, and Kelvin."
-                    },
-                    {
-                        "name": "Man 2 (Supporting)",
-                        "type": "Male, 35-55",
-                        "range": "",
-                        "desc": "plays Uncle Ferd, Mickey, Red, and Spud."
-                    }
-                ]
-            },
-            {
-                "title": "Kitchen Witches",
-                "summary": "",
-                "isMusical": false,
-                "characters": [
-                    {
-                        "name": "DOLLY BIDDLE",
-                        "type": "50s",
-                        "range": "",
-                        "desc": "a little cherub of a woman, prone to overweight but always going at top speed. She indulges herself with anything life has to offer whenever possible – even if it’s not good for her!? – and her creative imagination knows no bounds. She is intensely proud of her son Stephen, loves to dispense advice along with recipes for cabbage rolls and borscht and hates Isobel Lomax with an intensity usually reserved for detonating nuclear devices."
-                    },
-                    {
-                        "name": "STEPHEN BIDDLE",
-                        "type": "30s",
-                        "range": "",
-                        "desc": "a nervous, prematurely balding but decent young man who actually enjoys producing low-budget cable TV shows, even when his Mom is the star. Bright and capable, if somewhat shy, but always reluctant to confront Dolly on her many shortcomings. He’s not a fighter - he’d rather be a lover, but nobody’s asked him yet."
-                    },
-                    {
-                        "name": "ISOBEL LOMAX",
+                        "name": "xxx",
                         "type": "",
                         "range": "",
-                        "desc": "Thinks Martha Stewart could learn something about homemaking from her. She trained at the Cordon Bleu and enjoyed a successful career, including her own show “Busy Izzy.” Isobel likes people to think she has a much classier background than reality supports; she would never go out without being properly accessorized. At heart, she is a bright funny and articulate woman who has come to terms with the choices she made early in life."
-                    },
-                    {
-                        "name": "ROB THE CAMERA GUY (or ROBERTA THE CAMERA CHICK)",
-                        "type": "Non-speaking role (except for one line!)",
-                        "range": "",
-                        "desc": "Rob is a young “Goth” inspired person; Stephen is a little afraid of him/her. He/she cleans up the sets, resets props, carries the portable camera around during the “live broadcasts” and despite his/her appearance, is generally extremely efficient and precise."
+                        "desc": "xxx"
                     }
                 ]
-            },
-            {
-                "title": "A Comedy of Tenors",
+            },            {
+                "title": "Moonlight and Magnolias",
                 "summary": "",
                 "isMusical": false,
                 "characters": [
                     {
-                        "name": "TATIANA RACON",
-                        "type": "40-50",
+                        "name": "xxx",
+                        "type": "",
                         "range": "",
-                        "desc": "Tito's former mistress"
-                    },
+                        "desc": "xxx"
+                    }
+                ]
+            },            {
+                "title": "Random Play",
+                "summary": "",
+                "isMusical": false,
+                "characters": [
                     {
-                        "name": "CARLO",
-                        "type": "20-30",
+                        "name": "xxx",
+                        "type": "",
                         "range": "",
-                        "desc": "(will sing opera)  Mimi's boyfriend"
-                    },
+                        "desc": "xxx"
+                    }
+                ]
+            },            {
+                "title": "A Funny Thing Happened on the Way to the Forum",
+                "summary": "",
+                "isMusical": true,
+                "characters": [
                     {
-                        "name": "TITO",
-                        "type": "45-60",
+                        "name": "xxx",
+                        "type": "",
                         "range": "",
-                        "desc": "(will sing opera and play a double role) On stage 90% of the time"
-                    },
+                        "desc": "xxx"
+                    }
+                ]
+            },            {
+                "title": "Savannah Sipping Society",
+                "summary": "",
+                "isMusical": false,
+                "characters": [
                     {
-                        "name": "MARIA",
-                        "type": "45-55",
+                        "name": "xxx",
+                        "type": "",
                         "range": "",
-                        "desc": "Tito's feisty wife"
-                    },
+                        "desc": "xxx"
+                    }
+                ]
+            },            {
+                "title": "Outside Mullingar",
+                "summary": "",
+                "isMusical": false,
+                "characters": [
                     {
-                        "name": "MIMI",
-                        "type": "20-30",
+                        "name": "xxx",
+                        "type": "",
                         "range": "",
-                        "desc": "Tito's daughter"
-                    },
+                        "desc": "xxx"
+                    }
+                ]
+            },            {
+                "title": "Blithe Spirit",
+                "summary": "",
+                "isMusical": false,
+                "characters": [
                     {
-                        "name": "MAX",
-                        "type": "30-40",
+                        "name": "xxx",
+                        "type": "",
                         "range": "",
-                        "desc": "Saunders son in law (will sing opera)"
-                    },
-                    {
-                        "name": "SAUNDERS",
-                        "type": "50-65",
-                        "range": "",
-                        "desc": "Business Manager type"
+                        "desc": "xxx"
                     }
                 ]
             }
+
         ]
     }
 }

@@ -1,13 +1,14 @@
-var yearstring = "2018";
+var yearstring = "2019";
 var navItems = [
         {menuitem:true,  text:"Home",path:"/",pane:"/panes/home.html"},
         {menuitem:true, collapsed:false, text:yearstring+" Mainstage Season",path:"/mainstage",pane:"/panes/home.html", children:[
-            { menuitem: true, text: "Social Security", path: "/2018/mainstage/socialsecurity", pane: "/panes/play-template.html", blurb: "/panes/2018/socialsecurity.html", controller: socialsecurity2018Controller },
-            { menuitem: true, text: "Steel Magnolias", path: "/2018/mainstage/steelmagnolias", pane: "/panes/play-template.html", blurb: "/panes/2018/steelmagnolias.html", controller: steelmagnolias2018Controller },
-            { menuitem: true, text: "Grease", path: "/2018/mainstage/grease", pane: "/panes/play-template.html", blurb: "/panes/2018/grease.html", controller: grease2018Controller },
-            { menuitem: true, text: "Mama Won't Fly", path: "/2018/mainstage/mamawontfly", pane: "/panes/play-template.html", blurb: "/panes/2018/mamawontfly.html", controller: mamawontfly2018Controller },
-            { menuitem: true, text: "Kitchen Witches", path: "/2018/mainstage/kitchenwitches", pane: "/panes/play-template.html", blurb: "/panes/2018/kitchenwitches.html", controller: kitchenwitches2018Controller },
-            { menuitem: true, text: "A Comedy of Tenors", path: "/2018/mainstage/comedyoftenors", pane: "/panes/play-template.html", blurb: "/panes/2018/comedyoftenors.html", controller: comedyoftenors2018Controller },
+            { menuitem: true, text: "The Taffetas", path: "/2019/mainstage/taffetas", pane: "/panes/play-template.html", blurb: "/panes/2019/taffetas.html", controller: taffetas2019Controller },
+            { menuitem: true, text: "Moonlight and Magnolias", path: "/2019/mainstage/moonlightandmagnolias", pane: "/panes/play-template.html", blurb: "/panes/2019/moonlightandmagnolias.html", controller: moonlightandmagnolias2019Controller },
+            { menuitem: true, text: "random", path: "/2019/mainstage/random", pane: "/panes/play-template.html", blurb: "/panes/2019/random.html", controller: random2019Controller },
+            { menuitem: true, text: "A Funny Thing Happened on the Way to the Forum", path: "/2019/mainstage/forum", pane: "/panes/play-template.html", blurb: "/panes/2019/forum.html", controller: forum2019Controller },
+            { menuitem: true, text: "The Savannah Sipping Society", path: "/2019/mainstage/savannahsipping", pane: "/panes/play-template.html", blurb: "/panes/2019/savannahsipping.html", controller: savannahsipping2019Controller },
+            { menuitem: true, text: "Outside Mullingar", path: "/2019/mainstage/mullingar", pane: "/panes/play-template.html", blurb: "/panes/2019/mullingar.html", controller: mullingar2019Controller },
+            { menuitem: true, text: "Blithe Spirit", path: "/2019/mainstage/blithespirit", pane: "/panes/play-template.html", blurb: "/panes/2019/blithespirit.html", controller: blithespirit2019Controller },
 
         ]},
         {
@@ -16,9 +17,10 @@ var navItems = [
 
         ]},
         {menuitem:true, collapsed:false, text:yearstring+" Children's Season",path:"/jact",pane:"/panes/jact.html", children:[
-            { menuitem: true, text: "Sleeping Beauty", path: "/2018/JACT/sleepingbeauty", pane: "/panes/play-template.html", blurb: "/panes/2018/sleepingbeauty.html", controller: sleepingbeauty2018Controller },
-            { menuitem: true, text: "L'il Red", path: "/2018/JACT/lilred", pane: "/panes/play-template.html", blurb: "/panes/2018/lilred.html", controller: lilred2018Controller },
-            { menuitem: true, text: "Really Rosie", path: "/2018/JACT/reallyrosie", pane: "/panes/play-template.html", blurb: "/panes/2018/reallyrosie.html", controller: reallyrosie2018Controller }
+            { menuitem: true, text: "Hyronomous A. Frog", path: "/2019/JACT/hyronomous", pane: "/panes/play-template.html", blurb: "/panes/2019/hyronomous.html", controller: hyronomous2019Controller },
+            { menuitem: true, text: "Let Your Hair Down, Rapunzel", path: "/2019/JACT/rapunzel", pane: "/panes/play-template.html", blurb: "/panes/2019/rapunzel.html", controller: rapunzel2019Controller },
+            { menuitem: true, text: "Charlotte's Web", path: "/2019/JACT/charlottesweb", pane: "/panes/play-template.html", blurb: "/panes/2019/charlottesweb.html", controller: charlottesweb2019Controller },
+
         ]},
         {menuitem:true, text:"Ticket Information",path:"/tickets",pane:"/panes/tickets.html"},
         {menuitem:true, collapsed:true, text:yearstring+" Auditions",path:"/auditions",pane:"/panes/auditions.html", children:[
@@ -67,7 +69,16 @@ var navItems = [
         {menuitem:false, text:"The Dixie Swim Club",        path:"/2017/mainstage/dixie", pane:"/panes/play-template.html",blurb:"/panes/2017/dixie.html",controller:dixie2017Controller},
         {menuitem:false, text:"Boeing Boeing",              path:"/2017/mainstage/boeing", pane:"/panes/play-template.html",blurb:"/panes/2017/boeing.html",controller:boeing2017Controller},
         {menuitem:false, text:"Winnie the Pooh Birthday Tail", path:"/2017/JACT/winnie", pane:"/panes/play-template.html",blurb:"/panes/2017/winnie.html",controller:winnie2017Controller},
-        {menuitem:false, text:"Cinderella",                 path:"/2017/JACT/cinderella", pane:"/panes/play-template.html",blurb:"/panes/2017/cinderella.html",controller:cinderella2017Controller}
+        {menuitem:false, text:"Cinderella",                 path:"/2017/JACT/cinderella", pane:"/panes/play-template.html",blurb:"/panes/2017/cinderella.html",controller:cinderella2017Controller},
+        { menuitem: false, text: "Social Security", path: "/2018/mainstage/socialsecurity", pane: "/panes/play-template.html", blurb: "/panes/2018/socialsecurity.html", controller: socialsecurity2018Controller },
+        { menuitem: false, text: "Steel Magnolias", path: "/2018/mainstage/steelmagnolias", pane: "/panes/play-template.html", blurb: "/panes/2018/steelmagnolias.html", controller: steelmagnolias2018Controller },
+        { menuitem: false, text: "Grease", path: "/2018/mainstage/grease", pane: "/panes/play-template.html", blurb: "/panes/2018/grease.html", controller: grease2018Controller },
+        { menuitem: false, text: "Mama Won't Fly", path: "/2018/mainstage/mamawontfly", pane: "/panes/play-template.html", blurb: "/panes/2018/mamawontfly.html", controller: mamawontfly2018Controller },
+        { menuitem: false, text: "Kitchen Witches", path: "/2018/mainstage/kitchenwitches", pane: "/panes/play-template.html", blurb: "/panes/2018/kitchenwitches.html", controller: kitchenwitches2018Controller },
+        { menuitem: false, text: "A Comedy of Tenors", path: "/2018/mainstage/comedyoftenors", pane: "/panes/play-template.html", blurb: "/panes/2018/comedyoftenors.html", controller: comedyoftenors2018Controller },
+        { menuitem: false, text: "Sleeping Beauty", path: "/2018/JACT/sleepingbeauty", pane: "/panes/play-template.html", blurb: "/panes/2018/sleepingbeauty.html", controller: sleepingbeauty2018Controller },
+        { menuitem: false, text: "L'il Red", path: "/2018/JACT/lilred", pane: "/panes/play-template.html", blurb: "/panes/2018/lilred.html", controller: lilred2018Controller },
+        { menuitem: false, text: "Really Rosie", path: "/2018/JACT/reallyrosie", pane: "/panes/play-template.html", blurb: "/panes/2018/reallyrosie.html", controller: reallyrosie2018Controller }
 
 
 
