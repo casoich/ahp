@@ -31,11 +31,15 @@ gulp.task('usemin', function () {
 /**
  * Copy assets
  */
-gulp.task('copy-assets', ['copy-images', 'copy-favicon', 'copy-panes', 'copy-bios', 'copy-fonts', 'copy-bower_fonts']);
+gulp.task('copy-assets', ['copy-images',  'copy-favicon', 'copy-panes', 'copy-bios', 'copy-fonts', 'copy-bower_fonts']);
 
 gulp.task('copy-images', function () {
     return gulp.src(paths.images)
         .pipe(gulp.dest('dist/img'));
+});
+gulp.task('copy-js', function () {
+    return gulp.src(paths.js)
+        .pipe(gulp.dest('dist/js'));
 });
 
 gulp.task('copy-favicon', function () {
