@@ -20,14 +20,15 @@
             <!--<div class=" drop-shadow lifted newsflash">-->
                 <!--            <div id="boxdiv" style="width:100%; height:100%;position:absolute;">&nbsp;</div>-->
                 <div class="clearfix">
-                <h1>{{playinfo.headline}}</h1>
+                <h3>{{playinfo.headline}}</h3>
                     <img id="captionimg"  class="captionimageblock" src="{{playinfo.insetpic}}" />
                 <p>
-                <p><h3>{{playinfo.subhead}}</h3></p>
-                <div ng-include src="playinfo.infoblurb"></div>
+                <p><h4>{{playinfo.subhead}}</h4></p>
+                <div ng-if="playinfo.blurbtext" ng-bind-html="playinfo.blurbtext"></div>
+                <div ng-if="playinfo.infoblurb" ng-include src="playinfo.infoblurb"></div>
                 </div>
             <div ng-if="playinfo.ticketlink" class="text-center">
-                <a ng-href="{{playinfo.ticketlink}}" target="_blank">
+                <a ng-href="{{playinfo.ticketlink}}" class="outline-png-on-hover" target="_blank">
                     <img src="/img/buytickets.png" style="width:159px;Height:135px;"></a>
             </div>
                 <div ng-show="playinfo.castlist.length>0" class="cast-accordion" id="accordion">

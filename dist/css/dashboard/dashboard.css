@@ -2217,3 +2217,18 @@ and open the template in the editor.
   border-left: 0;
 }
 /*# sourceMappingURL=jasny-bootstrap.css.map */
+
+
+.outline-png-on-hover {
+  transition: all 0.5s ease;
+}
+.outline-png-on-hover:hover {
+  -webkit-filter: drop-shadow(4px 4px 4px black)
+                  drop-shadow(-4px -4px 4px black)
+                  drop-shadow(4px -4px 4px black)
+                  drop-shadow(-4px 4px 4px black);
+  filter: drop-shadow(4px 4px 4px black) 
+          drop-shadow(-4px -4px 4px black)
+          drop-shadow(4px -4px 4px black)
+          drop-shadow(-4px 4px 4px black);
+}

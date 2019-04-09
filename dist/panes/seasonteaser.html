@@ -2,28 +2,14 @@
     <div class="panel panel-primary">
         <div class="panel-heading">
             <div class="col-xs-12 text-center">
-                <h2>Announcing the Apple Hill Playhouse 2018 season!</h2>
+                <h2>Announcing the Apple Hill Playhouse 2019 season!</h2>
             </div>
 
         </div>
         <div class="panel-body">
-            <!-- <div class=" text-center">
-                <div>
-                    <h3>A message to our patrons</h3>
-                    <p>This year we are producing fewer plays in both the Main Stage and the Johnny Appleseed Children's Theatre and have added
-a Family Show to the Main Stage season. <i>Seussical</i> will provide opportunities for actors to matriculate from Johnny Appleseed Children's Theatre to Main
-Stage where they will share the stage with seasoned players. In the past we have played both JACT and the adult plays on the
-same stage with a traveler curtain dividing them. By eliminating the need to shift and store furniture and props we will
-have the time to focus on the production values of all our plays. The directors, designers, stage managers, cast and run crew
-welcome this change and we hope that you will too.</p>
-<span class=" pull-right" style="font-family:'Homemade Apple', cursive; color:black;font-size:1.25em;">Gratefully, <b>Pat Beyer</b></span>
-<div class="btn-toolbar"></div>
-<hr />
 
-                </div>
-            </div> -->
             
-            <div ng-repeat="thisBlurb in fetchFromObject(content,'showinfo.2018') | filterObjectBy:'showtype':'mainstage' | orderObjectDateBy:'startdate'" 
+            <div ng-repeat="thisBlurb in fetchFromObject(content,'showinfo.2019') | filterObjectBy:'showtype':'mainstage' | orderObjectDateBy:'startdate'" 
             ng-include="'/panes/teaserpane.html'"></div>
         </div>
     </div>

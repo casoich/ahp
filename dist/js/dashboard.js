@@ -5,7 +5,8 @@ angular.module('Dashboard', ['ui.bootstrap', 'ui.router', 'ngCookies']);
 /**
  * Route configuration for the Dashboard module.
  */
-angular.module('Dashboard').config(['$stateProvider', '$urlRouterProvider', 
+angular.module('Dashboard')
+.config(['$stateProvider', '$urlRouterProvider', 
     function($stateProvider, $urlRouterProvider) {
 
     // For unmatched routes
@@ -21,7 +22,9 @@ angular.module('Dashboard').config(['$stateProvider', '$urlRouterProvider',
             url: '/tables', 
             templateUrl: 'tables.html'
         });
-}]);
+}])
+
+;
 
 /*!
  * Jasny Bootstrap v3.1.3 (http://jasny.github.io/bootstrap)
@@ -1135,8 +1138,8 @@ var taffetas2019Controller= function($scope) {
 var moonlightandmagnolias2019Controller= function($scope) {
     $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2019.moonlightandmagnolias');     
 };
-var random2019Controller = function ($scope) {
-    $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2019.random');
+var sexplease2019Controller = function ($scope) {
+    $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2019.sexplease');
 };
 var forum2019Controller= function($scope) {
     $scope.playinfo = $scope.fetchFromObject($scope.content, 'showinfo.2019.forum');     
@@ -1167,7 +1170,7 @@ var navItems = [
         {menuitem:true, collapsed:false, text:yearstring+" Mainstage Season",path:"/mainstage",pane:"/panes/home.html", children:[
             { menuitem: true, text: "The Taffetas", path: "/2019/mainstage/taffetas", pane: "/panes/play-template.html", blurb: "/panes/2019/taffetas.html", controller: taffetas2019Controller },
             { menuitem: true, text: "Moonlight and Magnolias", path: "/2019/mainstage/moonlightandmagnolias", pane: "/panes/play-template.html", blurb: "/panes/2019/moonlightandmagnolias.html", controller: moonlightandmagnolias2019Controller },
-            { menuitem: true, text: "random", path: "/2019/mainstage/random", pane: "/panes/play-template.html", blurb: "/panes/2019/random.html", controller: random2019Controller },
+            { menuitem: true, text: "Sex Please, We're Sixty", path: "/2019/mainstage/sexplease", pane: "/panes/play-template.html", blurb: "/panes/2019/sexplease.html", controller: sexplease2019Controller },
             { menuitem: true, text: "A Funny Thing Happened on the Way to the Forum", path: "/2019/mainstage/forum", pane: "/panes/play-template.html", blurb: "/panes/2019/forum.html", controller: forum2019Controller },
             { menuitem: true, text: "The Savannah Sipping Society", path: "/2019/mainstage/savannahsipping", pane: "/panes/play-template.html", blurb: "/panes/2019/savannahsipping.html", controller: savannahsipping2019Controller },
             { menuitem: true, text: "Outside Mullingar", path: "/2019/mainstage/mullingar", pane: "/panes/play-template.html", blurb: "/panes/2019/mullingar.html", controller: mullingar2019Controller },
@@ -1255,6 +1258,9 @@ var appController = angular.module('Dashboard', ['ngRoute', 'ngSanitize', 'ui.bo
     .config(['$controllerProvider', function ($controllerProvider) {
         //$controllerProvider.allowGlobals();
     }])
+    .config(['$locationProvider', function($locationProvider) {
+        $locationProvider.hashPrefix('');
+      }])
     ;
 appController
     .filter('unsafe', function ($sce) {
@@ -1345,7 +1351,7 @@ function MasterCtrl($scope, $http) {
     $scope.controllerList = {};
     $scope.content = {};
     var myvariable = "hi";
-    console.log($http);
+    //console.log($http);
     $http.get('/panes/content.json')
         .then(function (res) {
             $scope.content = res.data;

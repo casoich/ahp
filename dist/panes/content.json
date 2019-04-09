@@ -457,8 +457,8 @@
                 "stylesheet": "/panes/styleinsert-default.html",
                 "insetpic": "/img/taffetas.png",
                 "infoblurb": "",
-                "blurbtext": "<p>It's 1950-something, and these four singing sisters from Muncie, Indiana are making their national television debut on the Dumont Television Network's Spotlight on Music! The Taffetas pays tribute to the sounds of <b>The McGuire Sisters</b>, <b>The Fontane Sisters</b> and <b>The Chordettes</b>.  Opening Off-Broadway almost two years before <i>Forever Plaid</i>, <i>The Taffetas</i> made nostalgia what it is today!  Spend an hour and a half with <i>Kaye, Peggy, Cheryl</i> and <p>Donna</p> and their 3-piece band, and remember what Sunday night television was like on your 12-inch black and white screen! </p>",
-                "ticketlink":"",
+                "blurbtext": "<p>It's 1950-something, and these four singing sisters from Muncie, Indiana are making their national television debut on the Dumont Television Network's Spotlight on Music! The Taffetas pays tribute to the sounds of <b>The McGuire Sisters</b>, <b>The Fontane Sisters</b> and <b>The Chordettes</b>.  Opening Off-Broadway almost two years before <i>Forever Plaid</i>, <i>The Taffetas</i> made nostalgia what it is today!  Spend an hour and a half with <i>Kaye, Peggy, Cheryl</i> and <i>Donna</i> and their 3-piece band, and remember what Sunday night television was like on your 12-inch black and white screen! </p>",
+                "ticketlink":"https://www.onthestage.com/show/apple-hill-playhouse/the-taffetas-7901",
                 "castlist": []
             },
             "moonlightandmagnolias": {
@@ -476,27 +476,27 @@
                 "stylesheet": "/panes/styleinsert-default.html",
                 "insetpic": "/img/moonlightandmagnolias.png",
                 "infoblurb": "",
-                "blurbtext": "<p><b>THE STORY:</b> 1939 Hollywood is abuzz. Legendary producer David O. Selznick has shut down production of his new epic, <i>Gone with the Wind</i>, a film adaptation of Margaret Mitchell's novel. The screenplay, you see, just doesn't work. So what's an all-powerful movie mogul to do? While fending off the film's stars, gossip columnists and his own father-in-law, Selznick sends a car for famed screenwriter Ben Hecht and pulls formidable director Victor Fleming from the set of <i>The Wizard of Oz</i>. Summoning both to his office, he locks the doors, closes the shades, and on a diet of bananas and peanuts, the three men labor over five days to fashion a screenplay that will become the blueprint for one of the most successful and beloved films of all time.</p>",
-                "ticketlink":"",
+                "blurbtext": "<p><b>THE STORY:</b> Legendary film producer David O. Selznick is five weeks into shooting Gone With the Wind when he realizes the script is awful, and that the director doesn't have a clue. He has five days to replace them, and restart the shoot, or the production will shut down. Selznick calls Victor Fleming from the set of The Wizard to Oz to direct, and he taps legendary playwright, screenwriter and script doctor Ben Hecht to rewrite the script. There's only one problem: Hecht hasn't read the book. Over the course of five madcap days, the three men, assisted by Selznick's assistant, Miss Poppenghul, frantically craft one of the most beloved screenplays of all time. As Selznick and Fleming act out the book for Hecht, the phone rings off the hook with calls from the likes of Vivien Leigh, Louis B. Mayer and Ed Sullivan. Hutchinson's play, based on historical events, is written as farce, but the characters also deal with serious questions about race and the fragile position of Jewish executives in Hollywood.</p>",
+                "ticketlink":"https://www.onthestage.com/show/apple-hill-playhouse/moonlight-and-magnolias-3233",
                 "castlist": []
             },
-            "random": {
+            "sexplease": {
                 "showtype": "mainstage",
-                "title": "Random Show",
-                "path": "#/2019/mainstage/random",
+                "title": "Sex Please, We're Sixty",
+                "path": "#/2019/mainstage/sexplease",
                 "isMusical": false,
                 "date": "7:30 July 4, 5, 6, 11, 12, 13 <br/>2PM July 7; 14",
                 "startdate": "2019-07-04",
                 "enddate": "2019-07-14",
-                "writtenby": "written by xxx",
-                "directedby": "Ron Ferrara",
+                "writtenby": "Written by Michael Parker, Susan Parker",
+                "directedby": "Directed by Ron Ferrara",
                 "headline": "",
                 "subhead": "",
                 "stylesheet": "/panes/styleinsert-default.html",
-                "insetpic": "/img/dontdress.png",
+                "insetpic": "/img/sexplease.png",
                 "infoblurb": "",
-                "blurbtext": "<p>xxx</p>",
-                "ticketlink":"",
+                "blurbtext": "<p>Mrs. Stancliffe’s Rose Cottage Bed &amp; Breakfast has been successful for many years. Her guests (nearly all women) return year after year. Her next-door neighbor, the elderly, silver-tongued Bud “Bud the Stud” Davis, believes they come to spend time with him in romantic liaisons. The prim and proper Mrs. Stancliffe steadfastly denies this but really doesn’t do anything to prevent it. She reluctantly accepts the fact that “Bud the Stud” is, in fact, good for business. Her other neighbor and would-be suitor, Henry Mitchell, is a retired chemist who has developed a blue pill called “Venusia,” after Venus the goddess of love, to increase the libido of menopausal women. The pill has not been tested. </p>",
+                "ticketlink":"https://www.onthestage.com/show/apple-hill-playhouse/sex-please-were-sixty-1195",
                 "castlist": []
             },
             "forum": {
@@ -513,9 +513,9 @@
                 "subhead": "Sondheim's joyous, musical romp through Rome has desperate lovers, scheming neighbors and secrets behind every toga.",
                 "stylesheet": "/panes/styleinsert-default.html",
                 "insetpic": "/img/forum.png",
-                "infoblurb": "/panes/2019/forumblurb.html",
-                "blurbtext": "<p>Broadway's greatest farce is light, fast-paced, witty, irreverent and one of the funniest musicals ever written. <em>A Funny Thing Happened on the Way to the Forum</em> takes comedy back to its roots, combining situations from time-tested, 2000-year-old comedies of Roman playwright, Plautus, with the infectious energy of classic vaudeville.</p><p><em>A Funny Thing Happened on the Way to the Forum</em> is a nonstop laughfest in which Pseudolus, a crafty slave, struggles to win the hand of a beautiful, but slow-witted, courtesan named Philia for his young master, Hero, in exchange for freedom. The plot twists and turns with cases of mistaken identity, slamming doors and a showgirl or two.</p><p>This unforgettable, hysterical musical allows a terrific ensemble of comedic actors to shine – &#34;something for everyone, a comedy tonight!&#34;</p>",
-                "ticketlink":"",
+                "infoblurb": "",
+                "blurbtext": "<p><i>A Funny Thing Happened on the Way to the Forum</i> is a fast-paced farce that promises to have audiences rolling on the floor. Taking straight from the roots of comedy, <i>Forum</i> combines the ancient comedies of Plautus with a vaudevillian delivery. Pseudolus schemes to win the heart of the beautiful virgin, Phelia, for his young master, Hero. In exchange, Hero will grant Pseudolus his freedom once and for all. However, things are never as easy as they seem. Chaos ensues with hair-brained schemes, cases of mistaken identity, slamming doors and convoluted plot twists.</p>",
+                "ticketlink":"https://www.onthestage.com/show/apple-hill-playhouse/a-funny-thing-happeden-on-the-way-to-the-forum-4387",
                 "castlist": []
             },
             "savannahsipping": {
@@ -532,9 +532,9 @@
                 "subhead": "",
                 "stylesheet": "/panes/styleinsert-default.html",
                 "insetpic": "/img/savannahsipping.png",
-                "infoblurb": "/panes/2019/savannahsippingblurb.html",
-                "blurbtext": "<p>In this delightful, laugh-a-minute comedy, four unique Southern women, all needing to escape the sameness of their day-to-day routines, are drawn together by Fate—and an impromptu happy hour—and decide it’s high time to reclaim the enthusiasm for life they’ve lost through the years. Randa, a perfectionist and workaholic, is struggling to cope with a surprise career derailment that, unfortunately, reveals that she has no life and no idea how to get one. Dot, still reeling from her husband’s recent demise and the loss of their plans for an idyllic retirement, faces the unsettling prospect of starting a new life from scratch—and all alone. Earthy and boisterous Marlafaye, a good ol’ Texas gal, has blasted into Savannah in the wake of losing her tom-cattin’ husband to a twenty-three-year-old dental hygienist. The strength of her desire to establish a new life is equaled only by her desire to wreak a righteous revenge on her ex. Also new to town, Jinx, a spunky ball of fire, offers her services as a much-needed life coach for these women. However, blinded by her determination and efforts to get their lives on track, she over-looks the fact that she’s the one most in need of sage advice. Over the course of six months, filled with laughter, hilarious misadventures, and the occasional liquid refreshment, these middle-aged women successfully bond and find the confidence to jumpstart their new lives. Together, they discover lasting friendships and a renewed determination to live in the moment—and most importantly, realize it’s never too late to make new old friends. So raise your glass to these strong Southern women and their fierce embrace of life and say “Cheers!” to this joyful and surprisingly touching Jones, Hope, Wooten comedy!</p>",
-                "ticketlink":"",
+                "infoblurb": "",
+                "blurbtext": "<p>In this delightful, laugh-a-minute comedy, four unique Southern women, all needing to escape the sameness of their day-to-day routines, are drawn together by Fate—and an impromptu happy hour—and decide it’s high time to reclaim the enthusiasm for life they’ve lost through the years. Randa, a perfectionist and workaholic, is struggling to cope with a surprise career derailment that, unfortunately, reveals that she has no life and no idea how to get one. Dot, still reeling from her husband’s recent demise and the loss of their plans for an idyllic retirement, faces the unsettling prospect of starting a new life from scratch—and all alone. Earthy and boisterous Marlafaye, a good ol’ Texas gal, has blasted into Savannah in the wake of losing her tom-cattin’ husband to a twenty-three-year-old dental hygienist. The strength of her desire to establish a new life is equaled only by her desire to wreak a righteous revenge on her ex. Also new to town, Jinx, a spunky ball of fire, offers her services as a much-needed life coach for these women. However, blinded by her determination and efforts to get their lives on track, she over-looks the fact that she’s the one most in need of sage advice. Over the course of six months, filled with laughter, hilarious misadventures, and the occasional liquid refreshment, these middle-aged women successfully bond and find the confidence to jumpstart their new lives. Together, they discover lasting friendships and a renewed determination to live in the moment—and most importantly, realize it’s never too late to make new old friends.</p>",
+                "ticketlink":"https://www.onthestage.com/show/apple-hill-playhouse/the-savannah-sipping-society-6561",
                 "castlist": []
             },
             "mullingar": {
@@ -551,9 +551,9 @@
                 "subhead": "",
                 "stylesheet": "/panes/styleinsert-default.html",
                 "insetpic": "/img/mullingar.jpg",
-                "infoblurb": "/panes/2019/mullingarblurb.html",
-                "blurbtext": "<p>Anthony and Rosemary are two introverted misfits straddling 40. Anthony has spent his entire life on a cattle farm in rural Ireland, a state of affairs that—due to his painful shyness—suits him well. Rosemary lives right next door, determined to have him, watching the years slip away. With Anthony’s father threatening to disinherit him and a land feud simmering between their families, Rosemary has every reason to fear romantic catastrophe. But then, in this very Irish story with a surprising depth of poetic passion, these yearning, eccentric souls fight their way towards solid ground and some kind of happiness. Their journey is heartbreaking, funny as hell, and ultimately deeply moving. OUTSIDE MULLINGAR is a compassionate, delightful work about how it’s never too late to take a chance on love.</p>",
-                "ticketlink":"",
+                "infoblurb": "",
+                "blurbtext": "<p>Anthony Rielly and Rosemary Muldoon have grown up next to each other on two farms in rural Ireland. Rosemary fell in love with Anthony at the age of six, and is convinced that he will eventually come to her. Anthony had his heart broken as a young man, and hasn’t dared open it to another woman since. Forty years later, the two of them are still living next to each other, instead of together. With a small land feud happening between the two families, it seems unlikely that a romance will ever happen. Rosemary’s determination, however, eventually brings the two of the together, and two unlikely souls eventually find happiness.</p>",
+                "ticketlink":"https://www.onthestage.com/show/apple-hill-playhouse/outside-mullingar-6783",
                 "castlist": []
             },
             "blithespirit": {
@@ -570,9 +570,9 @@
                 "subhead": "",
                 "stylesheet": "/panes/styleinsert-default.html",
                 "insetpic": "/img/blithespirit.jpg",
-                "infoblurb": "/panes/2019/blithespiritblurb.html",
-                "blurbtext": "<p>The smash comedy hit of the London and Broadway stages, this much-revived classic from the playwright of <em>Private Lives</em> offers up fussy, cantankerous novelist Charles Condomine, re-married but haunted (literally) by the ghost of his late first wife, the clever and insistent Elvira who is called up by a visiting “happy medium,” one Madame Arcati. As the (worldly and un-) personalities clash, Charles’ current wife, Ruth, is accidentally killed, “passes over,” joins Elvira, and the two “blithe spirits” haunt the hapless Charles into perpetuity.</p>",
-                "ticketlink":"",
+                "infoblurb": "",
+                "blurbtext": "<p><i>Blithe Spirit</i> is set at the house of writer, Charles Condomine, and his wife, Ruth. One evening, Charles invites local eccentric medium, Madame Arcati, to hold a seance at his house. He asks along his friends, Dr. and Mrs. Bradman, intending to gather character inspiration from Madame Arcati for his latest book. Despite initially thinking the seance has been a failure, it soon becomes clear that Madame Arcati has unwittingly brought back Charles’ first wife, Elvira, to haunt him. Once in his house, Elvira is unable to leave and, as she cannot be seen or heard by Ruth, she causes all kinds of mischievous trouble between the married couple. When Elvira unwittingly causes Ruth’s death in her attempts to bring Charles over to be with her, Charles becomes haunted by both of his now-deceased wives. Frustrated by their odd situation, the threesome call on Madame Arcati once more to send Elvira and Ruth back to the other side. Intensely funny and character-driven, <i>Blithe Spirit</i> combines farce, emotion, and wit to great effect.</p>",
+                "ticketlink":"https://www.onthestage.com/show/apple-hill-playhouse/blithe-spirit-8106",
                 "castlist": []
             },
             "hyronomous": {
@@ -589,9 +589,9 @@
                 "subhead": "",
                 "stylesheet": "/panes/styleinsert-default.html",
                 "insetpic": "/img/hyronomous.png",
-                "infoblurb": "/panes/2019/hyronomousblurb.html",
+                "infoblurb": "",
                 "blurbtext": "<p>With rich humor for adults and children as well as delightful physical humor for even the youngest theatre goers, this play is a proven winner. Its premiere production ran for months, playing to literally thousands of children, young and old. Hyronomous, an inept and lonely frog prince, lives in a bog in the kingdom of Spamelot. Hyronomous is bored and unhappy as a frog. He’s larger than the other frogs and hates the taste of flies. One day, the good witch Gloria appears to tell him he was once a human prince and it was a spell that turned him into an amphibian. To break this croak-filled wizardry, Hyronomous must be kissed by a maiden. In a hysterical scene, he learns how to walk like a human and sets off for the castle of Spamelot. He sets his sights on the spoiled and petulant Princess Gladiola. Gladiola is engaged to the painfully pompous Sir Lancelot Pancelot and he, of course, despises the frog at first sight. As Gladiola and Lancelot plot ways to get rid of Hyronomous, our green hero tries desperately to act like a human being. His attempt to act like a person at the dinner table turns into a hilarious scene... infuriating the princess. Luckily, he finds a friend in Delphinium, the handmaiden, and Aunt Queen Bea, who try to save him from the slings and arrows of the outrageous Gladiola. Our beloved frog finally gets his kiss from the handmaiden Delphinium, bringing about an ending full of wit and charm.</p>",
-                "ticketlink":"",
+                "ticketlink":"https://www.onthestage.com/show/apple-hill-playhouse/hyronomous-a-frog-6074",
                 "castlist": []
             },
             "rapunzel": {
@@ -603,14 +603,14 @@
                 "startdate": "2019-07-09",
                 "enddate": "2019-07-18",
                 "writtenby": "Book by Karen Boettcher-Tate<br/>Music and Lyrics by Scott Deturk",
-                "directedby": "",
+                "directedby": "Music Direction by Jessica Sammarone",
                 "headline": "",
                 "subhead": "",
                 "stylesheet": "/panes/styleinsert-default.html",
                 "insetpic": "/img/rapunzel.png",
-                "infoblurb": "/panes/2019/rapunzelblurb.html",
+                "infoblurb": "",
                 "blurbtext": "<p>’It’s time to let your hair down, have a little fun,’ chimes the company in the opening number of this fresh, vivacious musical adaptation of a popular tale. Rene Shwartzbuckle sings to her husband, Walt, about her zany obsession for a turnip-like vegetable called ’rapunzel.’ After spotting a delectable patch of the plant in Witch Izwitch’s garden, Rene sends Walt to ’borrow’ some. The irritated witch has her malicious henchmen, the Glumpwarts, terrorize Walt. In fear, he promises to give his firstborn child to the witch in exchange for his own freedom. Your audiences are then taken many years ahead to visit the beautiful Shwartzbuckle child... Rapunzel. (Now you know where the name comes from!) It’s our heroine’s 18th birthday, and Witch Izwitch follows through with her promise and places poor Rapunzel alone in a tower. From here, an exuberant, amusing rescue attempt begins! (As for the ’mane’ ingredient of the show, don’t worry! The famous ’hair climbing’ scene is a breeze to stage!) Can Prince Llewellyn persevere over the powers of evil? Will the fresh, hysterical characters (such as the sages Parsley, Rosemary and Thyme) be able to help? And can Rapunzel convince the witch that it’s okay to be unique? Filled with an abundant supply of delightful songs like ’Just Because You’re Different,’ ’I’m a Nut’ and, of course, ’Let Your Hair Down,’ this show is zestful entertainment!</p>",
-                "ticketlink":"",
+                "ticketlink":"https://www.onthestage.com/show/apple-hill-playhouse/rapunzel-4623",
                 "castlist": []
             },
             "charlottesweb": {
@@ -622,14 +622,14 @@
                 "startdate": "2019-07-30",
                 "enddate": "2019-08-10",
                 "writtenby": "Adapted by Joseph Robinette<br/>Based on the book by E.B. White",
-                "directedby": "",
+                "directedby": "Directed by Rachel Painter",
                 "headline": "",
                 "subhead": "",
                 "stylesheet": "/panes/styleinsert-default.html",
                 "insetpic": "/img/charlottesweb.jpg",
-                "infoblurb": "/panes/2019/charlotteswebblurb.html",
+                "infoblurb": "",
                 "blurbtext": "<p>The Children's Literature Association named this &#34;the best American children's book of the past two hundred years,&#34; and Joseph Robinette, working with the advice of E.B. White, has created a play that captures this work in a thrilling and utterly practical theatrical presentation. The costumes and unit set may be simple or as colorful and elaborate as you wish; it's the story and relationships that make the show. All the enchanting characters are here: Wilbur, the irresistible young pig who desperately wants to avoid the butcher; Fern, a girl who understands what animals say to each other; Templeton, the gluttonous rat who can occasionally be talked into a good deed; the Zuckerman family; the Arables; and, most of all, the extraordinary spider, Charlotte, who proves to be “a true friend and a good writer.” Determined to save Wilbur, Charlotte begins her campaign with the &#34;miracle&#34; of her web in which she writes, &#34;Some pig.&#34; It's the beginning of a victorious campaign which ultimately ends with the now-safe Wilbur doing what is most important to Charlotte. This is a beautiful, knowing play about friendship that will give your actors a great opportunity and your audience an evening of enchantment.&nbsp;</p>",
-                "ticketlink":"",
+                "ticketlink":"https://www.onthestage.com/show/apple-hill-playhouse/charlottes-web-8942",
                 "castlist": []
             }
         }
@@ -805,39 +805,84 @@
         "mainstageshows":[
             {
                 "title": "The Taffetas",
-                "summary": "",
+                "summary": "Due to the audition date being close to the production dates, The Taffetas has been precast.",
                 "isMusical": true,
                 "characters": [
-                    {
-                        "name": "xxx",
-                        "type": "",
-                        "range": "",
-                        "desc": "xxx"
-                    }
+
                 ]
-            },            {
+            },            
+            {
                 "title": "Moonlight and Magnolias",
-                "summary": "",
+                "summary": "Note: only the role of Miss Poppenghul is open for casting.",
                 "isMusical": false,
                 "characters": [
                     {
-                        "name": "xxx",
-                        "type": "",
+                        "name": "David O. Selznick",
+                        "type": "(Lead, Precast): Male, 33-39",
                         "range": "",
-                        "desc": "xxx"
+                        "desc": "Jewish, legendary Hollywood producer, fiercely determined to make Gone With the Wind a success in spite of the delays and disappointments encountered, working on an impossible deadline to revise the GWTW screenplay, believes in the movies and their power to transport audiences, highly agitated through most of the play, not above brow-beating others to get his way, spends the play cajoling, pleading, ordering and pandering to Hecht and Fleming."
+                    },
+                    {
+                        "name": "Ben Hecht",
+                        "type": "(Lead, Precast): Male, 50-60",
+                        "range": "",
+                        "desc": "Jewish, average height, balding, Selznick’s go-to screenwriter hired to rewrite the GWTW screenplay, former Chicago newspaperman, a devoted advocate for the Jewish relief cause as WWII looms and constantly badgers Selznick, reminding him of his heritage and responsibility to European refugees, hasn’t read GWTW and isn’t very interested in re-writing the screenplay, believes Mitchell’s book can’t possibly be made into a successful film, his dislike for Fleming is apparent, not interested in the world of Hollywood glamour."
+                    },
+                    {
+                        "name": "Victor Fleming",
+                        "type": "(Lead, Precast): Male, 47-52",
+                        "range": "",
+                        "desc": "Physically imposing, good looking, director tapped to replace fired GWTW director George Cukor, confident, prone to histrionics, has come up through ranks from driver to cameraman to director, doesn’t like Hecht, loves the glamour of Hollywood."
+                    },
+                    {
+                        "name": "Miss Poppenghul",
+                        "type": "(Lead): Female, 24-56",
+                        "range": "",
+                        "desc": "Selznick’s secretary, very efficient and detailed, knows Selznick’s needs before he does."
                     }
                 ]
             },            {
-                "title": "Random Play",
+                "title": "Sex Please, We're Sixty",
                 "summary": "",
                 "isMusical": false,
                 "characters": [
                     {
-                        "name": "xxx",
-                        "type": "",
+                        "name": "BUD DAVIS",
+                        "type": "Age 65 plus",
                         "range": "",
-                        "desc": "xxx"
+                        "desc": "The next door neighbor to Mrs. Stancliffe’s Rose cottage Bed & Breakfast.  Over the years, he has become renowned among the female guests as “Bud the Stud.” He claims responsibility for the success of the bed and breakfast, believing all the females return year after year to see him. He enchants all of them with his silver tongue and sexual prowess. (Somewhat infirm, chauvinistic, brazen, but likable.)"
+                    },
+                    {
+                        "name": "HENRY MITCHELL",
+                        "type": "Age 60 plus",
+                        "range": "",
+                        "desc": "a retired chemist and Mrs. Sutcliffe’s “Gentleman Caller.” He is a mild mannered man who has proposed t to Mrs. Sutcliffe every afternoon for twenty years. He is always the perfect gentleman, and shows a great deal of respect for all the women around him. He has developed Venusia, a pill to increase the libido in menopausal women, but refuses to test it on moral grounds. Bud calls him, “A stick in the mud”, and he probably is, but eventually comes out of his shell. (Gentle, caring, thoughtful, lovable)."
+                    },
+                    {
+                        "name": "MRS. STANCLIFFE",
+                        "type": "Age 60 plus",
+                        "range": "",
+                        "desc": "The owner of Rose Cottage Bed & Breakfast. She is a severe woman both in dress and manner. Precise in speech and punctuality; she gives the impression of efficiency and competence. She is intolerant of Bud’s “Hanky panky”, with her guests, but reluctantly has to agree he is good for business. Pursued by her next door neighbor Henry she refuses to let him into her life, until surprising events finally bring them together: (sensible, practical, punctual, business-like, menopausal, finally radiant and sensuous)."
+                    },
+                    {
+                        "name": "VICTORIA AMBROSE",
+                        "type": "Age 50 plus",
+                        "range": "",
+                        "desc": "Victoria is a renowned author who writes steamy romantic novels. She pines for romance in her personal life, but finds none. Flattered at first by Bud’s attentions, she later sees him as the shallow, insincere, Casanova that he really is and readily joins the plot to turn “Bud the Stud” into “Bud the Dud.” (Pretty, serious, intelligent, menopausal.)"
+                    },
+                    {
+                        "name": "HILLARY HUDSON",
+                        "type": "Age 50 plus",
+                        "range": "",
+                        "desc": "Hillary is a beautiful, well educated, articulate, and sophisticated in both manner and dress. She is an old friend and coworker of Henry’s who agrees to test the Venusia pills. Initially skeptical of Bud’s attentions, she gradually warms towards him but is it the Venusia or Bud’s charms? (Elegant, charming, best described “ As a touch of class.” Intelligent and menopausal)."
+                    },
+                    {
+                        "name": "CHARMAINE BEAUREGARD",
+                        "type": "Age 50 plus",
+                        "range": "",
+                        "desc": "Charmaine is the quintessential southern belle. She definitely here at Rose Cottage for “Bud the Stud.” Of all people, she does not need Venusia, as her entire life seems to be run for her overactive libido. However, she is a proud woman who will not be two-timed by Bud, and becomes the leading light in the plot to tame him. (Voluptuous, outgoing, gushing, demonstrative, menopausal)."
                     }
+                    
                 ]
             },            {
                 "title": "A Funny Thing Happened on the Way to the Forum",
@@ -845,22 +890,107 @@
                 "isMusical": true,
                 "characters": [
                     {
-                        "name": "xxx",
-                        "type": "",
+                        "name": "PSEUDOLUS",
+                        "type": "Age Range 30-55",
+                        "range": "A2 - High G Baritone",
+                        "desc": "A Roman slave, owned by Hero, seeking to win freedom by helping Hero win the heart of Philia. Must have an impeccable comic sense."
+                    },
+                    {
+                        "name": "HERO",
+                        "type": "Age Range 18-25",
+                        "range": "A2 - F#4 Tenor",
+                        "desc": "Senex's son, the handsome, innocent master, in love with Philia."
+                    },
+                    {
+                        "name": "PHILIA",
+                        "type": "Age Range 18-25",
+                        "range": "A3 - G5 Soprano",
+                        "desc": "A virgin in the house of Marcus Lycus, and Hero's love interest. An ingenue who doesn't know how funny she really is."
+                    },
+                    {
+                        "name": "HYSTERIUM",
+                        "type": "Age Range 25-35",
+                        "range": "A2 - G4 Tenor",
+                        "desc": "Nervous and hapless slave of Senex & Domina and unwitting accomplice in Psuedolus' schemes."
+                    },
+                    {
+                        "name": "SENEX",
+                        "type": "Age Range 40s-60s",
+                        "range": "B flat-G flat Baritone",
+                        "desc": "A henpecked, sardonic Roman Senator with a wandering eye. Hero's father and the aging master of the house."
+                    },
+                    {
+                        "name": "MARCUS LYCUS",
+                        "type": "Age Range 30s-50s",
+                        "range": "A2 - F4 Baritone",
+                        "desc": "A purveyor of courtesans, who operates next door to the house of Senex."
+                    },
+                    {
+                        "name": "DOMINA",
+                        "type": "Age Range 40s-50s",
+                        "range": "A3 - F#5 Mezzo-Soprano",
+                        "desc": "Wife of Senex. A manipulative, shrewish woman loathed by even her husband."
+                    },
+                    {
+                        "name": "ERRONIUS",
+                        "type": "Age Range 60s-70s (can be younger and aged)",
+                        "range": "A2 - F4 Baritone",
+                        "desc": "Senex's elderly neighbor, a sometimes befuddled old man. He's spent the past twenty years searching for his two children, kidnapped in infancy by pirates."
+                    },
+                    {
+                        "name": "MILES GLORIOSUS",
+                        "type": "Age Range 30s-40s",
+                        "range": "A2 - F4 Bass Baritone",
+                        "desc": "A captain in the Roman army to whom Marcus Lycus has promised Philia. A braggart of the highest order, he is, in his own words, his \"own ideal.\""
+                    },
+                    {
+                        "name": "THE COURTESANS",
+                        "type": " (6 women) Age Range 18-30s",
                         "range": "",
-                        "desc": "xxx"
+                        "desc": "Slaves in the House of Sennex. Funny and sexy!"
+                    },
+                    {
+                        "name": "THE PROTEANS",
+                        "type": "(3 males): Age Range is flexible",
+                        "range": "",
+                        "desc": "Choristers who play multiple roles (slaves, citizens, soldiers and eunuchs). They accompany Pseudolus in \"Comedy Tonight\" and other numbers within the show."
                     }
                 ]
-            },            {
+            },
+            {
                 "title": "Savannah Sipping Society",
                 "summary": "",
                 "isMusical": false,
                 "characters": [
                     {
-                        "name": "xxx",
-                        "type": "",
+                        "name": "Randa Covington",
+                        "type": "Female, 40s-50s",
                         "range": "",
-                        "desc": "xxx"
+                        "desc": "Randa is a perfectionist and workaholic, struggling to cope with a surprise career derailment that, unfortunately, reveals that she has no life and no idea how to get one."
+                    },
+                    {
+                        "name": "Dot Haigler",
+                        "type": "Female, 50s-60s",
+                        "range": "",
+                        "desc": "Dot is still reeling from her husband’s recent demise and the loss of their plans for an idyllic retirement. She also faces the unsettling prospect of starting a new life from scratch — and all alone."
+                    },
+                    {
+                        "name": "Marlafaye Mosley",
+                        "type": "Female, 50s-60s",
+                        "range": "",
+                        "desc": "Earthy and boisterous, Marlafaye is a good ol’ Texas gal. She has blasted into Savannah in the wake of losing her tom-cattin’ husband to a 23-year-old dental hygienist. The strength of her desire to establish a new life is equaled only by her desire to wreak a righteous revenge on her ex."
+                    },
+                    {
+                        "name": "Jinx Jenkins",
+                        "type": "Female, 50s-60s",
+                        "range": "",
+                        "desc": "Also new to town, Jinx, a spunky ball of fire, offers her services as a much-needed life coach for these women. However, blinded by her determination and efforts to get their lives on track, she overlooks the fact that she’s the one most in need of sage advice."
+                    },
+                    {
+                        "name": "Randa’s Grandmother",
+                        "type": "non-speaking role; stage age 81",
+                        "range": "",
+                        "desc": "Grandmother of Randa who appears and dies. Elegant matriarch of powerful, southern family."
                     }
                 ]
             },            {
@@ -869,11 +999,30 @@
                 "isMusical": false,
                 "characters": [
                     {
-                        "name": "xxx",
-                        "type": "",
+                        "name": "Aiofe Muldoon",
+                        "type": "(Lead) Female, 60-77",
                         "range": "",
-                        "desc": "xxx"
+                        "desc": "Rosemary's mother, in bad health. When we meet her, she is grief-stricken because her husband has just died. A sharp, straight-shooting old bird. Doesn’t suffer fools. Weathered, opinionated, and set in her ways."
+                    },
+                    {
+                        "name": "Anthony Reilly",
+                        "type": "(Lead) Male, 40-49",
+                        "range": "",
+                        "desc": "an intense dreamer, dutiful and quiet. His subdued manner masks a full, yearning heart. Resigned to a life alone because he’s afraid to reveal himself. Sensitive and guarded."
+                    },
+                    {
+                        "name": "Rosemary Muldoon",
+                        "type": "(Lead) Female, 40-49",
+                        "range": "",
+                        "desc": "a farmer’s daughter and a tough cookie. A bit of a tomboy, but with a romantic soul. Single-minded, willful, patient and optimistic. Her hopes are fervent, but secret. She’s playing the long game."
+                    },
+                    {
+                        "name": "Tony Reilly",
+                        "type": "(Lead) Male, 60-77",
+                        "range": "",
+                        "desc": "Anthony's father. A wily old Irish farmer, cantankerous, set in his ways, and sly. Proud, stubborn, and gruff. A fixture of his part of the Irish countryside."
                     }
+                    
                 ]
             },            {
                 "title": "Blithe Spirit",
@@ -881,11 +1030,48 @@
                 "isMusical": false,
                 "characters": [
                     {
-                        "name": "xxx",
+                        "name": "Charles Condomine",
                         "type": "",
                         "range": "",
-                        "desc": "xxx"
+                        "desc": "Charles is bright, sophisticated, articulate, and debonair but somewhat at the mercy of his wives, past and present. His interest in spiritualism as a subject for a novel leads Charles to ask Madame Arcati to dinner and a séance. He is skeptical but becomes a believer when the ghost of his first wife appears—and stays."
+                    },
+                    {
+                        "name": "Ruth Condomine",
+                        "type": "",
+                        "range": "",
+                        "desc": "Charles’s second wife. Like her husband, Ruth is witty and sophisticated, and she is quite the society matron. Ruth is a bit stuffy and a little predictable. She is convinced that Charles has lost his mind when Elvira appears. Ruth acts as a concerned wife, trying to restore Charles to normalcy."
+                    },
+                    {
+                        "name": "Elvira",
+                        "type": "",
+                        "range": "",
+                        "desc": "the ghost of Charles’s first wife. Only Charles can see or hear her. In life, Elvira was spirited, outgoing, wild, and carefree. In death, she is no different; she socializes with Genghis Khan. She does love Charles, if somewhat casually, and is jealous of Ruth."
+                    },
+                    {
+                        "name": "Madame Arcati",
+                        "type": "",
+                        "range": "",
+                        "desc": "the local spiritualist and medium. Elderly but spry, Madame Arcati comes into the play talking to an eight-year-old contact on the other side. She truly is in contact with the other world and inadvertently is the “medium” through which Elvira is called back to this one. She is eccentric, effusive and boisterous."
+                    },
+                    {
+                        "name": "Dr. George Bradman",
+                        "type": "",
+                        "range": "",
+                        "desc": "is a good friend of the Condomines who is invited to dinner and the séance. He is entirely skeptical of anything to do with the occult but tries his utmost to go along with the proceedings for the sake of Charles’ research."
+                    },
+                    {
+                        "name": "Violet Bradman",
+                        "type": "",
+                        "range": "",
+                        "desc": "is Dr. Bradman’s wife. Simple and naïve, she is quite excited about being in the presence of the medium, whom she finds fascinating."
+                    },
+                    {
+                        "name": "Edith",
+                        "type": "",
+                        "range": "",
+                        "desc": "is the Condomine’s new maid. She is nervous and tears around at breakneck speed trying to do things right and make a good impression."
                     }
+                    
                 ]
             }
 

@@ -1,69 +1,70 @@
 <!doctype html>
 <html lang="en" ng-app="Dashboard">
-    <head>
-        <meta charset="UTF-8">
-        <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-        <title>Apple Hill Playhouse</title>
 
-        <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css"/><link rel="stylesheet" href="lib/bootstrap/css/dashboard.css"/>
+<head>
+    <meta charset="UTF-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>Apple Hill Playhouse</title>
 
-        <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.css"/>
+    <link rel="stylesheet" href="lib/bootstrap/css/bootstrap.css" type='text/css'/>
 
-        <link rel="stylesheet" href="css/dashboard/bootstrap.css"/><link rel="stylesheet" href="css/dashboard/dashboard.css"/>
-        
-<link href='http://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps|Elsie+Swash+Caps|Cherry+Swash:400,700|Milonga' rel='stylesheet' type='text/css'>        <!-- SCRIPTS -->
-<link href='http://fonts.googleapis.com/css?family=Homemade+Apple' rel='stylesheet' type='text/css'>
-<script src="lib/angular/angular.js"></script><script src="lib/angular/angular-route.js"></script><script src="lib/angular/jquery.min.js"></script><script src="lib/angular/angular-cookies.js"></script><script src="lib/angular/ui-bootstrap.js"></script><script src="lib/angular/ui-bootstrap-tpls.js"></script><script src="lib/angular/angular-ui-router.js"></script><script src="lib/angular/angular-sanitize.js"></script><script src="lib/angular/moment.min.js"></script><script src="lib/angular/dashboard.js"></script>
-        <script src="lib/angular-route/angular.js"></script><script src="lib/angular-route/angular-route.js"></script><script src="lib/angular-route/jquery.min.js"></script><script src="lib/angular-route/angular-cookies.js"></script><script src="lib/angular-route/ui-bootstrap.js"></script><script src="lib/angular-route/ui-bootstrap-tpls.js"></script><script src="lib/angular-route/angular-ui-router.js"></script><script src="lib/angular-route/angular-sanitize.js"></script><script src="lib/angular-route/moment.min.js"></script><script src="lib/angular-route/dashboard.js"></script>
-        <script src="lib/jquery/dist/angular.js"></script><script src="lib/jquery/dist/angular-route.js"></script><script src="lib/jquery/dist/jquery.min.js"></script><script src="lib/jquery/dist/angular-cookies.js"></script><script src="lib/jquery/dist/ui-bootstrap.js"></script><script src="lib/jquery/dist/ui-bootstrap-tpls.js"></script><script src="lib/jquery/dist/angular-ui-router.js"></script><script src="lib/jquery/dist/angular-sanitize.js"></script><script src="lib/jquery/dist/moment.min.js"></script><script src="lib/jquery/dist/dashboard.js"></script>
-        <script src="lib/angular-cookies/angular.js"></script><script src="lib/angular-cookies/angular-route.js"></script><script src="lib/angular-cookies/jquery.min.js"></script><script src="lib/angular-cookies/angular-cookies.js"></script><script src="lib/angular-cookies/ui-bootstrap.js"></script><script src="lib/angular-cookies/ui-bootstrap-tpls.js"></script><script src="lib/angular-cookies/angular-ui-router.js"></script><script src="lib/angular-cookies/angular-sanitize.js"></script><script src="lib/angular-cookies/moment.min.js"></script><script src="lib/angular-cookies/dashboard.js"></script>
-        <script src="lib/angular-bootstrap/angular.js"></script><script src="lib/angular-bootstrap/angular-route.js"></script><script src="lib/angular-bootstrap/jquery.min.js"></script><script src="lib/angular-bootstrap/angular-cookies.js"></script><script src="lib/angular-bootstrap/ui-bootstrap.js"></script><script src="lib/angular-bootstrap/ui-bootstrap-tpls.js"></script><script src="lib/angular-bootstrap/angular-ui-router.js"></script><script src="lib/angular-bootstrap/angular-sanitize.js"></script><script src="lib/angular-bootstrap/moment.min.js"></script><script src="lib/angular-bootstrap/dashboard.js"></script>
-        <script src="lib/angular-bootstrap/angular.js"></script><script src="lib/angular-bootstrap/angular-route.js"></script><script src="lib/angular-bootstrap/jquery.min.js"></script><script src="lib/angular-bootstrap/angular-cookies.js"></script><script src="lib/angular-bootstrap/ui-bootstrap.js"></script><script src="lib/angular-bootstrap/ui-bootstrap-tpls.js"></script><script src="lib/angular-bootstrap/angular-ui-router.js"></script><script src="lib/angular-bootstrap/angular-sanitize.js"></script><script src="lib/angular-bootstrap/moment.min.js"></script><script src="lib/angular-bootstrap/dashboard.js"></script>
-        <script src="lib/angular-ui-router/angular.js"></script><script src="lib/angular-ui-router/angular-route.js"></script><script src="lib/angular-ui-router/jquery.min.js"></script><script src="lib/angular-ui-router/angular-cookies.js"></script><script src="lib/angular-ui-router/ui-bootstrap.js"></script><script src="lib/angular-ui-router/ui-bootstrap-tpls.js"></script><script src="lib/angular-ui-router/angular-ui-router.js"></script><script src="lib/angular-ui-router/angular-sanitize.js"></script><script src="lib/angular-ui-router/moment.min.js"></script><script src="lib/angular-ui-router/dashboard.js"></script>
-        <script src="lib/angular-sanitize/angular.js"></script><script src="lib/angular-sanitize/angular-route.js"></script><script src="lib/angular-sanitize/jquery.min.js"></script><script src="lib/angular-sanitize/angular-cookies.js"></script><script src="lib/angular-sanitize/ui-bootstrap.js"></script><script src="lib/angular-sanitize/ui-bootstrap-tpls.js"></script><script src="lib/angular-sanitize/angular-ui-router.js"></script><script src="lib/angular-sanitize/angular-sanitize.js"></script><script src="lib/angular-sanitize/moment.min.js"></script><script src="lib/angular-sanitize/dashboard.js"></script>
-        <script src="lib/moment/min/angular.js"></script><script src="lib/moment/min/angular-route.js"></script><script src="lib/moment/min/jquery.min.js"></script><script src="lib/moment/min/angular-cookies.js"></script><script src="lib/moment/min/ui-bootstrap.js"></script><script src="lib/moment/min/ui-bootstrap-tpls.js"></script><script src="lib/moment/min/angular-ui-router.js"></script><script src="lib/moment/min/angular-sanitize.js"></script><script src="lib/moment/min/moment.min.js"></script><script src="lib/moment/min/dashboard.js"></script>
-        <script src="js/angular.js"></script><script src="js/angular-route.js"></script><script src="js/jquery.min.js"></script><script src="js/angular-cookies.js"></script><script src="js/ui-bootstrap.js"></script><script src="js/ui-bootstrap-tpls.js"></script><script src="js/angular-ui-router.js"></script><script src="js/angular-sanitize.js"></script><script src="js/moment.min.js"></script><script src="js/dashboard.js"></script>
-        <!-- SCRIPTS -->
-        <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
-    </head>
-    <body ng-controller="MasterCtrl as vm">
-        <!-- Header Bar -->
-        <div ng-include="headerpane"></div>
-        <!-- End Header Bar -->
+    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.css" type='text/css' />
 
-        <div ng-include="sidenav" class="navmenu navmenu-fixed-left  offcanvas-sm" id="mainnavbar">
-            
-        </div>
-  <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target="#mainnavbar" data-canvas="#page-wrapper">
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-    <span class="icon-bar"></span>
-  </button>
+    <link rel="stylesheet" href="css/dashboard/dashboard.css" type='text/css' />
 
-        <div id="page-wrapper" ng-class="{'active': toggle}" ng-cloak>
-            <!--<div ng-include="navbarpath"></div>-->
-            <div class="body-watermark"></div>
-            <div id="content-wrapper" class=" " >
-                
-                <div class="page-content">
+    <link
+        href='http://fonts.googleapis.com/css?family=Oleo+Script+Swash+Caps|Elsie+Swash+Caps|Cherry+Swash:400,700|Milonga'
+        rel='stylesheet' type='text/css'> <!-- SCRIPTS -->
+    <link href='http://fonts.googleapis.com/css?family=Homemade+Apple' rel='stylesheet' type='text/css'>
+    <script src="lib/angular/angular.js"></script>
+    <script src="lib/angular-route/angular-route.js"></script>
+    <script src="lib/jquery/dist/jquery.min.js"></script>
+    <script src="lib/angular-cookies/angular-cookies.js"></script>
+    <script src="lib/angular-bootstrap/ui-bootstrap.js"></script>
+    <script src="lib/angular-bootstrap/ui-bootstrap-tpls.js"></script>
+    <script src="lib/angular-ui-router/angular-ui-router.js"></script>
+    <script src="lib/angular-sanitize/angular-sanitize.js"></script>
+    <script src="lib/moment/min/moment.min.js"></script>
+    <script src="js/dashboard.js"></script>
+    <!-- SCRIPTS -->
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+</head>
 
-                    <!-- Main Content -->
-                    <div class="">
-                        <section ng-view></section>
-                    </div>
+<body ng-controller="MasterCtrl as vm">
+    <!-- Header Bar -->
+    <div ng-include="headerpane"></div>
+    <!-- End Header Bar -->
 
-                </div><!-- End Page Content -->
-<!--                <div style="overflow-x: hidden;">
-                      <div class="bottomback0"></div>
-                    <div class="bottomback1"></div>
-                </div>
-              -->
-            </div><!-- End Content Wrapper -->
-        </div><!-- End Page Wrapper -->
-                        <div class="footer navbar-fixed-bottom">
-                    <div ng-include="socialbar" class="pull-right"></div>
+    <div ng-include="sidenav" class="navmenu navmenu-fixed-left  offcanvas-sm" id="mainnavbar">
+
+    </div>
+    <button type="button" class="navbar-toggle" data-toggle="offcanvas" data-target="#mainnavbar"
+        data-canvas="#page-wrapper">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+
+    <div id="page-wrapper" ng-class="{'active': toggle}" ng-cloak>
+        <!--<div ng-include="navbarpath"></div>-->
+        <div class="body-watermark"></div>
+        <div id="content-wrapper" class=" ">
+
+            <div class="page-content">
+
+                <!-- Main Content -->
+                <div class="">
+                    <section ng-view></section>
                 </div>
 
-    </body>
+            </div><!-- End Page Content -->
+        </div><!-- End Content Wrapper -->
+    </div><!-- End Page Wrapper -->
+    <div class="footer navbar-fixed-bottom">
+        <div ng-include="socialbar" class="pull-right"></div>
+    </div>
+
+</body>
+
 </html>
